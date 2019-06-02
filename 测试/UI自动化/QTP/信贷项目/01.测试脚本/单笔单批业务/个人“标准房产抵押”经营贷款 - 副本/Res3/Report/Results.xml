@@ -1,0 +1,876 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE Report
+[
+<!ELEMENT Report (General ,(Doc|BPT)) >
+<!ATTLIST Report ver CDATA #REQUIRED tmZone CDATA #REQUIRED>
+
+<!ELEMENT General ( DocLocation ) >
+<!ATTLIST General productName CDATA #REQUIRED productVer CDATA #REQUIRED os CDATA #REQUIRED host CDATA #REQUIRED qcserver CDATA #IMPLIED qcproject CDATA #IMPLIED SolManSolutionId CDATA #IMPLIED SolManProjectId CDATA #IMPLIED SolManTestPlanId CDATA #IMPLIED SolManTestPackageId CDATA #IMPLIED SolManUserInfoData CDATA #IMPLIED  >
+
+<!ELEMENT BPT (DName,Res,DVer?,TSet?,TInst?,NodeArgs,AdditionalInfo*,Doc*) >
+<!ATTLIST BPT rID ID #REQUIRED >
+
+<!ELEMENT Doc (DName,ConfName?,Res,DVer?,TSet?,TInst?,RunType?,DT?,AdditionalInfo*,Step*,DIter*,Step*,Action*,Doc*,Summary?,TestMaintenanceSummary*,NodeArgs?) >
+<!ATTLIST Doc rID ID #REQUIRED type (Test|BC|BPTWrapperTest|Flow|Group|Action) "Test" productName CDATA #REQUIRED BCIter CDATA #IMPLIED >
+
+<!ELEMENT RunType ( #PCDATA )>
+<!ATTLIST RunType fmStep (False|True) "False" batch (False|True) "False" upDesc (False|True) "False" upChk (False|True) "False" upAS (False|True) "False">
+
+<!ELEMENT DName ( #PCDATA ) >
+
+<!ELEMENT ConfName ( #PCDATA ) >
+
+<!ELEMENT Res ( #PCDATA ) >
+
+<!ELEMENT AdditionalInfo (AdditionalDataName,AdditionalDataValue ) >
+
+<!ELEMENT AdditionalDataName ( #PCDATA ) >
+
+<!ELEMENT AdditionalDataValue ( #PCDATA ) >
+
+<!ELEMENT DVer ( #PCDATA ) >
+
+<!ELEMENT TSet ( #PCDATA ) >
+
+<!ELEMENT TInst ( #PCDATA ) >
+
+<!ELEMENT DIter (Step*,Action+,Summary?,NodeArgs)>
+<!ATTLIST DIter rID ID #REQUIRED iterID CDATA #REQUIRED>
+
+<!ELEMENT DocLocation ( #PCDATA )>
+
+<!ELEMENT Action (AName,AIter*,(Step|HtmlStep|Action)*, Summary,ActionMaintenanceSummary*, NodeArgs ) >
+<!ATTLIST Action rID ID #REQUIRED>
+
+<!ELEMENT AIter ((Step|HtmlStep|Action)*,DataMapping?, Summary?,NodeArgs) >
+<!ATTLIST AIter rID ID #REQUIRED iterID CDATA #REQUIRED isCountable (False|True) "False" >
+
+<!ELEMENT AName ( #PCDATA ) >
+
+<!ELEMENT TestMaintenanceSummary (ActionMaintenanceSummary*) >
+<!ATTLIST TestMaintenanceSummary ObjectsAdded CDATA #REQUIRED ObjectsUpdated CDATA #REQUIRED StepsUpdated CDATA #REQUIRED StepsComments CDATA #REQUIRED><!ELEMENT ActionMaintenanceSummary (ObjectChange* ) >
+<!ATTLIST ActionMaintenanceSummary Action CDATA #REQUIRED Objects CDATA #REQUIRED Updated CDATA #REQUIRED LinesTotal CDATA #REQUIRED Added CDATA #REQUIRED LinesUpdated CDATA #REQUIRED>
+
+<!ELEMENT ObjectChange  (Hierarchy, PropertyChangeList* ) >
+<!ATTLIST ObjectChange Operation CDATA #IMPLIED OriginalRepository CDATA #IMPLIED>
+
+<!ELEMENT PropertyChangeList (PropertyDef*) >
+
+<!ELEMENT PropertyDef (OriginalValue, NewValue) >
+<!ATTLIST PropertyDef PropName CDATA #REQUIRED OriginRegularExpression (True|False) "False" NewRegularExpression (True|False) "False" AddedProperty (True|False) "False" >
+
+<!ELEMENT OriginalValue ( #PCDATA )>
+
+<!ELEMENT NewValue ( #PCDATA )>
+
+<!ELEMENT Hierarchy  (ObjectName, Hierarchy*) >
+<!ATTLIST Hierarchy MicClass CDATA #REQUIRED>
+
+<!ELEMENT ObjectName  ( #PCDATA ) >
+
+<!ELEMENT Step (Obj,Details,Time,TimeTick* ,(Step|HtmlStep|Doc)*, DataMapping?, NodeArgs) >
+<!ATTLIST Step rID ID #REQUIRED retval CDATA #IMPLIED>
+
+<!ELEMENT HtmlStep (HTML,TimeTick*,(Step|HtmlStep|Doc)*,NodeArgs) >
+<!ATTLIST HtmlStep rID ID #REQUIRED >
+
+<!ELEMENT Obj ( #PCDATA ) >
+<!ATTLIST Obj plainTxt (False|True) "True">
+
+<!ELEMENT Details ( #PCDATA ) >
+<!ATTLIST Details plainTxt (False|True) "True">
+
+<!ELEMENT Time ( #PCDATA ) >
+
+<!ELEMENT HTML ( #PCDATA ) >
+
+<!ELEMENT Disp ( #PCDATA ) >
+
+<!ELEMENT TimeTick ( #PCDATA ) >
+
+<!ELEMENT DataMapping ( DataMappedItem* )>
+<!ELEMENT DataMappedItem EMPTY >
+<!ATTLIST DataMappedItem dsName CDATA #REQUIRED >
+<!ATTLIST DataMappedItem rowId CDATA #REQUIRED >
+
+<!ELEMENT NodeArgs (Disp,TopPane?,BtmPane?,ExtendedInfo? )>
+<!ATTLIST NodeArgs eType CDATA #REQUIRED icon CDATA #REQUIRED nRep CDATA #REQUIRED UserNote CDATA #IMPLIED filter (False|True) "True">
+<!ATTLIST NodeArgs status (Passed|Failed|Done|Warning|Information) "Done">
+<!ATTLIST NodeArgs iconSel CDATA #IMPLIED nType CDATA #IMPLIED MovieMarker CDATA "">
+<!ATTLIST NodeArgs Source CDATA #IMPLIED SourceLine CDATA #IMPLIED StepFlowItemKey CDATA #IMPLIED >
+
+<!ELEMENT TopPane (Path)>
+
+<!ELEMENT BtmPane ( (Path|WR)?,ASHilite?)>
+<!ATTLIST BtmPane vType CDATA "HTML">
+
+<!ELEMENT Path ( #PCDATA ) >
+
+<!ELEMENT ASHilite ( #PCDATA ) >
+
+<!ELEMENT WR ( #PCDATA ) >
+
+<!ELEMENT ExtendedInfo ( StepData ) >
+
+<!ATTLIST ExtendedInfo StepType CDATA #REQUIRED>
+<!ELEMENT DT (NodeArgs) >
+<!ATTLIST DT rID ID #REQUIRED>
+
+<!ELEMENT Summary (Param*)>
+<!ATTLIST Summary sTime CDATA #IMPLIED eTime CDATA #IMPLIED passed CDATA #IMPLIED failed CDATA #IMPLIED warnings CDATA #IMPLIED retval CDATA #IMPLIED stopped (False|True) "False" >
+
+<!ELEMENT Param (ParamName,ParamVal)+ >
+<!ATTLIST Param paramInOut (In|Out) "In">
+
+<!ELEMENT ParamName ( #PCDATA ) >
+
+<!ELEMENT ParamVal ( #PCDATA ) >
+
+]
+>
+<Report ver="2.0" tmZone="中国标准时间">
+<General productName="HP Unified Functional Testing" productVer="12.0" os="Windows 7" host="KF0224"><DocLocation><![CDATA[C:\Users\922004\Desktop\孙洪斌\学习文档集\QTP脚本集\测试脚本\单笔单批业务全流程\个人“标准房产抵押”经营贷款 - 副本]]></DocLocation></General>
+<Doc rID="T1"   productName= "HP Unified Functional Testing"  >
+<DName><![CDATA[个人“标准房产抵押”经营贷款 - 副本]]></DName>
+<Res><![CDATA[Res3]]></Res>
+<RunType fmStep="True" /><DT rID="T2">
+<NodeArgs eType="Table" icon="2" nRep="4" filter="False" >
+<Disp><![CDATA[Run-Time Data Table]]></Disp>
+<BtmPane vType="Table" >
+<Path><![CDATA[Default.xls]]></Path>
+</BtmPane>
+</NodeArgs>
+</DT>
+<Action rID="T3">
+<AName><![CDATA[申请信息填写]]></AName>
+<Step rID="T4">
+<Obj plainTxt="False" ><![CDATA[单笔单批业务申请]]></Obj>
+<Details plainTxt="False" ><![CDATA[Browser]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:24]]></Time>
+<TimeTick>1515997224</TimeTick>
+<Step rID="T5">
+<Obj plainTxt="False" ><![CDATA[信贷风险管理系统V7]]></Obj>
+<Details plainTxt="False" ><![CDATA[Window]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:24]]></Time>
+<TimeTick>1515997224</TimeTick>
+<Step rID="T6">
+<Obj plainTxt="False" ><![CDATA[信贷风险管理系统V7]]></Obj>
+<Details plainTxt="False" ><![CDATA[Page]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:24]]></Time>
+<TimeTick>1515997224</TimeTick>
+<Step rID="T7">
+<Obj plainTxt="False" ><![CDATA[申请信息填写]]></Obj>
+<Details plainTxt="False" ><![CDATA[Frame]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:24]]></Time>
+<TimeTick>1515997224</TimeTick>
+<Step rID="T8">
+<Obj plainTxt="False" ><![CDATA[申请金额(元).Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["10000"]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:24]]></Time>
+<TimeTick>1515997224</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="13" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[申请金额(元).Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T9">
+<Obj plainTxt="False" ><![CDATA[敞口金额(元).Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["10000"]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:24]]></Time>
+<TimeTick>1515997224</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="15" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[敞口金额(元).Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T10">
+<Obj plainTxt="False" ><![CDATA[用途.Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:24]]></Time>
+<TimeTick>1515997224</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="17" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[用途.Click]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T11">
+<Obj plainTxt="False" ><![CDATA[用途.Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["用途"]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:25]]></Time>
+<TimeTick>1515997225</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="19" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[用途.Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T12">
+<Obj plainTxt="False" ><![CDATA[贷款投向.Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:25]]></Time>
+<TimeTick>1515997225</TimeTick>
+<NodeArgs eType="Replay" icon="9" nRep="21" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[贷款投向.Click]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="7" nRep="12" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[申请信息填写]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="6" nRep="11" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[信贷风险管理系统V7]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T13">
+<Obj plainTxt="False" ><![CDATA[信贷风险管理系统V7]]></Obj>
+<Details plainTxt="False" ><![CDATA[Window]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:29]]></Time>
+<TimeTick>1515997229</TimeTick>
+<Step rID="T14">
+<Obj plainTxt="False" ><![CDATA[信贷风险管理系统V7]]></Obj>
+<Details plainTxt="False" ><![CDATA[Page]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:29]]></Time>
+<TimeTick>1515997229</TimeTick>
+<Step rID="T15">
+<Obj plainTxt="False" ><![CDATA[frameleft]]></Obj>
+<Details plainTxt="False" ><![CDATA[Frame]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:29]]></Time>
+<TimeTick>1515997229</TimeTick>
+<Step rID="T16">
+<Obj plainTxt="False" ><![CDATA[行业类型大类.WaitProperty]]></Obj>
+<Details plainTxt="False" ><![CDATA["visible", "true", True, 6]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:29]]></Time>
+<TimeTick>1515997229</TimeTick>
+<NodeArgs eType="Replay" icon="10" nRep="28" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[行业类型大类.WaitProperty]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="7" nRep="27" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[frameleft]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T17">
+<Obj plainTxt="False" ><![CDATA[left]]></Obj>
+<Details plainTxt="False" ><![CDATA[Frame]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:29]]></Time>
+<TimeTick>1515997229</TimeTick>
+<Step rID="T18">
+<Obj plainTxt="False" ><![CDATA[gray_arrow.Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:29]]></Time>
+<TimeTick>1515997229</TimeTick>
+<NodeArgs eType="Replay" icon="11" nRep="31" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[gray_arrow.Click]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T19">
+<Obj plainTxt="False" ><![CDATA[农业.Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:29]]></Time>
+<TimeTick>1515997229</TimeTick>
+<NodeArgs eType="Replay" icon="10" nRep="33" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[农业.Click]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="7" nRep="30" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[left]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T20">
+<Obj plainTxt="False" ><![CDATA[frameright]]></Obj>
+<Details plainTxt="False" ><![CDATA[Frame]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:30]]></Time>
+<TimeTick>1515997230</TimeTick>
+<Step rID="T21">
+<Obj plainTxt="False" ><![CDATA[行业类型子类.WaitProperty]]></Obj>
+<Details plainTxt="False" ><![CDATA["visible", "true", True, 6]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:30]]></Time>
+<TimeTick>1515997230</TimeTick>
+<NodeArgs eType="Replay" icon="10" nRep="37" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[行业类型子类.WaitProperty]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="7" nRep="36" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[frameright]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T22">
+<Obj plainTxt="False" ><![CDATA[left_2]]></Obj>
+<Details plainTxt="False" ><![CDATA[Frame]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:30]]></Time>
+<TimeTick>1515997230</TimeTick>
+<Step rID="T23">
+<Obj plainTxt="False" ><![CDATA[gray_arrow.Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:30]]></Time>
+<TimeTick>1515997230</TimeTick>
+<NodeArgs eType="Replay" icon="11" nRep="40" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[gray_arrow.Click]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T24">
+<Obj plainTxt="False" ><![CDATA[稻谷种植.Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:30]]></Time>
+<TimeTick>1515997230</TimeTick>
+<NodeArgs eType="Replay" icon="10" nRep="42" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[稻谷种植.Click]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="7" nRep="39" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[left_2]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T25">
+<Obj plainTxt="False" ><![CDATA[frameright]]></Obj>
+<Details plainTxt="False" ><![CDATA[Frame]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:31]]></Time>
+<TimeTick>1515997231</TimeTick>
+<Step rID="T26">
+<Obj plainTxt="False" ><![CDATA[确定.Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:31]]></Time>
+<TimeTick>1515997231</TimeTick>
+<NodeArgs eType="Replay" icon="10" nRep="45" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[确定.Click]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="7" nRep="44" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[frameright]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="6" nRep="26" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[信贷风险管理系统V7]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="5" nRep="25" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[信贷风险管理系统V7]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T27">
+<Obj plainTxt="False" ><![CDATA[信贷风险管理系统V7]]></Obj>
+<Details plainTxt="False" ><![CDATA[Page]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:31]]></Time>
+<TimeTick>1515997231</TimeTick>
+<Step rID="T28">
+<Obj plainTxt="False" ><![CDATA[申请信息填写]]></Obj>
+<Details plainTxt="False" ><![CDATA[Frame]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:31]]></Time>
+<TimeTick>1515997231</TimeTick>
+<Step rID="T29">
+<Obj plainTxt="False" ><![CDATA[期限.Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:31]]></Time>
+<TimeTick>1515997231</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="49" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[期限.Click]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T30">
+<Obj plainTxt="False" ><![CDATA[期限.Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["12"]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:32]]></Time>
+<TimeTick>1515997232</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="51" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[期限.Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T31">
+<Obj plainTxt="False" ><![CDATA[利率模式.Select]]></Obj>
+<Details plainTxt="False" ><![CDATA["固定"]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:32]]></Time>
+<TimeTick>1515997232</TimeTick>
+<NodeArgs eType="Replay" icon="12" nRep="53" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[利率模式.Select]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T32">
+<Obj plainTxt="False" ><![CDATA[执行年利率.Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["5"]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:33]]></Time>
+<TimeTick>1515997233</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="55" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[执行年利率.Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T33">
+<Obj plainTxt="False" ><![CDATA[还款方式.Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:33]]></Time>
+<TimeTick>1515997233</TimeTick>
+<NodeArgs eType="Replay" icon="12" nRep="57" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[还款方式.Click]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T34">
+<Obj plainTxt="False" ><![CDATA[还款方式.Select]]></Obj>
+<Details plainTxt="False" ><![CDATA["利随本清"]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:33]]></Time>
+<TimeTick>1515997233</TimeTick>
+<NodeArgs eType="Replay" icon="12" nRep="59" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[还款方式.Select]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T35">
+<Obj plainTxt="False" ><![CDATA[还款周期.Select]]></Obj>
+<Details plainTxt="False" ><![CDATA["一次"]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:34]]></Time>
+<TimeTick>1515997234</TimeTick>
+<NodeArgs eType="Replay" icon="12" nRep="61" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[还款周期.Select]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T36">
+<Obj plainTxt="False" ><![CDATA[统一还款日.Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["21"]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:34]]></Time>
+<TimeTick>1515997234</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="63" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[统一还款日.Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T37">
+<Obj plainTxt="False" ><![CDATA[入账机构.Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:34]]></Time>
+<TimeTick>1515997234</TimeTick>
+<NodeArgs eType="Replay" icon="9" nRep="65" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[入账机构.Click]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="7" nRep="48" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[申请信息填写]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="6" nRep="47" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[信贷风险管理系统V7]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T38">
+<Obj plainTxt="False" ><![CDATA[请选择所需信息]]></Obj>
+<Details plainTxt="False" ><![CDATA[Window]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:38]]></Time>
+<TimeTick>1515997238</TimeTick>
+<Step rID="T39">
+<Obj plainTxt="False" ><![CDATA[请选择所需信息]]></Obj>
+<Details plainTxt="False" ><![CDATA[Page]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:38]]></Time>
+<TimeTick>1515997238</TimeTick>
+<Step rID="T40">
+<Obj plainTxt="False" ><![CDATA[ObjectList]]></Obj>
+<Details plainTxt="False" ><![CDATA[Frame]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:38]]></Time>
+<TimeTick>1515997238</TimeTick>
+<Step rID="T41">
+<Obj plainTxt="False" ><![CDATA[机构编号.Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["11600113"]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:38]]></Time>
+<TimeTick>1515997238</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="72" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[机构编号.Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T42">
+<Obj plainTxt="False" ><![CDATA[查询.Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:38]]></Time>
+<TimeTick>1515997238</TimeTick>
+<NodeArgs eType="Replay" icon="9" nRep="74" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[查询.Click]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="7" nRep="71" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[ObjectList]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T43">
+<Obj plainTxt="False" ><![CDATA[myiframe0]]></Obj>
+<Details plainTxt="False" ><![CDATA[Frame]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:38]]></Time>
+<TimeTick>1515997238</TimeTick>
+<Step rID="T44">
+<Obj plainTxt="False" ><![CDATA[[ R0F0 ].Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:38]]></Time>
+<TimeTick>1515997238</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="78" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[[ R0F0 ].Click]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="7" nRep="77" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[myiframe0]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T45">
+<Obj plainTxt="False" ><![CDATA[确认.Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:39]]></Time>
+<TimeTick>1515997239</TimeTick>
+<NodeArgs eType="Replay" icon="9" nRep="80" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[确认.Click]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="6" nRep="70" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[请选择所需信息]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="5" nRep="69" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[请选择所需信息]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T46">
+<Obj plainTxt="False" ><![CDATA[信贷风险管理系统V7]]></Obj>
+<Details plainTxt="False" ><![CDATA[Page]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:39]]></Time>
+<TimeTick>1515997239</TimeTick>
+<Step rID="T47">
+<Obj plainTxt="False" ><![CDATA[申请信息填写]]></Obj>
+<Details plainTxt="False" ><![CDATA[Frame]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:39]]></Time>
+<TimeTick>1515997239</TimeTick>
+<Step rID="T48">
+<Obj plainTxt="False" ><![CDATA[贸易合同编号.Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:39]]></Time>
+<TimeTick>1515997239</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="84" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[贸易合同编号.Click]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T49">
+<Obj plainTxt="False" ><![CDATA[贸易合同编号.Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["贸易123456"]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:40]]></Time>
+<TimeTick>1515997240</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="86" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[贸易合同编号.Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T50">
+<Obj plainTxt="False" ><![CDATA[贸易合同币种.Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:40]]></Time>
+<TimeTick>1515997240</TimeTick>
+<NodeArgs eType="Replay" icon="12" nRep="88" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[贸易合同币种.Click]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T51">
+<Obj plainTxt="False" ><![CDATA[贸易合同币种.Select]]></Obj>
+<Details plainTxt="False" ><![CDATA["人民币"]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:40]]></Time>
+<TimeTick>1515997240</TimeTick>
+<NodeArgs eType="Replay" icon="12" nRep="90" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[贸易合同币种.Select]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T52">
+<Obj plainTxt="False" ><![CDATA[贸易合同总金额（元）.Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:40]]></Time>
+<TimeTick>1515997240</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="92" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[贸易合同总金额（元）.Click]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T53">
+<Obj plainTxt="False" ><![CDATA[贸易合同总金额（元）.Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["50000.00"]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:41]]></Time>
+<TimeTick>1515997241</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="94" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[贸易合同总金额（元）.Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T54">
+<Obj plainTxt="False" ><![CDATA[商业发票号.Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:41]]></Time>
+<TimeTick>1515997241</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="96" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[商业发票号.Click]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T55">
+<Obj plainTxt="False" ><![CDATA[商业发票号.Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["商业发票号123456"]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:41]]></Time>
+<TimeTick>1515997241</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="98" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[商业发票号.Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T56">
+<Obj plainTxt="False" ><![CDATA[商业发票币种.Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:41]]></Time>
+<TimeTick>1515997241</TimeTick>
+<NodeArgs eType="Replay" icon="12" nRep="100" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[商业发票币种.Click]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T57">
+<Obj plainTxt="False" ><![CDATA[商业发票币种.Select]]></Obj>
+<Details plainTxt="False" ><![CDATA["人民币"]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:42]]></Time>
+<TimeTick>1515997242</TimeTick>
+<NodeArgs eType="Replay" icon="12" nRep="102" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[商业发票币种.Select]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T58">
+<Obj plainTxt="False" ><![CDATA[商业发票金额（元）.Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:42]]></Time>
+<TimeTick>1515997242</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="104" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[商业发票金额（元）.Click]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T59">
+<Obj plainTxt="False" ><![CDATA[商业发票金额（元）.Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["50000.00"]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:43]]></Time>
+<TimeTick>1515997243</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="106" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[商业发票金额（元）.Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T60">
+<Obj plainTxt="False" ><![CDATA[付款期限.Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:43]]></Time>
+<TimeTick>1515997243</TimeTick>
+<NodeArgs eType="Replay" icon="12" nRep="108" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[付款期限.Click]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T61">
+<Obj plainTxt="False" ><![CDATA[付款期限.Select]]></Obj>
+<Details plainTxt="False" ><![CDATA["即期"]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:43]]></Time>
+<TimeTick>1515997243</TimeTick>
+<NodeArgs eType="Replay" icon="12" nRep="110" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[付款期限.Select]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T62">
+<Obj plainTxt="False" ><![CDATA[提款方式.Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:43]]></Time>
+<TimeTick>1515997243</TimeTick>
+<NodeArgs eType="Replay" icon="12" nRep="112" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[提款方式.Click]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T63">
+<Obj plainTxt="False" ><![CDATA[提款方式.Select]]></Obj>
+<Details plainTxt="False" ><![CDATA["分次提款"]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:44]]></Time>
+<TimeTick>1515997244</TimeTick>
+<NodeArgs eType="Replay" icon="12" nRep="114" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[提款方式.Select]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T64">
+<Obj plainTxt="False" ><![CDATA[主担保方式.Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:44]]></Time>
+<TimeTick>1515997244</TimeTick>
+<NodeArgs eType="Replay" icon="9" nRep="116" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[主担保方式.Click]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="7" nRep="83" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[申请信息填写]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="6" nRep="82" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[信贷风险管理系统V7]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T65">
+<Obj plainTxt="False" ><![CDATA[请选择所需信息]]></Obj>
+<Details plainTxt="False" ><![CDATA[Window]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:47]]></Time>
+<TimeTick>1515997247</TimeTick>
+<Step rID="T66">
+<Obj plainTxt="False" ><![CDATA[请选择所需信息]]></Obj>
+<Details plainTxt="False" ><![CDATA[Page]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:47]]></Time>
+<TimeTick>1515997247</TimeTick>
+<Step rID="T67">
+<Obj plainTxt="False" ><![CDATA[left]]></Obj>
+<Details plainTxt="False" ><![CDATA[Frame]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:47]]></Time>
+<TimeTick>1515997247</TimeTick>
+<Step rID="T68">
+<Obj plainTxt="False" ><![CDATA[信用.Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:47]]></Time>
+<TimeTick>1515997247</TimeTick>
+<NodeArgs eType="Replay" icon="10" nRep="123" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[信用.Click]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="7" nRep="122" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[left]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T69">
+<Obj plainTxt="False" ><![CDATA[确认.Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:47]]></Time>
+<TimeTick>1515997247</TimeTick>
+<NodeArgs eType="Replay" icon="9" nRep="125" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[确认.Click]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="6" nRep="121" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[请选择所需信息]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="5" nRep="120" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[请选择所需信息]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T70">
+<Obj plainTxt="False" ><![CDATA[信贷风险管理系统V7]]></Obj>
+<Details plainTxt="False" ><![CDATA[Page]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:48]]></Time>
+<TimeTick>1515997248</TimeTick>
+<Step rID="T71">
+<Obj plainTxt="False" ><![CDATA[申请信息填写]]></Obj>
+<Details plainTxt="False" ><![CDATA[Frame]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:48]]></Time>
+<TimeTick>1515997248</TimeTick>
+<Step rID="T72">
+<Obj plainTxt="False" ><![CDATA[有无其他担保方式.Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:48]]></Time>
+<TimeTick>1515997248</TimeTick>
+<NodeArgs eType="Replay" icon="12" nRep="129" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[有无其他担保方式.Click]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T73">
+<Obj plainTxt="False" ><![CDATA[有无其他担保方式.Select]]></Obj>
+<Details plainTxt="False" ><![CDATA["无"]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:48]]></Time>
+<TimeTick>1515997248</TimeTick>
+<NodeArgs eType="Replay" icon="12" nRep="131" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[有无其他担保方式.Select]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T74">
+<Obj plainTxt="False" ><![CDATA[是否低风险业务.Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:48]]></Time>
+<TimeTick>1515997248</TimeTick>
+<NodeArgs eType="Replay" icon="12" nRep="133" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[是否低风险业务.Click]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T75">
+<Obj plainTxt="False" ><![CDATA[是否低风险业务.Select]]></Obj>
+<Details plainTxt="False" ><![CDATA["是"]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:49]]></Time>
+<TimeTick>1515997249</TimeTick>
+<NodeArgs eType="Replay" icon="12" nRep="135" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[是否低风险业务.Select]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="7" nRep="128" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[申请信息填写]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T76">
+<Obj plainTxt="False" ><![CDATA[right]]></Obj>
+<Details plainTxt="False" ><![CDATA[Frame]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:49]]></Time>
+<TimeTick>1515997249</TimeTick>
+<Step rID="T77">
+<Obj plainTxt="False" ><![CDATA[保存.Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:49]]></Time>
+<TimeTick>1515997249</TimeTick>
+<NodeArgs eType="Replay" icon="10" nRep="139" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[保存.Click]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="7" nRep="138" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[right]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="6" nRep="127" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[信贷风险管理系统V7]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T78">
+<Obj plainTxt="False" ><![CDATA[来自网页的消息]]></Obj>
+<Details plainTxt="False" ><![CDATA[Dialog]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:52]]></Time>
+<TimeTick>1515997252</TimeTick>
+<Step rID="T79">
+<Obj plainTxt="False" ><![CDATA[确定.Exist]]></Obj>
+<Details plainTxt="False" ><![CDATA["Object does not exist"]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:52]]></Time>
+<TimeTick>1515997252</TimeTick>
+<NodeArgs eType="Replay" icon="14" nRep="145" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[确定.Exist]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="13" nRep="144" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[来自网页的消息]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="5" nRep="10" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[信贷风险管理系统V7]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T80">
+<Obj plainTxt="False" ><![CDATA[信贷风险管理系统V7.Close]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:53]]></Time>
+<TimeTick>1515997253</TimeTick>
+<NodeArgs eType="Replay" icon="5" nRep="147" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[信贷风险管理系统V7.Close]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T81">
+<Obj plainTxt="False" ><![CDATA[信贷风险管理系统V7]]></Obj>
+<Details plainTxt="False" ><![CDATA[Window]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:54]]></Time>
+<TimeTick>1515997254</TimeTick>
+<Step rID="T82">
+<Obj plainTxt="False" ><![CDATA[Windows Internet Explorer]]></Obj>
+<Details plainTxt="False" ><![CDATA[Dialog]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:54]]></Time>
+<TimeTick>1515997254</TimeTick>
+<Step rID="T83">
+<Obj plainTxt="False" ><![CDATA[确定.Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[2018/1/15 - 14:20:54]]></Time>
+<TimeTick>1515997254</TimeTick>
+<NodeArgs eType="Replay" icon="14" nRep="151" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[确定.Click]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="13" nRep="150" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[Windows Internet Explorer]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="5" nRep="149" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[信贷风险管理系统V7]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="4" nRep="9" Source="申请信息填写" SourceLine="-1" >
+<Disp><![CDATA[单笔单批业务申请]]></Disp>
+</NodeArgs>
+</Step>
+<Summary sTime="2018/1/15 - 14:20:23" eTime="2018/1/15 - 14:20:55" passed="0" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="3" nRep="6" >
+<Disp><![CDATA[申请信息填写 摘要]]></Disp>
+</NodeArgs>
+</Action>
+<Summary sTime="2018/1/15 - 14:20:20" eTime="2018/1/15 - 14:20:55" passed="0" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartTest" icon="1" nRep="3" >
+<Disp><![CDATA[测试 个人“标准房产抵押”经营贷款 - 副本 摘要]]></Disp>
+</NodeArgs>
+</Doc>
+</Report>

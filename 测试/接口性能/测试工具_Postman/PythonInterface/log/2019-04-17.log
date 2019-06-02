@@ -1,0 +1,11 @@
+2019-04-17 10:07:00,249 - INFO - MainThread - 192.168.85.1 - pid:21700 - Ìí¼Ó°¸Àý£¡
+2019-04-17 10:07:00,290 - INFO - MainThread - 192.168.85.1 - pid:21700 - Excute Case:test00000
+2019-04-17 10:07:00,292 - INFO - MainThread - 192.168.85.1 - pid:6292 - Excute Case:test00000
+2019-04-17 10:07:00,347 - INFO - MainThread - 192.168.85.1 - pid:21700 - Case Name:test_01
+2019-04-17 10:07:00,358 - INFO - MainThread - 192.168.85.1 - pid:6292 - Case Name:test_01
+2019-04-17 10:07:00,434 - INFO - MainThread - 192.168.85.1 - pid:21700 - Excute Case:test00001
+2019-04-17 10:07:00,498 - INFO - MainThread - 192.168.85.1 - pid:21700 - Case Name:test_01
+2019-04-17 10:07:01,690 - INFO - MainThread - 192.168.85.1 - pid:21700 - Excute Case:test00002
+2019-04-17 10:07:01,744 - INFO - MainThread - 192.168.85.1 - pid:21700 - Case Name:test_02
+2019-04-17 10:07:02,813 - INFO - MainThread - 192.168.85.1 - pid:21700 - Excute Case:test00003
+2019-04-17 10:07:02,857 - INFO - MainThread - 192.168.85.1 - pid:21700 - Case Name:test_03

@@ -1,0 +1,5 @@
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+def aaa(b,a:str="属性"):
+    return a
+print(aaa("ceshi"))

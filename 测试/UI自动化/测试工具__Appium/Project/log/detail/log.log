@@ -1,0 +1,318 @@
+2019-04-18 13:31:50:598 [Appium] Welcome to Appium v1.12.1
+2019-04-18 13:31:50:600 [Appium] Non-default server args:
+2019-04-18 13:31:50:601 [Appium]   port: 4700
+2019-04-18 13:31:50:602 [Appium]   bootstrapPort: 4901
+2019-04-18 13:31:50:602 [Appium]   sessionOverride: true
+2019-04-18 13:31:50:603 [Appium]   logFile: ../log/detail/log.log
+2019-04-18 13:31:50:603 [Appium]   udid: 127.0.0.1:21503
+2019-04-18 13:31:50:603 [Appium]   noReset: true
+2019-04-18 13:31:50:604 [Appium] Deprecated server args:
+2019-04-18 13:31:50:605 [Appium]   -U,--udid => --default-capabilities '{"udid":"127.0.0.1:21503"}'
+2019-04-18 13:31:50:605 [Appium]   --no-reset => --default-capabilities '{"noReset":true}'
+2019-04-18 13:31:50:606 [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2019-04-18 13:31:50:607 [Appium]   udid: 127.0.0.1:21503
+2019-04-18 13:31:50:609 [Appium]   noReset: true
+2019-04-18 13:31:50:638 [Appium] Appium REST http interface listener started on 0.0.0.0:4700
+2019-04-18 13:32:08:104 [HTTP] --> POST /wd/hub/session
+2019-04-18 13:32:08:105 [HTTP] {"capabilities":{"firstMatch":[{}],"alwaysMatch":{"platformName":"Android","appium:deviceName":"127.0.0.1:21503","appium:appPackage":"cn.com.open.mooc","appium:appActivity":"com.imooc.component.imoocmain.splash.MCSplashActivity","appium:platforVersion":"4.4.4"}},"desiredCapabilities":{"platformName":"Android","deviceName":"127.0.0.1:21503","appPackage":"cn.com.open.mooc","appActivity":"com.imooc.component.imoocmain.splash.MCSplashActivity","platforVersion":"4.4.4"}}
+2019-04-18 13:32:08:110 [W3C] Calling AppiumDriver.createSession() with args: [{"platformName":"Android","deviceName":"127.0.0.1:21503","appPackage":"cn.com.open.mooc","appActivity":"com.imooc.component.imoocmain.splash.MCSplashActivity","platforVersion":"4.4.4"},null,{"firstMatch":[{}],"alwaysMatch":{"platformName":"Android","appium:deviceName":"127.0.0.1:21503","appium:appPackage":"cn.com.open.mooc","appium:appActivity":"com.imooc.component.imoocmain.splash.MCSplashActivity","appium:platforVersion":"4.4.4"}}]
+2019-04-18 13:32:08:111 [BaseDriver] Event 'newSessionRequested' logged at 1555594328111 (21:32:08 GMT+0800 (中国标准时间))
+2019-04-18 13:32:08:117 [BaseDriver] The capabilities ["udid","noReset"] are not standard capabilities and should have an extension prefix
+2019-04-18 13:32:08:122 [Appium] DeprecationWarning: 'automationName' capability was not provided. Future versions of Appium will require 'automationName' capability to be set for Android sessions.
+2019-04-18 13:32:08:124 [Appium] Setting automation to 'UiAutomator1'. 
+2019-04-18 13:32:08:392 [Appium] Appium v1.12.1 creating new AndroidDriver (v4.14.0) session
+2019-04-18 13:32:08:393 [Appium] Capabilities:
+2019-04-18 13:32:08:394 [Appium]   platformName: Android
+2019-04-18 13:32:08:394 [Appium]   deviceName: 127.0.0.1:21503
+2019-04-18 13:32:08:395 [Appium]   appPackage: cn.com.open.mooc
+2019-04-18 13:32:08:395 [Appium]   appActivity: com.imooc.component.imoocmain.splash.MCSplashActivity
+2019-04-18 13:32:08:395 [Appium]   platforVersion: 4.4.4
+2019-04-18 13:32:08:396 [Appium]   udid: 127.0.0.1:21503
+2019-04-18 13:32:08:396 [Appium]   noReset: true
+2019-04-18 13:32:08:401 [BaseDriver] W3C capabilities {"alwaysMatch":{"platformNa... and MJSONWP desired capabilities {"udid":"127.0.0.1:21503","... were provided
+2019-04-18 13:32:08:402 [BaseDriver] Creating session with W3C capabilities: {"alwaysMatch":{"platformNa...
+2019-04-18 13:32:08:412 [BaseDriver] The following capabilities were provided, but are not recognized by appium: platforVersion.
+2019-04-18 13:32:08:414 [BaseDriver] Session created with session id: b40a67ea-4f0a-4240-9242-7a36a3a9fd35
+2019-04-18 13:32:08:420 [ADB] Checking whether adb is present
+2019-04-18 13:32:08:451 [ADB] Found 1 'build-tools' folders under 'D:\InstallSoftWare\Java\sdk' (newest first):
+2019-04-18 13:32:08:451 [ADB]     D:/InstallSoftWare/Java/sdk/build-tools/android-4.3
+2019-04-18 13:32:08:488 [ADB] Using adb.exe from D:\InstallSoftWare\Java\sdk\platform-tools\adb.exe
+2019-04-18 13:32:08:488 [AndroidDriver] Retrieving device list
+2019-04-18 13:32:08:489 [ADB] Trying to find a connected android device
+2019-04-18 13:32:08:490 [ADB] Getting connected devices...
+2019-04-18 13:32:08:546 [ADB] 1 device(s) connected
+2019-04-18 13:32:08:547 [AndroidDriver] Using device: 127.0.0.1:21503
+2019-04-18 13:32:08:548 [ADB] Setting device id to 127.0.0.1:21503
+2019-04-18 13:32:08:549 [ADB] Running 'D:\InstallSoftWare\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell getprop ro.build.version.sdk'
+2019-04-18 13:32:08:601 [ADB] Current device property 'ro.build.version.sdk': 22
+2019-04-18 13:32:08:602 [ADB] Device API level: 22
+2019-04-18 13:32:08:602 [AndroidDriver] App file was not listed, instead we're going to run cn.com.open.mooc directly on the device
+2019-04-18 13:32:08:602 [AndroidDriver] Checking whether package is present on the device
+2019-04-18 13:32:08:603 [ADB] Running 'D:\InstallSoftWare\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell pm list packages cn.com.open.mooc'
+2019-04-18 13:32:08:788 [AndroidDriver] Starting Android session
+2019-04-18 13:32:08:789 [ADB] Running 'D:\InstallSoftWare\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 wait-for-device'
+2019-04-18 13:32:08:833 [ADB] Running 'D:\InstallSoftWare\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell echo ping'
+2019-04-18 13:32:08:884 [AndroidDriver] Pushing settings apk to device...
+2019-04-18 13:32:08:885 [ADB] Getting install status for io.appium.settings
+2019-04-18 13:32:08:886 [ADB] Running 'D:\InstallSoftWare\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell dumpsys package io.appium.settings'
+2019-04-18 13:32:08:940 [ADB] 'io.appium.settings' is installed
+2019-04-18 13:32:08:940 [ADB] Getting package info for 'io.appium.settings'
+2019-04-18 13:32:08:941 [ADB] Running 'D:\InstallSoftWare\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell dumpsys package io.appium.settings'
+2019-04-18 13:32:08:999 [ADB] Checking whether aapt is present
+2019-04-18 13:32:09:000 [ADB] Using aapt.exe from D:\InstallSoftWare\Java\sdk\tools\aapt.exe
+2019-04-18 13:32:09:038 [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('2.14.0' >= '2.14.0')
+2019-04-18 13:32:09:039 [ADB] There is no need to install/upgrade 'C:\Users\孙洪斌\AppData\Roaming\npm\node_modules\appium\node_modules\_io.appium.settings@2.14.0@io.appium.settings\apks\settings_apk-debug.apk'
+2019-04-18 13:32:09:040 [ADB] Getting IDs of all 'io.appium.settings' processes
+2019-04-18 13:32:09:041 [ADB] Running 'D:\InstallSoftWare\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell 'pgrep --help; echo $?''
+2019-04-18 13:32:09:095 [ADB] Running 'D:\InstallSoftWare\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell pgrep \^appium\\.settings\$'
+2019-04-18 13:32:09:144 [AndroidDriver] Granting android.permission.SET_ANIMATION_SCALE, CHANGE_CONFIGURATION, ACCESS_FINE_LOCATION by pm grant
+2019-04-18 13:32:09:145 [ADB] Granting permissions ["android.permission.SET_ANIMATION_SCALE","android.permission.CHANGE_CONFIGURATION","android.permission.ACCESS_FINE_LOCATION"] to 'io.appium.settings'
+2019-04-18 13:32:09:146 [ADB] Got the following command chunks to execute: [["pm","grant","io.appium.settings","android.permission.SET_ANIMATION_SCALE",";","pm","grant","io.appium.settings","android.permission.CHANGE_CONFIGURATION",";","pm","grant","io.appium.settings","android.permission.ACCESS_FINE_LOCATION",";"]]
+2019-04-18 13:32:09:146 [ADB] Running 'D:\InstallSoftWare\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell pm grant io.appium.settings android.permission.SET_ANIMATION_SCALE \; pm grant io.appium.settings android.permission.CHANGE_CONFIGURATION \; pm grant io.appium.settings android.permission.ACCESS_FINE_LOCATION \;'
+2019-04-18 13:32:09:616 [ADB] Running 'D:\InstallSoftWare\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell am start -W -n io.appium.settings/.Settings -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2019-04-18 13:32:10:270 [ADB] Running 'D:\InstallSoftWare\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell settings put secure mock_location 1'
+2019-04-18 13:32:10:717 [Logcat] Starting logcat capture
+2019-04-18 13:32:10:759 [ADB] Getting device platform version
+2019-04-18 13:32:10:759 [ADB] Running 'D:\InstallSoftWare\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell getprop ro.build.version.release'
+2019-04-18 13:32:10:830 [ADB] Current device property 'ro.build.version.release': 5.1.1
+2019-04-18 13:32:10:830 [ADB] Running 'D:\InstallSoftWare\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell wm size'
+2019-04-18 13:32:11:476 [ADB] Running 'D:\InstallSoftWare\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell getprop ro.product.model'
+2019-04-18 13:32:11:531 [ADB] Current device property 'ro.product.model': vivo X9Plus
+2019-04-18 13:32:11:532 [ADB] Running 'D:\InstallSoftWare\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell getprop ro.product.manufacturer'
+2019-04-18 13:32:11:589 [ADB] Current device property 'ro.product.manufacturer': vivo
+2019-04-18 13:32:11:590 [AndroidDriver] No app sent in, not parsing package/activity
+2019-04-18 13:32:11:590 [AndroidDriver] No app capability. Assuming it is already on the device
+2019-04-18 13:32:11:590 [AndroidBootstrap] Watching for bootstrap disconnect
+2019-04-18 13:32:11:591 [ADB] Forwarding system: 4901 to device: 4724
+2019-04-18 13:32:11:592 [ADB] Running 'D:\InstallSoftWare\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 forward tcp\:4901 tcp\:4724'
+2019-04-18 13:32:11:635 [UiAutomator] Starting UiAutomator
+2019-04-18 13:32:11:636 [UiAutomator] Moving to state 'starting'
+2019-04-18 13:32:11:636 [UiAutomator] Parsing uiautomator jar
+2019-04-18 13:32:11:637 [UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+2019-04-18 13:32:11:637 [ADB] Running 'D:\InstallSoftWare\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell mkdir -p /data/local'
+2019-04-18 13:32:11:698 [ADB] Running 'D:\InstallSoftWare\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 push C\:\\Users\\孙洪斌\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\_appium-android-driver\@4.14.0\@appium-android-driver\\bootstrap\\bin\\AppiumBootstrap.jar /data/local/tmp/'
+2019-04-18 13:32:11:916 [ADB] Attempting to kill all uiautomator processes
+2019-04-18 13:32:11:917 [ADB] Getting IDs of all 'uiautomator' processes
+2019-04-18 13:32:11:917 [ADB] Running 'D:\InstallSoftWare\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell pgrep \^uiautomator\$'
+2019-04-18 13:32:11:978 [ADB] No 'uiautomator' process has been found
+2019-04-18 13:32:11:978 [UiAutomator] Starting UIAutomator
+2019-04-18 13:32:11:979 [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","127.0.0.1:21503","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","cn.com.open.mooc","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+2019-04-18 13:32:12:288 [UiAutomator] Moving to state 'online'
+2019-04-18 13:32:12:293 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] json loading complete.
+2019-04-18 13:32:12:295 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+2019-04-18 13:32:12:296 [AndroidBootstrap] Android bootstrap socket is now connected
+2019-04-18 13:32:12:298 [ADB] Running 'D:\InstallSoftWare\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell dumpsys window'
+2019-04-18 13:32:12:311 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+2019-04-18 13:32:12:368 [AndroidDriver] Screen already unlocked, doing nothing
+2019-04-18 13:32:12:369 [ADB] Running 'D:\InstallSoftWare\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell am start -W -n cn.com.open.mooc/com.imooc.component.imoocmain.splash.MCSplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2019-04-18 13:32:14:104 [Appium] New AndroidDriver session created successfully, session b40a67ea-4f0a-4240-9242-7a36a3a9fd35 added to master session list
+2019-04-18 13:32:14:105 [BaseDriver] Event 'newSessionStarted' logged at 1555594334105 (21:32:14 GMT+0800 (中国标准时间))
+2019-04-18 13:32:14:106 [W3C (b40a67ea)] Cached the protocol value 'W3C' for the new session b40a67ea-4f0a-4240-9242-7a36a3a9fd35
+2019-04-18 13:32:14:107 [W3C (b40a67ea)] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","deviceName":"127.0.0.1:21503","appPackage":"cn.com.open.mooc","appActivity":"com.imooc.component.imoocmain.splash.MCSplashActivity","platforVersion":"4.4.4","udid":"127.0.0.1:21503","noReset":true},"platformName":"Android","deviceName":"127.0.0.1:21503","appPackage":"cn.com.open.mooc","appActivity":"com.imooc.component.imoocmain.splash.MCSplashActivity","platforVersion":"4.4.4","udid":"127.0.0.1:21503","noReset":true,"deviceUDID":"127.0.0.1:21503","platformVersion":"5.1.1","deviceScreenSize":"720x1280","deviceModel":"vivo X9Plus","deviceManufacturer":"vivo"}}
+2019-04-18 13:32:14:115 [HTTP] <-- POST /wd/hub/session 200 6008 ms - 874
+2019-04-18 13:32:14:115 [HTTP] 
+2019-04-18 13:32:24:119 [HTTP] --> POST /wd/hub/session/b40a67ea-4f0a-4240-9242-7a36a3a9fd35/element
+2019-04-18 13:32:24:120 [HTTP] {"using":"-android uiautomator","value":"new UiSelector().text(\"账号\")","sessionId":"b40a67ea-4f0a-4240-9242-7a36a3a9fd35"}
+2019-04-18 13:32:24:121 [W3C (b40a67ea)] Calling AppiumDriver.findElement() with args: ["-android uiautomator","new UiSelector().text(\"账号\")","b40a67ea-4f0a-4240-9242-7a36a3a9fd35"]
+2019-04-18 13:32:24:150 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-04-18 13:32:24:151 [BaseDriver] Waiting up to 0 ms for condition
+2019-04-18 13:32:24:152 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().text(\"账号\")","context":"","multiple":false}}
+2019-04-18 13:32:24:161 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().text(\"账号\")","context":"","multiple":false}}
+2019-04-18 13:32:24:161 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-04-18 13:32:24:161 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-04-18 13:32:24:161 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().text("账号")' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: false
+2019-04-18 13:32:24:162 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().text("账号")
+2019-04-18 13:32:24:163 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "账号"
+2019-04-18 13:32:24:163 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[TEXT=账号]
+2019-04-18 13:32:24:324 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2019-04-18 13:32:24:324 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().text("账号")' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: false
+2019-04-18 13:32:24:325 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().text("账号")
+2019-04-18 13:32:24:325 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "账号"
+2019-04-18 13:32:24:325 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[TEXT=账号]
+2019-04-18 13:32:24:329 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2019-04-18 13:32:24:333 [AndroidBootstrap] Received command result from bootstrap
+2019-04-18 13:32:24:334 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2019-04-18 13:32:24:384 [W3C (b40a67ea)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2019-04-18 13:32:24:385 [W3C (b40a67ea)]     at AndroidDriver.findElOrEls (C:\Users\孙洪斌\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-android-driver@4.14.0@appium-android-driver\lib\commands\find.js:75:11)
+2019-04-18 13:32:24:385 [W3C (b40a67ea)]     at <anonymous>
+2019-04-18 13:32:24:387 [HTTP] <-- POST /wd/hub/session/b40a67ea-4f0a-4240-9242-7a36a3a9fd35/element 404 267 ms - 461
+2019-04-18 13:32:24:387 [HTTP] 
+2019-04-18 13:32:24:395 [HTTP] --> POST /wd/hub/session/b40a67ea-4f0a-4240-9242-7a36a3a9fd35/element
+2019-04-18 13:32:24:395 [HTTP] {"using":"-android uiautomator","value":"new UiSelector().text(\"点击登录\")","sessionId":"b40a67ea-4f0a-4240-9242-7a36a3a9fd35"}
+2019-04-18 13:32:24:396 [W3C (b40a67ea)] Calling AppiumDriver.findElement() with args: ["-android uiautomator","new UiSelector().text(\"点击登录\")","b40a67ea-4f0a-4240-9242-7a36a3a9fd35"]
+2019-04-18 13:32:24:396 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-04-18 13:32:24:397 [BaseDriver] Waiting up to 0 ms for condition
+2019-04-18 13:32:24:397 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().text(\"点击登录\")","context":"","multiple":false}}
+2019-04-18 13:32:24:402 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().text(\"点击登录\")","context":"","multiple":false}}
+2019-04-18 13:32:24:402 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-04-18 13:32:24:403 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-04-18 13:32:24:403 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().text("点击登录")' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: false
+2019-04-18 13:32:24:403 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().text("点击登录")
+2019-04-18 13:32:24:403 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "点击登录"
+2019-04-18 13:32:24:404 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[TEXT=点击登录]
+2019-04-18 13:32:24:412 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2019-04-18 13:32:24:412 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().text("点击登录")' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: false
+2019-04-18 13:32:24:412 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().text("点击登录")
+2019-04-18 13:32:24:413 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "点击登录"
+2019-04-18 13:32:24:413 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[TEXT=点击登录]
+2019-04-18 13:32:24:417 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2019-04-18 13:32:24:420 [AndroidBootstrap] Received command result from bootstrap
+2019-04-18 13:32:24:420 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2019-04-18 13:32:24:422 [W3C (b40a67ea)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2019-04-18 13:32:24:423 [W3C (b40a67ea)]     at AndroidDriver.findElOrEls (C:\Users\孙洪斌\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-android-driver@4.14.0@appium-android-driver\lib\commands\find.js:75:11)
+2019-04-18 13:32:24:423 [W3C (b40a67ea)]     at <anonymous>
+2019-04-18 13:32:24:425 [HTTP] <-- POST /wd/hub/session/b40a67ea-4f0a-4240-9242-7a36a3a9fd35/element 404 29 ms - 461
+2019-04-18 13:32:24:425 [HTTP] 
+2019-04-18 13:32:24:431 [HTTP] --> POST /wd/hub/session/b40a67ea-4f0a-4240-9242-7a36a3a9fd35/element
+2019-04-18 13:32:24:431 [HTTP] {"using":"-android uiautomator","value":"new UiSelector().text(\"登录\")","sessionId":"b40a67ea-4f0a-4240-9242-7a36a3a9fd35"}
+2019-04-18 13:32:24:432 [W3C (b40a67ea)] Calling AppiumDriver.findElement() with args: ["-android uiautomator","new UiSelector().text(\"登录\")","b40a67ea-4f0a-4240-9242-7a36a3a9fd35"]
+2019-04-18 13:32:24:432 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-04-18 13:32:24:433 [BaseDriver] Waiting up to 0 ms for condition
+2019-04-18 13:32:24:433 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().text(\"登录\")","context":"","multiple":false}}
+2019-04-18 13:32:24:437 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().text(\"登录\")","context":"","multiple":false}}
+2019-04-18 13:32:24:440 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-04-18 13:32:24:440 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-04-18 13:32:24:441 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().text("登录")' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: false
+2019-04-18 13:32:24:441 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().text("登录")
+2019-04-18 13:32:24:441 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "登录"
+2019-04-18 13:32:24:441 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[TEXT=登录]
+2019-04-18 13:32:24:450 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2019-04-18 13:32:24:452 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().text("登录")' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: false
+2019-04-18 13:32:24:452 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().text("登录")
+2019-04-18 13:32:24:454 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "登录"
+2019-04-18 13:32:24:454 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[TEXT=登录]
+2019-04-18 13:32:24:458 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2019-04-18 13:32:24:459 [AndroidBootstrap] Received command result from bootstrap
+2019-04-18 13:32:24:459 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2019-04-18 13:32:24:460 [W3C (b40a67ea)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2019-04-18 13:32:24:460 [W3C (b40a67ea)]     at AndroidDriver.findElOrEls (C:\Users\孙洪斌\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-android-driver@4.14.0@appium-android-driver\lib\commands\find.js:75:11)
+2019-04-18 13:32:24:461 [W3C (b40a67ea)]     at <anonymous>
+2019-04-18 13:32:24:462 [HTTP] <-- POST /wd/hub/session/b40a67ea-4f0a-4240-9242-7a36a3a9fd35/element 404 30 ms - 461
+2019-04-18 13:32:24:462 [HTTP] 
+2019-04-18 13:32:24:468 [HTTP] --> POST /wd/hub/session/b40a67ea-4f0a-4240-9242-7a36a3a9fd35/element
+2019-04-18 13:32:24:468 [HTTP] {"using":"id","value":"cn.com.open.mooc:id/accountEdit","sessionId":"b40a67ea-4f0a-4240-9242-7a36a3a9fd35"}
+2019-04-18 13:32:24:469 [W3C (b40a67ea)] Calling AppiumDriver.findElement() with args: ["id","cn.com.open.mooc:id/accountEdit","b40a67ea-4f0a-4240-9242-7a36a3a9fd35"]
+2019-04-18 13:32:24:469 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-04-18 13:32:24:469 [BaseDriver] Waiting up to 0 ms for condition
+2019-04-18 13:32:24:470 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"cn.com.open.mooc:id/accountEdit","context":"","multiple":false}}
+2019-04-18 13:32:24:474 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"cn.com.open.mooc:id/accountEdit","context":"","multiple":false}}
+2019-04-18 13:32:24:475 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-04-18 13:32:24:475 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-04-18 13:32:24:475 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'cn.com.open.mooc:id/accountEdit' using 'ID' with the contextId: '' multiple: false
+2019-04-18 13:32:24:475 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=cn.com.open.mooc:id/accountEdit]
+2019-04-18 13:32:24:482 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2019-04-18 13:32:24:483 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'cn.com.open.mooc:id/accountEdit' using 'ID' with the contextId: '' multiple: false
+2019-04-18 13:32:24:483 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=cn.com.open.mooc:id/accountEdit]
+2019-04-18 13:32:24:488 [AndroidBootstrap] Received command result from bootstrap
+2019-04-18 13:32:24:489 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2019-04-18 13:32:24:491 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2019-04-18 13:32:24:491 [W3C (b40a67ea)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2019-04-18 13:32:24:492 [W3C (b40a67ea)]     at AndroidDriver.findElOrEls (C:\Users\孙洪斌\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-android-driver@4.14.0@appium-android-driver\lib\commands\find.js:75:11)
+2019-04-18 13:32:24:492 [W3C (b40a67ea)]     at <anonymous>
+2019-04-18 13:32:24:493 [HTTP] <-- POST /wd/hub/session/b40a67ea-4f0a-4240-9242-7a36a3a9fd35/element 404 24 ms - 461
+2019-04-18 13:32:24:493 [HTTP] 
+2019-04-18 13:32:24:500 [HTTP] --> POST /wd/hub/session/b40a67ea-4f0a-4240-9242-7a36a3a9fd35/element
+2019-04-18 13:32:24:500 [HTTP] {"using":"id","value":"cn.com.open.mooc:id/passwordEdit","sessionId":"b40a67ea-4f0a-4240-9242-7a36a3a9fd35"}
+2019-04-18 13:32:24:501 [W3C (b40a67ea)] Calling AppiumDriver.findElement() with args: ["id","cn.com.open.mooc:id/passwordEdit","b40a67ea-4f0a-4240-9242-7a36a3a9fd35"]
+2019-04-18 13:32:24:501 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-04-18 13:32:24:501 [BaseDriver] Waiting up to 0 ms for condition
+2019-04-18 13:32:24:502 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"cn.com.open.mooc:id/passwordEdit","context":"","multiple":false}}
+2019-04-18 13:32:24:507 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"cn.com.open.mooc:id/passwordEdit","context":"","multiple":false}}
+2019-04-18 13:32:24:507 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-04-18 13:32:24:507 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-04-18 13:32:24:507 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'cn.com.open.mooc:id/passwordEdit' using 'ID' with the contextId: '' multiple: false
+2019-04-18 13:32:24:508 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=cn.com.open.mooc:id/passwordEdit]
+2019-04-18 13:32:24:513 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2019-04-18 13:32:24:513 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'cn.com.open.mooc:id/passwordEdit' using 'ID' with the contextId: '' multiple: false
+2019-04-18 13:32:24:514 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=cn.com.open.mooc:id/passwordEdit]
+2019-04-18 13:32:24:519 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2019-04-18 13:32:24:519 [AndroidBootstrap] Received command result from bootstrap
+2019-04-18 13:32:24:519 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2019-04-18 13:32:24:521 [W3C (b40a67ea)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2019-04-18 13:32:24:521 [W3C (b40a67ea)]     at AndroidDriver.findElOrEls (C:\Users\孙洪斌\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-android-driver@4.14.0@appium-android-driver\lib\commands\find.js:75:11)
+2019-04-18 13:32:24:521 [W3C (b40a67ea)]     at <anonymous>
+2019-04-18 13:32:24:523 [HTTP] <-- POST /wd/hub/session/b40a67ea-4f0a-4240-9242-7a36a3a9fd35/element 404 23 ms - 461
+2019-04-18 13:32:24:524 [HTTP] 
+2019-04-18 13:32:24:529 [HTTP] --> POST /wd/hub/session/b40a67ea-4f0a-4240-9242-7a36a3a9fd35/element
+2019-04-18 13:32:24:530 [HTTP] {"using":"-android uiautomator","value":"new UiSelector().text(\"登录\")","sessionId":"b40a67ea-4f0a-4240-9242-7a36a3a9fd35"}
+2019-04-18 13:32:24:530 [W3C (b40a67ea)] Calling AppiumDriver.findElement() with args: ["-android uiautomator","new UiSelector().text(\"登录\")","b40a67ea-4f0a-4240-9242-7a36a3a9fd35"]
+2019-04-18 13:32:24:530 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-04-18 13:32:24:531 [BaseDriver] Waiting up to 0 ms for condition
+2019-04-18 13:32:24:531 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().text(\"登录\")","context":"","multiple":false}}
+2019-04-18 13:32:24:534 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().text(\"登录\")","context":"","multiple":false}}
+2019-04-18 13:32:24:534 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-04-18 13:32:24:535 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-04-18 13:32:24:535 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().text("登录")' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: false
+2019-04-18 13:32:24:535 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().text("登录")
+2019-04-18 13:32:24:536 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "登录"
+2019-04-18 13:32:24:536 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[TEXT=登录]
+2019-04-18 13:32:24:544 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2019-04-18 13:32:24:544 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().text("登录")' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: false
+2019-04-18 13:32:24:545 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().text("登录")
+2019-04-18 13:32:24:546 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "登录"
+2019-04-18 13:32:24:546 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[TEXT=登录]
+2019-04-18 13:32:24:550 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2019-04-18 13:32:24:551 [AndroidBootstrap] Received command result from bootstrap
+2019-04-18 13:32:24:551 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2019-04-18 13:32:24:558 [W3C (b40a67ea)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2019-04-18 13:32:24:558 [W3C (b40a67ea)]     at AndroidDriver.findElOrEls (C:\Users\孙洪斌\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-android-driver@4.14.0@appium-android-driver\lib\commands\find.js:75:11)
+2019-04-18 13:32:24:558 [W3C (b40a67ea)]     at <anonymous>
+2019-04-18 13:32:24:560 [HTTP] <-- POST /wd/hub/session/b40a67ea-4f0a-4240-9242-7a36a3a9fd35/element 404 29 ms - 461
+2019-04-18 13:32:24:560 [HTTP] 
+2019-04-18 17:07:54:227 [Logcat] Logcat terminated with code 0, signal null
+2019-04-18 17:07:55:527 [UiAutomator] UiAutomator exited unexpectedly with code 0, signal null
+2019-04-18 17:07:55:688 [UiAutomator] Moving to state 'stopped'
+2019-04-18 17:08:03:150 [AndroidDriver] Shutting down Android driver
+2019-04-18 17:08:03:627 [Appium] Closing session, cause was 'UiAUtomator shut down unexpectedly'
+2019-04-18 17:08:03:644 [Appium] Removing session b40a67ea-4f0a-4240-9242-7a36a3a9fd35 from our master session list
+2019-04-18 17:08:03:913 [ADB] Running 'D:\InstallSoftWare\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell am force-stop cn.com.open.mooc'
+2019-04-18 17:08:15:313 [ADB] Error sending command, reconnecting device and retrying: shell,am,force-stop,cn.com.open.mooc
+2019-04-18 17:08:16:456 [ADB] Trying to find a connected android device
+2019-04-18 17:08:16:457 [ADB] Getting connected devices...
+2019-04-18 17:08:16:596 [ADB] 0 device(s) connected
+2019-04-18 17:08:16:597 [ADB] Could not find devices, restarting adb server...
+2019-04-18 17:08:16:597 [ADB] Restarting adb
+2019-04-18 17:08:16:660 [ADB] Killing adb server on port 5037
+2019-04-18 17:08:17:054 [ADB] Getting connected devices...
+2019-04-18 17:08:21:235 [ADB] 0 device(s) connected
+2019-04-18 17:08:21:532 [ADB] Could not find devices, restarting adb server...
+2019-04-18 17:08:21:533 [ADB] Restarting adb
+2019-04-18 17:08:21:533 [ADB] Killing adb server on port 5037
+2019-04-18 17:08:21:784 [ADB] Getting connected devices...
+2019-04-18 17:08:26:430 [ADB] 0 device(s) connected
+2019-04-18 17:08:26:431 [ADB] Could not find devices, restarting adb server...
+2019-04-18 17:08:26:431 [ADB] Restarting adb
+2019-04-18 17:08:26:431 [ADB] Killing adb server on port 5037
+2019-04-18 17:08:26:732 [ADB] Getting connected devices...
+2019-04-18 17:08:30:968 [ADB] 0 device(s) connected
+2019-04-18 17:08:30:968 [ADB] Could not find devices, restarting adb server...
+2019-04-18 17:08:30:968 [ADB] Restarting adb
+2019-04-18 17:08:30:968 [ADB] Killing adb server on port 5037
+2019-04-18 17:08:31:237 [ADB] Getting connected devices...
+2019-04-18 17:08:35:319 [ADB] 0 device(s) connected
+2019-04-18 17:08:35:320 [ADB] Could not find devices, restarting adb server...
+2019-04-18 17:08:35:320 [ADB] Restarting adb
+2019-04-18 17:08:35:320 [ADB] Killing adb server on port 5037
+2019-04-18 17:08:35:563 [ADB] Getting connected devices...
+2019-04-18 17:08:39:639 [ADB] 0 device(s) connected
+2019-04-18 17:08:39:639 [ADB] Could not find devices, restarting adb server...
+2019-04-18 17:08:39:639 [ADB] Restarting adb
+2019-04-18 17:08:39:640 [ADB] Killing adb server on port 5037
+2019-04-18 17:08:40:005 [ADB] Could not find devices, restarting adb server...
+2019-04-18 17:08:40:005 [ADB] Restarting adb
+2019-04-18 17:08:40:028 [ADB] Killing adb server on port 5037
+2019-04-18 17:08:41:268 [ADB] Could not find devices, restarting adb server...
+2019-04-18 17:08:41:268 [ADB] Restarting adb
+2019-04-18 17:08:41:269 [ADB] Killing adb server on port 5037
+2019-04-18 17:08:42:513 [ADB] Could not find devices, restarting adb server...
+2019-04-18 17:08:42:513 [ADB] Restarting adb
+2019-04-18 17:08:42:513 [ADB] Killing adb server on port 5037
+2019-04-18 17:08:43:779 [ADB] Could not find devices, restarting adb server...
+2019-04-18 17:08:43:780 [ADB] Restarting adb
+2019-04-18 17:08:43:781 [ADB] Killing adb server on port 5037
+2019-04-18 17:08:45:029 [ADB] Could not find devices, restarting adb server...
+2019-04-18 17:08:45:029 [ADB] Restarting adb
+2019-04-18 17:08:45:029 [ADB] Killing adb server on port 5037
+2019-04-18 17:08:46:269 [ADB] Could not find devices, restarting adb server...
+2019-04-18 17:08:46:270 [ADB] Restarting adb
+2019-04-18 17:08:46:270 [ADB] Killing adb server on port 5037

@@ -1,0 +1,232 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE Report
+[
+<!ELEMENT Report (General ,(Doc|BPT)) >
+<!ATTLIST Report ver CDATA #REQUIRED tmZone CDATA #REQUIRED>
+
+<!ELEMENT General ( DocLocation ) >
+<!ATTLIST General productName CDATA #REQUIRED productVer CDATA #REQUIRED os CDATA #REQUIRED host CDATA #REQUIRED qcserver CDATA #IMPLIED qcproject CDATA #IMPLIED SolManSolutionId CDATA #IMPLIED SolManProjectId CDATA #IMPLIED SolManTestPlanId CDATA #IMPLIED SolManTestPackageId CDATA #IMPLIED SolManUserInfoData CDATA #IMPLIED  >
+
+<!ELEMENT BPT (DName,Res,DVer?,TSet?,TInst?,NodeArgs,AdditionalInfo*,Doc*) >
+<!ATTLIST BPT rID ID #REQUIRED >
+
+<!ELEMENT Doc (DName,ConfName?,Res,DVer?,TSet?,TInst?,RunType?,DT?,AdditionalInfo*,Step*,DIter*,Step*,Action*,Doc*,Summary?,TestMaintenanceSummary*,NodeArgs?) >
+<!ATTLIST Doc rID ID #REQUIRED type (Test|BC|BPTWrapperTest|Flow|Group|Action) "Test" productName CDATA #REQUIRED BCIter CDATA #IMPLIED >
+
+<!ELEMENT RunType ( #PCDATA )>
+<!ATTLIST RunType fmStep (False|True) "False" batch (False|True) "False" upDesc (False|True) "False" upChk (False|True) "False" upAS (False|True) "False">
+
+<!ELEMENT DName ( #PCDATA ) >
+
+<!ELEMENT ConfName ( #PCDATA ) >
+
+<!ELEMENT Res ( #PCDATA ) >
+
+<!ELEMENT AdditionalInfo (AdditionalDataName,AdditionalDataValue ) >
+
+<!ELEMENT AdditionalDataName ( #PCDATA ) >
+
+<!ELEMENT AdditionalDataValue ( #PCDATA ) >
+
+<!ELEMENT DVer ( #PCDATA ) >
+
+<!ELEMENT TSet ( #PCDATA ) >
+
+<!ELEMENT TInst ( #PCDATA ) >
+
+<!ELEMENT DIter (Step*,Action+,Summary?,NodeArgs)>
+<!ATTLIST DIter rID ID #REQUIRED iterID CDATA #REQUIRED>
+
+<!ELEMENT DocLocation ( #PCDATA )>
+
+<!ELEMENT Action (AName,AIter*,(Step|HtmlStep|Action)*, Summary,ActionMaintenanceSummary*, NodeArgs ) >
+<!ATTLIST Action rID ID #REQUIRED>
+
+<!ELEMENT AIter ((Step|HtmlStep|Action)*,DataMapping?, Summary?,NodeArgs) >
+<!ATTLIST AIter rID ID #REQUIRED iterID CDATA #REQUIRED isCountable (False|True) "False" >
+
+<!ELEMENT AName ( #PCDATA ) >
+
+<!ELEMENT TestMaintenanceSummary (ActionMaintenanceSummary*) >
+<!ATTLIST TestMaintenanceSummary ObjectsAdded CDATA #REQUIRED ObjectsUpdated CDATA #REQUIRED StepsUpdated CDATA #REQUIRED StepsComments CDATA #REQUIRED><!ELEMENT ActionMaintenanceSummary (ObjectChange* ) >
+<!ATTLIST ActionMaintenanceSummary Action CDATA #REQUIRED Objects CDATA #REQUIRED Updated CDATA #REQUIRED LinesTotal CDATA #REQUIRED Added CDATA #REQUIRED LinesUpdated CDATA #REQUIRED>
+
+<!ELEMENT ObjectChange  (Hierarchy, PropertyChangeList* ) >
+<!ATTLIST ObjectChange Operation CDATA #IMPLIED OriginalRepository CDATA #IMPLIED>
+
+<!ELEMENT PropertyChangeList (PropertyDef*) >
+
+<!ELEMENT PropertyDef (OriginalValue, NewValue) >
+<!ATTLIST PropertyDef PropName CDATA #REQUIRED OriginRegularExpression (True|False) "False" NewRegularExpression (True|False) "False" AddedProperty (True|False) "False" >
+
+<!ELEMENT OriginalValue ( #PCDATA )>
+
+<!ELEMENT NewValue ( #PCDATA )>
+
+<!ELEMENT Hierarchy  (ObjectName, Hierarchy*) >
+<!ATTLIST Hierarchy MicClass CDATA #REQUIRED>
+
+<!ELEMENT ObjectName  ( #PCDATA ) >
+
+<!ELEMENT Step (Obj,Details,Time,TimeTick* ,(Step|HtmlStep|Doc)*, DataMapping?, NodeArgs) >
+<!ATTLIST Step rID ID #REQUIRED retval CDATA #IMPLIED>
+
+<!ELEMENT HtmlStep (HTML,TimeTick*,(Step|HtmlStep|Doc)*,NodeArgs) >
+<!ATTLIST HtmlStep rID ID #REQUIRED >
+
+<!ELEMENT Obj ( #PCDATA ) >
+<!ATTLIST Obj plainTxt (False|True) "True">
+
+<!ELEMENT Details ( #PCDATA ) >
+<!ATTLIST Details plainTxt (False|True) "True">
+
+<!ELEMENT Time ( #PCDATA ) >
+
+<!ELEMENT HTML ( #PCDATA ) >
+
+<!ELEMENT Disp ( #PCDATA ) >
+
+<!ELEMENT TimeTick ( #PCDATA ) >
+
+<!ELEMENT DataMapping ( DataMappedItem* )>
+<!ELEMENT DataMappedItem EMPTY >
+<!ATTLIST DataMappedItem dsName CDATA #REQUIRED >
+<!ATTLIST DataMappedItem rowId CDATA #REQUIRED >
+
+<!ELEMENT NodeArgs (Disp,TopPane?,BtmPane?,ExtendedInfo? )>
+<!ATTLIST NodeArgs eType CDATA #REQUIRED icon CDATA #REQUIRED nRep CDATA #REQUIRED UserNote CDATA #IMPLIED filter (False|True) "True">
+<!ATTLIST NodeArgs status (Passed|Failed|Done|Warning|Information) "Done">
+<!ATTLIST NodeArgs iconSel CDATA #IMPLIED nType CDATA #IMPLIED MovieMarker CDATA "">
+<!ATTLIST NodeArgs Source CDATA #IMPLIED SourceLine CDATA #IMPLIED StepFlowItemKey CDATA #IMPLIED >
+
+<!ELEMENT TopPane (Path)>
+
+<!ELEMENT BtmPane ( (Path|WR)?,ASHilite?)>
+<!ATTLIST BtmPane vType CDATA "HTML">
+
+<!ELEMENT Path ( #PCDATA ) >
+
+<!ELEMENT ASHilite ( #PCDATA ) >
+
+<!ELEMENT WR ( #PCDATA ) >
+
+<!ELEMENT ExtendedInfo ( StepData ) >
+
+<!ATTLIST ExtendedInfo StepType CDATA #REQUIRED>
+<!ELEMENT DT (NodeArgs) >
+<!ATTLIST DT rID ID #REQUIRED>
+
+<!ELEMENT Summary (Param*)>
+<!ATTLIST Summary sTime CDATA #IMPLIED eTime CDATA #IMPLIED passed CDATA #IMPLIED failed CDATA #IMPLIED warnings CDATA #IMPLIED retval CDATA #IMPLIED stopped (False|True) "False" >
+
+<!ELEMENT Param (ParamName,ParamVal)+ >
+<!ATTLIST Param paramInOut (In|Out) "In">
+
+<!ELEMENT ParamName ( #PCDATA ) >
+
+<!ELEMENT ParamVal ( #PCDATA ) >
+
+]
+>
+<Report ver="2.0" tmZone="中国标准时间">
+<General productName="HP Unified Functional Testing" productVer="12.0" os="Windows 7" host="KF0224"><DocLocation><![CDATA[C:\Users\922004\Desktop\孙洪斌\学习文档集\信贷项目\02.公共脚本\信用速贷（build）]]></DocLocation></General>
+<Doc rID="T1"   productName= "HP Unified Functional Testing"  >
+<DName><![CDATA[信用速贷（build）]]></DName>
+<Res><![CDATA[Res12]]></Res>
+<RunType fmStep="True" /><DT rID="T2">
+<NodeArgs eType="Table" icon="2" nRep="4" filter="False" >
+<Disp><![CDATA[Run-Time Data Table]]></Disp>
+<BtmPane vType="Table" >
+<Path><![CDATA[Default.xls]]></Path>
+</BtmPane>
+</NodeArgs>
+</DT>
+<Action rID="T3">
+<AName><![CDATA[3.3.1、客户详情]]></AName>
+<Step rID="T4">
+<Obj plainTxt="False" ><![CDATA[信用速贷申请]]></Obj>
+<Details plainTxt="False" ><![CDATA[Browser]]></Details>
+<Time><![CDATA[2019/2/28 - 13:06:40]]></Time>
+<TimeTick>1551330400</TimeTick>
+<Step rID="T5">
+<Obj plainTxt="False" ><![CDATA[信贷风险管理系统V7]]></Obj>
+<Details plainTxt="False" ><![CDATA[Window]]></Details>
+<Time><![CDATA[2019/2/28 - 13:06:40]]></Time>
+<TimeTick>1551330400</TimeTick>
+<Step rID="T6">
+<Obj plainTxt="False" ><![CDATA[信贷风险管理系统V7]]></Obj>
+<Details plainTxt="False" ><![CDATA[Page]]></Details>
+<Time><![CDATA[2019/2/28 - 13:06:40]]></Time>
+<TimeTick>1551330400</TimeTick>
+<Step rID="T7">
+<Obj plainTxt="False" ><![CDATA[myiframe0]]></Obj>
+<Details plainTxt="False" ><![CDATA[Frame]]></Details>
+<Time><![CDATA[2019/2/28 - 13:06:40]]></Time>
+<TimeTick>1551330400</TimeTick>
+<Step rID="T8">
+<Obj plainTxt="False" ><![CDATA["myiframe0"  - 智能标识]]></Obj>
+<Details plainTxt="False" ><![CDATA[<P><span class="text">已调用智能标识机制。</span></P><P><SPAN class=text>原因: 对象不唯一(已找到 2 个对象)</SPAN></P>           <SPAN class=text><b>原始描述:</b></SPAN><br>name=myiframe0<br>micclass=Frame<br><P><FONT face=Verdana size=2><SPAN class=text><B>智能标识可选描述:</B></SPAN></FONT></P><FONT face=Verdana size=2><u>基本筛选属性(已找到 19 个对象) &nbsp;</FONT></u><br>
+micclass=Frame<br><br><FONT face=Verdana size=2><u>可选筛选属性</FONT></u><br>
+name=myiframe0<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>title=<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>url=http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2019022812294020832522283102888<SPAN class=passed>(已使用</SPAN>，1 个匹配)</SPAN><br>]]></Details>
+<Time><![CDATA[2019/2/28 - 13:06:40]]></Time>
+<TimeTick>1551330400</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="12" Source="3.3.1、客户详情" SourceLine="-1" >
+<Disp><![CDATA["myiframe0"  - 智能标识]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T9">
+<Obj plainTxt="False" ><![CDATA["myiframe0"  - 智能标识]]></Obj>
+<Details plainTxt="False" ><![CDATA[<P><span class="text">已调用智能标识机制。</span></P><P><SPAN class=text>原因: 对象不唯一(已找到 2 个对象)</SPAN></P>           <SPAN class=text><b>原始描述:</b></SPAN><br>name=myiframe0<br>micclass=Frame<br><P><FONT face=Verdana size=2><SPAN class=text><B>智能标识可选描述:</B></SPAN></FONT></P><FONT face=Verdana size=2><u>基本筛选属性(已找到 19 个对象) &nbsp;</FONT></u><br>
+micclass=Frame<br><br><FONT face=Verdana size=2><u>可选筛选属性</FONT></u><br>
+name=myiframe0<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>title=<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>url=http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2019022812294020832522283102888<SPAN class=passed>(已使用</SPAN>，1 个匹配)</SPAN><br>]]></Details>
+<Time><![CDATA[2019/2/28 - 13:06:42]]></Time>
+<TimeTick>1551330402</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="14" Source="3.3.1、客户详情" SourceLine="-1" >
+<Disp><![CDATA["myiframe0"  - 智能标识]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="7" nRep="11" Source="3.3.1、客户详情" SourceLine="-1" >
+<Disp><![CDATA[myiframe0]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="6" nRep="10" Source="3.3.1、客户详情" SourceLine="-1" >
+<Disp><![CDATA[信贷风险管理系统V7]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="5" nRep="9" Source="3.3.1、客户详情" SourceLine="-1" >
+<Disp><![CDATA[信贷风险管理系统V7]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="4" nRep="8" Source="3.3.1、客户详情" SourceLine="-1" >
+<Disp><![CDATA[信用速贷申请]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T10">
+<Obj plainTxt="False" ><![CDATA[运行错误]]></Obj>
+<Details plainTxt="False" ><![CDATA[对象不支持此属性或方法: 'Browser(...).Window(...).Page(...).Frame(...).WebElement'<BR>第 (27) 行: &quot;Browser(&quot;信用速贷申请&quot;).Window(&quot;信贷风险管理系统V7&quot;).Page(&quot;信贷风险管理系统V7&quot;).Frame(&quot;myiframe0&quot;).WebElement(&quot;.()*不能为空！&quot;,&quot;index:=1&quot;).Highlight&quot;。 ]]></Details>
+<Time><![CDATA[2019/2/28 - 13:06:44]]></Time>
+<TimeTick>1551330404</TimeTick>
+<NodeArgs eType="Replay" icon="9" nRep="15" status="Failed" Source="3.3.1、客户详情" SourceLine="26" >
+<Disp><![CDATA[运行错误]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T11">
+<Obj plainTxt="False" ><![CDATA[停止运行]]></Obj>
+<Details plainTxt="False" ><![CDATA[用户停止运行。]]></Details>
+<Time><![CDATA[2019/2/28 - 13:06:47]]></Time>
+<TimeTick>1551330407</TimeTick>
+<NodeArgs eType="General" icon="10" nRep="16" >
+<Disp><![CDATA[停止运行]]></Disp>
+</NodeArgs>
+</Step>
+<Summary sTime="2019/2/28 - 13:06:40" eTime="2019/2/28 - 13:06:47" passed="0" failed="1" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="3" nRep="6" status="Failed" >
+<Disp><![CDATA[3.3.1、客户详情 摘要]]></Disp>
+</NodeArgs>
+</Action>
+<Summary sTime="2019/2/28 - 13:06:38" eTime="2019/2/28 - 13:06:47" passed="0" failed="1" warnings="0" ></Summary>
+<NodeArgs eType="StartTest" icon="1" nRep="3" status="Failed" >
+<Disp><![CDATA[测试 信用速贷（build） 摘要]]></Disp>
+</NodeArgs>
+</Doc>
+</Report>

@@ -1,0 +1,8 @@
+2019-04-10 15:55:43,933 - INFO - MainThread - 192.168.85.1 - pid:18016 - 添加案例！
+2019-04-10 15:55:43,937 - INFO - MainThread - 192.168.85.1 - pid:18016 - 设备通讯，通讯信息:{"deviceName":127.0.0.1:21503,"port":4703}
+2019-04-10 15:56:00,712 - INFO - MainThread - 192.168.85.1 - pid:18016 - 执行案例：001
+2019-04-10 15:56:00,713 - INFO - MainThread - 192.168.85.1 - pid:18016 - myrun()运行
+2019-04-10 15:56:00,728 - INFO - MainThread - 192.168.85.1 - pid:18016 - test_01
+2019-04-10 15:56:00,750 - INFO - MainThread - 192.168.85.1 - pid:18016 - 元素操作！
+2019-04-10 15:56:00,751 - INFO - MainThread - 192.168.85.1 - pid:18016 - click ; ('-android uiautomator', 'new UiSelector().text("账号")') ;  . 
+2019-04-10 15:56:00,753 - INFO - MainThread - 192.168.85.1 - pid:18016 - 点击元素：('-android uiautomator', 'new UiSelector().text("账号")')

@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 4.1.3.0
+Project("") = "信用速贷", "..\02.公共脚本\信用速贷\Test.tsp", "A6E1EC71-2C7D-409D-BF71-136FB3EB6DD5"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\922004\Desktop\孙洪斌\学习文档集\信贷项目\02.公共脚本\信用速贷\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+	EndProjectSection
+EndProject
+Project("") = "信用速贷（build）", "..\02.公共脚本\信用速贷（build）\Test.tsp", "B39E250D-F08E-4732-8D0F-6930BEB91130"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\922004\Desktop\孙洪斌\学习文档集\信贷项目\02.公共脚本\信用速贷（build）\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+	EndProjectSection
+EndProject
+Project("") = "消费类标准工薪贷", "..\01.测试脚本\信用速贷业务\消费类标准工薪贷\Test.tsp", "2532EC54-931C-42E8-B85D-14EBF7BA376C"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\922004\Desktop\孙洪斌\学习文档集\信贷项目\01.测试脚本\信用速贷业务\消费类标准工薪贷\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+	EndProjectSection
+EndProject
+Project("") = "信用速贷标准流程驱动", "..\01.测试脚本\信用速贷业务\信用速贷标准流程驱动\Test.tsp", "EDDE546D-8111-468B-B792-515DDCE78255"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\922004\Desktop\孙洪斌\学习文档集\信贷项目\01.测试脚本\信用速贷业务\信用速贷标准流程驱动\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+	EndProjectSection
+EndProject
+Project("") = "经营类标准信用速贷", "..\01.测试脚本\信用速贷业务\经营类标准信用速贷\Test.tsp", "1AD6A9AF-CC71-4226-91CD-567EE6940DFD"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\922004\Desktop\孙洪斌\学习文档集\信贷项目\01.测试脚本\信用速贷业务\经营类标准信用速贷\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+	EndProjectSection
+EndProject
+Project("") = "测试脚本驱动", "..\01.测试脚本\测试脚本驱动\Test.tsp", "8222E90F-A7B4-4517-BD7E-B87462BBE536"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\922004\Desktop\孙洪斌\学习文档集\信贷项目\01.测试脚本\测试脚本驱动\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		A6E1EC71-2C7D-409D-BF71-136FB3EB6DD5.Debug|Any CPU.Build.0 = Debug|Any CPU
+		A6E1EC71-2C7D-409D-BF71-136FB3EB6DD5.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		A6E1EC71-2C7D-409D-BF71-136FB3EB6DD5.Release|Any CPU.Build.0 = Release|Any CPU
+		A6E1EC71-2C7D-409D-BF71-136FB3EB6DD5.Release|Any CPU.ActiveCfg = Release|Any CPU
+		B39E250D-F08E-4732-8D0F-6930BEB91130.Debug|Any CPU.Build.0 = Debug|Any CPU
+		B39E250D-F08E-4732-8D0F-6930BEB91130.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		B39E250D-F08E-4732-8D0F-6930BEB91130.Release|Any CPU.Build.0 = Release|Any CPU
+		B39E250D-F08E-4732-8D0F-6930BEB91130.Release|Any CPU.ActiveCfg = Release|Any CPU
+		2532EC54-931C-42E8-B85D-14EBF7BA376C.Debug|Any CPU.Build.0 = Debug|Any CPU
+		2532EC54-931C-42E8-B85D-14EBF7BA376C.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		2532EC54-931C-42E8-B85D-14EBF7BA376C.Release|Any CPU.Build.0 = Release|Any CPU
+		2532EC54-931C-42E8-B85D-14EBF7BA376C.Release|Any CPU.ActiveCfg = Release|Any CPU
+		EDDE546D-8111-468B-B792-515DDCE78255.Debug|Any CPU.Build.0 = Debug|Any CPU
+		EDDE546D-8111-468B-B792-515DDCE78255.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		EDDE546D-8111-468B-B792-515DDCE78255.Release|Any CPU.Build.0 = Release|Any CPU
+		EDDE546D-8111-468B-B792-515DDCE78255.Release|Any CPU.ActiveCfg = Release|Any CPU
+		1AD6A9AF-CC71-4226-91CD-567EE6940DFD.Debug|Any CPU.Build.0 = Debug|Any CPU
+		1AD6A9AF-CC71-4226-91CD-567EE6940DFD.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		1AD6A9AF-CC71-4226-91CD-567EE6940DFD.Release|Any CPU.Build.0 = Release|Any CPU
+		1AD6A9AF-CC71-4226-91CD-567EE6940DFD.Release|Any CPU.ActiveCfg = Release|Any CPU
+		8222E90F-A7B4-4517-BD7E-B87462BBE536.Debug|Any CPU.Build.0 = Debug|Any CPU
+		8222E90F-A7B4-4517-BD7E-B87462BBE536.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		8222E90F-A7B4-4517-BD7E-B87462BBE536.Release|Any CPU.Build.0 = Release|Any CPU
+		8222E90F-A7B4-4517-BD7E-B87462BBE536.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal

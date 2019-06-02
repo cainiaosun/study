@@ -1,0 +1,841 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE Report
+[
+<!ELEMENT Report (General ,(Doc|BPT)) >
+<!ATTLIST Report ver CDATA #REQUIRED tmZone CDATA #REQUIRED>
+
+<!ELEMENT General ( DocLocation ) >
+<!ATTLIST General productName CDATA #REQUIRED productVer CDATA #REQUIRED os CDATA #REQUIRED host CDATA #REQUIRED qcserver CDATA #IMPLIED qcproject CDATA #IMPLIED SolManSolutionId CDATA #IMPLIED SolManProjectId CDATA #IMPLIED SolManTestPlanId CDATA #IMPLIED SolManTestPackageId CDATA #IMPLIED SolManUserInfoData CDATA #IMPLIED  >
+
+<!ELEMENT BPT (DName,Res,DVer?,TSet?,TInst?,NodeArgs,AdditionalInfo*,Doc*) >
+<!ATTLIST BPT rID ID #REQUIRED >
+
+<!ELEMENT Doc (DName,ConfName?,Res,DVer?,TSet?,TInst?,RunType?,DT?,AdditionalInfo*,Step*,DIter*,Step*,Action*,Doc*,Summary?,TestMaintenanceSummary*,NodeArgs?) >
+<!ATTLIST Doc rID ID #REQUIRED type (Test|BC|BPTWrapperTest|Flow|Group|Action) "Test" productName CDATA #REQUIRED BCIter CDATA #IMPLIED >
+
+<!ELEMENT RunType ( #PCDATA )>
+<!ATTLIST RunType fmStep (False|True) "False" batch (False|True) "False" upDesc (False|True) "False" upChk (False|True) "False" upAS (False|True) "False">
+
+<!ELEMENT DName ( #PCDATA ) >
+
+<!ELEMENT ConfName ( #PCDATA ) >
+
+<!ELEMENT Res ( #PCDATA ) >
+
+<!ELEMENT AdditionalInfo (AdditionalDataName,AdditionalDataValue ) >
+
+<!ELEMENT AdditionalDataName ( #PCDATA ) >
+
+<!ELEMENT AdditionalDataValue ( #PCDATA ) >
+
+<!ELEMENT DVer ( #PCDATA ) >
+
+<!ELEMENT TSet ( #PCDATA ) >
+
+<!ELEMENT TInst ( #PCDATA ) >
+
+<!ELEMENT DIter (Step*,Action+,Summary?,NodeArgs)>
+<!ATTLIST DIter rID ID #REQUIRED iterID CDATA #REQUIRED>
+
+<!ELEMENT DocLocation ( #PCDATA )>
+
+<!ELEMENT Action (AName,AIter*,(Step|HtmlStep|Action)*, Summary,ActionMaintenanceSummary*, NodeArgs ) >
+<!ATTLIST Action rID ID #REQUIRED>
+
+<!ELEMENT AIter ((Step|HtmlStep|Action)*,DataMapping?, Summary?,NodeArgs) >
+<!ATTLIST AIter rID ID #REQUIRED iterID CDATA #REQUIRED isCountable (False|True) "False" >
+
+<!ELEMENT AName ( #PCDATA ) >
+
+<!ELEMENT TestMaintenanceSummary (ActionMaintenanceSummary*) >
+<!ATTLIST TestMaintenanceSummary ObjectsAdded CDATA #REQUIRED ObjectsUpdated CDATA #REQUIRED StepsUpdated CDATA #REQUIRED StepsComments CDATA #REQUIRED><!ELEMENT ActionMaintenanceSummary (ObjectChange* ) >
+<!ATTLIST ActionMaintenanceSummary Action CDATA #REQUIRED Objects CDATA #REQUIRED Updated CDATA #REQUIRED LinesTotal CDATA #REQUIRED Added CDATA #REQUIRED LinesUpdated CDATA #REQUIRED>
+
+<!ELEMENT ObjectChange  (Hierarchy, PropertyChangeList* ) >
+<!ATTLIST ObjectChange Operation CDATA #IMPLIED OriginalRepository CDATA #IMPLIED>
+
+<!ELEMENT PropertyChangeList (PropertyDef*) >
+
+<!ELEMENT PropertyDef (OriginalValue, NewValue) >
+<!ATTLIST PropertyDef PropName CDATA #REQUIRED OriginRegularExpression (True|False) "False" NewRegularExpression (True|False) "False" AddedProperty (True|False) "False" >
+
+<!ELEMENT OriginalValue ( #PCDATA )>
+
+<!ELEMENT NewValue ( #PCDATA )>
+
+<!ELEMENT Hierarchy  (ObjectName, Hierarchy*) >
+<!ATTLIST Hierarchy MicClass CDATA #REQUIRED>
+
+<!ELEMENT ObjectName  ( #PCDATA ) >
+
+<!ELEMENT Step (Obj,Details,Time,TimeTick* ,(Step|HtmlStep|Doc)*, DataMapping?, NodeArgs) >
+<!ATTLIST Step rID ID #REQUIRED retval CDATA #IMPLIED>
+
+<!ELEMENT HtmlStep (HTML,TimeTick*,(Step|HtmlStep|Doc)*,NodeArgs) >
+<!ATTLIST HtmlStep rID ID #REQUIRED >
+
+<!ELEMENT Obj ( #PCDATA ) >
+<!ATTLIST Obj plainTxt (False|True) "True">
+
+<!ELEMENT Details ( #PCDATA ) >
+<!ATTLIST Details plainTxt (False|True) "True">
+
+<!ELEMENT Time ( #PCDATA ) >
+
+<!ELEMENT HTML ( #PCDATA ) >
+
+<!ELEMENT Disp ( #PCDATA ) >
+
+<!ELEMENT TimeTick ( #PCDATA ) >
+
+<!ELEMENT DataMapping ( DataMappedItem* )>
+<!ELEMENT DataMappedItem EMPTY >
+<!ATTLIST DataMappedItem dsName CDATA #REQUIRED >
+<!ATTLIST DataMappedItem rowId CDATA #REQUIRED >
+
+<!ELEMENT NodeArgs (Disp,TopPane?,BtmPane?,ExtendedInfo? )>
+<!ATTLIST NodeArgs eType CDATA #REQUIRED icon CDATA #REQUIRED nRep CDATA #REQUIRED UserNote CDATA #IMPLIED filter (False|True) "True">
+<!ATTLIST NodeArgs status (Passed|Failed|Done|Warning|Information) "Done">
+<!ATTLIST NodeArgs iconSel CDATA #IMPLIED nType CDATA #IMPLIED MovieMarker CDATA "">
+<!ATTLIST NodeArgs Source CDATA #IMPLIED SourceLine CDATA #IMPLIED StepFlowItemKey CDATA #IMPLIED >
+
+<!ELEMENT TopPane (Path)>
+
+<!ELEMENT BtmPane ( (Path|WR)?,ASHilite?)>
+<!ATTLIST BtmPane vType CDATA "HTML">
+
+<!ELEMENT Path ( #PCDATA ) >
+
+<!ELEMENT ASHilite ( #PCDATA ) >
+
+<!ELEMENT WR ( #PCDATA ) >
+
+<!ELEMENT ExtendedInfo ( StepData ) >
+
+<!ATTLIST ExtendedInfo StepType CDATA #REQUIRED>
+<!ELEMENT DT (NodeArgs) >
+<!ATTLIST DT rID ID #REQUIRED>
+
+<!ELEMENT Summary (Param*)>
+<!ATTLIST Summary sTime CDATA #IMPLIED eTime CDATA #IMPLIED passed CDATA #IMPLIED failed CDATA #IMPLIED warnings CDATA #IMPLIED retval CDATA #IMPLIED stopped (False|True) "False" >
+
+<!ELEMENT Param (ParamName,ParamVal)+ >
+<!ATTLIST Param paramInOut (In|Out) "In">
+
+<!ELEMENT ParamName ( #PCDATA ) >
+
+<!ELEMENT ParamVal ( #PCDATA ) >
+
+]
+>
+<Report ver="2.0" tmZone="中国标准时间">
+<General productName="HP Unified Functional Testing" productVer="12.0" os="Windows 7" host="KF0224"><DocLocation><![CDATA[C:\Users\922004\Desktop\孙洪斌\学习文档集\信贷项目\02.公共脚本\信用速贷（build）]]></DocLocation></General>
+<Doc rID="T1"   productName= "HP Unified Functional Testing"  >
+<DName><![CDATA[信用速贷（build）]]></DName>
+<Res><![CDATA[Res13]]></Res>
+<RunType fmStep="True" /><DT rID="T2">
+<NodeArgs eType="Table" icon="2" nRep="4" filter="False" >
+<Disp><![CDATA[Run-Time Data Table]]></Disp>
+<BtmPane vType="Table" >
+<Path><![CDATA[Default.xls]]></Path>
+</BtmPane>
+</NodeArgs>
+</DT>
+<Action rID="T3">
+<AName><![CDATA[3.3.1、客户详情]]></AName>
+<Step rID="T4">
+<Obj plainTxt="False" ><![CDATA[信用速贷申请]]></Obj>
+<Details plainTxt="False" ><![CDATA[Browser]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:12]]></Time>
+<TimeTick>1551330432</TimeTick>
+<Step rID="T5">
+<Obj plainTxt="False" ><![CDATA[信贷风险管理系统V7]]></Obj>
+<Details plainTxt="False" ><![CDATA[Window]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:12]]></Time>
+<TimeTick>1551330432</TimeTick>
+<Step rID="T6">
+<Obj plainTxt="False" ><![CDATA[信贷风险管理系统V7]]></Obj>
+<Details plainTxt="False" ><![CDATA[Page]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:12]]></Time>
+<TimeTick>1551330432</TimeTick>
+<Step rID="T7">
+<Obj plainTxt="False" ><![CDATA[myiframe0]]></Obj>
+<Details plainTxt="False" ><![CDATA[Frame]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:12]]></Time>
+<TimeTick>1551330432</TimeTick>
+<Step rID="T8">
+<Obj plainTxt="False" ><![CDATA["myiframe0"  - 智能标识]]></Obj>
+<Details plainTxt="False" ><![CDATA[<P><span class="text">已调用智能标识机制。</span></P><P><SPAN class=text>原因: 对象不唯一(已找到 2 个对象)</SPAN></P>           <SPAN class=text><b>原始描述:</b></SPAN><br>name=myiframe0<br>micclass=Frame<br><P><FONT face=Verdana size=2><SPAN class=text><B>智能标识可选描述:</B></SPAN></FONT></P><FONT face=Verdana size=2><u>基本筛选属性(已找到 19 个对象) &nbsp;</FONT></u><br>
+micclass=Frame<br><br><FONT face=Verdana size=2><u>可选筛选属性</FONT></u><br>
+name=myiframe0<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>title=<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>url=http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2019022812294020832522283102888<SPAN class=passed>(已使用</SPAN>，1 个匹配)</SPAN><br>]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:12]]></Time>
+<TimeTick>1551330432</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="12" Source="3.3.1、客户详情" SourceLine="-1" >
+<Disp><![CDATA["myiframe0"  - 智能标识]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T9">
+<Obj plainTxt="False" ><![CDATA["myiframe0"  - 智能标识]]></Obj>
+<Details plainTxt="False" ><![CDATA[<P><span class="text">已调用智能标识机制。</span></P><P><SPAN class=text>原因: 对象不唯一(已找到 2 个对象)</SPAN></P>           <SPAN class=text><b>原始描述:</b></SPAN><br>name=myiframe0<br>micclass=Frame<br><P><FONT face=Verdana size=2><SPAN class=text><B>智能标识可选描述:</B></SPAN></FONT></P><FONT face=Verdana size=2><u>基本筛选属性(已找到 19 个对象) &nbsp;</FONT></u><br>
+micclass=Frame<br><br><FONT face=Verdana size=2><u>可选筛选属性</FONT></u><br>
+name=myiframe0<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>title=<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>url=http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2019022812294020832522283102888<SPAN class=passed>(已使用</SPAN>，1 个匹配)</SPAN><br>]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:14]]></Time>
+<TimeTick>1551330434</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="14" Source="3.3.1、客户详情" SourceLine="-1" >
+<Disp><![CDATA["myiframe0"  - 智能标识]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T10">
+<Obj plainTxt="False" ><![CDATA["myiframe0"  - 智能标识]]></Obj>
+<Details plainTxt="False" ><![CDATA[<P><span class="text">已调用智能标识机制。</span></P><P><SPAN class=text>原因: 对象不唯一(已找到 2 个对象)</SPAN></P>           <SPAN class=text><b>原始描述:</b></SPAN><br>name=myiframe0<br>micclass=Frame<br><P><FONT face=Verdana size=2><SPAN class=text><B>智能标识可选描述:</B></SPAN></FONT></P><FONT face=Verdana size=2><u>基本筛选属性(已找到 19 个对象) &nbsp;</FONT></u><br>
+micclass=Frame<br><br><FONT face=Verdana size=2><u>可选筛选属性</FONT></u><br>
+name=myiframe0<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>title=<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>url=http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2019022812294020832522283102888<SPAN class=passed>(已使用</SPAN>，1 个匹配)</SPAN><br>]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:15]]></Time>
+<TimeTick>1551330435</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="16" Source="3.3.1、客户详情" SourceLine="-1" >
+<Disp><![CDATA["myiframe0"  - 智能标识]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T11">
+<Obj plainTxt="False" ><![CDATA["myiframe0"  - 智能标识]]></Obj>
+<Details plainTxt="False" ><![CDATA[<P><span class="text">已调用智能标识机制。</span></P><P><SPAN class=text>原因: 对象不唯一(已找到 2 个对象)</SPAN></P>           <SPAN class=text><b>原始描述:</b></SPAN><br>name=myiframe0<br>micclass=Frame<br><P><FONT face=Verdana size=2><SPAN class=text><B>智能标识可选描述:</B></SPAN></FONT></P><FONT face=Verdana size=2><u>基本筛选属性(已找到 19 个对象) &nbsp;</FONT></u><br>
+micclass=Frame<br><br><FONT face=Verdana size=2><u>可选筛选属性</FONT></u><br>
+name=myiframe0<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>title=<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>url=http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2019022812294020832522283102888<SPAN class=passed>(已使用</SPAN>，1 个匹配)</SPAN><br>]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:16]]></Time>
+<TimeTick>1551330436</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="18" Source="3.3.1、客户详情" SourceLine="-1" >
+<Disp><![CDATA["myiframe0"  - 智能标识]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T12">
+<Obj plainTxt="False" ><![CDATA["myiframe0"  - 智能标识]]></Obj>
+<Details plainTxt="False" ><![CDATA[<P><span class="text">已调用智能标识机制。</span></P><P><SPAN class=text>原因: 对象不唯一(已找到 2 个对象)</SPAN></P>           <SPAN class=text><b>原始描述:</b></SPAN><br>name=myiframe0<br>micclass=Frame<br><P><FONT face=Verdana size=2><SPAN class=text><B>智能标识可选描述:</B></SPAN></FONT></P><FONT face=Verdana size=2><u>基本筛选属性(已找到 19 个对象) &nbsp;</FONT></u><br>
+micclass=Frame<br><br><FONT face=Verdana size=2><u>可选筛选属性</FONT></u><br>
+name=myiframe0<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>title=<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>url=http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2019022812294020832522283102888<SPAN class=passed>(已使用</SPAN>，1 个匹配)</SPAN><br>]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:17]]></Time>
+<TimeTick>1551330437</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="20" Source="3.3.1、客户详情" SourceLine="-1" >
+<Disp><![CDATA["myiframe0"  - 智能标识]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T13">
+<Obj plainTxt="False" ><![CDATA["myiframe0"  - 智能标识]]></Obj>
+<Details plainTxt="False" ><![CDATA[<P><span class="text">已调用智能标识机制。</span></P><P><SPAN class=text>原因: 对象不唯一(已找到 2 个对象)</SPAN></P>           <SPAN class=text><b>原始描述:</b></SPAN><br>name=myiframe0<br>micclass=Frame<br><P><FONT face=Verdana size=2><SPAN class=text><B>智能标识可选描述:</B></SPAN></FONT></P><FONT face=Verdana size=2><u>基本筛选属性(已找到 19 个对象) &nbsp;</FONT></u><br>
+micclass=Frame<br><br><FONT face=Verdana size=2><u>可选筛选属性</FONT></u><br>
+name=myiframe0<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>title=<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>url=http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2019022812294020832522283102888<SPAN class=passed>(已使用</SPAN>，1 个匹配)</SPAN><br>]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:18]]></Time>
+<TimeTick>1551330438</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="22" Source="3.3.1、客户详情" SourceLine="-1" >
+<Disp><![CDATA["myiframe0"  - 智能标识]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T14">
+<Obj plainTxt="False" ><![CDATA["myiframe0"  - 智能标识]]></Obj>
+<Details plainTxt="False" ><![CDATA[<P><span class="text">已调用智能标识机制。</span></P><P><SPAN class=text>原因: 对象不唯一(已找到 2 个对象)</SPAN></P>           <SPAN class=text><b>原始描述:</b></SPAN><br>name=myiframe0<br>micclass=Frame<br><P><FONT face=Verdana size=2><SPAN class=text><B>智能标识可选描述:</B></SPAN></FONT></P><FONT face=Verdana size=2><u>基本筛选属性(已找到 19 个对象) &nbsp;</FONT></u><br>
+micclass=Frame<br><br><FONT face=Verdana size=2><u>可选筛选属性</FONT></u><br>
+name=myiframe0<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>title=<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>url=http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2019022812294020832522283102888<SPAN class=passed>(已使用</SPAN>，1 个匹配)</SPAN><br>]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:19]]></Time>
+<TimeTick>1551330439</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="24" Source="3.3.1、客户详情" SourceLine="-1" >
+<Disp><![CDATA["myiframe0"  - 智能标识]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T15">
+<Obj plainTxt="False" ><![CDATA["myiframe0"  - 智能标识]]></Obj>
+<Details plainTxt="False" ><![CDATA[<P><span class="text">已调用智能标识机制。</span></P><P><SPAN class=text>原因: 对象不唯一(已找到 2 个对象)</SPAN></P>           <SPAN class=text><b>原始描述:</b></SPAN><br>name=myiframe0<br>micclass=Frame<br><P><FONT face=Verdana size=2><SPAN class=text><B>智能标识可选描述:</B></SPAN></FONT></P><FONT face=Verdana size=2><u>基本筛选属性(已找到 19 个对象) &nbsp;</FONT></u><br>
+micclass=Frame<br><br><FONT face=Verdana size=2><u>可选筛选属性</FONT></u><br>
+name=myiframe0<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>title=<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>url=http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2019022812294020832522283102888<SPAN class=passed>(已使用</SPAN>，1 个匹配)</SPAN><br>]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:19]]></Time>
+<TimeTick>1551330439</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="26" Source="3.3.1、客户详情" SourceLine="-1" >
+<Disp><![CDATA["myiframe0"  - 智能标识]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T16">
+<Obj plainTxt="False" ><![CDATA["myiframe0"  - 智能标识]]></Obj>
+<Details plainTxt="False" ><![CDATA[<P><span class="text">已调用智能标识机制。</span></P><P><SPAN class=text>原因: 对象不唯一(已找到 2 个对象)</SPAN></P>           <SPAN class=text><b>原始描述:</b></SPAN><br>name=myiframe0<br>micclass=Frame<br><P><FONT face=Verdana size=2><SPAN class=text><B>智能标识可选描述:</B></SPAN></FONT></P><FONT face=Verdana size=2><u>基本筛选属性(已找到 19 个对象) &nbsp;</FONT></u><br>
+micclass=Frame<br><br><FONT face=Verdana size=2><u>可选筛选属性</FONT></u><br>
+name=myiframe0<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>title=<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>url=http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2019022812294020832522283102888<SPAN class=passed>(已使用</SPAN>，1 个匹配)</SPAN><br>]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:20]]></Time>
+<TimeTick>1551330440</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="28" Source="3.3.1、客户详情" SourceLine="-1" >
+<Disp><![CDATA["myiframe0"  - 智能标识]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T17">
+<Obj plainTxt="False" ><![CDATA["myiframe0"  - 智能标识]]></Obj>
+<Details plainTxt="False" ><![CDATA[<P><span class="text">已调用智能标识机制。</span></P><P><SPAN class=text>原因: 对象不唯一(已找到 2 个对象)</SPAN></P>           <SPAN class=text><b>原始描述:</b></SPAN><br>name=myiframe0<br>micclass=Frame<br><P><FONT face=Verdana size=2><SPAN class=text><B>智能标识可选描述:</B></SPAN></FONT></P><FONT face=Verdana size=2><u>基本筛选属性(已找到 19 个对象) &nbsp;</FONT></u><br>
+micclass=Frame<br><br><FONT face=Verdana size=2><u>可选筛选属性</FONT></u><br>
+name=myiframe0<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>title=<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>url=http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2019022812294020832522283102888<SPAN class=passed>(已使用</SPAN>，1 个匹配)</SPAN><br>]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:21]]></Time>
+<TimeTick>1551330441</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="30" Source="3.3.1、客户详情" SourceLine="-1" >
+<Disp><![CDATA["myiframe0"  - 智能标识]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T18">
+<Obj plainTxt="False" ><![CDATA["myiframe0"  - 智能标识]]></Obj>
+<Details plainTxt="False" ><![CDATA[<P><span class="text">已调用智能标识机制。</span></P><P><SPAN class=text>原因: 对象不唯一(已找到 2 个对象)</SPAN></P>           <SPAN class=text><b>原始描述:</b></SPAN><br>name=myiframe0<br>micclass=Frame<br><P><FONT face=Verdana size=2><SPAN class=text><B>智能标识可选描述:</B></SPAN></FONT></P><FONT face=Verdana size=2><u>基本筛选属性(已找到 19 个对象) &nbsp;</FONT></u><br>
+micclass=Frame<br><br><FONT face=Verdana size=2><u>可选筛选属性</FONT></u><br>
+name=myiframe0<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>title=<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>url=http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2019022812294020832522283102888<SPAN class=passed>(已使用</SPAN>，1 个匹配)</SPAN><br>]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:22]]></Time>
+<TimeTick>1551330442</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="32" Source="3.3.1、客户详情" SourceLine="-1" >
+<Disp><![CDATA["myiframe0"  - 智能标识]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T19">
+<Obj plainTxt="False" ><![CDATA["myiframe0"  - 智能标识]]></Obj>
+<Details plainTxt="False" ><![CDATA[<P><span class="text">已调用智能标识机制。</span></P><P><SPAN class=text>原因: 对象不唯一(已找到 2 个对象)</SPAN></P>           <SPAN class=text><b>原始描述:</b></SPAN><br>name=myiframe0<br>micclass=Frame<br><P><FONT face=Verdana size=2><SPAN class=text><B>智能标识可选描述:</B></SPAN></FONT></P><FONT face=Verdana size=2><u>基本筛选属性(已找到 19 个对象) &nbsp;</FONT></u><br>
+micclass=Frame<br><br><FONT face=Verdana size=2><u>可选筛选属性</FONT></u><br>
+name=myiframe0<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>title=<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>url=http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2019022812294020832522283102888<SPAN class=passed>(已使用</SPAN>，1 个匹配)</SPAN><br>]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:23]]></Time>
+<TimeTick>1551330443</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="34" Source="3.3.1、客户详情" SourceLine="-1" >
+<Disp><![CDATA["myiframe0"  - 智能标识]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T20">
+<Obj plainTxt="False" ><![CDATA["myiframe0"  - 智能标识]]></Obj>
+<Details plainTxt="False" ><![CDATA[<P><span class="text">已调用智能标识机制。</span></P><P><SPAN class=text>原因: 对象不唯一(已找到 2 个对象)</SPAN></P>           <SPAN class=text><b>原始描述:</b></SPAN><br>name=myiframe0<br>micclass=Frame<br><P><FONT face=Verdana size=2><SPAN class=text><B>智能标识可选描述:</B></SPAN></FONT></P><FONT face=Verdana size=2><u>基本筛选属性(已找到 19 个对象) &nbsp;</FONT></u><br>
+micclass=Frame<br><br><FONT face=Verdana size=2><u>可选筛选属性</FONT></u><br>
+name=myiframe0<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>title=<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>url=http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2019022812294020832522283102888<SPAN class=passed>(已使用</SPAN>，1 个匹配)</SPAN><br>]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:24]]></Time>
+<TimeTick>1551330444</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="36" Source="3.3.1、客户详情" SourceLine="-1" >
+<Disp><![CDATA["myiframe0"  - 智能标识]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T21">
+<Obj plainTxt="False" ><![CDATA["myiframe0"  - 智能标识]]></Obj>
+<Details plainTxt="False" ><![CDATA[<P><span class="text">已调用智能标识机制。</span></P><P><SPAN class=text>原因: 对象不唯一(已找到 2 个对象)</SPAN></P>           <SPAN class=text><b>原始描述:</b></SPAN><br>name=myiframe0<br>micclass=Frame<br><P><FONT face=Verdana size=2><SPAN class=text><B>智能标识可选描述:</B></SPAN></FONT></P><FONT face=Verdana size=2><u>基本筛选属性(已找到 19 个对象) &nbsp;</FONT></u><br>
+micclass=Frame<br><br><FONT face=Verdana size=2><u>可选筛选属性</FONT></u><br>
+name=myiframe0<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>title=<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>url=http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2019022812294020832522283102888<SPAN class=passed>(已使用</SPAN>，1 个匹配)</SPAN><br>]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:25]]></Time>
+<TimeTick>1551330445</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="38" Source="3.3.1、客户详情" SourceLine="-1" >
+<Disp><![CDATA["myiframe0"  - 智能标识]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T22">
+<Obj plainTxt="False" ><![CDATA["myiframe0"  - 智能标识]]></Obj>
+<Details plainTxt="False" ><![CDATA[<P><span class="text">已调用智能标识机制。</span></P><P><SPAN class=text>原因: 对象不唯一(已找到 2 个对象)</SPAN></P>           <SPAN class=text><b>原始描述:</b></SPAN><br>name=myiframe0<br>micclass=Frame<br><P><FONT face=Verdana size=2><SPAN class=text><B>智能标识可选描述:</B></SPAN></FONT></P><FONT face=Verdana size=2><u>基本筛选属性(已找到 19 个对象) &nbsp;</FONT></u><br>
+micclass=Frame<br><br><FONT face=Verdana size=2><u>可选筛选属性</FONT></u><br>
+name=myiframe0<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>title=<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>url=http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2019022812294020832522283102888<SPAN class=passed>(已使用</SPAN>，1 个匹配)</SPAN><br>]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:26]]></Time>
+<TimeTick>1551330446</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="40" Source="3.3.1、客户详情" SourceLine="-1" >
+<Disp><![CDATA["myiframe0"  - 智能标识]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T23">
+<Obj plainTxt="False" ><![CDATA["myiframe0"  - 智能标识]]></Obj>
+<Details plainTxt="False" ><![CDATA[<P><span class="text">已调用智能标识机制。</span></P><P><SPAN class=text>原因: 对象不唯一(已找到 2 个对象)</SPAN></P>           <SPAN class=text><b>原始描述:</b></SPAN><br>name=myiframe0<br>micclass=Frame<br><P><FONT face=Verdana size=2><SPAN class=text><B>智能标识可选描述:</B></SPAN></FONT></P><FONT face=Verdana size=2><u>基本筛选属性(已找到 19 个对象) &nbsp;</FONT></u><br>
+micclass=Frame<br><br><FONT face=Verdana size=2><u>可选筛选属性</FONT></u><br>
+name=myiframe0<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>title=<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>url=http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2019022812294020832522283102888<SPAN class=passed>(已使用</SPAN>，1 个匹配)</SPAN><br>]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:26]]></Time>
+<TimeTick>1551330446</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="42" Source="3.3.1、客户详情" SourceLine="-1" >
+<Disp><![CDATA["myiframe0"  - 智能标识]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T24">
+<Obj plainTxt="False" ><![CDATA["myiframe0"  - 智能标识]]></Obj>
+<Details plainTxt="False" ><![CDATA[<P><span class="text">已调用智能标识机制。</span></P><P><SPAN class=text>原因: 对象不唯一(已找到 2 个对象)</SPAN></P>           <SPAN class=text><b>原始描述:</b></SPAN><br>name=myiframe0<br>micclass=Frame<br><P><FONT face=Verdana size=2><SPAN class=text><B>智能标识可选描述:</B></SPAN></FONT></P><FONT face=Verdana size=2><u>基本筛选属性(已找到 19 个对象) &nbsp;</FONT></u><br>
+micclass=Frame<br><br><FONT face=Verdana size=2><u>可选筛选属性</FONT></u><br>
+name=myiframe0<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>title=<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>url=http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2019022812294020832522283102888<SPAN class=passed>(已使用</SPAN>，1 个匹配)</SPAN><br>]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:27]]></Time>
+<TimeTick>1551330447</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="44" Source="3.3.1、客户详情" SourceLine="-1" >
+<Disp><![CDATA["myiframe0"  - 智能标识]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T25">
+<Obj plainTxt="False" ><![CDATA["myiframe0"  - 智能标识]]></Obj>
+<Details plainTxt="False" ><![CDATA[<P><span class="text">已调用智能标识机制。</span></P><P><SPAN class=text>原因: 对象不唯一(已找到 2 个对象)</SPAN></P>           <SPAN class=text><b>原始描述:</b></SPAN><br>name=myiframe0<br>micclass=Frame<br><P><FONT face=Verdana size=2><SPAN class=text><B>智能标识可选描述:</B></SPAN></FONT></P><FONT face=Verdana size=2><u>基本筛选属性(已找到 19 个对象) &nbsp;</FONT></u><br>
+micclass=Frame<br><br><FONT face=Verdana size=2><u>可选筛选属性</FONT></u><br>
+name=myiframe0<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>title=<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>url=http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2019022812294020832522283102888<SPAN class=passed>(已使用</SPAN>，1 个匹配)</SPAN><br>]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:28]]></Time>
+<TimeTick>1551330448</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="46" Source="3.3.1、客户详情" SourceLine="-1" >
+<Disp><![CDATA["myiframe0"  - 智能标识]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T26">
+<Obj plainTxt="False" ><![CDATA["myiframe0"  - 智能标识]]></Obj>
+<Details plainTxt="False" ><![CDATA[<P><span class="text">已调用智能标识机制。</span></P><P><SPAN class=text>原因: 对象不唯一(已找到 2 个对象)</SPAN></P>           <SPAN class=text><b>原始描述:</b></SPAN><br>name=myiframe0<br>micclass=Frame<br><P><FONT face=Verdana size=2><SPAN class=text><B>智能标识可选描述:</B></SPAN></FONT></P><FONT face=Verdana size=2><u>基本筛选属性(已找到 19 个对象) &nbsp;</FONT></u><br>
+micclass=Frame<br><br><FONT face=Verdana size=2><u>可选筛选属性</FONT></u><br>
+name=myiframe0<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>title=<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>url=http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2019022812294020832522283102888<SPAN class=passed>(已使用</SPAN>，1 个匹配)</SPAN><br>]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:29]]></Time>
+<TimeTick>1551330449</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="48" Source="3.3.1、客户详情" SourceLine="-1" >
+<Disp><![CDATA["myiframe0"  - 智能标识]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T27">
+<Obj plainTxt="False" ><![CDATA["myiframe0"  - 智能标识]]></Obj>
+<Details plainTxt="False" ><![CDATA[<P><span class="text">已调用智能标识机制。</span></P><P><SPAN class=text>原因: 对象不唯一(已找到 2 个对象)</SPAN></P>           <SPAN class=text><b>原始描述:</b></SPAN><br>name=myiframe0<br>micclass=Frame<br><P><FONT face=Verdana size=2><SPAN class=text><B>智能标识可选描述:</B></SPAN></FONT></P><FONT face=Verdana size=2><u>基本筛选属性(已找到 19 个对象) &nbsp;</FONT></u><br>
+micclass=Frame<br><br><FONT face=Verdana size=2><u>可选筛选属性</FONT></u><br>
+name=myiframe0<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>title=<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>url=http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2019022812294020832522283102888<SPAN class=passed>(已使用</SPAN>，1 个匹配)</SPAN><br>]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:30]]></Time>
+<TimeTick>1551330450</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="50" Source="3.3.1、客户详情" SourceLine="-1" >
+<Disp><![CDATA["myiframe0"  - 智能标识]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T28">
+<Obj plainTxt="False" ><![CDATA["myiframe0"  - 智能标识]]></Obj>
+<Details plainTxt="False" ><![CDATA[<P><span class="text">已调用智能标识机制。</span></P><P><SPAN class=text>原因: 对象不唯一(已找到 2 个对象)</SPAN></P>           <SPAN class=text><b>原始描述:</b></SPAN><br>name=myiframe0<br>micclass=Frame<br><P><FONT face=Verdana size=2><SPAN class=text><B>智能标识可选描述:</B></SPAN></FONT></P><FONT face=Verdana size=2><u>基本筛选属性(已找到 19 个对象) &nbsp;</FONT></u><br>
+micclass=Frame<br><br><FONT face=Verdana size=2><u>可选筛选属性</FONT></u><br>
+name=myiframe0<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>title=<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>url=http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2019022812294020832522283102888<SPAN class=passed>(已使用</SPAN>，1 个匹配)</SPAN><br>]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:31]]></Time>
+<TimeTick>1551330451</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="52" Source="3.3.1、客户详情" SourceLine="-1" >
+<Disp><![CDATA["myiframe0"  - 智能标识]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T29">
+<Obj plainTxt="False" ><![CDATA["myiframe0"  - 智能标识]]></Obj>
+<Details plainTxt="False" ><![CDATA[<P><span class="text">已调用智能标识机制。</span></P><P><SPAN class=text>原因: 对象不唯一(已找到 2 个对象)</SPAN></P>           <SPAN class=text><b>原始描述:</b></SPAN><br>name=myiframe0<br>micclass=Frame<br><P><FONT face=Verdana size=2><SPAN class=text><B>智能标识可选描述:</B></SPAN></FONT></P><FONT face=Verdana size=2><u>基本筛选属性(已找到 19 个对象) &nbsp;</FONT></u><br>
+micclass=Frame<br><br><FONT face=Verdana size=2><u>可选筛选属性</FONT></u><br>
+name=myiframe0<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>title=<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>url=http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2019022812294020832522283102888<SPAN class=passed>(已使用</SPAN>，1 个匹配)</SPAN><br>]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:32]]></Time>
+<TimeTick>1551330452</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="54" Source="3.3.1、客户详情" SourceLine="-1" >
+<Disp><![CDATA["myiframe0"  - 智能标识]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T30">
+<Obj plainTxt="False" ><![CDATA["myiframe0"  - 智能标识]]></Obj>
+<Details plainTxt="False" ><![CDATA[<P><span class="text">已调用智能标识机制。</span></P><P><SPAN class=text>原因: 对象不唯一(已找到 2 个对象)</SPAN></P>           <SPAN class=text><b>原始描述:</b></SPAN><br>name=myiframe0<br>micclass=Frame<br><P><FONT face=Verdana size=2><SPAN class=text><B>智能标识可选描述:</B></SPAN></FONT></P><FONT face=Verdana size=2><u>基本筛选属性(已找到 19 个对象) &nbsp;</FONT></u><br>
+micclass=Frame<br><br><FONT face=Verdana size=2><u>可选筛选属性</FONT></u><br>
+name=myiframe0<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>title=<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>url=http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2019022812294020832522283102888<SPAN class=passed>(已使用</SPAN>，1 个匹配)</SPAN><br>]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:32]]></Time>
+<TimeTick>1551330452</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="56" Source="3.3.1、客户详情" SourceLine="-1" >
+<Disp><![CDATA["myiframe0"  - 智能标识]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T31">
+<Obj plainTxt="False" ><![CDATA["myiframe0"  - 智能标识]]></Obj>
+<Details plainTxt="False" ><![CDATA[<P><span class="text">已调用智能标识机制。</span></P><P><SPAN class=text>原因: 对象不唯一(已找到 2 个对象)</SPAN></P>           <SPAN class=text><b>原始描述:</b></SPAN><br>name=myiframe0<br>micclass=Frame<br><P><FONT face=Verdana size=2><SPAN class=text><B>智能标识可选描述:</B></SPAN></FONT></P><FONT face=Verdana size=2><u>基本筛选属性(已找到 19 个对象) &nbsp;</FONT></u><br>
+micclass=Frame<br><br><FONT face=Verdana size=2><u>可选筛选属性</FONT></u><br>
+name=myiframe0<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>title=<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>url=http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2019022812294020832522283102888<SPAN class=passed>(已使用</SPAN>，1 个匹配)</SPAN><br>]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:33]]></Time>
+<TimeTick>1551330453</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="58" Source="3.3.1、客户详情" SourceLine="-1" >
+<Disp><![CDATA["myiframe0"  - 智能标识]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T32">
+<Obj plainTxt="False" ><![CDATA["myiframe0"  - 智能标识]]></Obj>
+<Details plainTxt="False" ><![CDATA[<P><span class="text">已调用智能标识机制。</span></P><P><SPAN class=text>原因: 对象不唯一(已找到 2 个对象)</SPAN></P>           <SPAN class=text><b>原始描述:</b></SPAN><br>name=myiframe0<br>micclass=Frame<br><P><FONT face=Verdana size=2><SPAN class=text><B>智能标识可选描述:</B></SPAN></FONT></P><FONT face=Verdana size=2><u>基本筛选属性(已找到 19 个对象) &nbsp;</FONT></u><br>
+micclass=Frame<br><br><FONT face=Verdana size=2><u>可选筛选属性</FONT></u><br>
+name=myiframe0<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>title=<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>url=http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2019022812294020832522283102888<SPAN class=passed>(已使用</SPAN>，1 个匹配)</SPAN><br>]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:34]]></Time>
+<TimeTick>1551330454</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="60" Source="3.3.1、客户详情" SourceLine="-1" >
+<Disp><![CDATA["myiframe0"  - 智能标识]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T33">
+<Obj plainTxt="False" ><![CDATA[[ WebElement ]]]></Obj>
+<Details plainTxt="False" ><![CDATA[无法标识对象 "[ WebElement ]" (属于类 WebElement)。验证此对象的属性与当前显示在应用程序中的对象是否匹配。]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:34]]></Time>
+<TimeTick>1551330454</TimeTick>
+<Step rID="T34">
+<Obj plainTxt="False" ><![CDATA[[ WebElement ]]]></Obj>
+<Details plainTxt="False" ><![CDATA[对象的物理描述:<br>Mercury Class = WebElement<br>innertext = .()*不能为空！<br>Index = 0<br>]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:34]]></Time>
+<TimeTick>1551330454</TimeTick>
+<NodeArgs eType="Replay" icon="10" nRep="63" status="Warning" nType="描述" Source="3.3.1、客户详情" SourceLine="-1" >
+<Disp><![CDATA[[ WebElement ]]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Replay" icon="9" nRep="62" status="Failed" nType="运行错误" Source="3.3.1、客户详情" SourceLine="-1" >
+<Disp><![CDATA[[ WebElement ]]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="7" nRep="11" status="Failed" Source="3.3.1、客户详情" SourceLine="-1" >
+<Disp><![CDATA[myiframe0]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="6" nRep="10" status="Failed" Source="3.3.1、客户详情" SourceLine="-1" >
+<Disp><![CDATA[信贷风险管理系统V7]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="5" nRep="9" status="Failed" Source="3.3.1、客户详情" SourceLine="-1" >
+<Disp><![CDATA[信贷风险管理系统V7]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="4" nRep="8" status="Failed" Source="3.3.1、客户详情" SourceLine="-1" >
+<Disp><![CDATA[信用速贷申请]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T35">
+<Obj plainTxt="False" ><![CDATA[运行错误]]></Obj>
+<Details plainTxt="False" ><![CDATA[无法标识对象 &quot;[ WebElement ]&quot; (属于类 WebElement)。验证此对象的属性与当前显示在应用程序中的对象是否匹配。<BR>第 (26) 行: &quot;Browser(&quot;信用速贷申请&quot;).Window(&quot;信贷风险管理系统V7&quot;).Page(&quot;信贷风险管理系统V7&quot;).Frame(&quot;myiframe0&quot;).WebElement(&quot;index:=0&quot;,&quot;innertext:=.()*不能为空！&quot;).Highlight&quot;。 ]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:34]]></Time>
+<TimeTick>1551330454</TimeTick>
+<NodeArgs eType="Replay" icon="10" nRep="64" status="Failed" Source="3.3.1、客户详情" SourceLine="25" >
+<Disp><![CDATA[运行错误]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T36">
+<Obj plainTxt="False" ><![CDATA[信用速贷申请]]></Obj>
+<Details plainTxt="False" ><![CDATA[Browser]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:40]]></Time>
+<TimeTick>1551330460</TimeTick>
+<Step rID="T37">
+<Obj plainTxt="False" ><![CDATA[信贷风险管理系统V7]]></Obj>
+<Details plainTxt="False" ><![CDATA[Window]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:40]]></Time>
+<TimeTick>1551330460</TimeTick>
+<Step rID="T38">
+<Obj plainTxt="False" ><![CDATA[信贷风险管理系统V7]]></Obj>
+<Details plainTxt="False" ><![CDATA[Page]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:40]]></Time>
+<TimeTick>1551330460</TimeTick>
+<Step rID="T39">
+<Obj plainTxt="False" ><![CDATA[myiframe0]]></Obj>
+<Details plainTxt="False" ><![CDATA[Frame]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:40]]></Time>
+<TimeTick>1551330460</TimeTick>
+<Step rID="T40">
+<Obj plainTxt="False" ><![CDATA["myiframe0"  - 智能标识]]></Obj>
+<Details plainTxt="False" ><![CDATA[<P><span class="text">已调用智能标识机制。</span></P><P><SPAN class=text>原因: 对象不唯一(已找到 2 个对象)</SPAN></P>           <SPAN class=text><b>原始描述:</b></SPAN><br>name=myiframe0<br>micclass=Frame<br><P><FONT face=Verdana size=2><SPAN class=text><B>智能标识可选描述:</B></SPAN></FONT></P><FONT face=Verdana size=2><u>基本筛选属性(已找到 19 个对象) &nbsp;</FONT></u><br>
+micclass=Frame<br><br><FONT face=Verdana size=2><u>可选筛选属性</FONT></u><br>
+name=myiframe0<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>title=<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>url=http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2019022812294020832522283102888<SPAN class=passed>(已使用</SPAN>，1 个匹配)</SPAN><br>]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:40]]></Time>
+<TimeTick>1551330460</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="70" Source="3.3.1、客户详情" SourceLine="25" >
+<Disp><![CDATA["myiframe0"  - 智能标识]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T41">
+<Obj plainTxt="False" ><![CDATA["myiframe0"  - 智能标识]]></Obj>
+<Details plainTxt="False" ><![CDATA[<P><span class="text">已调用智能标识机制。</span></P><P><SPAN class=text>原因: 对象不唯一(已找到 2 个对象)</SPAN></P>           <SPAN class=text><b>原始描述:</b></SPAN><br>name=myiframe0<br>micclass=Frame<br><P><FONT face=Verdana size=2><SPAN class=text><B>智能标识可选描述:</B></SPAN></FONT></P><FONT face=Verdana size=2><u>基本筛选属性(已找到 19 个对象) &nbsp;</FONT></u><br>
+micclass=Frame<br><br><FONT face=Verdana size=2><u>可选筛选属性</FONT></u><br>
+name=myiframe0<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>title=<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>url=http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2019022812294020832522283102888<SPAN class=passed>(已使用</SPAN>，1 个匹配)</SPAN><br>]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:41]]></Time>
+<TimeTick>1551330461</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="72" Source="3.3.1、客户详情" SourceLine="25" >
+<Disp><![CDATA["myiframe0"  - 智能标识]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T42">
+<Obj plainTxt="False" ><![CDATA["myiframe0"  - 智能标识]]></Obj>
+<Details plainTxt="False" ><![CDATA[<P><span class="text">已调用智能标识机制。</span></P><P><SPAN class=text>原因: 对象不唯一(已找到 2 个对象)</SPAN></P>           <SPAN class=text><b>原始描述:</b></SPAN><br>name=myiframe0<br>micclass=Frame<br><P><FONT face=Verdana size=2><SPAN class=text><B>智能标识可选描述:</B></SPAN></FONT></P><FONT face=Verdana size=2><u>基本筛选属性(已找到 19 个对象) &nbsp;</FONT></u><br>
+micclass=Frame<br><br><FONT face=Verdana size=2><u>可选筛选属性</FONT></u><br>
+name=myiframe0<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>title=<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>url=http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2019022812294020832522283102888<SPAN class=passed>(已使用</SPAN>，1 个匹配)</SPAN><br>]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:42]]></Time>
+<TimeTick>1551330462</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="74" Source="3.3.1、客户详情" SourceLine="25" >
+<Disp><![CDATA["myiframe0"  - 智能标识]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T43">
+<Obj plainTxt="False" ><![CDATA["myiframe0"  - 智能标识]]></Obj>
+<Details plainTxt="False" ><![CDATA[<P><span class="text">已调用智能标识机制。</span></P><P><SPAN class=text>原因: 对象不唯一(已找到 2 个对象)</SPAN></P>           <SPAN class=text><b>原始描述:</b></SPAN><br>name=myiframe0<br>micclass=Frame<br><P><FONT face=Verdana size=2><SPAN class=text><B>智能标识可选描述:</B></SPAN></FONT></P><FONT face=Verdana size=2><u>基本筛选属性(已找到 19 个对象) &nbsp;</FONT></u><br>
+micclass=Frame<br><br><FONT face=Verdana size=2><u>可选筛选属性</FONT></u><br>
+name=myiframe0<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>title=<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>url=http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2019022812294020832522283102888<SPAN class=passed>(已使用</SPAN>，1 个匹配)</SPAN><br>]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:43]]></Time>
+<TimeTick>1551330463</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="76" Source="3.3.1、客户详情" SourceLine="25" >
+<Disp><![CDATA["myiframe0"  - 智能标识]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T44">
+<Obj plainTxt="False" ><![CDATA["myiframe0"  - 智能标识]]></Obj>
+<Details plainTxt="False" ><![CDATA[<P><span class="text">已调用智能标识机制。</span></P><P><SPAN class=text>原因: 对象不唯一(已找到 2 个对象)</SPAN></P>           <SPAN class=text><b>原始描述:</b></SPAN><br>name=myiframe0<br>micclass=Frame<br><P><FONT face=Verdana size=2><SPAN class=text><B>智能标识可选描述:</B></SPAN></FONT></P><FONT face=Verdana size=2><u>基本筛选属性(已找到 19 个对象) &nbsp;</FONT></u><br>
+micclass=Frame<br><br><FONT face=Verdana size=2><u>可选筛选属性</FONT></u><br>
+name=myiframe0<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>title=<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>url=http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2019022812294020832522283102888<SPAN class=passed>(已使用</SPAN>，1 个匹配)</SPAN><br>]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:44]]></Time>
+<TimeTick>1551330464</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="78" Source="3.3.1、客户详情" SourceLine="25" >
+<Disp><![CDATA["myiframe0"  - 智能标识]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T45">
+<Obj plainTxt="False" ><![CDATA["myiframe0"  - 智能标识]]></Obj>
+<Details plainTxt="False" ><![CDATA[<P><span class="text">已调用智能标识机制。</span></P><P><SPAN class=text>原因: 对象不唯一(已找到 2 个对象)</SPAN></P>           <SPAN class=text><b>原始描述:</b></SPAN><br>name=myiframe0<br>micclass=Frame<br><P><FONT face=Verdana size=2><SPAN class=text><B>智能标识可选描述:</B></SPAN></FONT></P><FONT face=Verdana size=2><u>基本筛选属性(已找到 19 个对象) &nbsp;</FONT></u><br>
+micclass=Frame<br><br><FONT face=Verdana size=2><u>可选筛选属性</FONT></u><br>
+name=myiframe0<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>title=<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>url=http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2019022812294020832522283102888<SPAN class=passed>(已使用</SPAN>，1 个匹配)</SPAN><br>]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:45]]></Time>
+<TimeTick>1551330465</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="80" Source="3.3.1、客户详情" SourceLine="25" >
+<Disp><![CDATA["myiframe0"  - 智能标识]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T46">
+<Obj plainTxt="False" ><![CDATA["myiframe0"  - 智能标识]]></Obj>
+<Details plainTxt="False" ><![CDATA[<P><span class="text">已调用智能标识机制。</span></P><P><SPAN class=text>原因: 对象不唯一(已找到 2 个对象)</SPAN></P>           <SPAN class=text><b>原始描述:</b></SPAN><br>name=myiframe0<br>micclass=Frame<br><P><FONT face=Verdana size=2><SPAN class=text><B>智能标识可选描述:</B></SPAN></FONT></P><FONT face=Verdana size=2><u>基本筛选属性(已找到 19 个对象) &nbsp;</FONT></u><br>
+micclass=Frame<br><br><FONT face=Verdana size=2><u>可选筛选属性</FONT></u><br>
+name=myiframe0<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>title=<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>url=http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2019022812294020832522283102888<SPAN class=passed>(已使用</SPAN>，1 个匹配)</SPAN><br>]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:46]]></Time>
+<TimeTick>1551330466</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="82" Source="3.3.1、客户详情" SourceLine="25" >
+<Disp><![CDATA["myiframe0"  - 智能标识]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T47">
+<Obj plainTxt="False" ><![CDATA["myiframe0"  - 智能标识]]></Obj>
+<Details plainTxt="False" ><![CDATA[<P><span class="text">已调用智能标识机制。</span></P><P><SPAN class=text>原因: 对象不唯一(已找到 2 个对象)</SPAN></P>           <SPAN class=text><b>原始描述:</b></SPAN><br>name=myiframe0<br>micclass=Frame<br><P><FONT face=Verdana size=2><SPAN class=text><B>智能标识可选描述:</B></SPAN></FONT></P><FONT face=Verdana size=2><u>基本筛选属性(已找到 19 个对象) &nbsp;</FONT></u><br>
+micclass=Frame<br><br><FONT face=Verdana size=2><u>可选筛选属性</FONT></u><br>
+name=myiframe0<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>title=<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>url=http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2019022812294020832522283102888<SPAN class=passed>(已使用</SPAN>，1 个匹配)</SPAN><br>]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:46]]></Time>
+<TimeTick>1551330466</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="84" Source="3.3.1、客户详情" SourceLine="25" >
+<Disp><![CDATA["myiframe0"  - 智能标识]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T48">
+<Obj plainTxt="False" ><![CDATA["myiframe0"  - 智能标识]]></Obj>
+<Details plainTxt="False" ><![CDATA[<P><span class="text">已调用智能标识机制。</span></P><P><SPAN class=text>原因: 对象不唯一(已找到 2 个对象)</SPAN></P>           <SPAN class=text><b>原始描述:</b></SPAN><br>name=myiframe0<br>micclass=Frame<br><P><FONT face=Verdana size=2><SPAN class=text><B>智能标识可选描述:</B></SPAN></FONT></P><FONT face=Verdana size=2><u>基本筛选属性(已找到 19 个对象) &nbsp;</FONT></u><br>
+micclass=Frame<br><br><FONT face=Verdana size=2><u>可选筛选属性</FONT></u><br>
+name=myiframe0<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>title=<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>url=http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2019022812294020832522283102888<SPAN class=passed>(已使用</SPAN>，1 个匹配)</SPAN><br>]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:47]]></Time>
+<TimeTick>1551330467</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="86" Source="3.3.1、客户详情" SourceLine="25" >
+<Disp><![CDATA["myiframe0"  - 智能标识]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T49">
+<Obj plainTxt="False" ><![CDATA["myiframe0"  - 智能标识]]></Obj>
+<Details plainTxt="False" ><![CDATA[<P><span class="text">已调用智能标识机制。</span></P><P><SPAN class=text>原因: 对象不唯一(已找到 2 个对象)</SPAN></P>           <SPAN class=text><b>原始描述:</b></SPAN><br>name=myiframe0<br>micclass=Frame<br><P><FONT face=Verdana size=2><SPAN class=text><B>智能标识可选描述:</B></SPAN></FONT></P><FONT face=Verdana size=2><u>基本筛选属性(已找到 19 个对象) &nbsp;</FONT></u><br>
+micclass=Frame<br><br><FONT face=Verdana size=2><u>可选筛选属性</FONT></u><br>
+name=myiframe0<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>title=<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>url=http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2019022812294020832522283102888<SPAN class=passed>(已使用</SPAN>，1 个匹配)</SPAN><br>]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:48]]></Time>
+<TimeTick>1551330468</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="88" Source="3.3.1、客户详情" SourceLine="25" >
+<Disp><![CDATA["myiframe0"  - 智能标识]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T50">
+<Obj plainTxt="False" ><![CDATA["myiframe0"  - 智能标识]]></Obj>
+<Details plainTxt="False" ><![CDATA[<P><span class="text">已调用智能标识机制。</span></P><P><SPAN class=text>原因: 对象不唯一(已找到 2 个对象)</SPAN></P>           <SPAN class=text><b>原始描述:</b></SPAN><br>name=myiframe0<br>micclass=Frame<br><P><FONT face=Verdana size=2><SPAN class=text><B>智能标识可选描述:</B></SPAN></FONT></P><FONT face=Verdana size=2><u>基本筛选属性(已找到 19 个对象) &nbsp;</FONT></u><br>
+micclass=Frame<br><br><FONT face=Verdana size=2><u>可选筛选属性</FONT></u><br>
+name=myiframe0<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>title=<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>url=http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2019022812294020832522283102888<SPAN class=passed>(已使用</SPAN>，1 个匹配)</SPAN><br>]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:49]]></Time>
+<TimeTick>1551330469</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="90" Source="3.3.1、客户详情" SourceLine="25" >
+<Disp><![CDATA["myiframe0"  - 智能标识]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T51">
+<Obj plainTxt="False" ><![CDATA["myiframe0"  - 智能标识]]></Obj>
+<Details plainTxt="False" ><![CDATA[<P><span class="text">已调用智能标识机制。</span></P><P><SPAN class=text>原因: 对象不唯一(已找到 2 个对象)</SPAN></P>           <SPAN class=text><b>原始描述:</b></SPAN><br>name=myiframe0<br>micclass=Frame<br><P><FONT face=Verdana size=2><SPAN class=text><B>智能标识可选描述:</B></SPAN></FONT></P><FONT face=Verdana size=2><u>基本筛选属性(已找到 19 个对象) &nbsp;</FONT></u><br>
+micclass=Frame<br><br><FONT face=Verdana size=2><u>可选筛选属性</FONT></u><br>
+name=myiframe0<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>title=<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>url=http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2019022812294020832522283102888<SPAN class=passed>(已使用</SPAN>，1 个匹配)</SPAN><br>]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:50]]></Time>
+<TimeTick>1551330470</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="92" Source="3.3.1、客户详情" SourceLine="25" >
+<Disp><![CDATA["myiframe0"  - 智能标识]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T52">
+<Obj plainTxt="False" ><![CDATA["myiframe0"  - 智能标识]]></Obj>
+<Details plainTxt="False" ><![CDATA[<P><span class="text">已调用智能标识机制。</span></P><P><SPAN class=text>原因: 对象不唯一(已找到 2 个对象)</SPAN></P>           <SPAN class=text><b>原始描述:</b></SPAN><br>name=myiframe0<br>micclass=Frame<br><P><FONT face=Verdana size=2><SPAN class=text><B>智能标识可选描述:</B></SPAN></FONT></P><FONT face=Verdana size=2><u>基本筛选属性(已找到 19 个对象) &nbsp;</FONT></u><br>
+micclass=Frame<br><br><FONT face=Verdana size=2><u>可选筛选属性</FONT></u><br>
+name=myiframe0<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>title=<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>url=http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2019022812294020832522283102888<SPAN class=passed>(已使用</SPAN>，1 个匹配)</SPAN><br>]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:51]]></Time>
+<TimeTick>1551330471</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="94" Source="3.3.1、客户详情" SourceLine="25" >
+<Disp><![CDATA["myiframe0"  - 智能标识]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T53">
+<Obj plainTxt="False" ><![CDATA["myiframe0"  - 智能标识]]></Obj>
+<Details plainTxt="False" ><![CDATA[<P><span class="text">已调用智能标识机制。</span></P><P><SPAN class=text>原因: 对象不唯一(已找到 2 个对象)</SPAN></P>           <SPAN class=text><b>原始描述:</b></SPAN><br>name=myiframe0<br>micclass=Frame<br><P><FONT face=Verdana size=2><SPAN class=text><B>智能标识可选描述:</B></SPAN></FONT></P><FONT face=Verdana size=2><u>基本筛选属性(已找到 19 个对象) &nbsp;</FONT></u><br>
+micclass=Frame<br><br><FONT face=Verdana size=2><u>可选筛选属性</FONT></u><br>
+name=myiframe0<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>title=<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>url=http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2019022812294020832522283102888<SPAN class=passed>(已使用</SPAN>，1 个匹配)</SPAN><br>]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:52]]></Time>
+<TimeTick>1551330472</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="96" Source="3.3.1、客户详情" SourceLine="25" >
+<Disp><![CDATA["myiframe0"  - 智能标识]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T54">
+<Obj plainTxt="False" ><![CDATA["myiframe0"  - 智能标识]]></Obj>
+<Details plainTxt="False" ><![CDATA[<P><span class="text">已调用智能标识机制。</span></P><P><SPAN class=text>原因: 对象不唯一(已找到 2 个对象)</SPAN></P>           <SPAN class=text><b>原始描述:</b></SPAN><br>name=myiframe0<br>micclass=Frame<br><P><FONT face=Verdana size=2><SPAN class=text><B>智能标识可选描述:</B></SPAN></FONT></P><FONT face=Verdana size=2><u>基本筛选属性(已找到 19 个对象) &nbsp;</FONT></u><br>
+micclass=Frame<br><br><FONT face=Verdana size=2><u>可选筛选属性</FONT></u><br>
+name=myiframe0<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>title=<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>url=http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2019022812294020832522283102888<SPAN class=passed>(已使用</SPAN>，1 个匹配)</SPAN><br>]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:53]]></Time>
+<TimeTick>1551330473</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="98" Source="3.3.1、客户详情" SourceLine="25" >
+<Disp><![CDATA["myiframe0"  - 智能标识]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T55">
+<Obj plainTxt="False" ><![CDATA["myiframe0"  - 智能标识]]></Obj>
+<Details plainTxt="False" ><![CDATA[<P><span class="text">已调用智能标识机制。</span></P><P><SPAN class=text>原因: 对象不唯一(已找到 2 个对象)</SPAN></P>           <SPAN class=text><b>原始描述:</b></SPAN><br>name=myiframe0<br>micclass=Frame<br><P><FONT face=Verdana size=2><SPAN class=text><B>智能标识可选描述:</B></SPAN></FONT></P><FONT face=Verdana size=2><u>基本筛选属性(已找到 19 个对象) &nbsp;</FONT></u><br>
+micclass=Frame<br><br><FONT face=Verdana size=2><u>可选筛选属性</FONT></u><br>
+name=myiframe0<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>title=<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>url=http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2019022812294020832522283102888<SPAN class=passed>(已使用</SPAN>，1 个匹配)</SPAN><br>]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:53]]></Time>
+<TimeTick>1551330473</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="100" Source="3.3.1、客户详情" SourceLine="25" >
+<Disp><![CDATA["myiframe0"  - 智能标识]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T56">
+<Obj plainTxt="False" ><![CDATA["myiframe0"  - 智能标识]]></Obj>
+<Details plainTxt="False" ><![CDATA[<P><span class="text">已调用智能标识机制。</span></P><P><SPAN class=text>原因: 对象不唯一(已找到 2 个对象)</SPAN></P>           <SPAN class=text><b>原始描述:</b></SPAN><br>name=myiframe0<br>micclass=Frame<br><P><FONT face=Verdana size=2><SPAN class=text><B>智能标识可选描述:</B></SPAN></FONT></P><FONT face=Verdana size=2><u>基本筛选属性(已找到 19 个对象) &nbsp;</FONT></u><br>
+micclass=Frame<br><br><FONT face=Verdana size=2><u>可选筛选属性</FONT></u><br>
+name=myiframe0<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>title=<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>url=http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2019022812294020832522283102888<SPAN class=passed>(已使用</SPAN>，1 个匹配)</SPAN><br>]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:54]]></Time>
+<TimeTick>1551330474</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="102" Source="3.3.1、客户详情" SourceLine="25" >
+<Disp><![CDATA["myiframe0"  - 智能标识]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T57">
+<Obj plainTxt="False" ><![CDATA["myiframe0"  - 智能标识]]></Obj>
+<Details plainTxt="False" ><![CDATA[<P><span class="text">已调用智能标识机制。</span></P><P><SPAN class=text>原因: 对象不唯一(已找到 2 个对象)</SPAN></P>           <SPAN class=text><b>原始描述:</b></SPAN><br>name=myiframe0<br>micclass=Frame<br><P><FONT face=Verdana size=2><SPAN class=text><B>智能标识可选描述:</B></SPAN></FONT></P><FONT face=Verdana size=2><u>基本筛选属性(已找到 19 个对象) &nbsp;</FONT></u><br>
+micclass=Frame<br><br><FONT face=Verdana size=2><u>可选筛选属性</FONT></u><br>
+name=myiframe0<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>title=<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>url=http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2019022812294020832522283102888<SPAN class=passed>(已使用</SPAN>，1 个匹配)</SPAN><br>]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:55]]></Time>
+<TimeTick>1551330475</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="104" Source="3.3.1、客户详情" SourceLine="25" >
+<Disp><![CDATA["myiframe0"  - 智能标识]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T58">
+<Obj plainTxt="False" ><![CDATA["myiframe0"  - 智能标识]]></Obj>
+<Details plainTxt="False" ><![CDATA[<P><span class="text">已调用智能标识机制。</span></P><P><SPAN class=text>原因: 对象不唯一(已找到 2 个对象)</SPAN></P>           <SPAN class=text><b>原始描述:</b></SPAN><br>name=myiframe0<br>micclass=Frame<br><P><FONT face=Verdana size=2><SPAN class=text><B>智能标识可选描述:</B></SPAN></FONT></P><FONT face=Verdana size=2><u>基本筛选属性(已找到 19 个对象) &nbsp;</FONT></u><br>
+micclass=Frame<br><br><FONT face=Verdana size=2><u>可选筛选属性</FONT></u><br>
+name=myiframe0<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>title=<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>url=http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2019022812294020832522283102888<SPAN class=passed>(已使用</SPAN>，1 个匹配)</SPAN><br>]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:56]]></Time>
+<TimeTick>1551330476</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="106" Source="3.3.1、客户详情" SourceLine="25" >
+<Disp><![CDATA["myiframe0"  - 智能标识]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T59">
+<Obj plainTxt="False" ><![CDATA["myiframe0"  - 智能标识]]></Obj>
+<Details plainTxt="False" ><![CDATA[<P><span class="text">已调用智能标识机制。</span></P><P><SPAN class=text>原因: 对象不唯一(已找到 2 个对象)</SPAN></P>           <SPAN class=text><b>原始描述:</b></SPAN><br>name=myiframe0<br>micclass=Frame<br><P><FONT face=Verdana size=2><SPAN class=text><B>智能标识可选描述:</B></SPAN></FONT></P><FONT face=Verdana size=2><u>基本筛选属性(已找到 19 个对象) &nbsp;</FONT></u><br>
+micclass=Frame<br><br><FONT face=Verdana size=2><u>可选筛选属性</FONT></u><br>
+name=myiframe0<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>title=<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>url=http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2019022812294020832522283102888<SPAN class=passed>(已使用</SPAN>，1 个匹配)</SPAN><br>]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:57]]></Time>
+<TimeTick>1551330477</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="108" Source="3.3.1、客户详情" SourceLine="25" >
+<Disp><![CDATA["myiframe0"  - 智能标识]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T60">
+<Obj plainTxt="False" ><![CDATA["myiframe0"  - 智能标识]]></Obj>
+<Details plainTxt="False" ><![CDATA[<P><span class="text">已调用智能标识机制。</span></P><P><SPAN class=text>原因: 对象不唯一(已找到 2 个对象)</SPAN></P>           <SPAN class=text><b>原始描述:</b></SPAN><br>name=myiframe0<br>micclass=Frame<br><P><FONT face=Verdana size=2><SPAN class=text><B>智能标识可选描述:</B></SPAN></FONT></P><FONT face=Verdana size=2><u>基本筛选属性(已找到 19 个对象) &nbsp;</FONT></u><br>
+micclass=Frame<br><br><FONT face=Verdana size=2><u>可选筛选属性</FONT></u><br>
+name=myiframe0<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>title=<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>url=http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2019022812294020832522283102888<SPAN class=passed>(已使用</SPAN>，1 个匹配)</SPAN><br>]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:58]]></Time>
+<TimeTick>1551330478</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="110" Source="3.3.1、客户详情" SourceLine="25" >
+<Disp><![CDATA["myiframe0"  - 智能标识]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T61">
+<Obj plainTxt="False" ><![CDATA["myiframe0"  - 智能标识]]></Obj>
+<Details plainTxt="False" ><![CDATA[<P><span class="text">已调用智能标识机制。</span></P><P><SPAN class=text>原因: 对象不唯一(已找到 2 个对象)</SPAN></P>           <SPAN class=text><b>原始描述:</b></SPAN><br>name=myiframe0<br>micclass=Frame<br><P><FONT face=Verdana size=2><SPAN class=text><B>智能标识可选描述:</B></SPAN></FONT></P><FONT face=Verdana size=2><u>基本筛选属性(已找到 19 个对象) &nbsp;</FONT></u><br>
+micclass=Frame<br><br><FONT face=Verdana size=2><u>可选筛选属性</FONT></u><br>
+name=myiframe0<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>title=<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>url=http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2019022812294020832522283102888<SPAN class=passed>(已使用</SPAN>，1 个匹配)</SPAN><br>]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:59]]></Time>
+<TimeTick>1551330479</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="112" Source="3.3.1、客户详情" SourceLine="25" >
+<Disp><![CDATA["myiframe0"  - 智能标识]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T62">
+<Obj plainTxt="False" ><![CDATA["myiframe0"  - 智能标识]]></Obj>
+<Details plainTxt="False" ><![CDATA[<P><span class="text">已调用智能标识机制。</span></P><P><SPAN class=text>原因: 对象不唯一(已找到 2 个对象)</SPAN></P>           <SPAN class=text><b>原始描述:</b></SPAN><br>name=myiframe0<br>micclass=Frame<br><P><FONT face=Verdana size=2><SPAN class=text><B>智能标识可选描述:</B></SPAN></FONT></P><FONT face=Verdana size=2><u>基本筛选属性(已找到 19 个对象) &nbsp;</FONT></u><br>
+micclass=Frame<br><br><FONT face=Verdana size=2><u>可选筛选属性</FONT></u><br>
+name=myiframe0<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>title=<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>url=http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2019022812294020832522283102888<SPAN class=passed>(已使用</SPAN>，1 个匹配)</SPAN><br>]]></Details>
+<Time><![CDATA[2019/2/28 - 13:07:59]]></Time>
+<TimeTick>1551330479</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="114" Source="3.3.1、客户详情" SourceLine="25" >
+<Disp><![CDATA["myiframe0"  - 智能标识]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T63">
+<Obj plainTxt="False" ><![CDATA["myiframe0"  - 智能标识]]></Obj>
+<Details plainTxt="False" ><![CDATA[<P><span class="text">已调用智能标识机制。</span></P><P><SPAN class=text>原因: 对象不唯一(已找到 2 个对象)</SPAN></P>           <SPAN class=text><b>原始描述:</b></SPAN><br>name=myiframe0<br>micclass=Frame<br><P><FONT face=Verdana size=2><SPAN class=text><B>智能标识可选描述:</B></SPAN></FONT></P><FONT face=Verdana size=2><u>基本筛选属性(已找到 19 个对象) &nbsp;</FONT></u><br>
+micclass=Frame<br><br><FONT face=Verdana size=2><u>可选筛选属性</FONT></u><br>
+name=myiframe0<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>title=<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>url=http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2019022812294020832522283102888<SPAN class=passed>(已使用</SPAN>，1 个匹配)</SPAN><br>]]></Details>
+<Time><![CDATA[2019/2/28 - 13:08:00]]></Time>
+<TimeTick>1551330480</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="116" Source="3.3.1、客户详情" SourceLine="25" >
+<Disp><![CDATA["myiframe0"  - 智能标识]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T64">
+<Obj plainTxt="False" ><![CDATA["myiframe0"  - 智能标识]]></Obj>
+<Details plainTxt="False" ><![CDATA[<P><span class="text">已调用智能标识机制。</span></P><P><SPAN class=text>原因: 对象不唯一(已找到 2 个对象)</SPAN></P>           <SPAN class=text><b>原始描述:</b></SPAN><br>name=myiframe0<br>micclass=Frame<br><P><FONT face=Verdana size=2><SPAN class=text><B>智能标识可选描述:</B></SPAN></FONT></P><FONT face=Verdana size=2><u>基本筛选属性(已找到 19 个对象) &nbsp;</FONT></u><br>
+micclass=Frame<br><br><FONT face=Verdana size=2><u>可选筛选属性</FONT></u><br>
+name=myiframe0<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>title=<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>url=http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2019022812294020832522283102888<SPAN class=passed>(已使用</SPAN>，1 个匹配)</SPAN><br>]]></Details>
+<Time><![CDATA[2019/2/28 - 13:08:01]]></Time>
+<TimeTick>1551330481</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="118" Source="3.3.1、客户详情" SourceLine="25" >
+<Disp><![CDATA["myiframe0"  - 智能标识]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T65">
+<Obj plainTxt="False" ><![CDATA[[ WebElement ]]]></Obj>
+<Details plainTxt="False" ><![CDATA[无法标识对象 "[ WebElement ]" (属于类 WebElement)。验证此对象的属性与当前显示在应用程序中的对象是否匹配。]]></Details>
+<Time><![CDATA[2019/2/28 - 13:08:01]]></Time>
+<TimeTick>1551330481</TimeTick>
+<Step rID="T66">
+<Obj plainTxt="False" ><![CDATA[[ WebElement ]]]></Obj>
+<Details plainTxt="False" ><![CDATA[对象的物理描述:<br>Mercury Class = WebElement<br>innertext = .()*不能为空！<br>Index = 0<br>]]></Details>
+<Time><![CDATA[2019/2/28 - 13:08:01]]></Time>
+<TimeTick>1551330481</TimeTick>
+<NodeArgs eType="Replay" icon="10" nRep="121" status="Warning" nType="描述" Source="3.3.1、客户详情" SourceLine="25" >
+<Disp><![CDATA[[ WebElement ]]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Replay" icon="9" nRep="120" status="Failed" nType="运行错误" Source="3.3.1、客户详情" SourceLine="25" >
+<Disp><![CDATA[[ WebElement ]]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="7" nRep="69" status="Failed" Source="3.3.1、客户详情" SourceLine="25" >
+<Disp><![CDATA[myiframe0]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="6" nRep="68" status="Failed" Source="3.3.1、客户详情" SourceLine="25" >
+<Disp><![CDATA[信贷风险管理系统V7]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="5" nRep="67" status="Failed" Source="3.3.1、客户详情" SourceLine="25" >
+<Disp><![CDATA[信贷风险管理系统V7]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="4" nRep="66" status="Failed" Source="3.3.1、客户详情" SourceLine="25" >
+<Disp><![CDATA[信用速贷申请]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T67">
+<Obj plainTxt="False" ><![CDATA[运行错误]]></Obj>
+<Details plainTxt="False" ><![CDATA[无法标识对象 &quot;[ WebElement ]&quot; (属于类 WebElement)。验证此对象的属性与当前显示在应用程序中的对象是否匹配。<BR>第 (26) 行: &quot;Browser(&quot;信用速贷申请&quot;).Window(&quot;信贷风险管理系统V7&quot;).Page(&quot;信贷风险管理系统V7&quot;).Frame(&quot;myiframe0&quot;).WebElement(&quot;index:=0&quot;,&quot;innertext:=.()*不能为空！&quot;).Highlight&quot;。 ]]></Details>
+<Time><![CDATA[2019/2/28 - 13:08:01]]></Time>
+<TimeTick>1551330481</TimeTick>
+<NodeArgs eType="Replay" icon="10" nRep="122" status="Failed" Source="3.3.1、客户详情" SourceLine="25" >
+<Disp><![CDATA[运行错误]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T68">
+<Obj plainTxt="False" ><![CDATA[停止运行]]></Obj>
+<Details plainTxt="False" ><![CDATA[用户停止运行。]]></Details>
+<Time><![CDATA[2019/2/28 - 13:08:12]]></Time>
+<TimeTick>1551330492</TimeTick>
+<NodeArgs eType="General" icon="11" nRep="123" >
+<Disp><![CDATA[停止运行]]></Disp>
+</NodeArgs>
+</Step>
+<Summary sTime="2019/2/28 - 13:07:12" eTime="2019/2/28 - 13:08:12" passed="0" failed="4" warnings="2" ></Summary>
+<NodeArgs eType="StartAction" icon="3" nRep="6" status="Failed" >
+<Disp><![CDATA[3.3.1、客户详情 摘要]]></Disp>
+</NodeArgs>
+</Action>
+<Summary sTime="2019/2/28 - 13:07:10" eTime="2019/2/28 - 13:08:12" passed="0" failed="4" warnings="2" ></Summary>
+<NodeArgs eType="StartTest" icon="1" nRep="3" status="Failed" >
+<Disp><![CDATA[测试 信用速贷（build） 摘要]]></Disp>
+</NodeArgs>
+</Doc>
+</Report>

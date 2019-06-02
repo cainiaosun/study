@@ -1,0 +1,348 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE Report
+[
+<!ELEMENT Report (General ,(Doc|BPT)) >
+<!ATTLIST Report ver CDATA #REQUIRED tmZone CDATA #REQUIRED>
+
+<!ELEMENT General ( DocLocation ) >
+<!ATTLIST General productName CDATA #REQUIRED productVer CDATA #REQUIRED os CDATA #REQUIRED host CDATA #REQUIRED qcserver CDATA #IMPLIED qcproject CDATA #IMPLIED SolManSolutionId CDATA #IMPLIED SolManProjectId CDATA #IMPLIED SolManTestPlanId CDATA #IMPLIED SolManTestPackageId CDATA #IMPLIED SolManUserInfoData CDATA #IMPLIED  >
+
+<!ELEMENT BPT (DName,Res,DVer?,TSet?,TInst?,NodeArgs,AdditionalInfo*,Doc*) >
+<!ATTLIST BPT rID ID #REQUIRED >
+
+<!ELEMENT Doc (DName,ConfName?,Res,DVer?,TSet?,TInst?,RunType?,DT?,AdditionalInfo*,Step*,DIter*,Step*,Action*,Doc*,Summary?,TestMaintenanceSummary*,NodeArgs?) >
+<!ATTLIST Doc rID ID #REQUIRED type (Test|BC|BPTWrapperTest|Flow|Group|Action) "Test" productName CDATA #REQUIRED BCIter CDATA #IMPLIED >
+
+<!ELEMENT RunType ( #PCDATA )>
+<!ATTLIST RunType fmStep (False|True) "False" batch (False|True) "False" upDesc (False|True) "False" upChk (False|True) "False" upAS (False|True) "False">
+
+<!ELEMENT DName ( #PCDATA ) >
+
+<!ELEMENT ConfName ( #PCDATA ) >
+
+<!ELEMENT Res ( #PCDATA ) >
+
+<!ELEMENT AdditionalInfo (AdditionalDataName,AdditionalDataValue ) >
+
+<!ELEMENT AdditionalDataName ( #PCDATA ) >
+
+<!ELEMENT AdditionalDataValue ( #PCDATA ) >
+
+<!ELEMENT DVer ( #PCDATA ) >
+
+<!ELEMENT TSet ( #PCDATA ) >
+
+<!ELEMENT TInst ( #PCDATA ) >
+
+<!ELEMENT DIter (Step*,Action+,Summary?,NodeArgs)>
+<!ATTLIST DIter rID ID #REQUIRED iterID CDATA #REQUIRED>
+
+<!ELEMENT DocLocation ( #PCDATA )>
+
+<!ELEMENT Action (AName,AIter*,(Step|HtmlStep|Action)*, Summary,ActionMaintenanceSummary*, NodeArgs ) >
+<!ATTLIST Action rID ID #REQUIRED>
+
+<!ELEMENT AIter ((Step|HtmlStep|Action)*,DataMapping?, Summary?,NodeArgs) >
+<!ATTLIST AIter rID ID #REQUIRED iterID CDATA #REQUIRED isCountable (False|True) "False" >
+
+<!ELEMENT AName ( #PCDATA ) >
+
+<!ELEMENT TestMaintenanceSummary (ActionMaintenanceSummary*) >
+<!ATTLIST TestMaintenanceSummary ObjectsAdded CDATA #REQUIRED ObjectsUpdated CDATA #REQUIRED StepsUpdated CDATA #REQUIRED StepsComments CDATA #REQUIRED><!ELEMENT ActionMaintenanceSummary (ObjectChange* ) >
+<!ATTLIST ActionMaintenanceSummary Action CDATA #REQUIRED Objects CDATA #REQUIRED Updated CDATA #REQUIRED LinesTotal CDATA #REQUIRED Added CDATA #REQUIRED LinesUpdated CDATA #REQUIRED>
+
+<!ELEMENT ObjectChange  (Hierarchy, PropertyChangeList* ) >
+<!ATTLIST ObjectChange Operation CDATA #IMPLIED OriginalRepository CDATA #IMPLIED>
+
+<!ELEMENT PropertyChangeList (PropertyDef*) >
+
+<!ELEMENT PropertyDef (OriginalValue, NewValue) >
+<!ATTLIST PropertyDef PropName CDATA #REQUIRED OriginRegularExpression (True|False) "False" NewRegularExpression (True|False) "False" AddedProperty (True|False) "False" >
+
+<!ELEMENT OriginalValue ( #PCDATA )>
+
+<!ELEMENT NewValue ( #PCDATA )>
+
+<!ELEMENT Hierarchy  (ObjectName, Hierarchy*) >
+<!ATTLIST Hierarchy MicClass CDATA #REQUIRED>
+
+<!ELEMENT ObjectName  ( #PCDATA ) >
+
+<!ELEMENT Step (Obj,Details,Time,TimeTick* ,(Step|HtmlStep|Doc)*, DataMapping?, NodeArgs) >
+<!ATTLIST Step rID ID #REQUIRED retval CDATA #IMPLIED>
+
+<!ELEMENT HtmlStep (HTML,TimeTick*,(Step|HtmlStep|Doc)*,NodeArgs) >
+<!ATTLIST HtmlStep rID ID #REQUIRED >
+
+<!ELEMENT Obj ( #PCDATA ) >
+<!ATTLIST Obj plainTxt (False|True) "True">
+
+<!ELEMENT Details ( #PCDATA ) >
+<!ATTLIST Details plainTxt (False|True) "True">
+
+<!ELEMENT Time ( #PCDATA ) >
+
+<!ELEMENT HTML ( #PCDATA ) >
+
+<!ELEMENT Disp ( #PCDATA ) >
+
+<!ELEMENT TimeTick ( #PCDATA ) >
+
+<!ELEMENT DataMapping ( DataMappedItem* )>
+<!ELEMENT DataMappedItem EMPTY >
+<!ATTLIST DataMappedItem dsName CDATA #REQUIRED >
+<!ATTLIST DataMappedItem rowId CDATA #REQUIRED >
+
+<!ELEMENT NodeArgs (Disp,TopPane?,BtmPane?,ExtendedInfo? )>
+<!ATTLIST NodeArgs eType CDATA #REQUIRED icon CDATA #REQUIRED nRep CDATA #REQUIRED UserNote CDATA #IMPLIED filter (False|True) "True">
+<!ATTLIST NodeArgs status (Passed|Failed|Done|Warning|Information) "Done">
+<!ATTLIST NodeArgs iconSel CDATA #IMPLIED nType CDATA #IMPLIED MovieMarker CDATA "">
+<!ATTLIST NodeArgs Source CDATA #IMPLIED SourceLine CDATA #IMPLIED StepFlowItemKey CDATA #IMPLIED >
+
+<!ELEMENT TopPane (Path)>
+
+<!ELEMENT BtmPane ( (Path|WR)?,ASHilite?)>
+<!ATTLIST BtmPane vType CDATA "HTML">
+
+<!ELEMENT Path ( #PCDATA ) >
+
+<!ELEMENT ASHilite ( #PCDATA ) >
+
+<!ELEMENT WR ( #PCDATA ) >
+
+<!ELEMENT ExtendedInfo ( StepData ) >
+
+<!ATTLIST ExtendedInfo StepType CDATA #REQUIRED>
+<!ELEMENT DT (NodeArgs) >
+<!ATTLIST DT rID ID #REQUIRED>
+
+<!ELEMENT Summary (Param*)>
+<!ATTLIST Summary sTime CDATA #IMPLIED eTime CDATA #IMPLIED passed CDATA #IMPLIED failed CDATA #IMPLIED warnings CDATA #IMPLIED retval CDATA #IMPLIED stopped (False|True) "False" >
+
+<!ELEMENT Param (ParamName,ParamVal)+ >
+<!ATTLIST Param paramInOut (In|Out) "In">
+
+<!ELEMENT ParamName ( #PCDATA ) >
+
+<!ELEMENT ParamVal ( #PCDATA ) >
+
+]
+>
+<Report ver="2.0" tmZone="中国标准时间">
+<General productName="HP Unified Functional Testing" productVer="12.0" os="Windows 7" host="PACTERA-PC"><DocLocation><![CDATA[E:\DataOfSoftWare\Unified Functional Testing\信用速贷]]></DocLocation></General>
+<Doc rID="T1"   productName= "HP Unified Functional Testing"  >
+<DName><![CDATA[信用速贷]]></DName>
+<Res><![CDATA[Res21]]></Res>
+<RunType fmStep="True" /><DT rID="T2">
+<NodeArgs eType="Table" icon="2" nRep="4" filter="False" >
+<Disp><![CDATA[Run-Time Data Table]]></Disp>
+<BtmPane vType="Table" >
+<Path><![CDATA[Default.xls]]></Path>
+</BtmPane>
+</NodeArgs>
+</DT>
+<Action rID="T3">
+<AName><![CDATA[面签排班]]></AName>
+<Step rID="T4">
+<Obj plainTxt="False" ><![CDATA[面签排班管理]]></Obj>
+<Details plainTxt="False" ><![CDATA[Browser]]></Details>
+<Time><![CDATA[2017/10/10 - 13:14:07]]></Time>
+<TimeTick>1507612447</TimeTick>
+<Step rID="T5">
+<Obj plainTxt="False" ><![CDATA[面签排班管理]]></Obj>
+<Details plainTxt="False" ><![CDATA[Page]]></Details>
+<Time><![CDATA[2017/10/10 - 13:14:07]]></Time>
+<TimeTick>1507612447</TimeTick>
+<Step rID="T6">
+<Obj plainTxt="False" ><![CDATA[myiframe0]]></Obj>
+<Details plainTxt="False" ><![CDATA[Frame]]></Details>
+<Time><![CDATA[2017/10/10 - 13:14:07]]></Time>
+<TimeTick>1507612447</TimeTick>
+<Step rID="T7">
+<Obj plainTxt="False" ><![CDATA[R0F1.Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[2017/10/10 - 13:14:07]]></Time>
+<TimeTick>1507612447</TimeTick>
+<NodeArgs eType="Replay" icon="7" nRep="12" Source="面签排班" SourceLine="1" >
+<Disp><![CDATA[R0F1.Click]]></Disp>
+<BtmPane vType="Mercury.SSHWeb" >
+<Path><![CDATA[ZIP::Act1\Row0\ssf441.xml]]></Path>
+<ASHilite><![CDATA[Browser("面签排班管理").Page("面签排班管理").Frame("myiframe0").WebEdit("R0F1")]]></ASHilite>
+</BtmPane>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="6" nRep="11" Source="面签排班" SourceLine="1" >
+<Disp><![CDATA[myiframe0]]></Disp>
+<BtmPane vType="Mercury.SSHWeb" >
+<Path><![CDATA[ZIP::Act1\Row0\ssf440.xml]]></Path>
+<ASHilite><![CDATA[Browser("面签排班管理").Page("面签排班管理").Frame("myiframe0")]]></ASHilite>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T8">
+<Obj plainTxt="False" ><![CDATA[right_2]]></Obj>
+<Details plainTxt="False" ><![CDATA[Frame]]></Details>
+<Time><![CDATA[2017/10/10 - 13:14:08]]></Time>
+<TimeTick>1507612448</TimeTick>
+<Step rID="T9">
+<Obj plainTxt="False" ><![CDATA[1x1.Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[2017/10/10 - 13:14:08]]></Time>
+<TimeTick>1507612448</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="16" Source="面签排班" SourceLine="2" >
+<Disp><![CDATA[1x1.Click]]></Disp>
+<BtmPane vType="Mercury.SSHWeb" >
+<Path><![CDATA[ZIP::Act1\Row0\ssf443.xml]]></Path>
+<ASHilite><![CDATA[Browser("面签排班管理").Page("面签排班管理").Frame("right 2").WebElement("1x1")]]></ASHilite>
+</BtmPane>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="6" nRep="15" Source="面签排班" SourceLine="2" >
+<Disp><![CDATA[right_2]]></Disp>
+<BtmPane vType="Mercury.SSHWeb" >
+<Path><![CDATA[ZIP::Act1\Row0\ssf442.xml]]></Path>
+<ASHilite><![CDATA[Browser("面签排班管理").Page("面签排班管理").Frame("right 2")]]></ASHilite>
+</BtmPane>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="5" nRep="10" Source="面签排班" SourceLine="1" >
+<Disp><![CDATA[面签排班管理]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[ZIP::Act1\Row0\ssf439.xml]]></Path>
+<ASHilite><![CDATA[Browser("面签排班管理").Page("面签排班管理")]]></ASHilite>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T10">
+<Obj plainTxt="False" ><![CDATA[信贷风险管理系统V7]]></Obj>
+<Details plainTxt="False" ><![CDATA[Window]]></Details>
+<Time><![CDATA[2017/10/10 - 13:14:11]]></Time>
+<TimeTick>1507612451</TimeTick>
+<Step rID="T11">
+<Obj plainTxt="False" ><![CDATA[信贷风险管理系统V7]]></Obj>
+<Details plainTxt="False" ><![CDATA[Page]]></Details>
+<Time><![CDATA[2017/10/10 - 13:14:11]]></Time>
+<TimeTick>1507612451</TimeTick>
+<Step rID="T12">
+<Obj plainTxt="False" ><![CDATA[myiframe0]]></Obj>
+<Details plainTxt="False" ><![CDATA[Frame]]></Details>
+<Time><![CDATA[2017/10/10 - 13:14:11]]></Time>
+<TimeTick>1507612451</TimeTick>
+<Step rID="T13">
+<Obj plainTxt="False" ><![CDATA[..._2.Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[2017/10/10 - 13:14:11]]></Time>
+<TimeTick>1507612451</TimeTick>
+<NodeArgs eType="Replay" icon="10" nRep="23" Source="面签排班" SourceLine="3" >
+<Disp><![CDATA[..._2.Click]]></Disp>
+<BtmPane vType="Mercury.SSHWeb" >
+<Path><![CDATA[ZIP::Act1\Row0\ssf447.xml]]></Path>
+<ASHilite><![CDATA[Browser("面签排班管理").Window("信贷风险管理系统V7").Page("信贷风险管理系统V7").Frame("myiframe0").WebButton("... 2")]]></ASHilite>
+</BtmPane>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="6" nRep="22" Source="面签排班" SourceLine="3" >
+<Disp><![CDATA[myiframe0]]></Disp>
+<BtmPane vType="Mercury.SSHWeb" >
+<Path><![CDATA[ZIP::Act1\Row0\ssf446.xml]]></Path>
+<ASHilite><![CDATA[Browser("面签排班管理").Window("信贷风险管理系统V7").Page("信贷风险管理系统V7").Frame("myiframe0")]]></ASHilite>
+</BtmPane>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="5" nRep="21" Source="面签排班" SourceLine="3" >
+<Disp><![CDATA[信贷风险管理系统V7]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[ZIP::Act1\Row0\ssf445.xml]]></Path>
+<ASHilite><![CDATA[Browser("面签排班管理").Window("信贷风险管理系统V7").Page("信贷风险管理系统V7")]]></ASHilite>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T14">
+<Obj plainTxt="False" ><![CDATA[请选择所需信息]]></Obj>
+<Details plainTxt="False" ><![CDATA[Window]]></Details>
+<Time><![CDATA[2017/10/10 - 13:14:38]]></Time>
+<TimeTick>1507612478</TimeTick>
+<Step rID="T15">
+<Obj plainTxt="False" ><![CDATA[请选择所需信息]]></Obj>
+<Details plainTxt="False" ><![CDATA[Page]]></Details>
+<Time><![CDATA[2017/10/10 - 13:14:38]]></Time>
+<TimeTick>1507612478</TimeTick>
+<Step rID="T16">
+<Obj plainTxt="False" ><![CDATA[left]]></Obj>
+<Details plainTxt="False" ><![CDATA[Frame]]></Details>
+<Time><![CDATA[2017/10/10 - 13:14:38]]></Time>
+<TimeTick>1507612478</TimeTick>
+<Step rID="T17">
+<Obj plainTxt="False" ><![CDATA[消费类标准信用速贷]]></Obj>
+<Details plainTxt="False" ><![CDATA[找不到 "消费类标准信用速贷" 对象的父对象 "请选择所需信息" (类 Window)。验证父对象的属性与当前显示在应用程序中的对象是否匹配。]]></Details>
+<Time><![CDATA[2017/10/10 - 13:14:38]]></Time>
+<TimeTick>1507612478</TimeTick>
+<Step rID="T18">
+<Obj plainTxt="False" ><![CDATA[请选择所需信息]]></Obj>
+<Details plainTxt="False" ><![CDATA[对象的物理描述:<br>regexpwndtitle = 请选择所需信息 　　　　　　　　　　　　　　　　　 　　　　　　　　　　　　　　　　　 　　　　　　　　　　　　　　　　　 　　　　　　　　　　　　　　　　　 　　　　　　　　　　　　　　　　　 　　　　　　　　　　　　　　　　　 -- 网页对话框<br>regexpwndclass = Internet Explorer_TridentDlgFrame<br>is owned window = -1<br>is child window = 0<br>]]></Details>
+<Time><![CDATA[2017/10/10 - 13:14:38]]></Time>
+<TimeTick>1507612478</TimeTick>
+<NodeArgs eType="Replay" icon="11" nRep="95" status="Warning" nType="父对象的描述" Source="面签排班" SourceLine="4" >
+<Disp><![CDATA[请选择所需信息]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Replay" icon="8" nRep="94" status="Failed" nType="运行错误" Source="面签排班" SourceLine="4" >
+<Disp><![CDATA[消费类标准信用速贷]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="6" nRep="93" status="Failed" Source="面签排班" SourceLine="4" >
+<Disp><![CDATA[left]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="5" nRep="92" status="Failed" Source="面签排班" SourceLine="4" >
+<Disp><![CDATA[请选择所需信息]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="9" nRep="91" status="Failed" Source="面签排班" SourceLine="4" >
+<Disp><![CDATA[请选择所需信息]]></Disp>
+<BtmPane vType="ViewerGen.SSViewerGen" >
+<Path><![CDATA[Act1\Row0]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="9" nRep="20" status="Failed" Source="面签排班" SourceLine="3" >
+<Disp><![CDATA[信贷风险管理系统V7]]></Disp>
+<BtmPane vType="ViewerGen.SSViewerGen" >
+<Path><![CDATA[ZIP::Act1\Row0\ssf444.xml]]></Path>
+<ASHilite><![CDATA[268434]]></ASHilite>
+</BtmPane>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="4" nRep="9" status="Failed" Source="面签排班" SourceLine="1" >
+<Disp><![CDATA[面签排班管理]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T19">
+<Obj plainTxt="False" ><![CDATA[运行错误]]></Obj>
+<Details plainTxt="False" ><![CDATA[找不到 &quot;消费类标准信用速贷&quot; 对象的父对象 &quot;请选择所需信息&quot; (类 Window)。验证父对象的属性与当前显示在应用程序中的对象是否匹配。<BR>第 (5) 行: &quot;Browser(&quot;面签排班管理&quot;).Window(&quot;信贷风险管理系统V7&quot;).Window(&quot;请选择所需信息&quot;).Page(&quot;请选择所需信息&quot;).Frame(&quot;left&quot;).WebElement(&quot;消费类标准信用速贷&quot;).Click&quot;。 ]]></Details>
+<Time><![CDATA[2017/10/10 - 13:14:38]]></Time>
+<TimeTick>1507612478</TimeTick>
+<NodeArgs eType="Replay" icon="11" nRep="96" status="Failed" Source="面签排班" SourceLine="4" >
+<Disp><![CDATA[运行错误]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T20">
+<Obj plainTxt="False" ><![CDATA[停止运行]]></Obj>
+<Details plainTxt="False" ><![CDATA[用户停止运行。]]></Details>
+<Time><![CDATA[2017/10/10 - 13:14:40]]></Time>
+<TimeTick>1507612480</TimeTick>
+<NodeArgs eType="General" icon="12" nRep="97" >
+<Disp><![CDATA[停止运行]]></Disp>
+</NodeArgs>
+</Step>
+<Summary sTime="2017/10/10 - 13:14:07" eTime="2017/10/10 - 13:14:40" passed="0" failed="2" warnings="1" ></Summary>
+<NodeArgs eType="StartAction" icon="3" nRep="6" status="Failed" >
+<Disp><![CDATA[面签排班 摘要]]></Disp>
+</NodeArgs>
+</Action>
+<Summary sTime="2017/10/10 - 13:14:06" eTime="2017/10/10 - 13:14:40" passed="0" failed="2" warnings="1" ></Summary>
+<NodeArgs eType="StartTest" icon="1" nRep="3" status="Failed" >
+<Disp><![CDATA[测试 信用速贷 摘要]]></Disp>
+</NodeArgs>
+</Doc>
+</Report>

@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 4.1.3.0
+Project("") = "贷款流程脚本", "..\02.公共脚本\贷款流程脚本\Test.tsp", "8517F716-1B47-4DCC-B945-AA023638438C"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\922004\Desktop\孙洪斌\学习文档集\信贷项目\02.公共脚本\贷款流程脚本\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+	EndProjectSection
+EndProject
+Project("") = "综合授信额度", "..\01.测试脚本\单笔单批业务全流程\综合授信额度\Test.tsp", "D9D17800-B9E2-4495-82AB-419219BCA271"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\922004\Desktop\孙洪斌\学习文档集\信贷项目\01.测试脚本\单笔单批业务全流程\综合授信额度\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+	EndProjectSection
+EndProject
+Project("") = "短期流动资金贷款", "..\01.测试脚本\单笔单批业务全流程\短期流动资金贷款\Test.tsp", "C386613A-AD2A-4E95-97D0-A9408B8E88CA"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\922004\Desktop\孙洪斌\学习文档集\信贷项目\01.测试脚本\单笔单批业务全流程\短期流动资金贷款\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+	EndProjectSection
+EndProject
+Project("") = "公司客户新增", "..\02.公共脚本\公司客户新增\Test.tsp", "1B082055-BAC8-45DD-8B22-D73F823CE194"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\922004\Desktop\孙洪斌\学习文档集\信贷项目\02.公共脚本\公司客户新增\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+		BaselineId = 
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		8517F716-1B47-4DCC-B945-AA023638438C.Debug|Any CPU.Build.0 = Debug|Any CPU
+		8517F716-1B47-4DCC-B945-AA023638438C.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		8517F716-1B47-4DCC-B945-AA023638438C.Release|Any CPU.Build.0 = Release|Any CPU
+		8517F716-1B47-4DCC-B945-AA023638438C.Release|Any CPU.ActiveCfg = Release|Any CPU
+		D9D17800-B9E2-4495-82AB-419219BCA271.Debug|Any CPU.Build.0 = Debug|Any CPU
+		D9D17800-B9E2-4495-82AB-419219BCA271.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		D9D17800-B9E2-4495-82AB-419219BCA271.Release|Any CPU.Build.0 = Release|Any CPU
+		D9D17800-B9E2-4495-82AB-419219BCA271.Release|Any CPU.ActiveCfg = Release|Any CPU
+		C386613A-AD2A-4E95-97D0-A9408B8E88CA.Debug|Any CPU.Build.0 = Debug|Any CPU
+		C386613A-AD2A-4E95-97D0-A9408B8E88CA.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		C386613A-AD2A-4E95-97D0-A9408B8E88CA.Release|Any CPU.Build.0 = Release|Any CPU
+		C386613A-AD2A-4E95-97D0-A9408B8E88CA.Release|Any CPU.ActiveCfg = Release|Any CPU
+		1B082055-BAC8-45DD-8B22-D73F823CE194.Debug|Any CPU.Build.0 = Debug|Any CPU
+		1B082055-BAC8-45DD-8B22-D73F823CE194.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		1B082055-BAC8-45DD-8B22-D73F823CE194.Release|Any CPU.Build.0 = Release|Any CPU
+		1B082055-BAC8-45DD-8B22-D73F823CE194.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal

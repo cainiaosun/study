@@ -1,0 +1,138 @@
+2019-04-18 21:12:10,114 - INFO - MainThread - 192.168.56.1 - pid:21096 - 获取设备信息！
+2019-04-18 21:18:42,291 - INFO - MainThread - 192.168.56.1 - pid:20632 - 获取设备信息！
+2019-04-18 21:18:42,912 - INFO - MainThread - 192.168.56.1 - pid:20632 - 获取设备成功，设备数：1；设备列表:['127.0.0.1:21503']
+2019-04-18 21:18:42,913 - INFO - MainThread - 192.168.56.1 - pid:20632 - 关闭已启动Appium服务
+2019-04-18 21:18:43,666 - INFO - MainThread - 192.168.56.1 - pid:20632 - Appium服务关闭完成
+2019-04-18 21:18:43,670 - INFO - Thread-1 - 192.168.56.1 - pid:20632 - 启动Appium服务
+2019-04-18 21:18:43,671 - INFO - Thread-1 - 192.168.56.1 - pid:20632 - 生成Appium服务启动dos命令！
+2019-04-18 21:18:43,683 - INFO - Thread-1 - 192.168.56.1 - pid:20632 - 生成port端口
+2019-04-18 21:18:43,684 - INFO - Thread-1 - 192.168.56.1 - pid:20632 - 生成可用端口！
+2019-04-18 21:18:44,009 - INFO - Thread-1 - 192.168.56.1 - pid:20632 - 可用端口生成完成，可用端口列表：[4700]
+2019-04-18 21:18:44,011 - INFO - Thread-1 - 192.168.56.1 - pid:20632 - 生成bp端口
+2019-04-18 21:18:44,012 - INFO - Thread-1 - 192.168.56.1 - pid:20632 - 生成可用端口！
+2019-04-18 21:18:44,173 - INFO - Thread-1 - 192.168.56.1 - pid:20632 - 可用端口生成完成，可用端口列表：[4900]
+2019-04-18 21:18:44,175 - INFO - Thread-1 - 192.168.56.1 - pid:20632 - 生成Appium服务启动dos命令完成，命令列表：['appium -p 4700 -bp 4900 -U 127.0.0.1:21503 --no-reset --session-override --log ../log/detail/log.log']
+2019-04-18 21:20:01,453 - INFO - MainThread - 192.168.56.1 - pid:15128 - 获取设备信息！
+2019-04-18 21:20:01,814 - INFO - MainThread - 192.168.56.1 - pid:15128 - 获取设备成功，设备数：1；设备列表:['127.0.0.1:21503']
+2019-04-18 21:20:01,815 - INFO - MainThread - 192.168.56.1 - pid:15128 - 关闭已启动Appium服务
+2019-04-18 21:20:02,710 - INFO - Thread-1 - 192.168.56.1 - pid:20632 - 启动Appium服务完成,服务已关闭结束！
+2019-04-18 21:20:03,050 - INFO - MainThread - 192.168.56.1 - pid:15128 - Appium服务关闭完成
+2019-04-18 21:20:03,053 - INFO - Thread-1 - 192.168.56.1 - pid:15128 - 启动Appium服务
+2019-04-18 21:20:03,055 - INFO - Thread-1 - 192.168.56.1 - pid:15128 - 生成Appium服务启动dos命令！
+2019-04-18 21:20:03,056 - INFO - Thread-1 - 192.168.56.1 - pid:15128 - 生成port端口
+2019-04-18 21:20:03,058 - INFO - Thread-1 - 192.168.56.1 - pid:15128 - 生成可用端口！
+2019-04-18 21:20:03,322 - INFO - Thread-1 - 192.168.56.1 - pid:15128 - 可用端口生成完成，可用端口列表：[4700]
+2019-04-18 21:20:03,324 - INFO - Thread-1 - 192.168.56.1 - pid:15128 - 生成bp端口
+2019-04-18 21:20:03,325 - INFO - Thread-1 - 192.168.56.1 - pid:15128 - 生成可用端口！
+2019-04-18 21:20:03,465 - INFO - Thread-1 - 192.168.56.1 - pid:15128 - 可用端口生成完成，可用端口列表：[4900]
+2019-04-18 21:20:03,468 - INFO - Thread-1 - 192.168.56.1 - pid:15128 - 生成Appium服务启动dos命令完成，命令列表：['appium -p 4700 -bp 4900 -U 127.0.0.1:21503 --no-reset --session-override --log ../log/detail/log.log']
+2019-04-18 21:22:55,090 - INFO - MainThread - 192.168.56.1 - pid:7540 - 获取设备信息！
+2019-04-18 21:22:55,232 - INFO - MainThread - 192.168.56.1 - pid:7540 - 获取设备成功，设备数：1；设备列表:['127.0.0.1:21503']
+2019-04-18 21:22:55,233 - INFO - MainThread - 192.168.56.1 - pid:7540 - 关闭已启动Appium服务
+2019-04-18 21:22:55,893 - INFO - Thread-1 - 192.168.56.1 - pid:15128 - 启动Appium服务完成,服务已关闭结束！
+2019-04-18 21:22:56,205 - INFO - MainThread - 192.168.56.1 - pid:7540 - Appium服务关闭完成
+2019-04-18 21:22:56,207 - INFO - Thread-1 - 192.168.56.1 - pid:7540 - 启动Appium服务
+2019-04-18 21:22:56,208 - INFO - Thread-1 - 192.168.56.1 - pid:7540 - 生成Appium服务启动dos命令！
+2019-04-18 21:22:56,209 - INFO - Thread-1 - 192.168.56.1 - pid:7540 - 生成port端口
+2019-04-18 21:22:56,210 - INFO - Thread-1 - 192.168.56.1 - pid:7540 - 生成可用端口！
+2019-04-18 21:22:56,373 - INFO - Thread-1 - 192.168.56.1 - pid:7540 - 可用端口生成完成，可用端口列表：[4700]
+2019-04-18 21:22:56,375 - INFO - Thread-1 - 192.168.56.1 - pid:7540 - 生成bp端口
+2019-04-18 21:22:56,376 - INFO - Thread-1 - 192.168.56.1 - pid:7540 - 生成可用端口！
+2019-04-18 21:22:56,489 - INFO - Thread-1 - 192.168.56.1 - pid:7540 - 可用端口生成完成，可用端口列表：[4900]
+2019-04-18 21:22:56,491 - INFO - Thread-1 - 192.168.56.1 - pid:7540 - 生成Appium服务启动dos命令完成，命令列表：['appium -p 4700 -bp 4900 -U 127.0.0.1:21503 --no-reset --session-override --log ../log/detail/log.log']
+2019-04-18 21:23:34,211 - INFO - MainThread - 192.168.56.1 - pid:19328 - 获取设备信息！
+2019-04-18 21:23:34,317 - INFO - MainThread - 192.168.56.1 - pid:19328 - 获取设备成功，设备数：1；设备列表:['127.0.0.1:21503']
+2019-04-18 21:23:34,318 - INFO - MainThread - 192.168.56.1 - pid:19328 - 关闭已启动Appium服务
+2019-04-18 21:23:34,849 - INFO - Thread-1 - 192.168.56.1 - pid:7540 - 启动Appium服务完成,服务已关闭结束！
+2019-04-18 21:23:35,149 - INFO - MainThread - 192.168.56.1 - pid:19328 - Appium服务关闭完成
+2019-04-18 21:23:35,152 - INFO - Thread-1 - 192.168.56.1 - pid:19328 - 启动Appium服务
+2019-04-18 21:23:35,152 - INFO - Thread-1 - 192.168.56.1 - pid:19328 - 生成Appium服务启动dos命令！
+2019-04-18 21:23:35,154 - INFO - Thread-1 - 192.168.56.1 - pid:19328 - 生成port端口
+2019-04-18 21:23:35,155 - INFO - Thread-1 - 192.168.56.1 - pid:19328 - 生成可用端口！
+2019-04-18 21:23:35,303 - INFO - Thread-1 - 192.168.56.1 - pid:19328 - 可用端口生成完成，可用端口列表：[4700]
+2019-04-18 21:23:35,304 - INFO - Thread-1 - 192.168.56.1 - pid:19328 - 生成bp端口
+2019-04-18 21:23:35,305 - INFO - Thread-1 - 192.168.56.1 - pid:19328 - 生成可用端口！
+2019-04-18 21:23:35,420 - INFO - Thread-1 - 192.168.56.1 - pid:19328 - 可用端口生成完成，可用端口列表：[4900]
+2019-04-18 21:23:35,422 - INFO - Thread-1 - 192.168.56.1 - pid:19328 - 生成Appium服务启动dos命令完成，命令列表：['appium -p 4700 -bp 4900 -U 127.0.0.1:21503 --no-reset --session-override --log ../log/detail/log.log']
+2019-04-18 21:23:55,171 - INFO - MainThread - 192.168.56.1 - pid:19328 - 设备通讯，通讯信息:{"deviceName":127.0.0.1:21503,"port":4700}
+2019-04-18 21:26:45,641 - INFO - MainThread - 192.168.56.1 - pid:19248 - 获取设备信息！
+2019-04-18 21:26:45,851 - INFO - MainThread - 192.168.56.1 - pid:19248 - 获取设备成功，设备数：1；设备列表:['127.0.0.1:21503']
+2019-04-18 21:26:45,852 - INFO - MainThread - 192.168.56.1 - pid:19248 - 关闭已启动Appium服务
+2019-04-18 21:26:46,316 - INFO - MainThread - 192.168.56.1 - pid:19248 - Appium服务关闭完成
+2019-04-18 21:26:46,319 - INFO - Thread-1 - 192.168.56.1 - pid:19248 - 启动Appium服务
+2019-04-18 21:26:46,319 - INFO - Thread-1 - 192.168.56.1 - pid:19248 - 生成Appium服务启动dos命令！
+2019-04-18 21:26:46,320 - INFO - Thread-1 - 192.168.56.1 - pid:19248 - 生成port端口
+2019-04-18 21:26:46,321 - INFO - Thread-1 - 192.168.56.1 - pid:19248 - 生成可用端口！
+2019-04-18 21:26:46,515 - INFO - Thread-1 - 192.168.56.1 - pid:19248 - 可用端口生成完成，可用端口列表：[4700]
+2019-04-18 21:26:46,516 - INFO - Thread-1 - 192.168.56.1 - pid:19248 - 生成bp端口
+2019-04-18 21:26:46,518 - INFO - Thread-1 - 192.168.56.1 - pid:19248 - 生成可用端口！
+2019-04-18 21:26:46,732 - INFO - Thread-1 - 192.168.56.1 - pid:19248 - 可用端口生成完成，可用端口列表：[4901]
+2019-04-18 21:26:46,734 - INFO - Thread-1 - 192.168.56.1 - pid:19248 - 生成Appium服务启动dos命令完成，命令列表：['appium -p 4700 -bp 4901 -U 127.0.0.1:21503 --no-reset --session-override --log ../log/detail/log.log']
+2019-04-18 21:27:06,356 - INFO - MainThread - 192.168.56.1 - pid:19248 - 设备通讯，通讯信息:{"deviceName":127.0.0.1:21503,"port":4700}
+2019-04-18 21:27:22,825 - INFO - MainThread - 192.168.56.1 - pid:19248 - 点击元素：('-android uiautomator', 'new UiSelector().text("账号")')
+2019-04-18 21:30:36,535 - INFO - MainThread - 192.168.56.1 - pid:2236 - 获取设备信息！
+2019-04-18 21:30:36,744 - INFO - MainThread - 192.168.56.1 - pid:2236 - 获取设备成功，设备数：1；设备列表:['127.0.0.1:21503']
+2019-04-18 21:30:36,745 - INFO - MainThread - 192.168.56.1 - pid:2236 - 关闭已启动Appium服务
+2019-04-18 21:30:37,390 - WARNING - MainThread - 192.168.56.1 - pid:19248 - 元素：('-android uiautomator', 'new UiSelector().text("账号")')，定位失败！
+2019-04-18 21:30:37,391 - INFO - MainThread - 192.168.56.1 - pid:19248 - 点击元素：('-android uiautomator', 'new UiSelector().text("点击登录")')
+2019-04-18 21:30:37,417 - INFO - Thread-1 - 192.168.56.1 - pid:19248 - 启动Appium服务完成,服务已关闭结束！
+2019-04-18 21:30:37,710 - INFO - MainThread - 192.168.56.1 - pid:2236 - Appium服务关闭完成
+2019-04-18 21:30:37,713 - INFO - Thread-1 - 192.168.56.1 - pid:2236 - 启动Appium服务
+2019-04-18 21:30:37,714 - INFO - Thread-1 - 192.168.56.1 - pid:2236 - 生成Appium服务启动dos命令！
+2019-04-18 21:30:37,715 - INFO - Thread-1 - 192.168.56.1 - pid:2236 - 生成port端口
+2019-04-18 21:30:37,717 - INFO - Thread-1 - 192.168.56.1 - pid:2236 - 生成可用端口！
+2019-04-18 21:30:38,048 - INFO - Thread-1 - 192.168.56.1 - pid:2236 - 可用端口生成完成，可用端口列表：[4701]
+2019-04-18 21:30:38,049 - INFO - Thread-1 - 192.168.56.1 - pid:2236 - 生成bp端口
+2019-04-18 21:30:38,050 - INFO - Thread-1 - 192.168.56.1 - pid:2236 - 生成可用端口！
+2019-04-18 21:30:38,160 - INFO - Thread-1 - 192.168.56.1 - pid:2236 - 可用端口生成完成，可用端口列表：[4900]
+2019-04-18 21:30:38,162 - INFO - Thread-1 - 192.168.56.1 - pid:2236 - 生成Appium服务启动dos命令完成，命令列表：['appium -p 4701 -bp 4900 -U 127.0.0.1:21503 --no-reset --session-override --log ../log/detail/log.log']
+2019-04-18 21:30:38,395 - WARNING - MainThread - 192.168.56.1 - pid:19248 - 元素：('-android uiautomator', 'new UiSelector().text("点击登录")')，定位失败！
+2019-04-18 21:30:38,396 - INFO - MainThread - 192.168.56.1 - pid:19248 - 点击元素：('-android uiautomator', 'new UiSelector().text("登录")')
+2019-04-18 21:30:39,399 - WARNING - MainThread - 192.168.56.1 - pid:19248 - 元素：('-android uiautomator', 'new UiSelector().text("登录")')，定位失败！
+2019-04-18 21:30:39,400 - INFO - MainThread - 192.168.56.1 - pid:19248 - 元素：('id', 'cn.com.open.mooc:id/accountEdit')，输入：18771723322
+2019-04-18 21:30:40,406 - WARNING - MainThread - 192.168.56.1 - pid:19248 - 元素：('id', 'cn.com.open.mooc:id/accountEdit')，定位失败！
+2019-04-18 21:30:40,407 - INFO - MainThread - 192.168.56.1 - pid:19248 - 元素：('id', 'cn.com.open.mooc:id/passwordEdit')，输入：shb5146955102
+2019-04-18 21:30:41,411 - WARNING - MainThread - 192.168.56.1 - pid:19248 - 元素：('id', 'cn.com.open.mooc:id/passwordEdit')，定位失败！
+2019-04-18 21:30:41,412 - INFO - MainThread - 192.168.56.1 - pid:19248 - 点击元素：('-android uiautomator', 'new UiSelector().text("登录")')
+2019-04-18 21:30:42,415 - WARNING - MainThread - 192.168.56.1 - pid:19248 - 元素：('-android uiautomator', 'new UiSelector().text("登录")')，定位失败！
+2019-04-18 21:30:57,828 - INFO - MainThread - 192.168.56.1 - pid:2236 - 设备通讯，通讯信息:{"deviceName":127.0.0.1:21503,"port":4701}
+2019-04-18 21:31:17,192 - INFO - MainThread - 192.168.56.1 - pid:2236 - 点击元素：('-android uiautomator', 'new UiSelector().text("账号")')
+2019-04-18 21:31:21,707 - WARNING - MainThread - 192.168.56.1 - pid:2236 - 元素：('-android uiautomator', 'new UiSelector().text("账号")')，定位失败！
+2019-04-18 21:31:21,709 - INFO - MainThread - 192.168.56.1 - pid:2236 - 点击元素：('-android uiautomator', 'new UiSelector().text("点击登录")')
+2019-04-18 21:31:22,766 - WARNING - MainThread - 192.168.56.1 - pid:2236 - 元素：('-android uiautomator', 'new UiSelector().text("点击登录")')，定位失败！
+2019-04-18 21:31:22,768 - INFO - MainThread - 192.168.56.1 - pid:2236 - 点击元素：('-android uiautomator', 'new UiSelector().text("登录")')
+2019-04-18 21:31:22,796 - WARNING - MainThread - 192.168.56.1 - pid:2236 - 元素：('-android uiautomator', 'new UiSelector().text("登录")')，定位失败！
+2019-04-18 21:31:22,797 - INFO - MainThread - 192.168.56.1 - pid:2236 - 元素：('id', 'cn.com.open.mooc:id/accountEdit')，输入：18771723322
+2019-04-18 21:31:24,446 - WARNING - MainThread - 192.168.56.1 - pid:2236 - 元素：('id', 'cn.com.open.mooc:id/accountEdit')，定位失败！
+2019-04-18 21:31:24,448 - INFO - MainThread - 192.168.56.1 - pid:2236 - 元素：('id', 'cn.com.open.mooc:id/passwordEdit')，输入：shb5146955102
+2019-04-18 21:31:25,960 - WARNING - MainThread - 192.168.56.1 - pid:2236 - 元素：('id', 'cn.com.open.mooc:id/passwordEdit')，定位失败！
+2019-04-18 21:31:25,962 - INFO - MainThread - 192.168.56.1 - pid:2236 - 点击元素：('-android uiautomator', 'new UiSelector().text("登录")')
+2019-04-18 21:31:26,078 - WARNING - MainThread - 192.168.56.1 - pid:2236 - 元素：('-android uiautomator', 'new UiSelector().text("登录")')，定位失败！
+2019-04-18 21:31:46,408 - INFO - MainThread - 192.168.56.1 - pid:17832 - 获取设备信息！
+2019-04-18 21:31:47,007 - INFO - MainThread - 192.168.56.1 - pid:17832 - 获取设备成功，设备数：1；设备列表:['127.0.0.1:21503']
+2019-04-18 21:31:47,008 - INFO - MainThread - 192.168.56.1 - pid:17832 - 关闭已启动Appium服务
+2019-04-18 21:31:47,686 - INFO - Thread-1 - 192.168.56.1 - pid:2236 - 启动Appium服务完成,服务已关闭结束！
+2019-04-18 21:31:48,068 - INFO - MainThread - 192.168.56.1 - pid:17832 - Appium服务关闭完成
+2019-04-18 21:31:48,070 - INFO - Thread-1 - 192.168.56.1 - pid:17832 - 启动Appium服务
+2019-04-18 21:31:48,071 - INFO - Thread-1 - 192.168.56.1 - pid:17832 - 生成Appium服务启动dos命令！
+2019-04-18 21:31:48,072 - INFO - Thread-1 - 192.168.56.1 - pid:17832 - 生成port端口
+2019-04-18 21:31:48,073 - INFO - Thread-1 - 192.168.56.1 - pid:17832 - 生成可用端口！
+2019-04-18 21:31:48,221 - INFO - Thread-1 - 192.168.56.1 - pid:17832 - 可用端口生成完成，可用端口列表：[4700]
+2019-04-18 21:31:48,222 - INFO - Thread-1 - 192.168.56.1 - pid:17832 - 生成bp端口
+2019-04-18 21:31:48,223 - INFO - Thread-1 - 192.168.56.1 - pid:17832 - 生成可用端口！
+2019-04-18 21:31:48,461 - INFO - Thread-1 - 192.168.56.1 - pid:17832 - 可用端口生成完成，可用端口列表：[4901]
+2019-04-18 21:31:48,463 - INFO - Thread-1 - 192.168.56.1 - pid:17832 - 生成Appium服务启动dos命令完成，命令列表：['appium -p 4700 -bp 4901 -U 127.0.0.1:21503 --no-reset --session-override --log ../log/detail/log.log']
+2019-04-18 21:32:08,073 - INFO - MainThread - 192.168.56.1 - pid:17832 - 设备通讯，通讯信息:{"deviceName":127.0.0.1:21503,"port":4700}
+2019-04-18 21:32:24,115 - INFO - MainThread - 192.168.56.1 - pid:17832 - 点击元素：('-android uiautomator', 'new UiSelector().text("账号")')
+2019-04-18 21:32:24,389 - WARNING - MainThread - 192.168.56.1 - pid:17832 - 元素：('-android uiautomator', 'new UiSelector().text("账号")')，定位失败！
+2019-04-18 21:32:24,391 - INFO - MainThread - 192.168.56.1 - pid:17832 - 点击元素：('-android uiautomator', 'new UiSelector().text("点击登录")')
+2019-04-18 21:32:24,427 - WARNING - MainThread - 192.168.56.1 - pid:17832 - 元素：('-android uiautomator', 'new UiSelector().text("点击登录")')，定位失败！
+2019-04-18 21:32:24,428 - INFO - MainThread - 192.168.56.1 - pid:17832 - 点击元素：('-android uiautomator', 'new UiSelector().text("登录")')
+2019-04-18 21:32:24,463 - WARNING - MainThread - 192.168.56.1 - pid:17832 - 元素：('-android uiautomator', 'new UiSelector().text("登录")')，定位失败！
+2019-04-18 21:32:24,465 - INFO - MainThread - 192.168.56.1 - pid:17832 - 元素：('id', 'cn.com.open.mooc:id/accountEdit')，输入：18771723322
+2019-04-18 21:32:24,494 - WARNING - MainThread - 192.168.56.1 - pid:17832 - 元素：('id', 'cn.com.open.mooc:id/accountEdit')，定位失败！
+2019-04-18 21:32:24,495 - INFO - MainThread - 192.168.56.1 - pid:17832 - 元素：('id', 'cn.com.open.mooc:id/passwordEdit')，输入：shb5146955102
+2019-04-18 21:32:24,525 - WARNING - MainThread - 192.168.56.1 - pid:17832 - 元素：('id', 'cn.com.open.mooc:id/passwordEdit')，定位失败！
+2019-04-18 21:32:24,526 - INFO - MainThread - 192.168.56.1 - pid:17832 - 点击元素：('-android uiautomator', 'new UiSelector().text("登录")')
+2019-04-18 21:32:24,561 - WARNING - MainThread - 192.168.56.1 - pid:17832 - 元素：('-android uiautomator', 'new UiSelector().text("登录")')，定位失败！
+2019-04-18 21:32:24,562 - INFO - MainThread - 192.168.56.1 - pid:17832 - 点击元素：('uiautomator', "new UiSelector().text('点击登录')")

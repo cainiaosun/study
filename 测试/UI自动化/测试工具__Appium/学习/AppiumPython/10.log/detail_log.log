@@ -1,0 +1,180 @@
+2019-04-10 07:55:29:146 [Appium] Welcome to Appium v1.12.1
+2019-04-10 07:55:29:148 [Appium] Non-default server args:
+2019-04-10 07:55:29:149 [Appium]   port: 4703
+2019-04-10 07:55:29:149 [Appium]   bootstrapPort: 4922
+2019-04-10 07:55:29:149 [Appium]   sessionOverride: true
+2019-04-10 07:55:29:150 [Appium]   logFile: F:/GIT文件/mystudy/学习资料/编程与测试/测试工具__Appium/学习/AppiumPython/10.log/detail_log.log
+2019-04-10 07:55:29:150 [Appium]   udid: 127.0.0.1:21503
+2019-04-10 07:55:29:151 [Appium]   noReset: true
+2019-04-10 07:55:29:152 [Appium] Deprecated server args:
+2019-04-10 07:55:29:152 [Appium]   -U,--udid => --default-capabilities '{"udid":"127.0.0.1:21503"}'
+2019-04-10 07:55:29:152 [Appium]   --no-reset => --default-capabilities '{"noReset":true}'
+2019-04-10 07:55:29:152 [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2019-04-10 07:55:29:153 [Appium]   udid: 127.0.0.1:21503
+2019-04-10 07:55:29:153 [Appium]   noReset: true
+2019-04-10 07:55:29:202 [Appium] Appium REST http interface listener started on 0.0.0.0:4703
+2019-04-10 07:55:43:967 [HTTP] --> POST /wd/hub/session
+2019-04-10 07:55:43:967 [HTTP] {"capabilities":{"firstMatch":[{}],"alwaysMatch":{"platformName":"Android","appium:deviceName":"127.0.0.1:21503","appium:appPackage":"cn.com.open.mooc","appium:appActivity":"com.imooc.component.imoocmain.splash.MCSplashActivity","appium:platforVersion":"4.4.4"}},"desiredCapabilities":{"platformName":"Android","deviceName":"127.0.0.1:21503","appPackage":"cn.com.open.mooc","appActivity":"com.imooc.component.imoocmain.splash.MCSplashActivity","platforVersion":"4.4.4"}}
+2019-04-10 07:55:43:970 [W3C] Calling AppiumDriver.createSession() with args: [{"platformName":"Android","deviceName":"127.0.0.1:21503","appPackage":"cn.com.open.mooc","appActivity":"com.imooc.component.imoocmain.splash.MCSplashActivity","platforVersion":"4.4.4"},null,{"firstMatch":[{}],"alwaysMatch":{"platformName":"Android","appium:deviceName":"127.0.0.1:21503","appium:appPackage":"cn.com.open.mooc","appium:appActivity":"com.imooc.component.imoocmain.splash.MCSplashActivity","appium:platforVersion":"4.4.4"}}]
+2019-04-10 07:55:43:971 [BaseDriver] Event 'newSessionRequested' logged at 1554882943970 (15:55:43 GMT+0800 (中国标准时间))
+2019-04-10 07:55:43:974 [BaseDriver] The capabilities ["udid","noReset"] are not standard capabilities and should have an extension prefix
+2019-04-10 07:55:43:978 [Appium] DeprecationWarning: 'automationName' capability was not provided. Future versions of Appium will require 'automationName' capability to be set for Android sessions.
+2019-04-10 07:55:43:978 [Appium] Setting automation to 'UiAutomator1'. 
+2019-04-10 07:55:44:214 [Appium] Appium v1.12.1 creating new AndroidDriver (v4.14.0) session
+2019-04-10 07:55:44:214 [Appium] Capabilities:
+2019-04-10 07:55:44:215 [Appium]   platformName: Android
+2019-04-10 07:55:44:215 [Appium]   deviceName: 127.0.0.1:21503
+2019-04-10 07:55:44:215 [Appium]   appPackage: cn.com.open.mooc
+2019-04-10 07:55:44:215 [Appium]   appActivity: com.imooc.component.imoocmain.splash.MCSplashActivity
+2019-04-10 07:55:44:216 [Appium]   platforVersion: 4.4.4
+2019-04-10 07:55:44:216 [Appium]   udid: 127.0.0.1:21503
+2019-04-10 07:55:44:216 [Appium]   noReset: true
+2019-04-10 07:55:44:222 [BaseDriver] W3C capabilities {"alwaysMatch":{"platformNa... and MJSONWP desired capabilities {"udid":"127.0.0.1:21503","... were provided
+2019-04-10 07:55:44:222 [BaseDriver] Creating session with W3C capabilities: {"alwaysMatch":{"platformNa...
+2019-04-10 07:55:44:230 [BaseDriver] The following capabilities were provided, but are not recognized by appium: platforVersion.
+2019-04-10 07:55:44:235 [BaseDriver] Session created with session id: 7f5f3ffc-4516-47b1-bb21-ce50ab4cc944
+2019-04-10 07:55:44:239 [ADB] Checking whether adb is present
+2019-04-10 07:55:44:263 [ADB] Found 1 'build-tools' folders under 'D:\InstallSoftWare\Java\sdk' (newest first):
+2019-04-10 07:55:44:263 [ADB]     D:/InstallSoftWare/Java/sdk/build-tools/android-4.3
+2019-04-10 07:55:44:266 [ADB] Using adb.exe from D:\InstallSoftWare\Java\sdk\platform-tools\adb.exe
+2019-04-10 07:55:44:266 [AndroidDriver] Retrieving device list
+2019-04-10 07:55:44:267 [ADB] Trying to find a connected android device
+2019-04-10 07:55:44:268 [ADB] Getting connected devices...
+2019-04-10 07:55:44:325 [ADB] 1 device(s) connected
+2019-04-10 07:55:44:326 [AndroidDriver] Using device: 127.0.0.1:21503
+2019-04-10 07:55:44:327 [ADB] Setting device id to 127.0.0.1:21503
+2019-04-10 07:55:44:328 [ADB] Running 'D:\InstallSoftWare\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell getprop ro.build.version.sdk'
+2019-04-10 07:55:44:389 [ADB] Current device property 'ro.build.version.sdk': 22
+2019-04-10 07:55:44:389 [ADB] Device API level: 22
+2019-04-10 07:55:44:389 [AndroidDriver] App file was not listed, instead we're going to run cn.com.open.mooc directly on the device
+2019-04-10 07:55:44:390 [AndroidDriver] Checking whether package is present on the device
+2019-04-10 07:55:44:390 [ADB] Running 'D:\InstallSoftWare\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell pm list packages cn.com.open.mooc'
+2019-04-10 07:55:44:569 [AndroidDriver] Starting Android session
+2019-04-10 07:55:44:570 [ADB] Running 'D:\InstallSoftWare\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 wait-for-device'
+2019-04-10 07:55:44:625 [ADB] Running 'D:\InstallSoftWare\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell echo ping'
+2019-04-10 07:55:44:682 [AndroidDriver] Pushing settings apk to device...
+2019-04-10 07:55:44:683 [ADB] Getting install status for io.appium.settings
+2019-04-10 07:55:44:684 [ADB] Running 'D:\InstallSoftWare\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell dumpsys package io.appium.settings'
+2019-04-10 07:55:44:747 [ADB] 'io.appium.settings' is installed
+2019-04-10 07:55:44:747 [ADB] Getting package info for 'io.appium.settings'
+2019-04-10 07:55:44:747 [ADB] Running 'D:\InstallSoftWare\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell dumpsys package io.appium.settings'
+2019-04-10 07:55:44:826 [ADB] Checking whether aapt is present
+2019-04-10 07:55:44:828 [ADB] Using aapt.exe from D:\InstallSoftWare\Java\sdk\tools\aapt.exe
+2019-04-10 07:55:44:866 [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('2.14.0' >= '2.14.0')
+2019-04-10 07:55:44:866 [ADB] There is no need to install/upgrade 'C:\Users\孙洪斌\AppData\Roaming\npm\node_modules\appium\node_modules\_io.appium.settings@2.14.0@io.appium.settings\apks\settings_apk-debug.apk'
+2019-04-10 07:55:44:867 [ADB] Getting IDs of all 'io.appium.settings' processes
+2019-04-10 07:55:44:868 [ADB] Running 'D:\InstallSoftWare\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell 'pgrep --help; echo $?''
+2019-04-10 07:55:44:935 [ADB] Running 'D:\InstallSoftWare\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell pgrep \^appium\\.settings\$'
+2019-04-10 07:55:45:001 [AndroidDriver] Granting android.permission.SET_ANIMATION_SCALE, CHANGE_CONFIGURATION, ACCESS_FINE_LOCATION by pm grant
+2019-04-10 07:55:45:001 [ADB] Granting permissions ["android.permission.SET_ANIMATION_SCALE","android.permission.CHANGE_CONFIGURATION","android.permission.ACCESS_FINE_LOCATION"] to 'io.appium.settings'
+2019-04-10 07:55:45:002 [ADB] Got the following command chunks to execute: [["pm","grant","io.appium.settings","android.permission.SET_ANIMATION_SCALE",";","pm","grant","io.appium.settings","android.permission.CHANGE_CONFIGURATION",";","pm","grant","io.appium.settings","android.permission.ACCESS_FINE_LOCATION",";"]]
+2019-04-10 07:55:45:002 [ADB] Running 'D:\InstallSoftWare\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell pm grant io.appium.settings android.permission.SET_ANIMATION_SCALE \; pm grant io.appium.settings android.permission.CHANGE_CONFIGURATION \; pm grant io.appium.settings android.permission.ACCESS_FINE_LOCATION \;'
+2019-04-10 07:55:45:467 [ADB] Running 'D:\InstallSoftWare\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell am start -W -n io.appium.settings/.Settings -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2019-04-10 07:55:46:204 [ADB] Running 'D:\InstallSoftWare\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell settings put secure mock_location 1'
+2019-04-10 07:55:46:597 [Logcat] Starting logcat capture
+2019-04-10 07:55:46:648 [ADB] Getting device platform version
+2019-04-10 07:55:46:649 [ADB] Running 'D:\InstallSoftWare\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell getprop ro.build.version.release'
+2019-04-10 07:55:46:724 [ADB] Current device property 'ro.build.version.release': 5.1.1
+2019-04-10 07:55:46:724 [ADB] Running 'D:\InstallSoftWare\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell wm size'
+2019-04-10 07:55:47:180 [ADB] Running 'D:\InstallSoftWare\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell getprop ro.product.model'
+2019-04-10 07:55:47:246 [ADB] Current device property 'ro.product.model': vivo X9Plus
+2019-04-10 07:55:47:246 [ADB] Running 'D:\InstallSoftWare\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell getprop ro.product.manufacturer'
+2019-04-10 07:55:47:333 [ADB] Current device property 'ro.product.manufacturer': vivo
+2019-04-10 07:55:47:334 [AndroidDriver] No app sent in, not parsing package/activity
+2019-04-10 07:55:47:334 [AndroidDriver] No app capability. Assuming it is already on the device
+2019-04-10 07:55:47:334 [AndroidBootstrap] Watching for bootstrap disconnect
+2019-04-10 07:55:47:335 [ADB] Forwarding system: 4922 to device: 4724
+2019-04-10 07:55:47:335 [ADB] Running 'D:\InstallSoftWare\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 forward tcp\:4922 tcp\:4724'
+2019-04-10 07:55:47:387 [UiAutomator] Starting UiAutomator
+2019-04-10 07:55:47:387 [UiAutomator] Moving to state 'starting'
+2019-04-10 07:55:47:387 [UiAutomator] Parsing uiautomator jar
+2019-04-10 07:55:47:388 [UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+2019-04-10 07:55:47:388 [ADB] Running 'D:\InstallSoftWare\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell mkdir -p /data/local'
+2019-04-10 07:55:47:449 [ADB] Running 'D:\InstallSoftWare\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 push C\:\\Users\\孙洪斌\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\_appium-android-driver\@4.14.0\@appium-android-driver\\bootstrap\\bin\\AppiumBootstrap.jar /data/local/tmp/'
+2019-04-10 07:55:47:868 [ADB] Attempting to kill all uiautomator processes
+2019-04-10 07:55:47:868 [ADB] Getting IDs of all 'uiautomator' processes
+2019-04-10 07:55:47:868 [ADB] Running 'D:\InstallSoftWare\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell pgrep \^uiautomator\$'
+2019-04-10 07:55:47:931 [ADB] No 'uiautomator' process has been found
+2019-04-10 07:55:47:931 [UiAutomator] Starting UIAutomator
+2019-04-10 07:55:47:932 [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","127.0.0.1:21503","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","cn.com.open.mooc","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+2019-04-10 07:55:48:155 [UiAutomator] Moving to state 'online'
+2019-04-10 07:55:48:158 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] json loading complete.
+2019-04-10 07:55:48:160 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+2019-04-10 07:55:48:164 [AndroidBootstrap] Android bootstrap socket is now connected
+2019-04-10 07:55:48:166 [ADB] Running 'D:\InstallSoftWare\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell dumpsys window'
+2019-04-10 07:55:48:175 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+2019-04-10 07:55:48:233 [AndroidDriver] Screen already unlocked, doing nothing
+2019-04-10 07:55:48:234 [ADB] Running 'D:\InstallSoftWare\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell am start -W -n cn.com.open.mooc/com.imooc.component.imoocmain.splash.MCSplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2019-04-10 07:55:50:704 [Appium] New AndroidDriver session created successfully, session 7f5f3ffc-4516-47b1-bb21-ce50ab4cc944 added to master session list
+2019-04-10 07:55:50:705 [BaseDriver] Event 'newSessionStarted' logged at 1554882950704 (15:55:50 GMT+0800 (中国标准时间))
+2019-04-10 07:55:50:706 [W3C (7f5f3ffc)] Cached the protocol value 'W3C' for the new session 7f5f3ffc-4516-47b1-bb21-ce50ab4cc944
+2019-04-10 07:55:50:706 [W3C (7f5f3ffc)] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","deviceName":"127.0.0.1:21503","appPackage":"cn.com.open.mooc","appActivity":"com.imooc.component.imoocmain.splash.MCSplashActivity","platforVersion":"4.4.4","udid":"127.0.0.1:21503","noReset":true},"platformName":"Android","deviceName":"127.0.0.1:21503","appPackage":"cn.com.open.mooc","appActivity":"com.imooc.component.imoocmain.splash.MCSplashActivity","platforVersion":"4.4.4","udid":"127.0.0.1:21503","noReset":true,"deviceUDID":"127.0.0.1:21503","platformVersion":"5.1.1","deviceScreenSize":"720x1280","deviceModel":"vivo X9Plus","deviceManufacturer":"vivo"}}
+2019-04-10 07:55:50:711 [HTTP] <-- POST /wd/hub/session 200 6742 ms - 874
+2019-04-10 07:55:50:711 [HTTP] 
+2019-04-10 07:56:00:758 [HTTP] --> POST /wd/hub/session/7f5f3ffc-4516-47b1-bb21-ce50ab4cc944/element
+2019-04-10 07:56:00:758 [HTTP] {"using":"-android uiautomator","value":"new UiSelector().text(\"账号\")","sessionId":"7f5f3ffc-4516-47b1-bb21-ce50ab4cc944"}
+2019-04-10 07:56:00:759 [W3C (7f5f3ffc)] Calling AppiumDriver.findElement() with args: ["-android uiautomator","new UiSelector().text(\"账号\")","7f5f3ffc-4516-47b1-bb21-ce50ab4cc944"]
+2019-04-10 07:56:00:780 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-04-10 07:56:00:781 [BaseDriver] Waiting up to 0 ms for condition
+2019-04-10 07:56:00:783 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().text(\"账号\")","context":"","multiple":false}}
+2019-04-10 07:56:00:790 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().text(\"账号\")","context":"","multiple":false}}
+2019-04-10 07:56:00:791 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-04-10 07:56:00:791 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-04-10 07:56:00:791 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().text("账号")' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: false
+2019-04-10 07:56:00:791 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().text("账号")
+2019-04-10 07:56:00:792 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "账号"
+2019-04-10 07:56:00:792 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[TEXT=账号]
+2019-04-10 07:56:01:088 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"1"}}
+2019-04-10 07:56:01:091 [AndroidBootstrap] Received command result from bootstrap
+2019-04-10 07:56:01:092 [W3C (7f5f3ffc)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"1","ELEMENT":"1"}
+2019-04-10 07:56:01:093 [HTTP] <-- POST /wd/hub/session/7f5f3ffc-4516-47b1-bb21-ce50ab4cc944/element 200 335 ms - 67
+2019-04-10 07:56:01:093 [HTTP] 
+2019-04-10 07:56:01:098 [HTTP] --> POST /wd/hub/session/7f5f3ffc-4516-47b1-bb21-ce50ab4cc944/element/1/click
+2019-04-10 07:56:01:098 [HTTP] {"id":"1","sessionId":"7f5f3ffc-4516-47b1-bb21-ce50ab4cc944"}
+2019-04-10 07:56:01:099 [W3C (7f5f3ffc)] Calling AppiumDriver.click() with args: ["1","7f5f3ffc-4516-47b1-bb21-ce50ab4cc944"]
+2019-04-10 07:56:01:100 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"1"}}
+2019-04-10 07:56:01:102 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"1"}}
+2019-04-10 07:56:01:105 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-04-10 07:56:01:105 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2019-04-10 07:56:01:285 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-04-10 07:56:01:285 [AndroidBootstrap] Received command result from bootstrap
+2019-04-10 07:56:01:286 [W3C (7f5f3ffc)] Responding to client with driver.click() result: true
+2019-04-10 07:56:01:287 [HTTP] <-- POST /wd/hub/session/7f5f3ffc-4516-47b1-bb21-ce50ab4cc944/element/1/click 200 189 ms - 14
+2019-04-10 07:56:01:287 [HTTP] 
+2019-04-10 07:57:01:286 [BaseDriver] Shutting down because we waited 60 seconds for a command
+2019-04-10 07:57:01:287 [AndroidDriver] Shutting down Android driver
+2019-04-10 07:57:01:288 [Appium] Closing session, cause was 'New Command Timeout of 60 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+2019-04-10 07:57:01:288 [Appium] Removing session 7f5f3ffc-4516-47b1-bb21-ce50ab4cc944 from our master session list
+2019-04-10 07:57:01:302 [ADB] Running 'D:\InstallSoftWare\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell am force-stop cn.com.open.mooc'
+2019-04-10 07:57:02:107 [ADB] Pressing the HOME button
+2019-04-10 07:57:02:107 [ADB] Running 'D:\InstallSoftWare\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell input keyevent 3'
+2019-04-10 07:57:02:640 [AndroidBootstrap] Sending command to android: {"cmd":"shutdown"}
+2019-04-10 07:57:02:645 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"shutdown"}
+2019-04-10 07:57:02:645 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type SHUTDOWN
+2019-04-10 07:57:02:646 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"OK, shutting down"}
+2019-04-10 07:57:02:647 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Closed client connection
+2019-04-10 07:57:02:647 [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: numtests=1
+2019-04-10 07:57:02:647 [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: stream=.
+2019-04-10 07:57:02:648 [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+2019-04-10 07:57:02:648 [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: test=testRunServer
+2019-04-10 07:57:02:648 [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap
+2019-04-10 07:57:02:648 [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: current=1
+2019-04-10 07:57:02:648 [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS_CODE: 0
+2019-04-10 07:57:02:649 [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: stream=
+2019-04-10 07:57:02:649 [AndroidBootstrap] [UIAUTO STDOUT] Test results for WatcherResultPrinter=.
+2019-04-10 07:57:02:649 [AndroidBootstrap] [UIAUTO STDOUT] Time: 74.541
+2019-04-10 07:57:02:649 [AndroidBootstrap] [UIAUTO STDOUT] OK (1 test)
+2019-04-10 07:57:02:650 [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS_CODE: -1
+2019-04-10 07:57:02:650 [AndroidBootstrap] Received command result from bootstrap
+2019-04-10 07:57:02:651 [UiAutomator] Shutting down UiAutomator
+2019-04-10 07:57:02:651 [UiAutomator] Moving to state 'stopping'
+2019-04-10 07:57:02:672 [UiAutomator] UiAutomator shut down normally
+2019-04-10 07:57:02:673 [UiAutomator] Moving to state 'stopped'
+2019-04-10 07:57:02:673 [ADB] Attempting to kill all uiautomator processes
+2019-04-10 07:57:02:673 [ADB] Getting IDs of all 'uiautomator' processes
+2019-04-10 07:57:02:674 [ADB] Running 'D:\InstallSoftWare\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell pgrep \^uiautomator\$'
+2019-04-10 07:57:02:754 [ADB] No 'uiautomator' process has been found
+2019-04-10 07:57:02:754 [UiAutomator] Moving to state 'stopped'
+2019-04-10 07:57:02:755 [Logcat] Stopping logcat capture
+2019-04-10 07:57:02:768 [ADB] Running 'D:\InstallSoftWare\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell am force-stop io.appium.unlock'
+2019-04-10 07:57:03:273 [AndroidDriver] Not cleaning generated files. Add `clearSystemFiles` capability if wanted.

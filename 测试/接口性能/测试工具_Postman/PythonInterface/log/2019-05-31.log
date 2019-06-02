@@ -1,0 +1,18 @@
+2019-05-31 14:23:16,339 - INFO - MainThread - 192.168.99.1 - pid:10784 - 添加案例！
+2019-05-31 14:23:16,367 - INFO - MainThread - 192.168.99.1 - pid:10784 - Excute Case:test_01
+2019-05-31 14:23:16,398 - INFO - MainThread - 192.168.99.1 - pid:10784 - Case Name:test_01
+2019-05-31 14:23:16,445 - INFO - MainThread - 192.168.99.1 - pid:10784 - Excute Case:test_02
+2019-05-31 14:23:16,496 - INFO - MainThread - 192.168.99.1 - pid:10784 - Case Name:test_01
+2019-05-31 14:23:16,532 - INFO - MainThread - 192.168.99.1 - pid:10784 - Excute Case:test_03
+2019-05-31 14:23:16,579 - INFO - MainThread - 192.168.99.1 - pid:10784 - Case Name:test_02
+2019-05-31 14:23:16,626 - INFO - MainThread - 192.168.99.1 - pid:10784 - Excute Case:test_04
+2019-05-31 14:23:16,657 - INFO - MainThread - 192.168.99.1 - pid:10784 - Case Name:test_03
+2019-05-31 14:59:01,548 - INFO - MainThread - 192.168.99.1 - pid:11752 - 添加案例！
+2019-05-31 14:59:01,579 - INFO - MainThread - 192.168.99.1 - pid:11752 - Excute Case:test_01
+2019-05-31 14:59:01,611 - INFO - MainThread - 192.168.99.1 - pid:11752 - Case Name:test_01
+2019-05-31 14:59:01,658 - INFO - MainThread - 192.168.99.1 - pid:11752 - Excute Case:test_02
+2019-05-31 14:59:01,704 - INFO - MainThread - 192.168.99.1 - pid:11752 - Case Name:test_01
+2019-05-31 14:59:01,736 - INFO - MainThread - 192.168.99.1 - pid:11752 - Excute Case:test_03
+2019-05-31 14:59:01,783 - INFO - MainThread - 192.168.99.1 - pid:11752 - Case Name:test_02
+2019-05-31 14:59:01,829 - INFO - MainThread - 192.168.99.1 - pid:11752 - Excute Case:test_04
+2019-05-31 14:59:01,861 - INFO - MainThread - 192.168.99.1 - pid:11752 - Case Name:test_03

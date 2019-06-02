@@ -1,0 +1,1666 @@
+1521622800489	geckodriver	INFO	geckodriver 0.19.1
+1521622800508	geckodriver	INFO	Listening on 127.0.0.1:8482
+1521622803284	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Pactera\\AppData\\Local\\Temp\\rust_mozprofile.8ufaF5gzvAoM"
+1521622805617	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8140, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8140, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1521622812026	Marionette	INFO	Listening on port 8491
+1521622812754	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521622812830	Marionette	DEBUG	Register listener.js for window 4294967297
+1521622812878	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521622813859	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521622813860	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+1521622814634	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
+1521622814819	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
+1521Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 14488, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 15532, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 14488, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16084, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16084, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+ppData\Local\openvr\openvrpaths.vrpath
+[Child 4060, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4060, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: (msgtype=0x440006,name=PImageBridge::Msg_WillClose) Channel error: cannot send/recv
+
+/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+1521623647125	Marionette	DEBUG	Register listener.js for window 4294967325
+JavaScript warning: https://jingyan.baidu.com/article/1876c8527a68dc890b1376ce.html, line 172: SyntaxError: 08 is not a legal ECMA-262 octal constant
+1521623685614	Marionette	DEBUG	Register listener.js for window 4294967342
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 201: TypeError: this.win is null
+[Child[Child 16624, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16624, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 17132, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17132, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, lineUnable
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+1521624019187	geckodriver	INFO	geckodriver 0.19.1
+1521624019204	geckodriver	INFO	Listening on 127.0.0.1:9243
+1521624021982	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Pactera\\AppData\\Local\\Temp\\rust_mozprofile.c4XkvAoDTod0"
+1521624023547	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 19732, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1521624028713	Marionette	INFO	Listening on port 9252
+1521624029349	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521624029422	Marionette	DEBUG	Register listener.js for window 4294967297
+1521624029484	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521624030272	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521624030272	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+1521624031469	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
+1521624031825	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
+[Child 20456, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20456, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 16864, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16864, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+1521624074600	geckodriver	INFO	geckodriver 0.19.1
+1521624074612	geckodriver	INFO	Listening on 127.0.0.1:9299
+1521624077484	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Pactera\\AppData\\Local\\Temp\\rust_mozprofile.NhYdODxFQiH4"
+1521624078516	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 19012, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19012, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1521624083589	Marionette	INFO	Listening on port 9307
+1521624083921	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521624084010	Marionette	DEBUG	Register listener.js for window 4294967297
+1521624084061	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521624084977	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521624084977	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+1521624085853	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
+1521624086072	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
+[Child 15636, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15636, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10260, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10260, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+1521624177301	geckodriver	INFO	geckodriver 0.19.1
+1521624177324	geckodriver	INFO	Listening on 127.0.0.1:9373
+1521624180008	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Pactera\\AppData\\Local\\Temp\\rust_mozprofile.NeYCtF95lwmv"
+1521624181063	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 15924, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15924, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1521624185994	Marionette	INFO	Listening on port 9381
+1521624186516	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521624186601	Marionette	DEBUG	Register listener.js for window 4294967297
+1521624186654	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521624187382	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521624187383	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+1521624188172	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
+1521624188460	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=s&json=1&p=3&sid=1436_21116_17001_22157&req=2&csor=1&cb=jQuery110205384064183387544_1521624187891&_=1521624187893, line 1: TypeError: jQuery110205384064183387544_1521624187891 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=se&json=1&p=3&sid=1436_21116_17001_22157&req=2&csor=2&pwd=s&cb=jQuery110205384064183387544_1521624187891&_=1521624187894, line 1: TypeError: jQuery110205384064183387544_1521624187891 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=sel&json=1&p=3&sid=1436_21116_17001_22157&req=2&csor=3&pwd=se&cb=jQuery110205384064183387544_1521624187891&_=1521624187895, line 1: TypeError: jQuery110205384064183387544_1521624187891 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=selen&json=1&p=3&sid=1436_21116_17001_22157&req=2&csor=5&pwd=sele&cb=jQuery110205384064183387544_1521624187891&_=1521624187897, line 1: TypeError: jQuery110205384064183387544_1521624187891 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=sele&json=1&p=3&sid=1436_21116_17001_22157&req=2&csor=4&pwd=sel&cb=jQuery110205384064183387544_1521624187891&_=1521624187896, line 1: TypeError: jQuery110205384064183387544_1521624187891 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=seleni&json=1&p=3&sid=1436_21116_17001_22157&req=2&csor=6&pwd=selen&cb=jQuery110205384064183387544_1521624187891&_=1521624187898, line 1: TypeError: jQuery110205384064183387544_1521624187891 is not a function
+1521624188982	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=seleniu&json=1&p=3&sid=1436_21116_17001_22157&req=2&csor=7&pwd=seleni&cb=jQuery110205384064183387544_1521624187891&_=1521624187899, line 1: TypeError: jQuery110205384064183387544_1521624187891 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=selenium&json=1&p=3&sid=1436_21116_17001_22157&req=2&csor=8&pwd=seleniu&cb=jQuery110205384064183387544_1521624187891&_=1521624187900, line 1: TypeError: jQuery110205384064183387544_1521624187891 is not a function
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 1172, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1172, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16084, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16084, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+1521624359035	geckodriver	INFO	geckodriver 0.19.1
+1521624359054	geckodriver	INFO	Listening on 127.0.0.1:9542
+1521624361802	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Pactera\\AppData\\Local\\Temp\\rust_mozprofile.IO91vZeUnIGp"
+1521624363004	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8484, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8484, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1521624368346	Marionette	INFO	Listening on port 9550
+1521624369154	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521624369223	Marionette	DEBUG	Register listener.js for window 4294967297
+1521624369294	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521624369436	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521624369437	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521624369545	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://11.8.121.150:7001/GDNY_CZ/logon.html"
+1521624370165	Marionette	DEBUG	Received DOM event "pageshow" for "http://11.8.121.150:7001/GDNY_CZ/logon.html"
+1521624370265	Marionette	DEBUG	Received DOM event "beforeunload" for "http://11.8.121.150:7001/GDNY_CZ/logon.html"
+1521624371117	Marionette	DEBUG	Received DOM event "pagehide" for "http://11.8.121.150:7001/GDNY_CZ/logon.html"
+1521624371117	Marionette	DEBUG	Received DOM event "unload" for "http://11.8.121.150:7001/GDNY_CZ/logon.html"
+1521624371127	Marionette	DEBUG	Received DOM event "pageshow" for "http://11.8.121.150:7001/GDNY_CZ/Logon.jsp"
+1521624371133	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://11.8.121.150:7001/GDNY_CZ/Logon.jsp"
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1521624372609	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2018032117260787094322910100945"
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1521624373763	Marionette	DEBUG	Received DOM event "pageshow" for "http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2018032117260787094322910100945"
+1521624485266	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+1521624527341	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1521624617695	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+[GFX1-]: (gfxWindowsPlatform) Detected device reset: 3
+[GFX1-]: (gfxWindowsPlatform) scheduled device update.
+[GFX1-]: (gfxWindowsPlatform) Detected device reset: 3
+[GFX1-]: (gfxWindowsPlatform) scheduled device update.
+[GFX1-]: (gfxWindowsPlatform) Detected device reset: 3
+[GFX1-]: (gfxWindowsPlatform) scheduled device update.
+[GFX1-]: (gfxWindowsPlatform) Detected device reset: 3
+[GFX1-]: (gfxWindowsPlatform) scheduled device update.
+[GFX1-]: (gfxWindowsPlatform) Detected device reset: 3
+[GFX1-]: (gfxWindowsPlatform) scheduled device update.
+[GFX1-]: (gfxWindowsPlatform) Detected device reset: 3
+[GFX1-]: (gfxWindowsPlatform) scheduled device update.
+[GFX1-]: LayerManager::EndTransaction skip RenderLayer().
+[GFX1-]: LayerManager::EndTransaction skip RenderLayer().
+[GFX1-]: GFX: D3D11 detected a device reset in ResizeBuffers
+[GFX1-]: Could not resize the swapchain (0x556,0x2e0)
+[GFX1-]: (gfxWindowsPlatform) Detected device reset: 3
+[GFX1-]: (gfxWindowsPlatform) scheduled device update.
+[GFX1-]: LayerManager::EndTransaction skip RenderLayer().
+[GFX1-]: Could not resize the swapchain (0x556,0x2e0)
+[GFX1-]: (gfxWindowsPlatform) Detected device reset: 3
+[GFX1-]: (gfxWindowsPlatform) scheduled device update.
+[GFX1-]: LayerManager::EndTransaction skip RenderLayer().
+[Child 12528, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 20236, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20236, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 17780, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+nette	DEBUG	Received DOM event "pageshow" for "http://11.8.121.150:7001/GDNY_CZ/Logon.jsp"
+1521678606204	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://11.8.121.150:7001/GDNY_CZ/Logon.jsp"
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1521678607084	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2018032208300245622304930100009"
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1521678608390	Marionette	DEBUG	Received DOM event "pageshow" for "http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2018032208300245622304930100009"
+1521678668685	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+1521678753390	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+[Child 13912, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13912, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 20140, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20140, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1521678787393	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 19032, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 15964, Gecko_IOThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+r "http://11.8.121.150:7001/GDNY_CZ/logon.html"
+1521678787367	Marionette	DEBUG	Received DOM event "unload" for "http://11.8.121.150:7001/GDNY_CZ/logon.html"
+1521678787383	Marionette	DEBUG	Received DOM event "pageshow" for "http://11.8.121.150:7001/GDNY_CZ/Logon.jsp"
+1521678787387	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://11.8.121.150:7001/GDNY_CZ/Logon.jsp"
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1521678788543	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2018032208330376116281306100019"
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1521678790034	Marionette	DEBUG	Received DOM event "pageshow" for "http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2018032208330376116281306100019"
+1521678813038	geckodriver	INFO	geckodriver 0.19.1
+1521678813051	geckodriver	INFO	Listening on 127.0.0.1:14834
+1521678815965	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Pactera\\AppData\\Local\\Temp\\rust_mozprofile.YAsmC21EVLUy"
+1521678816887	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 19332, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19332, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1521678821394	Marionette	INFO	Listening on port 14844
+1521678821742	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521678821848	Marionette	DEBUG	Register listener.js for window 4294967297
+1521678821896	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521678821935	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521678821936	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521678822016	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://11.8.121.150:7001/GDNY_CZ/logon.html"
+1521678822158	Marionette	DEBUG	Received DOM event "pageshow" for "http://11.8.121.150:7001/GDNY_CZ/logon.html"
+1521678822232	Marionette	DEBUG	Received DOM event "beforeunload" for "http://11.8.121.150:7001/GDNY_CZ/logon.html"
+1521678823294	Marionette	DEBUG	Received DOM event "pagehide" for "http://11.8.121.150:7001/GDNY_CZ/logon.html"
+1521678823294	Marionette	DEBUG	Received DOM event "unload" for "http://11.8.121.150:7001/GDNY_CZ/logon.html"
+1521678823303	Marionette	DEBUG	Received DOM event "pageshow" for "http://11.8.121.150:7001/GDNY_CZ/Logon.jsp"
+1521678823311	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://11.8.121.150:7001/GDNY_CZ/Logon.jsp"
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1521678824222	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2018032208333957492752166100021"
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1521678825515	Marionette	DEBUG	Received DOM event "pageshow" for "http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2018032208333957492752166100021"
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 12212, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12212, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1521678841712	geckodriver	INFO	geckodriver 0.19.1
+1521678841723	geckodriver	INFO	Listening on 127.0.0.1:14903
+1521678844632	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Pactera\\AppData\\Local\\Temp\\rust_mozprofile.tk6ObD5LyhZ5"
+1521678845661	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 15544, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15544, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1521678850959	Marionette	INFO	Listening on port 14914
+1521678851997	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521678852054	Marionette	DEBUG	Register listener.js for window 4294967297
+1521678852099	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521678852133	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521678852134	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521678852230	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://11.8.121.150:7001/GDNY_CZ/logon.html"
+1521678852287	Marionette	DEBUG	Received DOM event "pageshow" for "http://11.8.121.150:7001/GDNY_CZ/logon.html"
+1521678852381	Marionette	DEBUG	Received DOM event "beforeunload" for "http://11.8.121.150:7001/GDNY_CZ/logon.html"
+1521678853068	Marionette	DEBUG	Received DOM event "pagehide" for "http://11.8.121.150:7001/GDNY_CZ/logon.html"
+1521678853068	Marionette	DEBUG	Received DOM event "unload" for "http://11.8.121.150:7001/GDNY_CZ/logon.html"
+1521678853077	Marionette	DEBUG	Received DOM event "pageshow" for "http://11.8.121.150:7001/GDNY_CZ/Logon.jsp"
+1521678853079	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://11.8.121.150:7001/GDNY_CZ/Logon.jsp"
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1521678854067	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2018032208340929201865187100023"
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1521678854746	Marionette	DEBUG	Received DOM event "pageshow" for "http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2018032208340929201865187100023"
+1521678899593	geckodriver	INFO	geckodriver 0.19.1
+1521678899605	geckodriver	INFO	Listening on 127.0.0.1:15007
+1521678902504	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Pactera\\AppData\\Local\\Temp\\rust_mozprofile.o3Sauc9JR1kF"
+1521678903489	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9676, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9676, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1521678908280	Marionette	INFO	Listening on port 15016
+1521678908763	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521678908830	Marionette	DEBUG	Register listener.js for window 4294967297
+1521678908880	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521678908921	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521678908922	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521678909016	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://11.8.121.150:7001/GDNY_CZ/logon.html"
+1521678909107	Marionette	DEBUG	Received DOM event "pageshow" for "http://11.8.121.150:7001/GDNY_CZ/logon.html"
+1521678909213	Marionette	DEBUG	Received DOM event "beforeunload" for "http://11.8.121.150:7001/GDNY_CZ/logon.html"
+1521678909984	Marionette	DEBUG	Received DOM event "pagehide" for "http://11.8.121.150:7001/GDNY_CZ/logon.html"
+1521678909985	Marionette	DEBUG	Received DOM event "unload" for "http://11.8.121.150:7001/GDNY_CZ/logon.html"
+1521678909998	Marionette	DEBUG	Received DOM event "pageshow" for "http://11.8.121.150:7001/GDNY_CZ/Logon.jsp"
+1521678910001	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://11.8.121.150:7001/GDNY_CZ/Logon.jsp"
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1521678910774	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2018032208350625602060102100025"
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1521678911660	Marionette	DEBUG	Received DOM event "pageshow" for "http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2018032208350625602060102100025"
+1521681266949	geckodriver	INFO	geckodriver 0.19.1
+1521681266967	geckodriver	INFO	Listening on 127.0.0.1:17648
+1521681269758	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Pactera\\AppData\\Local\\Temp\\rust_mozprofile.xN4IeGfHTUV0"
+1521681271522	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 15524, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15524, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1521681279864	Marionette	INFO	Listening on port 17667
+1521681280106	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 5460, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5460, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 16932, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16932, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 18144, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 18660, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+1521702910242	geckodriver	INFO	geckodriver 0.19.1
+1521702910256	geckodriver	INFO	Listening on 127.0.0.1:30431
+1521702913079	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Pactera\\AppData\\Local\\Temp\\rust_mozprofile.Obq0kMuPjwuN"
+1521702914150	Marionette	INFO	Enabled via --marionette
+1521702919458	Marionette	INFO	Listening on port 30480
+1521702920468	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 17672, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14708, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 17672, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14708, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 20052, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20052, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 16708, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\LocUnable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 11280, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11280, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16520, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16520, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9688, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9688, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 15336, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+1521703170867	geckodriver	INFO	geckodriver 0.19.1
+1521703170880	geckodriver	INFO	Listening on 127.0.0.1:30926
+1521703173770	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Pactera\\AppData\\Local\\Temp\\rust_mozprofile.Y03ov1Tu9Tuw"
+1521703174984	Marionette	INFO	Enabled via --marionette
+1521703178326	Marionette	INFO	Listening on port 30935
+1521703179144	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1521703286244	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+1521703370464	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+[Child 4544, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 14464, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14464, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1521703425318	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 15420, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 18984, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+on/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 20204, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20204, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 18652, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 15716, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 21252, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 21252, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20808, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20808, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 20600, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20600, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+1521703920470	geckodriver	INFO	geckodriver 0.19.1
+1521703920482	geckodriver	INFO	Listening on 127.0.0.1:32572
+1521703923276	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Pactera\\AppData\\Local\\Temp\\rust_mozprofile.Av6hneoi3e1l"
+1521703924354	Marionette	INFO	Enabled via --marionette
+1521703928748	Marionette	INFO	Listening on port 32585
+1521703929220	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1521703981392	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 20784, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20980, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20980, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 15824, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15824, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1521704064234	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1521704064246	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 20680, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20680, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1521704084736	geckodriver	INFO	geckodriver 0.19.1
+1521704084748	geckodriver	INFO	Listening on 127.0.0.1:32831
+1521704087664	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Pactera\\AppData\\Local\\Temp\\rust_mozprofile.oICmJOmXj7vF"
+1521704088702	Marionette	INFO	Enabled via --marionette
+1521704092810	Marionette	INFO	Listening on port 32843
+1521704093038	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1521704130322	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 13636, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13636, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17868, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17868, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1521704165670	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1521704165708	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 17792, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 13776, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1521704524205	geckodriver	INFO	geckodriver 0.19.1
+1521704524225	geckodriver	INFO	Listening on 127.0.0.1:33360
+1521704527044	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Pactera\\AppData\\Local\\Temp\\rust_mozprofile.clVkNlw2UA2a"
+1521704528158	Marionette	INFO	Enabled via --marionette
+1521704533056	Marionette	INFO	Listening on port 33369
+1521704533504	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 12188, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 16296, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16296, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20008, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20008, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 15560, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1521704581663	geckodriver	INFO	geckodriver 0.19.1
+1521704581678	geckodriver	INFO	Listening on 127.0.0.1:33460
+1521704584527	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Pactera\\AppData\\Local\\Temp\\rust_mozprofile.otiIxSMNMvn1"
+1521704585586	Marionette	INFO	Enabled via --marionette
+1521704589950	Marionette	INFO	Listening on port 33472
+1521704590390	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1521704629277	geckodriver	INFO	geckodriver 0.19.1
+1521704629292	geckodriver	INFO	Listening on 127.0.0.1:33527
+1521704632174	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Pactera\\AppData\\Local\\Temp\\rust_mozprofile.jn1JUtNhaAAU"
+1521704633336	Marionette	INFO	Enabled via --marionette
+1521704637862	Marionette	INFO	Listening on port 33536
+1521704638006	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Child 7072, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7072, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8884, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+1521704675247	geckodriver	INFO	geckodriver 0.19.1
+1521704675263	geckodriver	INFO	Listening on 127.0.0.1:33594
+1521704678106	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Pactera\\AppData\\Local\\Temp\\rust_mozprofile.2jbgNnpkjUxP"
+1521704679284	Marionette	INFO	Enabled via --marionette
+1521704683242	Marionette	INFO	Listening on port 33603
+1521704683504	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 15444, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 6608, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1521704731160	geckodriver	INFO	geckodriver 0.19.1
+1521704731178	geckodriver	INFO	Listening on 127.0.0.1:33677
+1521704733963	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Pactera\\AppData\\Local\\Temp\\rust_mozprofile.rgu1NPog1kwr"
+1521704735060	Marionette	INFO	Enabled via --marionette
+1521704738346	Marionette	INFO	Listening on port 33685
+1521704739304	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1521704779826	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: can't access dead object
+Full stack: highlight@resource://devtools/shared/base-loader.js -> resource://devtools/server/css-logic.js:125:9
+PageStyleActor<.getApplied<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/styles.js:453:5
+_run@resource://devtools/shared/base-loader.js -> resource://devtools/shared/task.js:310:39
+TaskImpl@resource://devtools/shared/base-loader.js -> resource://devtools/shared/task.js:272:3
+asyncFunction@resource://devtools/shared/base-loader.js -> resource://devtools/shared/task.js:246:14
+handler@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1106:19
+onPacket@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1788:15
+receiveMessage@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/transport.js:761:7
+
+*************************
+console.error: 
+  Message: TypeError: can't access dead object
+  Stack:
+    highlight@resource://devtools/shared/base-loader.js -> resource://devtools/server/css-logic.js:125:9
+PageStyleActor<.getApplied<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/styles.js:453:5
+_run@resource://devtools/shared/base-loader.js -> resource://devtools/shared/task.js:310:39
+TaskImpl@resource://devtools/shared/base-loader.js -> resource://devtools/shared/task.js:272:3
+asyncFunction@resource://devtools/shared/base-loader.js -> resource://devtools/shared/task.js:246:14
+handler@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1106:19
+onPacket@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1788:15
+receiveMessage@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/transport.js:761:7
+
+highlight@resource://devtools/shared/base-loader.js -> resource://devtools/server/css-logic.js:125:9
+PageStyleActor<.getApplied<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/styles.js:453:5
+_run@resource://devtools/shared/base-loader.js -> resource://devtools/shared/task.js:310:39
+TaskImpl@resource://devtools/shared/base-loader.js -> resource://devtools/shared/task.js:272:3
+asyncFunction@resource://devtools/shared/base-loader.js -> resource://devtools/shared/task.js:246:14
+handler@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1106:19
+onPacket@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1788:15
+receiveMessage@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/transport.js:761:7
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: can't access dead object
+Full stack: highlight@resource://devtools/shared/base-loader.js -> resource://devtools/server/css-logic.js:125:9
+PageStyleActor<.getApplied<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/styles.js:453:5
+_run@resource://devtools/shared/base-loader.js -> resource://devtools/shared/task.js:310:39
+TaskImpl@resource://devtools/shared/base-loader.js -> resource://devtools/shared/task.js:272:3
+asyncFunction@resource://devtools/shared/base-loader.js -> resource://devtools/shared/task.js:246:14
+handler@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1106:19
+onPacket@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1788:15
+receiveMessage@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/transport.js:761:7
+
+*************************
+console.error: 
+  Message: TypeError: can't access dead object
+  Stack:
+    highlight@resource://devtools/shared/base-loader.js -> resource://devtools/server/css-logic.js:125:9
+PageStyleActor<.getApplied<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/styles.js:453:5
+_run@resource://devtools/shared/base-loader.js -> resource://devtools/shared/task.js:310:39
+TaskImpl@resource://devtools/shared/base-loader.js -> resource://devtools/shared/task.js:272:3
+asyncFunction@resource://devtools/shared/base-loader.js -> resource://devtools/shared/task.js:246:14
+handler@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1106:19
+onPacket@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1788:15
+receiveMessage@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/transport.js:761:7
+
+highlight@resource://devtools/shared/base-loader.js -> resource://devtools/server/css-logic.js:125:9
+PageStyleActor<.getApplied<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/styles.js:453:5
+_run@resource://devtools/shared/base-loader.js -> resource://devtools/shared/task.js:310:39
+TaskImpl@resource://devtools/shared/base-loader.js -> resource://devtools/shared/task.js:272:3
+asyncFunction@resource://devtools/shared/base-loader.js -> resource://devtools/shared/task.js:246:14
+handler@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1106:19
+onPacket@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1788:15
+receiveMessage@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/transport.js:761:7
+console.error: 
+  Protocol error (unknownError): can't access dead object
+console.error: 
+  Protocol error (unknownError): can't access dead object
+console.error: 
+  Protocol error (unknownError): can't access dead object
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: can't access dead object
+Full stack: getBindingElementAndPseudo@resource://devtools/shared/base-loader.js -> resource://devtools/shared/inspector/css-logic.js:494:1
+_getAllElementRules@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/styles.js:503:9
+PageStyleActor<.getApplied<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/styles.js:455:30
+_run@resource://devtools/shared/base-loader.js -> resource://devtools/shared/task.js:310:39
+TaskImpl@resource://devtools/shared/base-loader.js -> resource://devtools/shared/task.js:272:3
+asyncFunction@resource://devtools/shared/base-loader.js -> resource://devtools/shared/task.js:246:14
+handler@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1106:19
+onPacket@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1788:15
+receiveMessage@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/transport.js:761:7
+
+*************************
+console.error: 
+  Message: TypeError: can't access dead object
+  Stack:
+    getBindingElementAndPseudo@resource://devtools/shared/base-loader.js -> resource://devtools/shared/inspector/css-logic.js:494:1
+_getAllElementRules@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/styles.js:503:9
+PageStyleActor<.getApplied<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/styles.js:455:30
+_run@resource://devtools/shared/base-loader.js -> resource://devtools/shared/task.js:310:39
+TaskImpl@resource://devtools/shared/base-loader.js -> resource://devtools/shared/task.js:272:3
+asyncFunction@resource://devtools/shared/base-loader.js -> resource://devtools/shared/task.js:246:14
+handler@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1106:19
+onPacket@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1788:15
+receiveMessage@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/transport.js:761:7
+
+getBindingElementAndPseudo@resource://devtools/shared/base-loader.js -> resource://devtools/shared/inspector/css-logic.js:494:1
+_getAllElementRules@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/styles.js:503:9
+PageStyleActor<.getApplied<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/styles.js:455:30
+_run@resource://devtools/shared/base-loader.js -> resource://devtools/shared/task.js:310:39
+TaskImpl@resource://devtools/shared/base-loader.js -> resource://devtools/shared/task.js:272:3
+asyncFunction@resource://devtools/shared/base-loader.js -> resource://devtools/shared/task.js:246:14
+handler@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1106:19
+onPacket@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1788:15
+receiveMessage@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/transport.js:761:7
+*************************
+A coding exception was thrown in a Promise resolution callback.
+See https://developer.mozilla.org/Mozilla/JavaScript_code_modules/Promise.jsm/Promise
+
+Full message: TypeError: this._containers is null
+Full stack: getContainer@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:481:5
+showNode/<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/markup.js:1141:30
+process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:922:23
+walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:806:7
+scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:742:11
+
+*************************
+1521704864370	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1521704954844	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10600, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10600, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16728, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16728, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 11776, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 15720, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+precated. Use //# instead
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 14320, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15844, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15844, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 15704, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 19876, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19876, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 20196, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1521705718100	geckodriver	INFO	geckodriver 0.19.1
+1521705718120	geckodriver	INFO	Listening on 127.0.0.1:34945
+1521705720942	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Pactera\\AppData\\Local\\Temp\\rust_mozprofile.XaQkFqYRGbHC"
+1521705722174	Marionette	INFO	Enabled via --marionette
+1521705726570	Marionette	INFO	Listening on port 34954
+1521705726880	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 13428, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 13384, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13384, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1521706236990	geckodriver	INFO	geckodriver 0.19.1
+1521706237002	geckodriver	INFO	Listening on 127.0.0.1:35796
+1521706239894	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Pactera\\AppData\\Local\\Temp\\rust_mozprofile.EtsdcM4EmO4F"
+1521706240986	Marionette	INFO	Enabled via --marionette
+1521706244528	Marionette	INFO	Listening on port 35808
+1521706245270	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1521706401684	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 20332, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20332, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11288, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11288, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 20900, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20900, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 14816, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+refox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4419 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2279 < GeckoDriver.prototype.quit()@driver.js:3270 < despatch()@server.js:557 < execute()@server.js:531 < onPacket/<()@server.js:506 < onPacket()@server.js:505 < _onJSONObjectReady/<()@transport.js:500
+1521706362068	geckodriver	INFO	geckodriver 0.19.1
+1521706362084	geckodriver	INFO	Listening on 127.0.0.1:35986
+1521706365013	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Pactera\\AppData\\Local\\Temp\\rust_mozprofile.aUkbYZHN1g4B"
+1521706366078	Marionette	INFO	Enabled via --marionette
+1521706369340	Marionette	INFO	Listening on port 35998
+1521706370422	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 22116, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 21616, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 21616, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1521706729955	geckodriver	INFO	geckodriver 0.19.1
+1521706729967	geckodriver	INFO	Listening on 127.0.0.1:48511
+1521706732812	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Pactera\\AppData\\Local\\Temp\\rust_mozprofile.JuetrhetIB1S"
+1521706733868	Marionette	INFO	Enabled via --marionette
+1521706737146	Marionette	INFO	Listening on port 48528
+1521706737290	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 21936, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 18472, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18472, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 21252, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 21252, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1521706846136	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+1521706846246	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1521706846260	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 20516, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20516, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1521706856192	geckodriver	INFO	geckodriver 0.19.1
+1521706856204	geckodriver	INFO	Listening on 127.0.0.1:48619
+1521706859079	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Pactera\\AppData\\Local\\Temp\\rust_mozprofile.BO4XSU3dZKeG"
+1521706860090	Marionette	INFO	Enabled via --marionette
+1521706864142	Marionette	INFO	Listening on port 48627
+1521706864506	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1521706949936	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+1521707034602	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1521707124766	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 404, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 404, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 22108, Chrome_ChildThread] WARNIUnable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 21512, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2151Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 20468, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 17344, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, l1521707200210	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+Unable to read VR Path Registry from C:\Users\Pactera\AppDat
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1521707122146	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 17804, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 21452, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 21452, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 20284, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20284, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1521707199616	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1521707199890	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+[Parent 17804, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 21080, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 21080, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 20656, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+dThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1521707199554	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+[Child 22796, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 23092, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 23512, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 23512, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+onent returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIChannel.contentType]
+[Parent 24488, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 24180, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 24180, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8184, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8184, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 24488, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 19688, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19688, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 23784, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1521707214512	geckodriver	INFO	geckodriver 0.19.1
+1521707214525	geckodriver	INFO	Listening on 127.0.0.1:49333
+1521707217367	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Pactera\\AppData\\Local\\Temp\\rust_mozprofile.9VRSukrYvEhG"
+1521707218464	Marionette	INFO	Enabled via --marionette
+1521707223186	Marionette	INFO	Listening on port 49341
+1521707223616	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1521707293924	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+1521707378626	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1521707468944	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 6732, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6732, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14252, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14252, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10520, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10520, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+ reason: timeout
+1521707389008	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1521707479940	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 17132, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17132, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 21896, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 21896, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 19008, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19008, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+0, reason: timeout
+1521707475852	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1521707565860	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 11528, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 7328, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9512, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+e 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1521707593124	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+1521707639140	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1521707639972	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 21400, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 21400, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11748, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11748, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 24040, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 24040, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 20676, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20676, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 24376, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+x.exe" "-marionette" "-profile" "C:\\Users\\Pactera\\AppData\\Local\\Temp\\rust_mozprofile.dL6qi6dwihG9"
+1521707979762	Marionette	INFO	Enabled via --marionette
+1521707983536	Marionette	INFO	Listening on port 46639
+1521707984194	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521708067404	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+1521708152648	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 22612, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 22612, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 18164, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18164, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1521708209042	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 15624, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 21576, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 21576, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+FO	Listening on port 46896
+1521708082010	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1521708119403	geckodriver	INFO	geckodriver 0.19.1
+1521708119417	geckodriver	INFO	Listening on 127.0.0.1:46971
+1521708122287	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Pactera\\AppData\\Local\\Temp\\rust_mozprofile.gZqGyYXCIBdI"
+1521708123268	Marionette	INFO	Enabled via --marionette
+1521708126650	Marionette	INFO	Listening on port 46980
+1521708127590	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://devtools/client/jsonview/converter-observer.js, line 76: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIChannel.contentType]
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1521708156035	geckodriver	INFO	geckodriver 0.19.1
+1521708156052	geckodriver	INFO	Listening on 127.0.0.1:47054
+1521708158934	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Pactera\\AppData\\Local\\Temp\\rust_mozprofile.CwJecy7hGv2h"
+1521708159942	Marionette	INFO	Enabled via --marionette
+1521708163058	Marionette	INFO	Listening on port 47063
+1521708163108	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 20796, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20796, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 24624, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4312, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4312, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 24700, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 24700, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521711083857	geckodriver	INFO	geckodriver 0.19.1
+1521711083870	geckodriver	INFO	Listening on 127.0.0.1:49288
+1521711086736	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Pactera\\AppData\\Local\\Temp\\rust_mozprofile.RIvdcyokf9DV"
+1521711087754	Marionette	INFO	Enabled via --marionette
+1521711091586	Marionette	INFO	Listening on port 49296
+1521711092120	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://www.imooc.com/static/component/logic/common/common.js?v=201803221121, line 1: NS_ERROR_NOT_INITIALIZED: 
+1521711428728	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+1521711428748	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1521711428760	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+console.error: 
+  Protocol error (noSuchActor): No such actor for ID: server1.conn0.child1/highlighter29
+Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1875"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1875:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+NetworkResponseListener.prototype._getSecurityInfo<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:521:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+onStartRequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:441:5
+Line: 1875, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1875"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1875:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+NetworkResponseListener.prototype._getSecurityInfo<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:521:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+onStartRequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:441:5
+Line: 1875, column: 0
+Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1875"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1875:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onComplete@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:651:5
+onStreamClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:608:7
+onInputStreamReady@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:702:7
+Line: 1875, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1875"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1875:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onComplete@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:651:5
+onStreamClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:608:7
+onInputStreamReady@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:702:7
+Line: 1875, column: 0
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 18852, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19076, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19076, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 3180, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3180, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: (msgtype=0x490006,name=PImageBridge::Msg_WillClose) Channel error: cannot send/recv
+
+1521785519230	geckodriver	INFO	geckodriver 0.19.1
+1521785519245	geckodriver	INFO	Listening on 127.0.0.1:19949
+1521785521966	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Pactera\\AppData\\Local\\Temp\\rust_mozprofile.YQbTWwKKBUmD"
+1521785523914	Marionette	INFO	Enabled via --marionette
+1521785528046	Marionette	INFO	Listening on port 19957
+1521785528274	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 22760, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 22760, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1521786287001	geckodriver	INFO	geckodriver 0.19.1
+1521786287019	geckodriver	INFO	Listening on 127.0.0.1:20385
+1521786289869	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Pactera\\AppData\\Local\\Temp\\rust_mozprofile.F3ePZS9d0vXg"
+1521786291174	Marionette	INFO	Enabled via --marionette
+1521786294998	Marionette	INFO	Listening on port 20393
+1521786295332	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+1522121962366	geckodriver	INFO	geckodriver 0.19.1
+1522121962385	geckodriver	INFO	Listening on 127.0.0.1:41129
+1522121965022	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Pactera\\AppData\\Local\\Temp\\rust_mozprofile.goL8UP1OGlKy"
+1522121966870	Marionette	INFO	Enabled via --marionette
+1522121971564	Marionette	INFO	Listening on port 41138
+1522121972512	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://devtools/client/jsonview/converter-observer.js, line 76: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIChannel.contentType]
+1522130654838	geckodriver	INFO	geckodriver 0.19.1
+1522130654855	geckodriver	INFO	Listening on 127.0.0.1:46360
+1522130657552	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Pactera\\AppData\\Local\\Temp\\rust_mozprofile.yUvqT59448mH"
+1522130659664	Marionette	INFO	Enabled via --marionette
+1522130666218	Marionette	INFO	Listening on port 46368
+1522130667108	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://devtools/client/jsonview/converter-observer.js, line 76: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIChannel.contentType]
+1522130698737	geckodriver	INFO	geckodriver 0.19.1
+1522130698754	geckodriver	INFO	Listening on 127.0.0.1:46445
+1522130701570	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Pactera\\AppData\\Local\\Temp\\rust_mozprofile.hgW7AyqGCEqA"
+1522130703376	Marionette	INFO	Enabled via --marionette
+1522130707592	Marionette	INFO	Listening on port 46454
+1522130708042	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 16196, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1522130747513	geckodriver	INFO	geckodriver 0.19.1
+1522130747528	geckodriver	INFO	Listening on 127.0.0.1:46526
+1522130750348	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Pactera\\AppData\\Local\\Temp\\rust_mozprofile.IBet1XGPFcwH"
+1522130752130	Marionette	INFO	Enabled via --marionette
+1522130756486	Marionette	INFO	Listening on port 46537
+1522130756794	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 11132, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1522130810618	geckodriver	INFO	geckodriver 0.19.1
+1522130810634	geckodriver	INFO	Listening on 127.0.0.1:46607
+1522130813412	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Pactera\\AppData\\Local\\Temp\\rust_mozprofile.yvdDfHr2Iiuq"
+1522130814666	Marionette	INFO	Enabled via --marionette
+1522130818476	Marionette	INFO	Listening on port 46617
+1522130818718	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 17284, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 22732, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 22732, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1524108865751	geckodriver	INFO	geckodriver 0.19.1
+1524108865779	geckodriver	INFO	Listening on 127.0.0.1:59047
+1524108868981	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Pactera\\AppData\\Local\\Temp\\rust_mozprofile.6q2eFx1WFZjD"
+1524108872118	Marionette	INFO	Enabled via --marionette
+1524108878444	Marionette	INFO	Listening on port 59057
+1524108878594	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 14548, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1524205029381	geckodriver	INFO	geckodriver 0.19.1
+1524205029404	geckodriver	INFO	Listening on 127.0.0.1:60237
+1524205032276	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Pactera\\AppData\\Local\\Temp\\rust_mozprofile.KoyYWeOacxxV"
+1524205035842	Marionette	INFO	Enabled via --marionette
+1524205043328	Marionette	INFO	Listening on port 60246
+1524205043922	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 2500, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2500, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 12928, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12928, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 20000, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20000, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2500, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 18820, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18820, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1524885909163	geckodriver	INFO	geckodriver 0.19.1
+1524885909196	geckodriver	INFO	Listening on 127.0.0.1:2674
+1524885912275	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Pactera\\AppData\\Local\\Temp\\rust_mozprofile.CEANepmQQvTV"
+1524885914912	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 9208, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 6524, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6524, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1524885926794	Marionette	INFO	Listening on port 2685
+1524885927402	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 9208, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 11124, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9916, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9916, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8388, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8388, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1524885969887	geckodriver	INFO	geckodriver 0.19.1
+1524885969904	geckodriver	INFO	Listening on 127.0.0.1:2781
+1524885972933	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Pactera\\AppData\\Local\\Temp\\rust_mozprofile.CGvwV0HjiAln"
+1524885977682	Marionette	INFO	Enabled via --marionette
+1524885990144	Marionette	INFO	Listening on port 2789
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 15888, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15888, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1524885990874	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Child 18556, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18556, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 17660, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17660, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 2884, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2884, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+1524897957005	geckodriver	INFO	geckodriver 0.19.1
+1524897957059	geckodriver	INFO	Listening on 127.0.0.1:3809
+1524897960067	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Pactera\\AppData\\Local\\Temp\\rust_mozprofile.0tH6NYg81QEL"
+1524897963336	Marionette	INFO	Enabled via --marionette
+1524897969796	Marionette	INFO	Listening on port 3826
+1524897970272	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 12612, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 12612, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13788, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13788, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 13240, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13240, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 19440, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19440, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 11880, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1525850968328	geckodriver	INFO	geckodriver 0.19.1
+1525850968374	geckodriver	INFO	Listening on 127.0.0.1:46362
+1525850971621	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Pactera\\AppData\\Local\\Temp\\rust_mozprofile.quTGb5iVynFl"
+1525850974672	Marionette	INFO	Enabled via --marionette
+1525850981930	Marionette	INFO	Listening on port 46371
+1525850982428	Marionette	WARN	TLS certificate errors will be ignored for this session
+1525851022848	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+1525851111732	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1525851202152	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 13972, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13972, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 15420, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channelUnable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 11968, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 11968, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 13748, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13748, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 13384, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13384, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1525851388766	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 15756, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15756, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1526259566425	geckodriver	INFO	geckodriver 0.19.1
+1526259566487	geckodriver	INFO	Listening on 127.0.0.1:2269
+1526259569547	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Pactera\\AppData\\Local\\Temp\\rust_mozprofile.wwdyTHMWQ7HF"
+1526259570640	Marionette	INFO	Enabled via --marionette
+1526259574218	Marionette	INFO	Listening on port 2278
+1526259575010	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1526259615670	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+1526259704190	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1526259795116	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 4620, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5872, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5872, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 11404, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11404, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8696, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 9616, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1526279614557	geckodriver	INFO	geckodriver 0.19.1
+1526279614595	geckodriver	INFO	Listening on 127.0.0.1:15191
+1526279617519	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Pactera\\AppData\\Local\\Temp\\rust_mozprofile.uydNpIU7hpnG"
+1526279619064	Marionette	INFO	Enabled via --marionette
+1526279623004	Marionette	INFO	Listening on port 15201
+1526279623444	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: http://11.8.121.150:7001/GDNY_CZ/Frame/page/js/as_control.js, line 105: TypeError: window.showModalDialog is not a function
+1526279707588	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+1526279792682	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1526279883496	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 19068, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 17444, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17444, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x15008D,name=PBrowser::Msg_UpdateNativeWindowHandle) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150080,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x150001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+
+JavaScript error: chrome://browser/content/tab-content.js, line 316: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x150001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+
+JavaScript error: chrome://browser/content/content.js, line 700: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+[Child 16564, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x15002B,name=PBrowser::Msg_SetInputContext) Closed channel: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10428, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10428, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1526348556278	geckodriver	INFO	geckodriver 0.19.1
+1526348556316	geckodriver	INFO	Listening on 127.0.0.1:4571
+1526348559260	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Pactera\\AppData\\Local\\Temp\\rust_mozprofile.l0xfYZx5wR0Z"
+1526348561040	Marionette	INFO	Enabled via --marionette
+1526348565630	Marionette	INFO	Listening on port 4582
+1526348566690	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: http://11.8.121.150:7001/GDNY_CZ/Frame/page/js/as_control.js, line 105: TypeError: window.showModalDialog is not a function
+JavaScript error: http://11.8.121.150:7001/GDNY_CZ/Frame/page/js/as_control.js, line 105: TypeError: window.showModalDialog is not a function
+JavaScript error: http://11.8.121.150:7001/GDNY_CZ/Frame/page/js/as_control.js, line 105: TypeError: window.showModalDialog is not a function
+JavaScript error: http://11.8.121.150:7001/GDNY_CZ/Frame/page/js/as_control.js, line 105: TypeError: window.showModalDialog is not a function
+JavaScript error: http://11.8.121.150:7001/GDNY_CZ/Frame/page/js/as_control.js, line 105: TypeError: window.showModalDialog is not a function
+JavaScript error: http://11.8.121.150:7001/GDNY_CZ/Frame/page/js/as_control.js, line 105: TypeError: window.showModalDialog is not a function
+JavaScript error: http://11.8.121.150:7001/GDNY_CZ/Frame/page/js/as_control.js, line 105: TypeError: window.showModalDialog is not a function
+JavaScript error: http://11.8.121.150:7001/GDNY_CZ/Frame/page/js/as_control.js, line 105: TypeError: window.showModalDialog is not a function
+JavaScript error: http://11.8.121.150:7001/GDNY_CZ/Frame/page/js/as_control.js, line 105: TypeError: window.showModalDialog is not a function
+JavaScript error: http://11.8.121.150:7001/GDNY_CZ/Frame/page/js/as_control.js, line 105: TypeError: window.showModalDialog is not a function
+JavaScript error: http://11.8.121.150:7001/GDNY_CZ/Frame/page/js/as_control.js, line 105: TypeError: window.showModalDialog is not a function
+JavaScript error: http://11.8.121.150:7001/GDNY_CZ/Frame/page/js/as_control.js, line 105: TypeError: window.showModalDialog is not a function
+JavaScript error: http://11.8.121.150:7001/GDNY_CZ/Frame/page/js/as_control.js, line 105: TypeError: window.showModalDialog is not a function
+JavaScript error: http://11.8.121.150:7001/GDNY_CZ/Frame/page/js/as_control.js, line 105: TypeError: window.showModalDialog is not a function
+JavaScript error: http://11.8.121.150:7001/GDNY_CZ/Frame/page/js/as_control.js, line 105: TypeError: window.showModalDialog is not a function
+JavaScript error: http://11.8.121.150:7001/GDNY_CZ/Frame/page/js/as_control.js, line 105: TypeError: window.showModalDialog is not a function
+JavaScript error: http://11.8.121.150:7001/GDNY_CZ/Frame/page/js/as_control.js, line 105: TypeError: window.showModalDialog is not a function
+1526348634444	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+1526348718488	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1526348809334	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 13528, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6016, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6016, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 13520, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13520, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 14416, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14416, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 13480, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ons	WARN	Failed downloading via XHR, status: 0, reason: error
+1526349518172	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 13104, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 14920, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14920, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14648, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14648, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 13104, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 14996, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14996, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+on/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 9508, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 16204, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16204, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1526547748100	geckodriver	INFO	geckodriver 0.19.1
+1526547748139	geckodriver	INFO	Listening on 127.0.0.1:39659
+1530602439123	geckodriver	INFO	geckodriver 0.19.1
+1530602439157	geckodriver	INFO	Listening on 127.0.0.1:1682
+1530602442185	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Pactera\\AppData\\Local\\Temp\\rust_mozprofile.eK3zRAmyYqFM"
+1530602449050	Marionette	INFO	Listening on port 1690
+1530602449773	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1530602864133	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+1530602954529	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1530603044701	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8660, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://11.8.121.150:7001/GDNY_CZ/Frame/resources/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1530602864172	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+1530602954653	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1530603045099	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 24052, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 16968, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 23640, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x15008C,name=PBrowser::Msg_UpdateNativeWindowHandle) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x15007F,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x150001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+
+JavaScript error: chrome://browser/content/tab-content.js, line 281: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x150001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+
+JavaScript error: chrome://browser/content/content.js, line 705: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+[Child 23640, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x15002B,name=PBrowser::Msg_SetInputContext) Closed channel: cannot send/recv
+
+[Parent 16968, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 11912, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11912, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+recv
+
+[Child 10844, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x150001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+
+JavaScript error: chrome://browser/content/tab-content.js, line 281: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x150001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+
+JavaScript error: chrome://browser/content/content.js, line 705: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x15002B,name=PBrowser::Msg_SetInputContext) Closed channel: cannot send/recv
+
+[Parent 16636, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[Parent 16636, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 24276, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 24276, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+ontent.js, line 705: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+[Child 25064, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x15002B,name=PBrowser::Msg_SetInputContext) Closed channel: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 24696, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 24696, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+el: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x15007F,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
+
+[Child 4608, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 16060, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16060, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x150001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+
+JavaScript error: chrome://browser/content/tab-content.js, line 281: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x150001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+
+JavaScript error: chrome://browser/content/content.js, line 705: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x15002B,name=PBrowser::Msg_SetInputContext) Closed channel: cannot send/recv
+
+e/common/ipc_channel_win.cc, line 346
+[Child 27360, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 26876, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x15008C,name=PBrowser::Msg_UpdateNativeWindowHandle) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x15007F,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
+
+[Child 26876, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x150001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+
+JavaScript error: chrome://browser/content/tab-content.js, line 281: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x150001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+
+JavaScript error: chrome://browser/content/content.js, line 705: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x15002B,name=PBrowser::Msg_SetInputContext) Closed channel: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 26772, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 26772, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 25056, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+346
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x15008C,name=PBrowser::Msg_UpdateNativeWindowHandle) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x15007F,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x150001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+
+JavaScript error: chrome://browser/content/tab-content.js, line 281: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x150001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+
+JavaScript error: chrome://browser/content/content.js, line 705: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x15002B,name=PBrowser::Msg_SetInputContext) Closed channel: cannot send/recv
+
+[Parent 27096, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+001/GDNY_CZ/Frame/page/js/as_control.js, line 105: TypeError: window.showModalDialog is not a function
+JavaScript error: http://11.8.121.150:7001/GDNY_CZ/Frame/page/js/as_control.js, line 105: TypeError: window.showModalDialog is not a function
+JavaScript error: http://11.8.121.150:7001/GDNY_CZ/Frame/page/js/as_control.js, line 105: TypeError: window.showModalDialog is not a function
+JavaScript error: http://11.8.121.150:7001/GDNY_CZ/Frame/page/js/as_control.js, line 105: TypeError: window.showModalDialog is not a function
+JavaScript error: http://11.8.121.150:7001/GDNY_CZ/Frame/page/js/as_control.js, line 105: TypeError: window.showModalDialog is not a function
+JavaScript error: http://11.8.121.150:7001/GDNY_CZ/Frame/page/js/as_control.js, line 105: TypeError: window.showModalDialog is not a function
+JavaScript error: http://11.8.121.150:7001/GDNY_CZ/Frame/page/js/as_control.js, line 105: TypeError: window.showModalDialog is not a function
+JavaScript error: http://11.8.121.150:7001/GDNY_CZ/Frame/page/js/as_control.js, line 105: TypeError: window.showModalDialog is not a function
+JavaScript error: http://11.8.121.150:7001/GDNY_CZ/Frame/page/js/as_control.js, line 105: TypeError: window.showModalDialog is not a function
+JavaScript error: http://11.8.121.150:7001/GDNY_CZ/Frame/page/js/as_control.js, line 105: TypeError: window.showModalDialog is not a function
+JavaScript error: http://11.8.121.150:7001/GDNY_CZ/Frame/page/js/as_control.js, line 105: TypeError: window.showModalDialog is not a function
+JavaScript error: http://11.8.121.150:7001/GDNY_CZ/Frame/page/js/as_control.js, line 105: TypeError: window.showModalDialog is not a function
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 27704, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 28744, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 28744, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 28340, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x15008C,name=PBrowser::Msg_UpdateNativeWindowHandle) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x15007F,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x150001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+
+JavaScript error: chrome://browser/content/tab-content.js, line 281: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x150001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+
+JavaScript error: chrome://browser/content/content.js, line 705: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+[Child 28340, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x15002B,name=PBrowser::Msg_SetInputContext) Closed channel: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 28332, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 28332, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 27704, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+Z/Frame/page/js/as_control.js, line 105: TypeError: window.showModalDialog is not a function
+JavaScript error: http://11.8.121.150:7001/GDNY_CZ/Frame/page/js/as_control.js, line 105: TypeError: window.showModalDialog is not a function
+JavaScript error: http://11.8.121.150:7001/GDNY_CZ/Frame/page/js/as_control.js, line 105: TypeError: window.showModalDialog is not a function
+JavaScript error: http://11.8.121.150:7001/GDNY_CZ/Frame/page/js/as_control.js, line 105: TypeError: window.showModalDialog is not a function
+JavaScript error: http://11.8.121.150:7001/GDNY_CZ/Frame/page/js/as_control.js, line 105: TypeError: window.showModalDialog is not a function
+JavaScript error: http://11.8.121.150:7001/GDNY_CZ/Frame/page/js/as_control.js, line 105: TypeError: window.showModalDialog is not a function
+1530603712077	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1530603803031	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+JavaScript error: http://11.8.121.150:7001/GDNY_CZ/Frame/page/js/as_control.js, line 105: TypeError: window.showModalDialog is not a function
+JavaScript error: http://11.8.121.150:7001/GDNY_CZ/Frame/page/js/as_control.js, line 105: TypeError: window.showModalDialog is not a function
+JavaScript error: http://11.8.121.150:7001/GDNY_CZ/Frame/page/js/as_control.js, line 105: TypeError: window.showModalDialog is not a function
+JavaScript error: http://11.8.121.150:7001/GDNY_CZ/Frame/page/js/as_control.js, line 105: TypeError: window.showModalDialog is not a function
+JavaScript error: http://11.8.121.150:7001/GDNY_CZ/Frame/page/js/as_control.js, line 105: TypeError: window.showModalDialog is not a function
+JavaScript error: http://11.8.121.150:7001/GDNY_CZ/Frame/page/js/as_control.js, line 105: TypeError: window.showModalDialog is not a function
+JavaScript error: http://11.8.121.150:7001/GDNY_CZ/Frame/page/js/as_control.js, line 105: TypeError: window.showModalDialog is not a function
+JavaScript error: http://11.8.121.150:7001/GDNY_CZ/Frame/page/js/as_control.js, line 105: TypeError: window.showModalDialog is not a function
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 29624, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 29624, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 29196, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x15008C,name=PBrowser::Msg_UpdateNativeWindowHandle) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x15007F,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
+
+[Child 29196, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x150001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+
+JavaScript error: chrome://browser/content/tab-content.js, line 281: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x150001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+
+JavaScript error: chrome://browser/content/content.js, line 705: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x15002B,name=PBrowser::Msg_SetInputContext) Closed channel: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 28396, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 25896, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 28396, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+1530607479732	geckodriver	INFO	geckodriver 0.19.1
+1530607479847	geckodriver	INFO	Listening on 127.0.0.1:1196
+1530607483304	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Pactera\\AppData\\Local\\Temp\\rust_mozprofile.ZdjsdtJyOrEL"
+1530607501523	Marionette	INFO	Listening on port 1215
+1530607501682	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 9264, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 9264, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9508, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9508, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10016, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10016, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 9264, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 9264, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Pactera\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 5088, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

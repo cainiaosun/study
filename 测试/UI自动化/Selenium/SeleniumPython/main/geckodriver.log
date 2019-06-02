@@ -1,0 +1,1145 @@
+1555639672705	geckodriver	INFO	geckodriver 0.20.0
+1555639672719	geckodriver	INFO	Listening on 127.0.0.1:11219
+1555639675743	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\孙洪斌\\AppData\\Local\\Temp\\rust_mozprofile.XBS0Z3eAgC5F"
+1555639678836	Marionette	INFO	Listening on port 11227
+1555639679147	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/nsAsyncShutdown.js, line 114: Error: We have already registered a distinct blocker with the same name: Crash Reporter: blocking on minidumpgeneration.
+JavaScript error: resource:///modules/sessionstore/SessionSaver.jsm, line 180: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIAppShellService.hiddenDOMWindow]
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+umpgeneration.
+JavaScript error: resource:///modules/sessionstore/SessionSaver.jsm, line 180: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIAppShellService.hiddenDOMWindow]
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 683: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "CrashService waiting for content crash ping to be sent"
+JavaScript error: resource://gre/modules/TelemetryController.jsm, line 461: Error: submitExternalPing - Submission is not allowed after shutdown, discarding ping of type: crash
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+ WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1555640479226	geckodriver	INFO	geckodriver 0.20.0
+1555640479240	geckodriver	INFO	Listening on 127.0.0.1:11462
+1555640482254	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\孙洪斌\\AppData\\Local\\Temp\\rust_mozprofile.kfFFjmWwOmX1"
+1555640485215	Marionette	INFO	Listening on port 11470
+1555640485649	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/nsAsyncShutdown.js, line 114: Error: We have already registered a distinct blocker with the same name: Crash Reporter: blocking on minidumpgeneration.
+[Parent 14856, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 683: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "CrashService waiting for content crash ping to be sent"
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+pe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18940, Chrome_ChildThread] WARNING: pipe error: 109: file z:/bui[Child 17656, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 176[GPU 14284, Chrome_ChildThread] WARNING: pi
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1555760381871	geckodriver	INFO	geckodriver 0.20.0
+1555760381885	geckodriver	INFO	Listening on 127.0.0.1:4376
+1555760384909	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\孙洪斌\\AppData\\Local\\Temp\\rust_mozprofile.HBt6sHqrMtJQ"
+1555760387919	Marionette	INFO	Listening on port 4386
+1555760388174	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/nsAsyncShutdown.js, line 114: Error: We have already registered a distinct blocker with the same name: Crash Reporter: blocking on minidumpgeneration.
+[Parent 18952, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16720, Chrome_ChildThread] WARNING: pipe error: 109: file z:/buiJavaScript error: jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/compon
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+8, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20888, [Child 19764, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19764, Chrome_ChildTh[GPU 12652, Chrome_ChildThread
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 683: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "CrashService waiting for content crash ping to be sent"
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 408: Error: OS.File has been shut down. Rejecting post to writeAtomic
+egister completion condition "CrashService waiting for content crash ping to be sent"
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 408: Error: OS.File has been shut down. Rejecting post to writeAtomic
+r: Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[Parent 7104, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[GPU 12908, Chrome_ChildThread] WARNING: pipe error: 109: file z:
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+uild/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[Child 6468, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 646JavaScript error: resource:///modules/sessionstore/SessionSaver.jsm, line 180: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIAppShellService.hiddenDOMWindow]
+[GPU 10768, Chrome_ChildThread] WARNI
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/i[Child 6268, Chrome_ChildThread] WARNING: pipe error: 109: f[Child 21244, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/c[GPU 24416, Chrome_ChildThread] WAR
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ line 180: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIAppShellService.hiddenDOMWindow]
+[GPU 8260, Chrome_Chi
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1555775702123	geckodriver	INFO	geckodriver 0.20.0
+1555775702138	geckodriver	INFO	Listening on 127.0.0.1:2344
+1555775705157	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\孙洪斌\\AppData\\Local\\Temp\\rust_mozprofile.mP5KihgbGPWf"
+1555775707852	Marionette	INFO	Listening on port 2353
+1555775708455	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 11296, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11296, Chrome_Child[C[GPU 23584, Chrome_ChildThread] W
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+mozprofile.kyR8yQ8tprMZ"
+1555775733220	Marionette	INFO	Listening on port 2388
+1555775734263	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 24496, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 24496[Child 15024, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15024, Chrome_ChildThrea*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 7280, Chrome_ChildThrea
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1555775767224	geckodriver	INFO	geckodriver 0.20.0
+1555775767239	geckodriver	INFO	Listening on 127.0.0.1:2417
+1555775770257	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\孙洪斌\\AppData\\Local\\Temp\\rust_mozprofile.I9YSBHxzwsPk"
+1555775772529	Marionette	INFO	Listening on port 2425
+1555775773399	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 21172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 22036, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 22036, Chrome_ChildThrea[Child 17872, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17872[Parent 21172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 15964, Chrome_ChildThread] WARNING: pip
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1555775847697	geckodriver	INFO	geckodriver 0.20.0
+1555775847712	geckodriver	INFO	Listening on 127.0.0.1:2449
+1555775850729	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\孙洪斌\\AppData\\Local\\Temp\\rust_mozprofile.pX8YX0XsKDdl"
+1555775852937	Marionette	INFO	Listening on port 2457
+1555775853865	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 17296, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17296, Chro[Child 21076, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2107[Parent 20896, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+hromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 156[Child 22636, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, li*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1555776570916	geckodriver	INFO	geckodriver 0.20.0
+1555776570931	geckodriver	INFO	Listening on 127.0.0.1:2558
+1555776573960	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\孙洪斌\\AppData\\Local\\Temp\\rust_mozprofile.PKoW7CMn2AAR"
+1555776576874	Marionette	INFO	Listening on port 2566
+1555776577823	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 21744, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 21744, Chrome_ChildThread] [Parent 22548, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 3461555776730286	Marionette	INFO	Listening on port 2622
+1555776731217	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 16716, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16716, Chrome_ChildThread] WARNING: pipe er*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1555776862801	geckodriver	INFO	geckodriver 0.20.0
+1555776862815	geckodriver	INFO	Listening on 127.0.0.1:2652
+1555776865821	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\孙洪斌\\AppData\\Local\\Temp\\rust_mozprofile.uFAck9TERLAK"
+1555776868090	Marionette	INFO	Listening on port 2660
+1555776868952	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 3336, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 24496, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 24496, Chrome_ChildThread] WARNING: pip[Child 20712, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20712, *** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 19628, Chrome_ChildThread] 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1555778603758	geckodriver	INFO	geckodriver 0.20.0
+1555778603772	geckodriver	INFO	Listening on 127.0.0.1:2780
+1555778606793	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\孙洪斌\\AppData\\Local\\Temp\\rust_mozprofile.1c8YyIu19r0w"
+1555778609174	Marionette	INFO	Listening on port 2789
+1555778609929	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 21220, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19988, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1998[Parent 21220, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 24832, Chrome_C
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+or: cannot send/recv
+
+5779021639	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\孙洪斌\\AppData\\Local\\Temp\\rust_mozprofile.6F6803NrY8QB"
+1555779024991	Marionette	INFO	Listening on port 2952
+1555779025497	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 12404, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, l[ine Child 13448, Chro346me_ChildThread] WARNING: pipe error: 109: file z:/build/build/s
+rc/ipc/chromium/src/chrome/common[Child/i 124pc_c04, hannChroel_wme_Cin.childc, lThreine ad] 346WARN
+ING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line [GPU 3388, Chrome_ChildThread][GPU 15336, Chrome_ChildThread] WA
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+nnel_win.cc, line 346
+[Child 15140, [ChiChrome_Chld ildT11216, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src1555779293585	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\孙洪斌\\AppData\\Local\\Temp\\rust_mozprofile.WAUTDBRGno8S"
+1555779297352	Marionette	INFO	Listening on port 3146
+1555779297383	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 3264, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3264, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 16472, Chrome_ChildThread]
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1555779386284	geckodriver	INFO	geckodriver 0.20.0
+1555779386301	geckodriver	INFO	Listening on 127.0.0.1:3214
+1555779389334	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\孙洪斌\\AppData\\Local\\Temp\\rust_mozprofile.YhrVGNoxsoO0"
+1555779393232	Marionette	INFO	Listening on port 3230
+1555779393555	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 16948, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19852, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15432, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15432, Chrome_ChildTh[Child 6584, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6584, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/[Child 7384, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7384, C[GPU 21212, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/bui[GPU 5964, Chrome_ChildThread] WARNING: pipe e
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+line 346
+[Child 5212, Chr[GPU 10136, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/c
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+	Listening on port 3472
+1555779804639	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 25264, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 25264, Chrom*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1555780351584	geckodriver	INFO	geckodriver 0.20.0
+1555780351597	geckodriver	INFO	Listening on 127.0.0.1:3507
+1555780354617	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\孙洪斌\\AppData\\Local\\Temp\\rust_mozprofile.UJGi61qUIXtu"
+1555780356886	Marionette	INFO	Listening on port 3515
+1555780357795	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 20252, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20252, Chrome_ChildThread] [GPU 22024, Chrome_ChildThread] WAR
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+le.ROaXcEMGAv4S"
+1555780455794	Marionette	INFO	Listening on port 3556
+1555780456652	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 13684, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13684,[GPU 15448, Chrome_ChildThread
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Local\\Temp\\rust_mozprofile.2VHbXnKXAcOg"
+1555781697016	Marionette	INFO	Listening on port 3651
+1555781697902	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 15892, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10516, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10516, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_cha[Child 14076, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14076, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_cha[GPU 20728, Chrome_ChildThread] WA
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1555781793780	geckodriver	INFO	geckodriver 0.20.0
+1555781793795	geckodriver	INFO	Listening on 127.0.0.1:3729
+1555781796811	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\孙洪斌\\AppData\\Local\\Temp\\rust_mozprofile.0KgJyDev5gWw"
+1555781799087	Marionette	INFO	Listening on port 3737
+1555781799946	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 12020, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12020, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 21972, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 21972, Chrome_ChildTh*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1555781917963	geckodriver	INFO	geckodriver 0.20.0
+1555781917979	geckodriver	INFO	Listening on 127.0.0.1:3766
+1555781921005	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\孙洪斌\\AppData\\Local\\Temp\\rust_mozprofile.juFnJsiVKtmG"
+1555781923323	Marionette	INFO	Listening on port 3774
+1555781924140	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 16072, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16072[Parent 13184, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 22060, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 22060, Chro[Child 22484, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 22484, Chrome_ChildThread] WARNING: pipe error: 1
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+\rust_mozprofile.Z1oEtg66c17P"
+1555782806342	Marionette	INFO	Listening on port 20879
+1555782807189	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 14564, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14564,[Child 15432, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15432, C[Parent 23376, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+**[Child 24848, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 24848, C[Child 21296, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 21296, Ch*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 3936, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromi
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1555782898857	geckodriver	INFO	geckodriver 0.20.0
+1555782898870	geckodriver	INFO	Listening on 127.0.0.1:21021
+1555782901899	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\孙洪斌\\AppData\\Local\\Temp\\rust_mozprofile.GkvQ7EdTGflt"
+1555782906296	Marionette	INFO	Listening on port 21042
+1555782906430	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 7072, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 21200, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 21200, Chrome_Chi[lChildThrd 16ead3] WA2RNI8, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, li[Parent 12228, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 12228, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1460, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Ch[iChilld 1d460, Chrome_Child 253Thre44, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 25344, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, l[Child 15656, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 16748, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+555812690105	Marionette	WARN	TLS certificate errors will be ignored for this session
+1555812770110	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+1555812770117	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1555812770121	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+[Child 10592, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10592, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 23236, Chrome_ChildThrea
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+certificate errors will be ignored for this session
+1555812894307	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+1555812894314	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1555812894318	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+[Child 2696, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2696, Ch
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+\\Users\\孙洪斌\\AppData\\Local\\Temp\\rust_mozprofile.2p8cAtPT6whK"
+1555813046808	Marionette	INFO	Listening on port 1043
+1555813047497	Marionette	WARN	TLS certificate errors will be ignored for this session
+1555813082592	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+1555813082600	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1555813082604	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+[Child 22036, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 19680, Chrome_ChildThre
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+�斌\\AppData\\Local\\Temp\\rust_mozprofile.s6CX58f1XDLR"
+1555813261744	Marionette	INFO	Listening on port 31850
+1555813262439	Marionette	WARN	TLS certificate errors will be ignored for this session
+1555813304131	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+1555813304138	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1555813304141	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+[GPU 14148, Chrome_ChildThread
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+2461	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\孙洪斌\\AppData\\Local\\Temp\\rust_mozprofile.KeNT4uTVg3E8"
+1555813704860	Marionette	INFO	Listening on port 1034
+1555813705616	Marionette	WARN	TLS certificate errors will be ignored for this session
+1555813761708	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+1555813761718	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1555813761723	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+[Child 11124, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11124, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 14340, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 1176, Chrome_ChildThrea[Child 17512, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17512, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14996, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14996, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+s: 0, reason: error
+1555813855549	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+[Child 24612, Chrome_Child[PTarenht r98e56,a Gdec]ko_I WAOThrRNINead] WARNIGNG:: pi pippe errore e: 1rror09: : 1file09: z:/ file z:/build/build/build/build/src/ipc/csrc/ipc/hcrhomium/src/chrome/common/ipc_channel_win.cc, line 346r
+omium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 24612, Chrome_ChildThread] WA[Child 12560, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line [Child 23132, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 23132, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15800, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15800, Chrome_ChildThread] WARNING:
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ette	INFO	Listening on port 13354
+1555814679291	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 19088, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19088, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15956, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15956, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1555814705645	geckodriver	INFO	geckodriver 0.20.0
+1555814705659	geckodriver	INFO	Listening on 127.0.0.1:13382
+1555814708699	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\孙洪斌\\AppData\\Local\\Temp\\rust_mozprofile.Xc7CsIfZsb7B"
+1555814710974	Marionette	INFO	Listening on port 13390
+1555814711838	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 13540, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 14344, Chrome_ChildThread] WARNING: pipe error: 109: file z:/bu
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+profile.f2YxE4n3JXSi"
+1555815875697	Marionette	INFO	Listening on port 13516
+1555815875836	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Child 15408, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 154[Child 23432, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 23432, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/s[GPU 19684, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/b
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1555836020843	geckodriver	INFO	geckodriver 0.20.0
+1555836020856	geckodriver	INFO	Listening on 127.0.0.1:30313
+1555836023882	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\孙洪斌\\AppData\\Local\\Temp\\rust_mozprofile.JDQXhXFRvZnn"
+1555836027017	Marionette	INFO	Listening on port 30322
+1555836027651	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1555867197511	geckodriver	INFO	geckodriver 0.20.0
+1555867197534	geckodriver	INFO	Listening on 127.0.0.1:18371
+1555867200613	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\孙洪斌\\AppData\\Local\\Temp\\rust_mozprofile.ViQI00Fu6jHZ"
+1555868284789	geckodriver	INFO	geckodriver 0.20.0
+1555868284833	geckodriver	INFO	Listening on 127.0.0.1:26416
+1555868287876	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\孙洪斌\\AppData\\Local\\Temp\\rust_mozprofile.nQGnuRSgKo0i"
+1555868288849	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555868288849	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555868288849	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555868288969	Marionette	TRACE	Received observer notification profile-after-change
+1555868289139	Marionette	TRACE	Received observer notification toplevel-window-ready
+1555868289175	Marionette	TRACE	Received observer notification command-line-startup
+1555868289175	Marionette	TRACE	Received observer notification nsPref:changed
+1555868289175	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1555868289344	Marionette	TRACE	Received observer notification toplevel-window-ready
+1555868290370	Marionette	TRACE	Received observer notification sessionstore-windows-restored
+1555868290370	Marionette	TRACE	GFX sanity window detected, waiting until it has been closed...
+1555868290660	Marionette	TRACE	Received observer notification domwindowclosed
+1555868290660	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1555868290665	Marionette	TRACE	All scripts recorded.
+1555868290666	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1555868290666	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1555868290666	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1555868290667	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1555868290667	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1555868290668	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1555868290716	Marionette	INFO	Listening on port 26426
+1555868290716	Marionette	DEBUG	Remote service is active
+1555868291002	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:26441
+1555868291003	Marionette	DEBUG	0 -> [0,1,"newSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1555868291004	Marionette	DEBUG	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:179: ... et@chrome://marionette/content/server.js:235:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:493:9\n"},null]
+1555868343282	Marionette	DEBUG	Closed connection 0
+[Parent 15136, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/commo1555868349529	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\孙洪斌\\AppData\\Local\\Temp\\rust_mozprofile.J5GWA5gPaNYX"
+1555868350388	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555868350389	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555868350389	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555868350515	Marionette	TRACE	Received observer notification profile-after-change
+1555868350686	Marionette	TRACE	Received observer notification toplevel-window-ready
+1555868350723	Marionette	TRACE	Received observer notification command-line-startup
+1555868350723	Marionette	TRACE	Received observer notification nsPref:changed
+1555868350723	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1555868350887	Marionette	TRACE	Received observer notification toplevel-window-ready
+1555868351886	Marionette	TRACE	Received observer notification sessionstore-windows-restored
+1555868351886	Marionette	TRACE	GFX sanity window detected, waiting until it has been closed...
+1555868352364	Marionette	TRACE	Received observer notification domwindowclosed
+1555868352365	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1555868352389	Marionette	TRACE	All scripts recorded.
+1555868352389	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1555868352389	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1555868352390	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1555868352391	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1555868352391	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1555868352391	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1555868352431	Marionette	INFO	Listening on port 26461
+1555868352431	Marionette	DEBUG	Remote service is active
+1555868352672	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:26477
+1555868352674	Marionette	DEBUG	0 -> [0,1,"newSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1555868352674	Marionette	DEBUG	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:179: ... et@chrome://marionette/content/server.js:235:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:493:9\n"},null]
+[Parent 2220, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 2220, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 8020, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+1555868355342	Marionette	DEBUG	Closed connection 0
+[Parent 2220, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 21144, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 21144, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+1555868355653	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1555868355654	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1555868355654	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1555868355654	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1555868355654	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1555868355654	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1555868355654	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1555868355655	Marionette	INFO	Stopped listening on port 26461
+1555868355655	Marionette	DEBUG	Remote service is inactive
+[GPU
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ 2256, C
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1555868356087	geckodriver::marionette	ERROR	Failed to stop browser process
+1555868363354	geckodriver	INFO	geckodriver 0.20.0
+1555868363367	geckodriver	INFO	Listening on 127.0.0.1:26489
+1555868366405	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\孙洪斌\\AppData\\Local\\Temp\\rust_mozprofile.aKV7H7Oti401"
+1555868367287	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555868367288	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555868367288	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555868367417	Marionette	TRACE	Received observer notification profile-after-change
+1555868367577	Marionette	TRACE	Received observer notification toplevel-window-ready
+1555868367611	Marionette	TRACE	Received observer notification command-line-startup
+1555868367611	Marionette	TRACE	Received observer notification nsPref:changed
+1555868367611	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1555868367774	Marionette	TRACE	Received observer notification toplevel-window-ready
+1555868368991	Marionette	TRACE	Received observer notification sessionstore-windows-restored
+1555868368991	Marionette	TRACE	GFX sanity window detected, waiting until it has been closed...
+1555868369395	Marionette	TRACE	Received observer notification domwindowclosed
+1555868369395	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1555868369401	Marionette	TRACE	All scripts recorded.
+1555868369401	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1555868369402	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1555868369402	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1555868369403	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1555868369403	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1555868369403	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1555868369446	Marionette	INFO	Listening on port 26497
+1555868369446	Marionette	DEBUG	Remote service is active
+1555868369532	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:26513
+1555868369533	Marionette	DEBUG	0 -> [0,1,"newSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1555868369534	Marionette	DEBUG	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:179: ... et@chrome://marionette/content/server.js:235:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:493:9\n"},null]
+Exiting due to channel error.
+1555868453283	geckodriver	INFO	geckodriver 0.20.0
+1555868453295	geckodriver	INFO	Listening on 127.0.0.1:26541
+1555868456323	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\孙洪斌\\AppData\\Local\\Temp\\rust_mozprofile.aUmcNBCqOPIu"
+1555868457204	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555868457204	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555868457204	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555868457324	Marionette	TRACE	Received observer notification profile-after-change
+1555868457491	Marionette	TRACE	Received observer notification toplevel-window-ready
+1555868457527	Marionette	TRACE	Received observer notification command-line-startup
+1555868457527	Marionette	TRACE	Received observer notification nsPref:changed
+1555868457527	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1555868457693	Marionette	TRACE	Received observer notification toplevel-window-ready
+1555868458616	Marionette	TRACE	Received observer notification sessionstore-windows-restored
+1555868458616	Marionette	TRACE	GFX sanity window detected, waiting until it has been closed...
+1555868458893	Marionette	TRACE	Received observer notification domwindowclosed
+1555868458893	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1555868458912	Marionette	TRACE	All scripts recorded.
+1555868458912	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1555868458912	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1555868458913	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1555868458914	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1555868458914	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1555868458914	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1555868458965	Marionette	INFO	Listening on port 26549
+1555868458966	Marionette	DEBUG	Remote service is active
+1555868459450	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:26565
+1555868459451	Marionette	DEBUG	0 -> [0,1,"newSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1555868459452	Marionette	DEBUG	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:179: ... et@chrome://marionette/content/server.js:235:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:493:9\n"},null]
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1555868772080	geckodriver	INFO	geckodriver 0.20.0
+1555868772094	geckodriver	INFO	Listening on 127.0.0.1:26616
+1555868775119	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\孙洪斌\\AppData\\Local\\Temp\\rust_mozprofile.VK4BzA2rbQ1n"
+1555868776049	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555868776049	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555868776049	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555868776173	Marionette	TRACE	Received observer notification profile-after-change
+1555868776355	Marionette	TRACE	Received observer notification toplevel-window-ready
+1555868776391	Marionette	TRACE	Received observer notification command-line-startup
+1555868776391	Marionette	TRACE	Received observer notification nsPref:changed
+1555868776391	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1555868776573	Marionette	TRACE	Received observer notification toplevel-window-ready
+1555868777624	Marionette	TRACE	Received observer notification sessionstore-windows-restored
+1555868777624	Marionette	TRACE	GFX sanity window detected, waiting until it has been closed...
+1555868778064	Marionette	TRACE	Received observer notification domwindowclosed
+1555868778064	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1555868778072	Marionette	TRACE	All scripts recorded.
+1555868778072	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1555868778072	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1555868778073	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1555868778074	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1555868778074	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1555868778075	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1555868778119	Marionette	INFO	Listening on port 26624
+1555868778120	Marionette	DEBUG	Remote service is active
+1555868778251	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:26639
+1555868778252	Marionette	DEBUG	0 -> [0,1,"newSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1555868778253	Marionette	DEBUG	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:179: ... et@chrome://marionette/content/server.js:235:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:493:9\n"},null]
+1555940341257	geckodriver	INFO	geckodriver 0.20.0
+1555940341273	geckodriver	INFO	Listening on 127.0.0.1:1026
+1555940344299	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\孙洪斌\\AppData\\Local\\Temp\\rust_mozprofile.8DFzvp8uobqY"
+1555940345261	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555940345261	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555940345261	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555940345389	Marionette	TRACE	Received observer notification profile-after-change
+1555940345781	Marionette	TRACE	Received observer notification toplevel-window-ready
+1555940345818	Marionette	TRACE	Received observer notification command-line-startup
+1555940345818	Marionette	TRACE	Received observer notification nsPref:changed
+1555940345818	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1555940346014	Marionette	TRACE	Received observer notification toplevel-window-ready
+1555940347167	Marionette	TRACE	Received observer notification sessionstore-windows-restored
+1555940347168	Marionette	TRACE	GFX sanity window detected, waiting until it has been closed...
+1555940347487	Marionette	TRACE	Received observer notification domwindowclosed
+1555940347487	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1555940347529	Marionette	TRACE	All scripts recorded.
+1555940347529	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1555940347530	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1555940347531	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1555940347531	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1555940347532	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1555940347532	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1555940347589	Marionette	INFO	Listening on port 1040
+1555940347589	Marionette	DEBUG	Remote service is active
+1555940347950	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:1057
+1555940347952	Marionette	DEBUG	0 -> [0,1,"newSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1555940347952	Marionette	DEBUG	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:179: ... et@chrome://marionette/content/server.js:235:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:493:9\n"},null]
+1555940392827	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+1555940392851	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1555940392882	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555940376661	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555940376661	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555940376794	Marionette	TRACE	Received observer notification profile-after-change
+1555940376997	Marionette	TRACE	Received observer notification toplevel-window-ready
+1555940377033	Marionette	TRACE	Received observer notification command-line-startup
+1555940377033	Marionette	TRACE	Received observer notification nsPref:changed
+1555940377033	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1555940377232	Marionette	TRACE	Received observer notification toplevel-window-ready
+1555940378440	Marionette	TRACE	Received observer notification sessionstore-windows-restored
+1555940378440	Marionette	TRACE	GFX sanity window detected, waiting until it has been closed...
+1555940378716	Marionette	TRACE	Received observer notification domwindowclosed
+1555940378716	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1555940378775	Marionette	TRACE	All scripts recorded.
+1555940378775	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1555940378776	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1555940378776	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1555940378777	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1555940378777	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1555940378778	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1555940378832	Marionette	INFO	Listening on port 1067
+1555940378832	Marionette	DEBUG	Remote service is active
+1555940378916	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:1082
+1555940378918	Marionette	DEBUG	0 -> [0,1,"newSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1555940378918	Marionette	DEBUG	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:179: ... et@chrome://marionette/content/server.js:235:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:493:9\n"},null]
+[Parent 1084, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 1084, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 13440, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/co[Chmmon/ild 1ipc_9172, channChrome_Cel_whilin.cc,dThr linead]e 33 W2
+ARNING: pipe error: 109: fil[Childe z 1:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 19172, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/s1555940412974	Marionette	DEBUG	Closed connection 0
+1555940413259	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1555940413260	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1555940413260	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1555940413260	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1555940413260	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1555940413260	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1555940413261	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1555940413261	Marionette	INFO	Stopped listening on port 1067
+1555940413261	Marionette	DEBUG	Remote service is inactive
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 949
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1555940413767	geckodriver::marionette	ERROR	Failed to stop browser process
+1555940492886	geckodriver	INFO	geckodriver 0.20.0
+1555940492906	geckodriver	INFO	Listening on 127.0.0.1:30231
+1555940495937	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\孙洪斌\\AppData\\Local\\Temp\\rust_mozprofile.HDDyuxU560Fw"
+1555940497088	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555940497089	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555940497089	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555940497227	Marionette	TRACE	Received observer notification profile-after-change
+1555940498087	Marionette	TRACE	Received observer notification toplevel-window-ready
+1555940498144	Marionette	TRACE	Received observer notification command-line-startup
+1555940498144	Marionette	TRACE	Received observer notification nsPref:changed
+1555940498144	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1555940498332	Marionette	TRACE	Received observer notification toplevel-window-ready
+1555940499538	Marionette	TRACE	Received observer notification sessionstore-windows-restored
+1555940499539	Marionette	TRACE	GFX sanity window detected, waiting until it has been closed...
+1555940499885	Marionette	TRACE	Received observer notification domwindowclosed
+1555940499886	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1555940499904	Marionette	TRACE	All scripts recorded.
+1555940499904	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1555940499905	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1555940499905	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1555940499906	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1555940499906	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1555940499906	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1555940499970	Marionette	INFO	Listening on port 30245
+1555940499971	Marionette	DEBUG	Remote service is active
+1555940500251	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:30265
+1555940500252	Marionette	DEBUG	0 -> [0,1,"newSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1555940500252	Marionette	DEBUG	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:179: ... et@chrome://marionette/content/server.js:235:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:493:9\n"},null]
+Exiting due to channel error.
+Exiting due to channel error.
+1555941918179	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\孙洪斌\\AppData\\Local\\Temp\\rust_mozprofile.VgBid1kAKuf9"
+1555941919551	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555941919551	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555941919551	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555941919688	Marionette	TRACE	Received observer notification profile-after-change
+1555941919865	Marionette	TRACE	Received observer notification toplevel-window-ready
+1555941919903	Marionette	TRACE	Received observer notification command-line-startup
+1555941919904	Marionette	TRACE	Received observer notification nsPref:changed
+1555941919904	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1555941920106	Marionette	TRACE	Received observer notification toplevel-window-ready
+1555941921271	Marionette	TRACE	Received observer notification sessionstore-windows-restored
+1555941921272	Marionette	TRACE	GFX sanity window detected, waiting until it has been closed...
+1555941921826	Marionette	TRACE	Received observer notification domwindowclosed
+1555941921827	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1555941921833	Marionette	TRACE	All scripts recorded.
+1555941921833	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1555941921833	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1555941921835	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1555941921835	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1555941921836	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1555941921836	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1555941921837	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1555941921837	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1555941921837	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1555941921837	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1555941921837	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1555941921838	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1555941921838	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1555941921838	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1555941921839	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1555941921839	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1555941921839	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1555941921839	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1555941921840	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1555941921840	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1555941921840	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1555941921840	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1555941921840	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1555941921840	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1555941921841	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1555941921841	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1555941921882	Marionette	INFO	Listening on port 1162
+1555941921882	Marionette	DEBUG	Remote service is active
+1555941921908	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:1173
+1555941921910	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox"}]
+1555941921911	Marionette	WARN	TLS certificate errors will be ignored for this session
+1555941922113	Marionette	TRACE	[6442450945] Frame script loaded
+1555941922116	Marionette	TRACE	[6442450945] Frame script registered
+1555941922118	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"e567013c-c29c-4e2f-9407-a43b19e9a4eb","capabilities":{"browserName":"firefox","browserVersion":"66.0. ... ozprofile.VgBid1kAKuf9","moz:shutdownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+1555941927395	mozrunner::runner	INFO	Running command[Parent 22380, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 22380, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 5444, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 5444, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_chan[Child 20276, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 20276, Chrome_ChildThread] WARNING: pipe error: 109: file z:/buil[Parent 22380, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/[Parent 24804, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 22480, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 22480, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 24804, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 11516, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 11516, Chrome_ChildThread] 1555941989655	Marionette	INFO	Stopped listening on port 1191
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv,[Child 23988, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 23988, Chrome_ChildThread] WARNING: pipe error: 109: file z:/buil[Parent 22564, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 22712, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+1555941992135	Marionette	INFO	Stopped listening on port 1240
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+8190	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1555941988190	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1555941988190	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1555941988190	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1555941988190	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1555941988190	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1555941988190	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1555941988190	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1555941988190	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1555941988190	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1555941988190	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1555941988190	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1555941988191	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1555941988191	Marionette	INFO	Stopped listening on port 1162
+1555941988191	Marionette	DEBUG	Remote service is inactive
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 12408, Chrome_ChildThread] WARNING: pip
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+404	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1555941972404	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1555941972404	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1555941972404	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1555941972405	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1555941972405	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1555941972406	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1555941972406	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1555941972406	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1555941972406	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1555941972406	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1555941972407	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1555941972407	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1555941972407	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1555941972407	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1555941972407	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1555941972407	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1555941972408	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1555941972408	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1555941972408	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1555941972454	Marionette	INFO	Listening on port 1289
+1555941972454	Marionette	DEBUG	Remote service is active
+1555941972528	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:1299
+1555941972530	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox"}]
+1555941972530	Marionette	WARN	TLS certificate errors will be ignored for this session
+1555941972761	Marionette	TRACE	[6442450945] Frame script loaded
+1555941972763	Marionette	TRACE	[6442450945] Frame script registered
+1555941972766	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"4d55b0c7-2c66-42ff-affb-24809b6fdc59","capabilities":{"browserName":"firefox","browserVersion":"66.0. ... ozprofile.Rm3PGhpbg7xb","moz:shutdownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+1555941972810	Marionette	DEBUG	0 -> [0,2,"WebDriver:Navigate",{"url":"https://www.baidu.com"}]
+1555941972834	Marionette	TRACE	[6442450945] Received DOM event beforeunload for about:blank
+1555941976609	Marionette	TRACE	[6442450945] Received DOM event pagehide for about:blank
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+1555941985913	Marionette	TRACE	[6442450945] Received DOM event DOMContentLoaded for https://www.baidu.com/
+1555941986637	Marionette	TRACE	[6442450945] Received DOM event pageshow for https://www.baidu.com/
+1555941986638	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1555942007600	Marionette	DEBUG	Closed connection 0
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35002E,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35002E,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35002E,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35002E,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35002E,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35002E,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350115,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350115,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350115,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350115,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350115,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350115,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0087,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350115,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350115,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350115,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350115,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350115,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350115,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0087,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350115,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350115,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350115,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350115,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350115,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350115,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0087,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35001A,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35001A,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35001A,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35001A,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35001A,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35001A,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35001A,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35001A,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35001A,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35001A,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35001A,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35001A,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35001A,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35001A,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35001A,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35001A,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35001A,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35001A,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35001A,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350019,name=PContent::Msg_RegisterChrome) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35001A,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35001A,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35001A,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35001A,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35001A,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35001A,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35001A,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35001A,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35001A,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35001A,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35001A,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35001A,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35001A,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35001A,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35001A,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35001A,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35001A,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35001A,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350019,name=PContent::Msg_RegisterChrome) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350115,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350115,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350115,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350115,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x350115,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x4B0013,name=PGPU::Msg_RemoveLayerTreeIdMapping) Channel error: cannot send/recv
+
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1643: TypeError: subject.QueryInterface is not a function
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x4B0013,name=PGPU::Msg_RemoveLayerTreeIdMapping) Channel error: cannot send/recv
+
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1643: TypeError: subject.QueryInterface is not a function
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x4B0013,name=PGPU::Msg_RemoveLayerTreeIdMapping) Channel error: cannot send/recv
+
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1643: TypeError: subject.QueryInterface is not a function
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x4B0013,name=PGPU::Msg_RemoveLayerTreeIdMapping) Channel error: cannot send/recv
+
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1643: TypeError: subject.QueryInterface is not a function
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x580015,name=PLayerTransaction::Msg_ClearCachedResources) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x58001E,name=PLayerTransaction::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: (msgtype=0x310017,name=PCompositorBridge::Msg_WillClose) Channel error: cannot send/recv
+
+[2872, Chrome_ChildThread] WARNING: failed to create pipe: 2: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 218
+[2872, Chrome_ChildThread] WARNING: Unable to create pipe named "20056.27.1992023691\1349570361" in client mode.: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 59
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFF7,name=<unknown IPC msg name>) Channel error: cannot send/recv
+
+(msgtype=0x58001E,name=PLayerTransaction::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: (msgtype=0x310017,name=PCompositorBridge::Msg_WillClose) Channel error: cannot send/recv
+
+[4104, Chrome_ChildThread] WARNING: failed to create pipe: 2: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 218
+[4104, Chrome_ChildThread] WARNING: Unable to create pipe named "18812.27.1262206801\2051976856" in client mode.: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 59
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFF7,name=<unknown IPC msg name>) Closed channel: cannot send/recv
+
+1555942491818	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\孙洪斌\\AppData\\Local\\Temp\\rust_mozprofile.Oz4ewGA12M2p"
+1555942493048	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555942493048	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555942493048	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555942495120	Marionette	INFO	Listening on port 1744
+1555942495433	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:8080/static/217f8d2b/scripts/prototype.js, line 5615: TypeError: registry is undefined
+JavaScript error: http://localhost:8080/static/217f8d2b/scripts/prototype.js, line 5615: TypeError: registry is undefined
+JavaScript error: http://localhost:8080/static/217f8d2b/scripts/prototype.js, line 5615: TypeError: registry is undefined
+JavaScript error: http://localhost:8080/static/217f8d2b/scripts/prototype.js, line 5615: TypeError: registry is undefined
+JavaScript error: http://localhost:8080/static/217f8d2b/scripts/prototype.js, line 5615: TypeError: registry is undefined
+JavaScript error: http://localhost:8080/static/217f8d2b/scripts/prototype.js, line 5615: TypeError: registry is undefined
+JavaScript error: http://localhost:8080/static/217f8d2b/scripts/prototype.js, line 5615: TypeError: registry is undefined
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 533: uncaught exception: undefined
+[Child 23104, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 23104, Chrome_ChildThread] WARNING:[Parent 25052, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 166
+[Parent 25052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 23728, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 23728, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 25052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 19340, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 19340, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+1555943618527	Marionette	INFO	Stopped listening on port 1744
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1559282409957	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\孙洪斌\\AppData\\Local\\Temp\\rust_mozprofile.D4aiS8d5zcfl"
+1559282411565	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559282411565	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559282411565	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559282415136	Marionette	INFO	Listening on port 3780
+1559282415359	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+[Child 10716, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 10716, Chrome_ChildThre[Parent 4964, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 166
+[Parent 4964, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 166
+[Child 4740, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 4740, Ch1559329188040	Marionette	INFO	Stopped listening on port 3780
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 9624, C
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+1559329191132	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\孙洪斌\\AppData\\Local\\Temp\\rust_mozprofile.cpdob34jVcP9"
+1559329192230	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559329192230	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559329192230	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559329194374	Marionette	INFO	Listening on port 2531
+1559329195801	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+

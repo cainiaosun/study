@@ -1,0 +1,19 @@
+2019-04-16 12:39:42,477 - WARNING - MainThread - 192.168.85.1 - pid:13088 - 警告！
+2019-04-16 12:39:42,479 - DEBUG - MainThread - 192.168.85.1 - pid:13088 - 调试！
+2019-04-16 12:39:42,485 - CRITICAL - MainThread - 192.168.85.1 - pid:13088 - 致命！
+2019-04-16 12:40:10,162 - WARNING - MainThread - 192.168.85.1 - pid:20056 - 警告！
+2019-04-16 12:40:10,163 - DEBUG - MainThread - 192.168.85.1 - pid:20056 - 调试！
+2019-04-16 12:40:10,165 - CRITICAL - MainThread - 192.168.85.1 - pid:20056 - 致命！
+2019-04-16 12:40:44,954 - INFO - MainThread - 192.168.85.1 - pid:7860 - 信息!
+2019-04-16 12:40:44,955 - WARNING - MainThread - 192.168.85.1 - pid:7860 - 警告！
+2019-04-16 12:40:44,957 - DEBUG - MainThread - 192.168.85.1 - pid:7860 - 调试！
+2019-04-16 12:40:44,958 - CRITICAL - MainThread - 192.168.85.1 - pid:7860 - 致命！
+2019-04-16 18:57:14,500 - INFO - MainThread - 192.168.85.1 - pid:20356 - 添加案例！
+2019-04-16 18:57:14,535 - INFO - MainThread - 192.168.85.1 - pid:20356 - Excute Case:test00000
+2019-04-16 18:57:14,609 - INFO - MainThread - 192.168.85.1 - pid:20356 - Case Name:test_01
+2019-04-16 18:57:14,714 - INFO - MainThread - 192.168.85.1 - pid:20356 - Excute Case:test00001
+2019-04-16 18:57:14,772 - INFO - MainThread - 192.168.85.1 - pid:20356 - Case Name:test_01
+2019-04-16 18:57:14,849 - INFO - MainThread - 192.168.85.1 - pid:20356 - Excute Case:test00002
+2019-04-16 18:57:14,911 - INFO - MainThread - 192.168.85.1 - pid:20356 - Case Name:test_02
+2019-04-16 18:57:14,986 - INFO - MainThread - 192.168.85.1 - pid:20356 - Excute Case:test00003
+2019-04-16 18:57:15,051 - INFO - MainThread - 192.168.85.1 - pid:20356 - Case Name:test_03

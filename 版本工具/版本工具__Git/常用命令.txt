@@ -1,0 +1,27 @@
+-Github常用操作
+-从远程克隆库                    ：git clone https://github.com/cainiaosun/mystudy.git
+-将所有文件提交到缓存            ：git add *
+-检查目录下文件状态              ：git status
+-删除多有不在缓存的文件          ：git clean -m
+-提交所有缓存文件                ：git commit -m *
+-提交对应缓存文件                ：git commit -m 文件名
+-在vim编辑页面，退出编辑         ：按住esc 再按大写Z
+-将已正式提交的文件提交到远程    ：git push origin master
+-删除文件                        ：git rm
+-
+-
+-问题解决：
+-1、不能上传目录：Github通过识别文件来上传，不能上传目录，如何保持目录结构？
+-   在每个目录或者每个空目录下新建一个无意义的文件，以保证没有空目录存在，根目录下执行如下命令：	
+-   find . -type d -empty -exec touch {}/gitignore.txt \;    -----空目录下新建一个gitignore.txt文件
+-   find . -type d -exec touch {}/gitignore.txt \;           -----所有目录下新建一个gitignore.txt文件
+-
+-2、本地删除的文件怎么恢复？要删除库文件怎么删除？
+-   本地删除文件恢复，执行以下命令：
+-   git reset --hard            回退到当前版本
+-   git checkout                从本地仓库恢复
+-   删除库文件：先删除文件，然后提交即可
+-   git rm -r 文件夹名
+-   git rm 文件名
+-   git commit -m * 
+-   参见网址：https://yq.aliyun.com/ziliao/323399

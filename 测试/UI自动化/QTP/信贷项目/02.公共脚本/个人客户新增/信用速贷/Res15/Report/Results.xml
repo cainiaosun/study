@@ -1,0 +1,672 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE Report
+[
+<!ELEMENT Report (General ,(Doc|BPT)) >
+<!ATTLIST Report ver CDATA #REQUIRED tmZone CDATA #REQUIRED>
+
+<!ELEMENT General ( DocLocation ) >
+<!ATTLIST General productName CDATA #REQUIRED productVer CDATA #REQUIRED os CDATA #REQUIRED host CDATA #REQUIRED qcserver CDATA #IMPLIED qcproject CDATA #IMPLIED SolManSolutionId CDATA #IMPLIED SolManProjectId CDATA #IMPLIED SolManTestPlanId CDATA #IMPLIED SolManTestPackageId CDATA #IMPLIED SolManUserInfoData CDATA #IMPLIED  >
+
+<!ELEMENT BPT (DName,Res,DVer?,TSet?,TInst?,NodeArgs,AdditionalInfo*,Doc*) >
+<!ATTLIST BPT rID ID #REQUIRED >
+
+<!ELEMENT Doc (DName,ConfName?,Res,DVer?,TSet?,TInst?,RunType?,DT?,AdditionalInfo*,Step*,DIter*,Step*,Action*,Doc*,Summary?,TestMaintenanceSummary*,NodeArgs?) >
+<!ATTLIST Doc rID ID #REQUIRED type (Test|BC|BPTWrapperTest|Flow|Group|Action) "Test" productName CDATA #REQUIRED BCIter CDATA #IMPLIED >
+
+<!ELEMENT RunType ( #PCDATA )>
+<!ATTLIST RunType fmStep (False|True) "False" batch (False|True) "False" upDesc (False|True) "False" upChk (False|True) "False" upAS (False|True) "False">
+
+<!ELEMENT DName ( #PCDATA ) >
+
+<!ELEMENT ConfName ( #PCDATA ) >
+
+<!ELEMENT Res ( #PCDATA ) >
+
+<!ELEMENT AdditionalInfo (AdditionalDataName,AdditionalDataValue ) >
+
+<!ELEMENT AdditionalDataName ( #PCDATA ) >
+
+<!ELEMENT AdditionalDataValue ( #PCDATA ) >
+
+<!ELEMENT DVer ( #PCDATA ) >
+
+<!ELEMENT TSet ( #PCDATA ) >
+
+<!ELEMENT TInst ( #PCDATA ) >
+
+<!ELEMENT DIter (Step*,Action+,Summary?,NodeArgs)>
+<!ATTLIST DIter rID ID #REQUIRED iterID CDATA #REQUIRED>
+
+<!ELEMENT DocLocation ( #PCDATA )>
+
+<!ELEMENT Action (AName,AIter*,(Step|HtmlStep|Action)*, Summary,ActionMaintenanceSummary*, NodeArgs ) >
+<!ATTLIST Action rID ID #REQUIRED>
+
+<!ELEMENT AIter ((Step|HtmlStep|Action)*,DataMapping?, Summary?,NodeArgs) >
+<!ATTLIST AIter rID ID #REQUIRED iterID CDATA #REQUIRED isCountable (False|True) "False" >
+
+<!ELEMENT AName ( #PCDATA ) >
+
+<!ELEMENT TestMaintenanceSummary (ActionMaintenanceSummary*) >
+<!ATTLIST TestMaintenanceSummary ObjectsAdded CDATA #REQUIRED ObjectsUpdated CDATA #REQUIRED StepsUpdated CDATA #REQUIRED StepsComments CDATA #REQUIRED><!ELEMENT ActionMaintenanceSummary (ObjectChange* ) >
+<!ATTLIST ActionMaintenanceSummary Action CDATA #REQUIRED Objects CDATA #REQUIRED Updated CDATA #REQUIRED LinesTotal CDATA #REQUIRED Added CDATA #REQUIRED LinesUpdated CDATA #REQUIRED>
+
+<!ELEMENT ObjectChange  (Hierarchy, PropertyChangeList* ) >
+<!ATTLIST ObjectChange Operation CDATA #IMPLIED OriginalRepository CDATA #IMPLIED>
+
+<!ELEMENT PropertyChangeList (PropertyDef*) >
+
+<!ELEMENT PropertyDef (OriginalValue, NewValue) >
+<!ATTLIST PropertyDef PropName CDATA #REQUIRED OriginRegularExpression (True|False) "False" NewRegularExpression (True|False) "False" AddedProperty (True|False) "False" >
+
+<!ELEMENT OriginalValue ( #PCDATA )>
+
+<!ELEMENT NewValue ( #PCDATA )>
+
+<!ELEMENT Hierarchy  (ObjectName, Hierarchy*) >
+<!ATTLIST Hierarchy MicClass CDATA #REQUIRED>
+
+<!ELEMENT ObjectName  ( #PCDATA ) >
+
+<!ELEMENT Step (Obj,Details,Time,TimeTick* ,(Step|HtmlStep|Doc)*, DataMapping?, NodeArgs) >
+<!ATTLIST Step rID ID #REQUIRED retval CDATA #IMPLIED>
+
+<!ELEMENT HtmlStep (HTML,TimeTick*,(Step|HtmlStep|Doc)*,NodeArgs) >
+<!ATTLIST HtmlStep rID ID #REQUIRED >
+
+<!ELEMENT Obj ( #PCDATA ) >
+<!ATTLIST Obj plainTxt (False|True) "True">
+
+<!ELEMENT Details ( #PCDATA ) >
+<!ATTLIST Details plainTxt (False|True) "True">
+
+<!ELEMENT Time ( #PCDATA ) >
+
+<!ELEMENT HTML ( #PCDATA ) >
+
+<!ELEMENT Disp ( #PCDATA ) >
+
+<!ELEMENT TimeTick ( #PCDATA ) >
+
+<!ELEMENT DataMapping ( DataMappedItem* )>
+<!ELEMENT DataMappedItem EMPTY >
+<!ATTLIST DataMappedItem dsName CDATA #REQUIRED >
+<!ATTLIST DataMappedItem rowId CDATA #REQUIRED >
+
+<!ELEMENT NodeArgs (Disp,TopPane?,BtmPane?,ExtendedInfo? )>
+<!ATTLIST NodeArgs eType CDATA #REQUIRED icon CDATA #REQUIRED nRep CDATA #REQUIRED UserNote CDATA #IMPLIED filter (False|True) "True">
+<!ATTLIST NodeArgs status (Passed|Failed|Done|Warning|Information) "Done">
+<!ATTLIST NodeArgs iconSel CDATA #IMPLIED nType CDATA #IMPLIED MovieMarker CDATA "">
+<!ATTLIST NodeArgs Source CDATA #IMPLIED SourceLine CDATA #IMPLIED StepFlowItemKey CDATA #IMPLIED >
+
+<!ELEMENT TopPane (Path)>
+
+<!ELEMENT BtmPane ( (Path|WR)?,ASHilite?)>
+<!ATTLIST BtmPane vType CDATA "HTML">
+
+<!ELEMENT Path ( #PCDATA ) >
+
+<!ELEMENT ASHilite ( #PCDATA ) >
+
+<!ELEMENT WR ( #PCDATA ) >
+
+<!ELEMENT ExtendedInfo ( StepData ) >
+
+<!ATTLIST ExtendedInfo StepType CDATA #REQUIRED>
+<!ELEMENT DT (NodeArgs) >
+<!ATTLIST DT rID ID #REQUIRED>
+
+<!ELEMENT Summary (Param*)>
+<!ATTLIST Summary sTime CDATA #IMPLIED eTime CDATA #IMPLIED passed CDATA #IMPLIED failed CDATA #IMPLIED warnings CDATA #IMPLIED retval CDATA #IMPLIED stopped (False|True) "False" >
+
+<!ELEMENT Param (ParamName,ParamVal)+ >
+<!ATTLIST Param paramInOut (In|Out) "In">
+
+<!ELEMENT ParamName ( #PCDATA ) >
+
+<!ELEMENT ParamVal ( #PCDATA ) >
+
+]
+>
+<Report ver="2.0" tmZone="中国标准时间">
+<General productName="HP Unified Functional Testing" productVer="12.0" os="Windows 7" host="PACTERA-PC"><DocLocation><![CDATA[E:\DataOfSoftWare\Unified Functional Testing\信用速贷]]></DocLocation></General>
+<Doc rID="T1"   productName= "HP Unified Functional Testing"  >
+<DName><![CDATA[信用速贷]]></DName>
+<Res><![CDATA[Res15]]></Res>
+<RunType fmStep="True" /><DT rID="T2">
+<NodeArgs eType="Table" icon="2" nRep="4" filter="False" >
+<Disp><![CDATA[Run-Time Data Table]]></Disp>
+<BtmPane vType="Table" >
+<Path><![CDATA[Default.xls]]></Path>
+</BtmPane>
+</NodeArgs>
+</DT>
+<Action rID="T3">
+<AName><![CDATA[面签阶段]]></AName>
+<Step rID="T4">
+<Obj plainTxt="False" ><![CDATA[信贷风险管理系统V7]]></Obj>
+<Details plainTxt="False" ><![CDATA[Browser]]></Details>
+<Time><![CDATA[2017/10/10 - 11:52:24]]></Time>
+<TimeTick>1507607544</TimeTick>
+<Step rID="T5">
+<Obj plainTxt="False" ><![CDATA[信贷风险管理系统V7]]></Obj>
+<Details plainTxt="False" ><![CDATA[Page]]></Details>
+<Time><![CDATA[2017/10/10 - 11:52:24]]></Time>
+<TimeTick>1507607544</TimeTick>
+<Step rID="T6">
+<Obj plainTxt="False" ><![CDATA[面签预约.Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[2017/10/10 - 11:52:24]]></Time>
+<TimeTick>1507607544</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="11" Source="面签阶段" SourceLine="1" >
+<Disp><![CDATA[面签预约.Click]]></Disp>
+<BtmPane vType="Mercury.SSHWeb" >
+<Path><![CDATA[ZIP::Act1\Row0\ssf174.xml]]></Path>
+<ASHilite><![CDATA[Browser("信贷风险管理系统V7").Page("信贷风险管理系统V7").Link("面签预约")]]></ASHilite>
+</BtmPane>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="5" nRep="10" Source="面签阶段" SourceLine="1" >
+<Disp><![CDATA[信贷风险管理系统V7]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[ZIP::Act1\Row0\ssf173.xml]]></Path>
+<ASHilite><![CDATA[Browser("信贷风险管理系统V7").Page("信贷风险管理系统V7")]]></ASHilite>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T7">
+<Obj plainTxt="False" ><![CDATA[面签预约管理]]></Obj>
+<Details plainTxt="False" ><![CDATA[Page]]></Details>
+<Time><![CDATA[2017/10/10 - 11:52:26]]></Time>
+<TimeTick>1507607546</TimeTick>
+<Step rID="T8">
+<Obj plainTxt="False" ><![CDATA[新增预约]]></Obj>
+<Details plainTxt="False" ><![CDATA[Frame]]></Details>
+<Time><![CDATA[2017/10/10 - 11:52:26]]></Time>
+<TimeTick>1507607546</TimeTick>
+<Step rID="T9">
+<Obj plainTxt="False" ><![CDATA[新增预约.Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[2017/10/10 - 11:52:26]]></Time>
+<TimeTick>1507607546</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="16" Source="面签阶段" SourceLine="2" >
+<Disp><![CDATA[新增预约.Click]]></Disp>
+<BtmPane vType="Mercury.SSHWeb" >
+<Path><![CDATA[ZIP::Act1\Row0\ssf177.xml]]></Path>
+<ASHilite><![CDATA[Browser("信贷风险管理系统V7").Page("面签预约管理").Frame("新增预约").WebElement("新增预约")]]></ASHilite>
+</BtmPane>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="7" nRep="15" Source="面签阶段" SourceLine="2" >
+<Disp><![CDATA[新增预约]]></Disp>
+<BtmPane vType="Mercury.SSHWeb" >
+<Path><![CDATA[ZIP::Act1\Row0\ssf176.xml]]></Path>
+<ASHilite><![CDATA[Browser("信贷风险管理系统V7").Page("面签预约管理").Frame("新增预约")]]></ASHilite>
+</BtmPane>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="5" nRep="14" Source="面签阶段" SourceLine="2" >
+<Disp><![CDATA[面签预约管理]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[ZIP::Act1\Row0\ssf175.xml]]></Path>
+<ASHilite><![CDATA[Browser("信贷风险管理系统V7").Page("面签预约管理")]]></ASHilite>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T10">
+<Obj plainTxt="False" ><![CDATA[信贷风险管理系统V7]]></Obj>
+<Details plainTxt="False" ><![CDATA[Window]]></Details>
+<Time><![CDATA[2017/10/10 - 11:52:29]]></Time>
+<TimeTick>1507607549</TimeTick>
+<Step rID="T11">
+<Obj plainTxt="False" ><![CDATA[信贷风险管理系统V7]]></Obj>
+<Details plainTxt="False" ><![CDATA[Page]]></Details>
+<Time><![CDATA[2017/10/10 - 11:52:29]]></Time>
+<TimeTick>1507607549</TimeTick>
+<Step rID="T12">
+<Obj plainTxt="False" ><![CDATA[myiframe0]]></Obj>
+<Details plainTxt="False" ><![CDATA[Frame]]></Details>
+<Time><![CDATA[2017/10/10 - 11:52:29]]></Time>
+<TimeTick>1507607549</TimeTick>
+<Step rID="T13">
+<Obj plainTxt="False" ><![CDATA[R0F5.Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["ceshi"]]></Details>
+<Time><![CDATA[2017/10/10 - 11:52:29]]></Time>
+<TimeTick>1507607549</TimeTick>
+<NodeArgs eType="Replay" icon="10" nRep="23" Source="面签阶段" SourceLine="4" >
+<Disp><![CDATA[R0F5.Set]]></Disp>
+<BtmPane vType="Mercury.SSHWeb" >
+<Path><![CDATA[ZIP::Act1\Row0\ssf181.xml]]></Path>
+<ASHilite><![CDATA[Browser("信贷风险管理系统V7").Window("信贷风险管理系统V7").Page("信贷风险管理系统V7").Frame("myiframe0").WebEdit("R0F5")]]></ASHilite>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T14">
+<Obj plainTxt="False" ><![CDATA[R0F7.Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["511423198710100019"]]></Details>
+<Time><![CDATA[2017/10/10 - 11:52:29]]></Time>
+<TimeTick>1507607549</TimeTick>
+<NodeArgs eType="Replay" icon="10" nRep="26" Source="面签阶段" SourceLine="5" >
+<Disp><![CDATA[R0F7.Set]]></Disp>
+<BtmPane vType="Mercury.SSHWeb" >
+<Path><![CDATA[ZIP::Act1\Row0\ssf182.xml]]></Path>
+<ASHilite><![CDATA[Browser("信贷风险管理系统V7").Window("信贷风险管理系统V7").Page("信贷风险管理系统V7").Frame("myiframe0").WebEdit("R0F7")]]></ASHilite>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T15">
+<Obj plainTxt="False" ><![CDATA[R0F8.Select]]></Obj>
+<Details plainTxt="False" ><![CDATA["标准受薪客户"]]></Details>
+<Time><![CDATA[2017/10/10 - 11:52:29]]></Time>
+<TimeTick>1507607549</TimeTick>
+<NodeArgs eType="Replay" icon="11" nRep="29" Source="面签阶段" SourceLine="6" >
+<Disp><![CDATA[R0F8.Select]]></Disp>
+<BtmPane vType="Mercury.SSHWeb" >
+<Path><![CDATA[ZIP::Act1\Row0\ssf183.xml]]></Path>
+<ASHilite><![CDATA[Browser("信贷风险管理系统V7").Window("信贷风险管理系统V7").Page("信贷风险管理系统V7").Frame("myiframe0").WebList("R0F8")]]></ASHilite>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T16">
+<Obj plainTxt="False" ><![CDATA[....Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[2017/10/10 - 11:52:30]]></Time>
+<TimeTick>1507607550</TimeTick>
+<NodeArgs eType="Replay" icon="12" nRep="32" Source="面签阶段" SourceLine="8" >
+<Disp><![CDATA[....Click]]></Disp>
+<BtmPane vType="Mercury.SSHWeb" >
+<Path><![CDATA[ZIP::Act1\Row0\ssf184.xml]]></Path>
+<ASHilite><![CDATA[Browser("信贷风险管理系统V7").Window("信贷风险管理系统V7").Page("信贷风险管理系统V7").Frame("myiframe0").WebButton("...")]]></ASHilite>
+</BtmPane>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="7" nRep="22" Source="面签阶段" SourceLine="4" >
+<Disp><![CDATA[myiframe0]]></Disp>
+<BtmPane vType="Mercury.SSHWeb" >
+<Path><![CDATA[ZIP::Act1\Row0\ssf180.xml]]></Path>
+<ASHilite><![CDATA[Browser("信贷风险管理系统V7").Window("信贷风险管理系统V7").Page("信贷风险管理系统V7").Frame("myiframe0")]]></ASHilite>
+</BtmPane>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="5" nRep="21" Source="面签阶段" SourceLine="4" >
+<Disp><![CDATA[信贷风险管理系统V7]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[ZIP::Act1\Row0\ssf179.xml]]></Path>
+<ASHilite><![CDATA[Browser("信贷风险管理系统V7").Window("信贷风险管理系统V7").Page("信贷风险管理系统V7")]]></ASHilite>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T17">
+<Obj plainTxt="False" ><![CDATA[请选择所需信息]]></Obj>
+<Details plainTxt="False" ><![CDATA[Window]]></Details>
+<Time><![CDATA[2017/10/10 - 11:52:33]]></Time>
+<TimeTick>1507607553</TimeTick>
+<Step rID="T18">
+<Obj plainTxt="False" ><![CDATA[请选择所需信息]]></Obj>
+<Details plainTxt="False" ><![CDATA[Page]]></Details>
+<Time><![CDATA[2017/10/10 - 11:52:33]]></Time>
+<TimeTick>1507607553</TimeTick>
+<Step rID="T19">
+<Obj plainTxt="False" ><![CDATA[left]]></Obj>
+<Details plainTxt="False" ><![CDATA[Frame]]></Details>
+<Time><![CDATA[2017/10/10 - 11:52:33]]></Time>
+<TimeTick>1507607553</TimeTick>
+<Step rID="T20">
+<Obj plainTxt="False" ><![CDATA[消费类标准信用速贷.Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[2017/10/10 - 11:52:33]]></Time>
+<TimeTick>1507607553</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="39" Source="面签阶段" SourceLine="11" >
+<Disp><![CDATA[消费类标准信用速贷.Click]]></Disp>
+<BtmPane vType="Mercury.SSHWeb" >
+<Path><![CDATA[ZIP::Act1\Row0\ssf188.xml]]></Path>
+<ASHilite><![CDATA[Browser("信贷风险管理系统V7").Window("信贷风险管理系统V7").Window("请选择所需信息").Page("请选择所需信息").Frame("left").WebElement("消费类标准信用速贷")]]></ASHilite>
+</BtmPane>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="7" nRep="38" Source="面签阶段" SourceLine="11" >
+<Disp><![CDATA[left]]></Disp>
+<BtmPane vType="Mercury.SSHWeb" >
+<Path><![CDATA[ZIP::Act1\Row0\ssf187.xml]]></Path>
+<ASHilite><![CDATA[Browser("信贷风险管理系统V7").Window("信贷风险管理系统V7").Window("请选择所需信息").Page("请选择所需信息").Frame("left")]]></ASHilite>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T21">
+<Obj plainTxt="False" ><![CDATA[确认.Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[2017/10/10 - 11:52:33]]></Time>
+<TimeTick>1507607553</TimeTick>
+<NodeArgs eType="Replay" icon="12" nRep="42" Source="面签阶段" SourceLine="12" >
+<Disp><![CDATA[确认.Click]]></Disp>
+<BtmPane vType="Mercury.SSHWeb" >
+<Path><![CDATA[ZIP::Act1\Row0\ssf189.xml]]></Path>
+<ASHilite><![CDATA[Browser("信贷风险管理系统V7").Window("信贷风险管理系统V7").Window("请选择所需信息").Page("请选择所需信息").WebButton("确认")]]></ASHilite>
+</BtmPane>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="5" nRep="37" Source="面签阶段" SourceLine="11" >
+<Disp><![CDATA[请选择所需信息]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[ZIP::Act1\Row0\ssf186.xml]]></Path>
+<ASHilite><![CDATA[Browser("信贷风险管理系统V7").Window("信贷风险管理系统V7").Window("请选择所需信息").Page("请选择所需信息")]]></ASHilite>
+</BtmPane>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="9" nRep="36" Source="面签阶段" SourceLine="11" >
+<Disp><![CDATA[请选择所需信息]]></Disp>
+<BtmPane vType="ViewerGen.SSViewerGen" >
+<Path><![CDATA[ZIP::Act1\Row0\ssf185.xml]]></Path>
+<ASHilite><![CDATA[792246]]></ASHilite>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T22">
+<Obj plainTxt="False" ><![CDATA[信贷风险管理系统V7]]></Obj>
+<Details plainTxt="False" ><![CDATA[Page]]></Details>
+<Time><![CDATA[2017/10/10 - 11:52:33]]></Time>
+<TimeTick>1507607553</TimeTick>
+<Step rID="T23">
+<Obj plainTxt="False" ><![CDATA[myiframe0]]></Obj>
+<Details plainTxt="False" ><![CDATA[Frame]]></Details>
+<Time><![CDATA[2017/10/10 - 11:52:33]]></Time>
+<TimeTick>1507607553</TimeTick>
+<Step rID="T24">
+<Obj plainTxt="False" ><![CDATA[R0F18.Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["12"]]></Details>
+<Time><![CDATA[2017/10/10 - 11:52:33]]></Time>
+<TimeTick>1507607553</TimeTick>
+<NodeArgs eType="Replay" icon="10" nRep="47" Source="面签阶段" SourceLine="13" >
+<Disp><![CDATA[R0F18.Set]]></Disp>
+<BtmPane vType="Mercury.SSHWeb" >
+<Path><![CDATA[ZIP::Act1\Row0\ssf192.xml]]></Path>
+<ASHilite><![CDATA[Browser("信贷风险管理系统V7").Window("信贷风险管理系统V7").Page("信贷风险管理系统V7").Frame("myiframe0").WebEdit("R0F18")]]></ASHilite>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T25">
+<Obj plainTxt="False" ><![CDATA[R0F17.Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["10000"]]></Details>
+<Time><![CDATA[2017/10/10 - 11:52:33]]></Time>
+<TimeTick>1507607553</TimeTick>
+<NodeArgs eType="Replay" icon="10" nRep="50" Source="面签阶段" SourceLine="14" >
+<Disp><![CDATA[R0F17.Set]]></Disp>
+<BtmPane vType="Mercury.SSHWeb" >
+<Path><![CDATA[ZIP::Act1\Row0\ssf193.xml]]></Path>
+<ASHilite><![CDATA[Browser("信贷风险管理系统V7").Window("信贷风险管理系统V7").Page("信贷风险管理系统V7").Frame("myiframe0").WebEdit("R0F17")]]></ASHilite>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T26">
+<Obj plainTxt="False" ><![CDATA[..._2.Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[2017/10/10 - 11:52:34]]></Time>
+<TimeTick>1507607554</TimeTick>
+<NodeArgs eType="Replay" icon="12" nRep="53" Source="面签阶段" SourceLine="15" >
+<Disp><![CDATA[..._2.Click]]></Disp>
+<BtmPane vType="Mercury.SSHWeb" >
+<Path><![CDATA[ZIP::Act1\Row0\ssf194.xml]]></Path>
+<ASHilite><![CDATA[Browser("信贷风险管理系统V7").Window("信贷风险管理系统V7").Page("信贷风险管理系统V7").Frame("myiframe0").WebButton("... 2")]]></ASHilite>
+</BtmPane>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="7" nRep="46" Source="面签阶段" SourceLine="13" >
+<Disp><![CDATA[myiframe0]]></Disp>
+<BtmPane vType="Mercury.SSHWeb" >
+<Path><![CDATA[ZIP::Act1\Row0\ssf191.xml]]></Path>
+<ASHilite><![CDATA[Browser("信贷风险管理系统V7").Window("信贷风险管理系统V7").Page("信贷风险管理系统V7").Frame("myiframe0")]]></ASHilite>
+</BtmPane>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="5" nRep="45" Source="面签阶段" SourceLine="13" >
+<Disp><![CDATA[信贷风险管理系统V7]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[ZIP::Act1\Row0\ssf190.xml]]></Path>
+<ASHilite><![CDATA[Browser("信贷风险管理系统V7").Window("信贷风险管理系统V7").Page("信贷风险管理系统V7")]]></ASHilite>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T27">
+<Obj plainTxt="False" ><![CDATA[请选择所需信息]]></Obj>
+<Details plainTxt="False" ><![CDATA[Window]]></Details>
+<Time><![CDATA[2017/10/10 - 11:52:37]]></Time>
+<TimeTick>1507607557</TimeTick>
+<Step rID="T28">
+<Obj plainTxt="False" ><![CDATA[请选择所需信息]]></Obj>
+<Details plainTxt="False" ><![CDATA[Page]]></Details>
+<Time><![CDATA[2017/10/10 - 11:52:37]]></Time>
+<TimeTick>1507607557</TimeTick>
+<Step rID="T29">
+<Obj plainTxt="False" ><![CDATA[myiframe0]]></Obj>
+<Details plainTxt="False" ><![CDATA[Frame]]></Details>
+<Time><![CDATA[2017/10/10 - 11:52:37]]></Time>
+<TimeTick>1507607557</TimeTick>
+<Step rID="T30">
+<Obj plainTxt="False" ><![CDATA[R0F0.Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[2017/10/10 - 11:52:37]]></Time>
+<TimeTick>1507607557</TimeTick>
+<NodeArgs eType="Replay" icon="10" nRep="60" Source="面签阶段" SourceLine="16" >
+<Disp><![CDATA[R0F0.Click]]></Disp>
+<BtmPane vType="Mercury.SSHWeb" >
+<Path><![CDATA[ZIP::Act1\Row0\ssf198.xml]]></Path>
+<ASHilite><![CDATA[Browser("信贷风险管理系统V7").Window("信贷风险管理系统V7").Window("请选择所需信息").Page("请选择所需信息").Frame("myiframe0").WebEdit("R0F0")]]></ASHilite>
+</BtmPane>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="7" nRep="59" Source="面签阶段" SourceLine="16" >
+<Disp><![CDATA[myiframe0]]></Disp>
+<BtmPane vType="Mercury.SSHWeb" >
+<Path><![CDATA[ZIP::Act1\Row0\ssf197.xml]]></Path>
+<ASHilite><![CDATA[Browser("信贷风险管理系统V7").Window("信贷风险管理系统V7").Window("请选择所需信息").Page("请选择所需信息").Frame("myiframe0")]]></ASHilite>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T31">
+<Obj plainTxt="False" ><![CDATA[确认.Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[2017/10/10 - 11:52:37]]></Time>
+<TimeTick>1507607557</TimeTick>
+<NodeArgs eType="Replay" icon="12" nRep="63" Source="面签阶段" SourceLine="17" >
+<Disp><![CDATA[确认.Click]]></Disp>
+<BtmPane vType="Mercury.SSHWeb" >
+<Path><![CDATA[ZIP::Act1\Row0\ssf199.xml]]></Path>
+<ASHilite><![CDATA[Browser("信贷风险管理系统V7").Window("信贷风险管理系统V7").Window("请选择所需信息").Page("请选择所需信息").WebButton("确认")]]></ASHilite>
+</BtmPane>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="5" nRep="58" Source="面签阶段" SourceLine="16" >
+<Disp><![CDATA[请选择所需信息]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[ZIP::Act1\Row0\ssf196.xml]]></Path>
+<ASHilite><![CDATA[Browser("信贷风险管理系统V7").Window("信贷风险管理系统V7").Window("请选择所需信息").Page("请选择所需信息")]]></ASHilite>
+</BtmPane>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="9" nRep="57" Source="面签阶段" SourceLine="16" >
+<Disp><![CDATA[请选择所需信息]]></Disp>
+<BtmPane vType="ViewerGen.SSViewerGen" >
+<Path><![CDATA[ZIP::Act1\Row0\ssf195.xml]]></Path>
+<ASHilite><![CDATA[1446812]]></ASHilite>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T32">
+<Obj plainTxt="False" ><![CDATA[信贷风险管理系统V7]]></Obj>
+<Details plainTxt="False" ><![CDATA[Page]]></Details>
+<Time><![CDATA[2017/10/10 - 11:52:37]]></Time>
+<TimeTick>1507607557</TimeTick>
+<Step rID="T33">
+<Obj plainTxt="False" ><![CDATA[myiframe0]]></Obj>
+<Details plainTxt="False" ><![CDATA[Frame]]></Details>
+<Time><![CDATA[2017/10/10 - 11:52:37]]></Time>
+<TimeTick>1507607557</TimeTick>
+<Step rID="T34">
+<Obj plainTxt="False" ><![CDATA[..._3.Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[2017/10/10 - 11:52:37]]></Time>
+<TimeTick>1507607557</TimeTick>
+<NodeArgs eType="Replay" icon="12" nRep="68" Source="面签阶段" SourceLine="18" >
+<Disp><![CDATA[..._3.Click]]></Disp>
+<BtmPane vType="Mercury.SSHWeb" >
+<Path><![CDATA[ZIP::Act1\Row0\ssf202.xml]]></Path>
+<ASHilite><![CDATA[Browser("信贷风险管理系统V7").Window("信贷风险管理系统V7").Page("信贷风险管理系统V7").Frame("myiframe0").WebButton("... 3")]]></ASHilite>
+</BtmPane>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="7" nRep="67" Source="面签阶段" SourceLine="18" >
+<Disp><![CDATA[myiframe0]]></Disp>
+<BtmPane vType="Mercury.SSHWeb" >
+<Path><![CDATA[ZIP::Act1\Row0\ssf201.xml]]></Path>
+<ASHilite><![CDATA[Browser("信贷风险管理系统V7").Window("信贷风险管理系统V7").Page("信贷风险管理系统V7").Frame("myiframe0")]]></ASHilite>
+</BtmPane>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="5" nRep="66" Source="面签阶段" SourceLine="18" >
+<Disp><![CDATA[信贷风险管理系统V7]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[ZIP::Act1\Row0\ssf200.xml]]></Path>
+<ASHilite><![CDATA[Browser("信贷风险管理系统V7").Window("信贷风险管理系统V7").Page("信贷风险管理系统V7")]]></ASHilite>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T35">
+<Obj plainTxt="False" ><![CDATA[-- 网页对话框]]></Obj>
+<Details plainTxt="False" ><![CDATA[Window]]></Details>
+<Time><![CDATA[2017/10/10 - 11:52:40]]></Time>
+<TimeTick>1507607560</TimeTick>
+<Step rID="T36">
+<Obj plainTxt="False" ><![CDATA[Page]]></Obj>
+<Details plainTxt="False" ><![CDATA[Page]]></Details>
+<Time><![CDATA[2017/10/10 - 11:52:40]]></Time>
+<TimeTick>1507607560</TimeTick>
+<Step rID="T37">
+<Obj plainTxt="False" ><![CDATA[myiframe0]]></Obj>
+<Details plainTxt="False" ><![CDATA[Frame]]></Details>
+<Time><![CDATA[2017/10/10 - 11:52:40]]></Time>
+<TimeTick>1507607560</TimeTick>
+<Step rID="T38">
+<Obj plainTxt="False" ><![CDATA[R0F1.Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[2017/10/10 - 11:52:40]]></Time>
+<TimeTick>1507607560</TimeTick>
+<NodeArgs eType="Replay" icon="11" nRep="75" Source="面签阶段" SourceLine="19" >
+<Disp><![CDATA[R0F1.Click]]></Disp>
+<BtmPane vType="Mercury.SSHWeb" >
+<Path><![CDATA[ZIP::Act1\Row0\ssf206.xml]]></Path>
+<ASHilite><![CDATA[Browser("信贷风险管理系统V7").Window("信贷风险管理系统V7").Window("-- 网页对话框").Page("Page").Frame("myiframe0").WebList("R0F1")]]></ASHilite>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T39">
+<Obj plainTxt="False" ><![CDATA[R0F1.Select]]></Obj>
+<Details plainTxt="False" ><![CDATA["09:00"]]></Details>
+<Time><![CDATA[2017/10/10 - 11:52:41]]></Time>
+<TimeTick>1507607561</TimeTick>
+<NodeArgs eType="Replay" icon="11" nRep="78" Source="面签阶段" SourceLine="20" >
+<Disp><![CDATA[R0F1.Select]]></Disp>
+<BtmPane vType="Mercury.SSHWeb" >
+<Path><![CDATA[ZIP::Act1\Row0\ssf207.xml]]></Path>
+<ASHilite><![CDATA[Browser("信贷风险管理系统V7").Window("信贷风险管理系统V7").Window("-- 网页对话框").Page("Page").Frame("myiframe0").WebList("R0F1")]]></ASHilite>
+</BtmPane>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="7" nRep="74" Source="面签阶段" SourceLine="19" >
+<Disp><![CDATA[myiframe0]]></Disp>
+<BtmPane vType="Mercury.SSHWeb" >
+<Path><![CDATA[ZIP::Act1\Row0\ssf205.xml]]></Path>
+<ASHilite><![CDATA[Browser("信贷风险管理系统V7").Window("信贷风险管理系统V7").Window("-- 网页对话框").Page("Page").Frame("myiframe0")]]></ASHilite>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T40">
+<Obj plainTxt="False" ><![CDATA[1x1.Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[2017/10/10 - 11:52:41]]></Time>
+<TimeTick>1507607561</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="81" Source="面签阶段" SourceLine="21" >
+<Disp><![CDATA[1x1.Click]]></Disp>
+<BtmPane vType="Mercury.SSHWeb" >
+<Path><![CDATA[ZIP::Act1\Row0\ssf208.xml]]></Path>
+<ASHilite><![CDATA[Browser("信贷风险管理系统V7").Window("信贷风险管理系统V7").Window("-- 网页对话框").Page("Page").WebElement("1x1")]]></ASHilite>
+</BtmPane>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="5" nRep="73" Source="面签阶段" SourceLine="19" >
+<Disp><![CDATA[Page]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[ZIP::Act1\Row0\ssf204.xml]]></Path>
+<ASHilite><![CDATA[Browser("信贷风险管理系统V7").Window("信贷风险管理系统V7").Window("-- 网页对话框").Page("Page")]]></ASHilite>
+</BtmPane>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="9" nRep="72" Source="面签阶段" SourceLine="19" >
+<Disp><![CDATA[-- 网页对话框]]></Disp>
+<BtmPane vType="ViewerGen.SSViewerGen" >
+<Path><![CDATA[ZIP::Act1\Row0\ssf203.xml]]></Path>
+<ASHilite><![CDATA[923318]]></ASHilite>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T41">
+<Obj plainTxt="False" ><![CDATA[信贷风险管理系统V7]]></Obj>
+<Details plainTxt="False" ><![CDATA[Page]]></Details>
+<Time><![CDATA[2017/10/10 - 11:52:41]]></Time>
+<TimeTick>1507607561</TimeTick>
+<Step rID="T42">
+<Obj plainTxt="False" ><![CDATA[ObjectList]]></Obj>
+<Details plainTxt="False" ><![CDATA[Frame]]></Details>
+<Time><![CDATA[2017/10/10 - 11:52:41]]></Time>
+<TimeTick>1507607561</TimeTick>
+<Step rID="T43">
+<Obj plainTxt="False" ><![CDATA[1x1.Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[2017/10/10 - 11:52:41]]></Time>
+<TimeTick>1507607561</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="86" Source="面签阶段" SourceLine="22" >
+<Disp><![CDATA[1x1.Click]]></Disp>
+<BtmPane vType="Mercury.SSHWeb" >
+<Path><![CDATA[ZIP::Act1\Row0\ssf211.xml]]></Path>
+<ASHilite><![CDATA[Browser("信贷风险管理系统V7").Window("信贷风险管理系统V7").Page("信贷风险管理系统V7").Frame("ObjectList").WebElement("1x1")]]></ASHilite>
+</BtmPane>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="7" nRep="85" Source="面签阶段" SourceLine="22" >
+<Disp><![CDATA[ObjectList]]></Disp>
+<BtmPane vType="Mercury.SSHWeb" >
+<Path><![CDATA[ZIP::Act1\Row0\ssf210.xml]]></Path>
+<ASHilite><![CDATA[Browser("信贷风险管理系统V7").Window("信贷风险管理系统V7").Page("信贷风险管理系统V7").Frame("ObjectList")]]></ASHilite>
+</BtmPane>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="5" nRep="84" Source="面签阶段" SourceLine="22" >
+<Disp><![CDATA[信贷风险管理系统V7]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[ZIP::Act1\Row0\ssf209.xml]]></Path>
+<ASHilite><![CDATA[Browser("信贷风险管理系统V7").Window("信贷风险管理系统V7").Page("信贷风险管理系统V7")]]></ASHilite>
+</BtmPane>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="9" nRep="20" Source="面签阶段" SourceLine="4" >
+<Disp><![CDATA[信贷风险管理系统V7]]></Disp>
+<BtmPane vType="ViewerGen.SSViewerGen" >
+<Path><![CDATA[ZIP::Act1\Row0\ssf178.xml]]></Path>
+<ASHilite><![CDATA[462916]]></ASHilite>
+</BtmPane>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="4" nRep="9" Source="面签阶段" SourceLine="1" >
+<Disp><![CDATA[信贷风险管理系统V7]]></Disp>
+</NodeArgs>
+</Step>
+<Summary sTime="2017/10/10 - 11:52:24" eTime="2017/10/10 - 11:52:42" passed="0" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="3" nRep="6" >
+<Disp><![CDATA[面签阶段 摘要]]></Disp>
+</NodeArgs>
+</Action>
+<Summary sTime="2017/10/10 - 11:52:23" eTime="2017/10/10 - 11:52:42" passed="0" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartTest" icon="1" nRep="3" >
+<Disp><![CDATA[测试 信用速贷 摘要]]></Disp>
+</NodeArgs>
+</Doc>
+</Report>

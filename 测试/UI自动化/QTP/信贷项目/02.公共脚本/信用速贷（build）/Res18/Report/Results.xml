@@ -1,0 +1,277 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE Report
+[
+<!ELEMENT Report (General ,(Doc|BPT)) >
+<!ATTLIST Report ver CDATA #REQUIRED tmZone CDATA #REQUIRED>
+
+<!ELEMENT General ( DocLocation ) >
+<!ATTLIST General productName CDATA #REQUIRED productVer CDATA #REQUIRED os CDATA #REQUIRED host CDATA #REQUIRED qcserver CDATA #IMPLIED qcproject CDATA #IMPLIED SolManSolutionId CDATA #IMPLIED SolManProjectId CDATA #IMPLIED SolManTestPlanId CDATA #IMPLIED SolManTestPackageId CDATA #IMPLIED SolManUserInfoData CDATA #IMPLIED  >
+
+<!ELEMENT BPT (DName,Res,DVer?,TSet?,TInst?,NodeArgs,AdditionalInfo*,Doc*) >
+<!ATTLIST BPT rID ID #REQUIRED >
+
+<!ELEMENT Doc (DName,ConfName?,Res,DVer?,TSet?,TInst?,RunType?,DT?,AdditionalInfo*,Step*,DIter*,Step*,Action*,Doc*,Summary?,TestMaintenanceSummary*,NodeArgs?) >
+<!ATTLIST Doc rID ID #REQUIRED type (Test|BC|BPTWrapperTest|Flow|Group|Action) "Test" productName CDATA #REQUIRED BCIter CDATA #IMPLIED >
+
+<!ELEMENT RunType ( #PCDATA )>
+<!ATTLIST RunType fmStep (False|True) "False" batch (False|True) "False" upDesc (False|True) "False" upChk (False|True) "False" upAS (False|True) "False">
+
+<!ELEMENT DName ( #PCDATA ) >
+
+<!ELEMENT ConfName ( #PCDATA ) >
+
+<!ELEMENT Res ( #PCDATA ) >
+
+<!ELEMENT AdditionalInfo (AdditionalDataName,AdditionalDataValue ) >
+
+<!ELEMENT AdditionalDataName ( #PCDATA ) >
+
+<!ELEMENT AdditionalDataValue ( #PCDATA ) >
+
+<!ELEMENT DVer ( #PCDATA ) >
+
+<!ELEMENT TSet ( #PCDATA ) >
+
+<!ELEMENT TInst ( #PCDATA ) >
+
+<!ELEMENT DIter (Step*,Action+,Summary?,NodeArgs)>
+<!ATTLIST DIter rID ID #REQUIRED iterID CDATA #REQUIRED>
+
+<!ELEMENT DocLocation ( #PCDATA )>
+
+<!ELEMENT Action (AName,AIter*,(Step|HtmlStep|Action)*, Summary,ActionMaintenanceSummary*, NodeArgs ) >
+<!ATTLIST Action rID ID #REQUIRED>
+
+<!ELEMENT AIter ((Step|HtmlStep|Action)*,DataMapping?, Summary?,NodeArgs) >
+<!ATTLIST AIter rID ID #REQUIRED iterID CDATA #REQUIRED isCountable (False|True) "False" >
+
+<!ELEMENT AName ( #PCDATA ) >
+
+<!ELEMENT TestMaintenanceSummary (ActionMaintenanceSummary*) >
+<!ATTLIST TestMaintenanceSummary ObjectsAdded CDATA #REQUIRED ObjectsUpdated CDATA #REQUIRED StepsUpdated CDATA #REQUIRED StepsComments CDATA #REQUIRED><!ELEMENT ActionMaintenanceSummary (ObjectChange* ) >
+<!ATTLIST ActionMaintenanceSummary Action CDATA #REQUIRED Objects CDATA #REQUIRED Updated CDATA #REQUIRED LinesTotal CDATA #REQUIRED Added CDATA #REQUIRED LinesUpdated CDATA #REQUIRED>
+
+<!ELEMENT ObjectChange  (Hierarchy, PropertyChangeList* ) >
+<!ATTLIST ObjectChange Operation CDATA #IMPLIED OriginalRepository CDATA #IMPLIED>
+
+<!ELEMENT PropertyChangeList (PropertyDef*) >
+
+<!ELEMENT PropertyDef (OriginalValue, NewValue) >
+<!ATTLIST PropertyDef PropName CDATA #REQUIRED OriginRegularExpression (True|False) "False" NewRegularExpression (True|False) "False" AddedProperty (True|False) "False" >
+
+<!ELEMENT OriginalValue ( #PCDATA )>
+
+<!ELEMENT NewValue ( #PCDATA )>
+
+<!ELEMENT Hierarchy  (ObjectName, Hierarchy*) >
+<!ATTLIST Hierarchy MicClass CDATA #REQUIRED>
+
+<!ELEMENT ObjectName  ( #PCDATA ) >
+
+<!ELEMENT Step (Obj,Details,Time,TimeTick* ,(Step|HtmlStep|Doc)*, DataMapping?, NodeArgs) >
+<!ATTLIST Step rID ID #REQUIRED retval CDATA #IMPLIED>
+
+<!ELEMENT HtmlStep (HTML,TimeTick*,(Step|HtmlStep|Doc)*,NodeArgs) >
+<!ATTLIST HtmlStep rID ID #REQUIRED >
+
+<!ELEMENT Obj ( #PCDATA ) >
+<!ATTLIST Obj plainTxt (False|True) "True">
+
+<!ELEMENT Details ( #PCDATA ) >
+<!ATTLIST Details plainTxt (False|True) "True">
+
+<!ELEMENT Time ( #PCDATA ) >
+
+<!ELEMENT HTML ( #PCDATA ) >
+
+<!ELEMENT Disp ( #PCDATA ) >
+
+<!ELEMENT TimeTick ( #PCDATA ) >
+
+<!ELEMENT DataMapping ( DataMappedItem* )>
+<!ELEMENT DataMappedItem EMPTY >
+<!ATTLIST DataMappedItem dsName CDATA #REQUIRED >
+<!ATTLIST DataMappedItem rowId CDATA #REQUIRED >
+
+<!ELEMENT NodeArgs (Disp,TopPane?,BtmPane?,ExtendedInfo? )>
+<!ATTLIST NodeArgs eType CDATA #REQUIRED icon CDATA #REQUIRED nRep CDATA #REQUIRED UserNote CDATA #IMPLIED filter (False|True) "True">
+<!ATTLIST NodeArgs status (Passed|Failed|Done|Warning|Information) "Done">
+<!ATTLIST NodeArgs iconSel CDATA #IMPLIED nType CDATA #IMPLIED MovieMarker CDATA "">
+<!ATTLIST NodeArgs Source CDATA #IMPLIED SourceLine CDATA #IMPLIED StepFlowItemKey CDATA #IMPLIED >
+
+<!ELEMENT TopPane (Path)>
+
+<!ELEMENT BtmPane ( (Path|WR)?,ASHilite?)>
+<!ATTLIST BtmPane vType CDATA "HTML">
+
+<!ELEMENT Path ( #PCDATA ) >
+
+<!ELEMENT ASHilite ( #PCDATA ) >
+
+<!ELEMENT WR ( #PCDATA ) >
+
+<!ELEMENT ExtendedInfo ( StepData ) >
+
+<!ATTLIST ExtendedInfo StepType CDATA #REQUIRED>
+<!ELEMENT DT (NodeArgs) >
+<!ATTLIST DT rID ID #REQUIRED>
+
+<!ELEMENT Summary (Param*)>
+<!ATTLIST Summary sTime CDATA #IMPLIED eTime CDATA #IMPLIED passed CDATA #IMPLIED failed CDATA #IMPLIED warnings CDATA #IMPLIED retval CDATA #IMPLIED stopped (False|True) "False" >
+
+<!ELEMENT Param (ParamName,ParamVal)+ >
+<!ATTLIST Param paramInOut (In|Out) "In">
+
+<!ELEMENT ParamName ( #PCDATA ) >
+
+<!ELEMENT ParamVal ( #PCDATA ) >
+
+]
+>
+<Report ver="2.0" tmZone="中国标准时间">
+<General productName="HP Unified Functional Testing" productVer="12.0" os="Windows 7" host="KF0224"><DocLocation><![CDATA[C:\Users\922004\Desktop\孙洪斌\学习文档集\信贷项目\02.公共脚本\信用速贷（build）]]></DocLocation></General>
+<Doc rID="T1"   productName= "HP Unified Functional Testing"  >
+<DName><![CDATA[信用速贷（build）]]></DName>
+<Res><![CDATA[Res18]]></Res>
+<RunType fmStep="True" /><DT rID="T2">
+<NodeArgs eType="Table" icon="2" nRep="4" filter="False" >
+<Disp><![CDATA[Run-Time Data Table]]></Disp>
+<BtmPane vType="Table" >
+<Path><![CDATA[Default.xls]]></Path>
+</BtmPane>
+</NodeArgs>
+</DT>
+<Action rID="T3">
+<AName><![CDATA[3.3.1、客户详情]]></AName>
+<Step rID="T4">
+<Obj plainTxt="False" ><![CDATA[信用速贷申请]]></Obj>
+<Details plainTxt="False" ><![CDATA[Browser]]></Details>
+<Time><![CDATA[2019/2/28 - 13:17:49]]></Time>
+<TimeTick>1551331069</TimeTick>
+<Step rID="T5">
+<Obj plainTxt="False" ><![CDATA[信贷风险管理系统V7]]></Obj>
+<Details plainTxt="False" ><![CDATA[Window]]></Details>
+<Time><![CDATA[2019/2/28 - 13:17:49]]></Time>
+<TimeTick>1551331069</TimeTick>
+<Step rID="T6">
+<Obj plainTxt="False" ><![CDATA[信贷风险管理系统V7]]></Obj>
+<Details plainTxt="False" ><![CDATA[Page]]></Details>
+<Time><![CDATA[2019/2/28 - 13:17:49]]></Time>
+<TimeTick>1551331069</TimeTick>
+<Step rID="T7">
+<Obj plainTxt="False" ><![CDATA[myiframe0]]></Obj>
+<Details plainTxt="False" ><![CDATA[Frame]]></Details>
+<Time><![CDATA[2019/2/28 - 13:17:49]]></Time>
+<TimeTick>1551331069</TimeTick>
+<Step rID="T8">
+<Obj plainTxt="False" ><![CDATA["myiframe0"  - 智能标识]]></Obj>
+<Details plainTxt="False" ><![CDATA[<P><span class="text">已调用智能标识机制。</span></P><P><SPAN class=text>原因: 对象不唯一(已找到 2 个对象)</SPAN></P>           <SPAN class=text><b>原始描述:</b></SPAN><br>name=myiframe0<br>micclass=Frame<br><P><FONT face=Verdana size=2><SPAN class=text><B>智能标识可选描述:</B></SPAN></FONT></P><FONT face=Verdana size=2><u>基本筛选属性(已找到 19 个对象) &nbsp;</FONT></u><br>
+micclass=Frame<br><br><FONT face=Verdana size=2><u>可选筛选属性</FONT></u><br>
+name=myiframe0<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>title=<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>url=http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2019022812294020832522283102888<SPAN class=passed>(已使用</SPAN>，1 个匹配)</SPAN><br>]]></Details>
+<Time><![CDATA[2019/2/28 - 13:17:49]]></Time>
+<TimeTick>1551331069</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="12" Source="3.3.1、客户详情" SourceLine="-1" >
+<Disp><![CDATA["myiframe0"  - 智能标识]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T9">
+<Obj plainTxt="False" ><![CDATA["myiframe0"  - 智能标识]]></Obj>
+<Details plainTxt="False" ><![CDATA[<P><span class="text">已调用智能标识机制。</span></P><P><SPAN class=text>原因: 对象不唯一(已找到 2 个对象)</SPAN></P>           <SPAN class=text><b>原始描述:</b></SPAN><br>name=myiframe0<br>micclass=Frame<br><P><FONT face=Verdana size=2><SPAN class=text><B>智能标识可选描述:</B></SPAN></FONT></P><FONT face=Verdana size=2><u>基本筛选属性(已找到 19 个对象) &nbsp;</FONT></u><br>
+micclass=Frame<br><br><FONT face=Verdana size=2><u>可选筛选属性</FONT></u><br>
+name=myiframe0<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>title=<SPAN class=passed>(已使用</SPAN>，2 个匹配)</SPAN><br>url=http://11.8.121.150:7001/GDNY_CZ/ao?aoID=C2019022812294020832522283102888<SPAN class=passed>(已使用</SPAN>，1 个匹配)</SPAN><br>]]></Details>
+<Time><![CDATA[2019/2/28 - 13:17:51]]></Time>
+<TimeTick>1551331071</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="14" Source="3.3.1、客户详情" SourceLine="-1" >
+<Disp><![CDATA["myiframe0"  - 智能标识]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="7" nRep="11" Source="3.3.1、客户详情" SourceLine="-1" >
+<Disp><![CDATA[myiframe0]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="6" nRep="10" Source="3.3.1、客户详情" SourceLine="-1" >
+<Disp><![CDATA[信贷风险管理系统V7]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="5" nRep="9" Source="3.3.1、客户详情" SourceLine="-1" >
+<Disp><![CDATA[信贷风险管理系统V7]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="4" nRep="8" Source="3.3.1、客户详情" SourceLine="-1" >
+<Disp><![CDATA[信用速贷申请]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T10">
+<Obj plainTxt="False" ><![CDATA[主窗口（浏览器）]]></Obj>
+<Details plainTxt="False" ><![CDATA[Browser]]></Details>
+<Time><![CDATA[2019/2/28 - 13:17:53]]></Time>
+<TimeTick>1551331073</TimeTick>
+<Step rID="T11">
+<Obj plainTxt="False" ><![CDATA[一级窗口]]></Obj>
+<Details plainTxt="False" ><![CDATA[Window]]></Details>
+<Time><![CDATA[2019/2/28 - 13:17:53]]></Time>
+<TimeTick>1551331073</TimeTick>
+<Step rID="T12">
+<Obj plainTxt="False" ><![CDATA[一级窗口Page页]]></Obj>
+<Details plainTxt="False" ><![CDATA[Page]]></Details>
+<Time><![CDATA[2019/2/28 - 13:17:53]]></Time>
+<TimeTick>1551331073</TimeTick>
+<Step rID="T13">
+<Obj plainTxt="False" ><![CDATA[myiframe0_1]]></Obj>
+<Details plainTxt="False" ><![CDATA[Frame]]></Details>
+<Time><![CDATA[2019/2/28 - 13:17:53]]></Time>
+<TimeTick>1551331073</TimeTick>
+<Step rID="T14">
+<Obj plainTxt="False" ><![CDATA[[ 首笔 前一笔 后一笔 尾笔 共有 1 条记录，当前为第 1 条记录  跳至  笔基本信息核心客户号  *  客户编号  *  客户姓名  *  证件类型  * 组织机构代码证营业执照其他企业证件统一社会信用代码证身份证户口簿护照军官证士兵证港澳居民来往内地通行证台湾同胞来往内地通行证临时身份证外国人居留证警官证其他证件  证件号码  *  出生日期  *  性别  * 男性未知的性别女性  '性别'不能为空！婚姻状况  * 未婚已婚离异其它  '婚姻状况'不能为空！身份证发证机关所在地  *  教育程度  * 博士及以上硕士本科大专高中专初中及以下  手机  *  个人类型  * 个体工商户小微企业法人代表其它  家庭固话 区号 号码 所在国家(地区)  *  省份、直辖市、自治区  *  居住地址  *  住宅邮编  *  手机号码是否本人身份证号码登记是否  手机号码持有月份数 电子邮箱1 电子邮箱2 微信号码 QQ号码 财付通账号 新浪微博账号 淘宝网账号 支付宝账号 京东网账号 工作关系是否在我行经办分部所在地  * 是否  是否农户  * 是否   工作信息单位名称  *  是否名单制优良单位是否  部门  *  单位性质  * 国有私营个体股份事业/机关军/警其他  单位所属行业  * 农、林、牧、渔业采矿业制造业电力、热力、燃气及水生产和供应业建筑业批发和零售业交通运输、仓储和邮政业住宿和餐饮业信息传输、软件和信息技术服务业金融业房地产业租赁和商务服务业科学研究和技术服务业水利、环境和公共设施管理业居民服务、修理和其他服务业教育卫生和社会工作文化、体育和娱乐业公共管理、社会保障和社会组织国际组织  职业  * 国家机关、党群组织、企业、事业单位负责人专业技术人员办事人员和有关人员商业、服务业人员农、林、牧、渔、水利业生产人员生产、运输设备操作人员及有关人员不便分类的其他从业人员未知  职务名称  * 其他一般员工高级领导（行政级别局级及局级以上领导或大公司高级管理人员）中级领导（行政级别局级以下领导或大公司中级管理人员）  职务类型  * 单位负责人或局级及以上部门负责人或处级科室负责人或科级普通员工或科员临时工或办事员无村委/居委会主任、副主任；党支部主任、副主任村委/居委会及党支部其余干事  自然村人口数量人口数＜500500≤人口数＜10001000≤人口数＜15001500≤人口数＜2000人口数＞20000≤人口数＜30003000≤人口数＜50005000≤人口数＜7000人口数≥7000  雇佣类型  * 标准受薪客户优良职业客户标准受薪客户(以自雇人士定价)优良职业客户(以自雇人士定价)自雇人士客户优良职业客户（合作单位）标准受薪客户（合作单位）学生客群  现单位工作年限 年企业成立年限 年(自雇人士填写)省份、直辖市、自治区  * (当选择国家为中国时请选择具体省市) 单位地址  *  单位邮编  *  单位固话  *  区号  *  号码  *  分机 财务综合信息月收入  *  元家庭本地房产  * 有无  居住状况  * 自置按揭亲属楼宇集体宿舍租房共有住宅其他  户口所在地  * 本地非本地  首选电话手机单位电话住宅电话  首选邮寄居住地址单位地址无  备注(限100个汉字)  ].Exist]]></Obj>
+<Details plainTxt="False" ><![CDATA["Object exists"]]></Details>
+<Time><![CDATA[2019/2/28 - 13:17:53]]></Time>
+<TimeTick>1551331073</TimeTick>
+<NodeArgs eType="Replay" icon="9" nRep="20" Source="3.3.1、客户详情" SourceLine="-1" >
+<Disp><![CDATA[[ 首笔 前一笔 后一笔 尾笔 共有 1 条记录，当前为第 1 条记录  跳至  笔基本信息核心客户号  *  客户编号  *  客户姓名  *  证件类型  * 组织机构代码证营业执照其他企业证件统一社会信用代码证身份证户口簿护照军官证士兵证港澳居民来往内地通行证台湾同胞来往内地通行证临时身份证外国人居留证警官证其他证件  证件号码  *  出生日期  *  性别  * 男性未知的性别女性  '性别'不能为空！婚姻状况  * 未婚已婚离异其它  '婚姻状况'不能为空！身份证发证机关所在地  *  教育程度  * 博士及以上硕士本科大专高中专初中及以下  手机  *  个人类型  * 个体工商户小微企业法人代表其它  家庭固话 区号 号码 所在国家(地区)  *  省份、直辖市、自治区  *  居住地址  *  住宅邮编  *  手机号码是否本人身份证号码登记是否  手机号码持有月份数 电子邮箱1 电子邮箱2 微信号码 QQ号码 财付通账号 新浪微博账号 淘宝网账号 支付宝账号 京东网账号 工作关系是否在我行经办分部所在地  * 是否  是否农户  * 是否   工作信息单位名称  *  是否名单制优良单位是否  部门  *  单位性质  * 国有私营个体股份事业/机关军/警其他  单位所属行业  * 农、林、牧、渔业采矿业制造业电力、热力、燃气及水生产和供应业建筑业批发和零售业交通运输、仓储和邮政业住宿和餐饮业信息传输、软件和信息技术服务业金融业房地产业租赁和商务服务业科学研究和技术服务业水利、环境和公共设施管理业居民服务、修理和其他服务业教育卫生和社会工作文化、体育和娱乐业公共管理、社会保障和社会组织国际组织  职业  * 国家机关、党群组织、企业、事业单位负责人专业技术人员办事人员和有关人员商业、服务业人员农、林、牧、渔、水利业生产人员生产、运输设备操作人员及有关人员不便分类的其他从业人员未知  职务名称  * 其他一般员工高级领导（行政级别局级及局级以上领导或大公司高级管理人员）中级领导（行政级别局级以下领导或大公司中级管理人员）  职务类型  * 单位负责人或局级及以上部门负责人或处级科室负责人或科级普通员工或科员临时工或办事员无村委/居委会主任、副主任；党支部主任、副主任村委/居委会及党支部其余干事  自然村人口数量人口数＜500500≤人口数＜10001000≤人口数＜15001500≤人口数＜2000人口数＞20000≤人口数＜30003000≤人口数＜50005000≤人口数＜7000人口数≥7000  雇佣类型  * 标准受薪客户优良职业客户标准受薪客户(以自雇人士定价)优良职业客户(以自雇人士定价)自雇人士客户优良职业客户（合作单位）标准受薪客户（合作单位）学生客群  现单位工作年限 年企业成立年限 年(自雇人士填写)省份、直辖市、自治区  * (当选择国家为中国时请选择具体省市) 单位地址  *  单位邮编  *  单位固话  *  区号  *  号码  *  分机 财务综合信息月收入  *  元家庭本地房产  * 有无  居住状况  * 自置按揭亲属楼宇集体宿舍租房共有住宅其他  户口所在地  * 本地非本地  首选电话手机单位电话住宅电话  首选邮寄居住地址单位地址无  备注(限100个汉字)  ].Exist]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T15">
+<Obj plainTxt="False" ><![CDATA[停止运行]]></Obj>
+<Details plainTxt="False" ><![CDATA[用户停止运行。]]></Details>
+<Time><![CDATA[2019/2/28 - 13:18:12]]></Time>
+<TimeTick>1551331092</TimeTick>
+<NodeArgs eType="General" icon="10" nRep="21" >
+<Disp><![CDATA[停止运行]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="7" nRep="19" Source="3.3.1、客户详情" SourceLine="-1" >
+<Disp><![CDATA[myiframe0_1]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="6" nRep="18" Source="3.3.1、客户详情" SourceLine="-1" >
+<Disp><![CDATA[一级窗口Page页]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="5" nRep="17" Source="3.3.1、客户详情" SourceLine="-1" >
+<Disp><![CDATA[一级窗口]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="4" nRep="16" Source="3.3.1、客户详情" SourceLine="-1" >
+<Disp><![CDATA[主窗口（浏览器）]]></Disp>
+</NodeArgs>
+</Step>
+<Summary sTime="2019/2/28 - 13:17:49" eTime="2019/2/28 - 13:18:12" passed="0" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="3" nRep="6" >
+<Disp><![CDATA[3.3.1、客户详情 摘要]]></Disp>
+</NodeArgs>
+</Action>
+<Step rID="T16">
+<Obj plainTxt="False" ><![CDATA[停止运行]]></Obj>
+<Details plainTxt="False" ><![CDATA[用户停止运行。]]></Details>
+<Time><![CDATA[2019/2/28 - 13:18:12]]></Time>
+<TimeTick>1551331092</TimeTick>
+<NodeArgs eType="General" icon="11" nRep="23" >
+<Disp><![CDATA[停止运行]]></Disp>
+</NodeArgs>
+</Step>
+<Summary sTime="2019/2/28 - 13:17:47" eTime="2019/2/28 - 13:18:12" passed="0" failed="0" warnings="0" stopped="True" ></Summary>
+<NodeArgs eType="StartTest" icon="1" nRep="3" >
+<Disp><![CDATA[测试 信用速贷（build） 摘要]]></Disp>
+</NodeArgs>
+</Doc>
+</Report>

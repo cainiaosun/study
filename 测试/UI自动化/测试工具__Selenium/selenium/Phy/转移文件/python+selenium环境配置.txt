@@ -1,0 +1,12 @@
+本次环境配置为：python3.6.4 + selenium3.11.0 + firefox57.0 + geckodriver-v0.20.0
+配置步骤：
+1、https://www.python.org/ 官网下载最新版本python，安装并配置系统环境变量：在path变量下添加如：E:\InstallSoftWare\python3.6（python安装目录）及E:\InstallSoftWare\python3.6\Scripts\；（环境配置对python版本没要求，本次为版本为python3.6.4）
+2、window的dos窗口下使用命令pip install selenium安装最新版本的selenium；也可以使用如：pip install selenium==2.7.12指定版本，但可能需要与之对应的geckodriver版本（没验证是不是需要）
+3、下载并安装firefox57.0；firefox57.0与目前最新版本的geckodriver-v0.20.0是匹配的，最新的59.0应该也可以（没验证）
+4、https://github.com/mozilla/geckodriver/releases 官网下载最新版本的驱动压缩包geckodriver.zip，解压后分别放置于python和forefox的安装目录；与第三点相同geckodriver-v0.20.0与firefox57.0可以匹配，与其他版本是否匹配需要试验测试
+5、环境配置成功，书写代码使用即可。
+
+
+
+ie
+http://selenium-release.storage.googleapis.com/index.html?path=3.9/
