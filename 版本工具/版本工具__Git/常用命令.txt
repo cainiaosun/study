@@ -1,14 +1,28 @@
 Github常用操作
-将目录变成git可控制的文件目录   ：git init
-从远程克隆库                    ：git clone https://github.com/cainiaosun/mystudy.git
-将所有文件提交到缓存            ：git add *
-检查目录下文件状态              ：git status
-删除多有不在缓存的文件          ：git clean -m
-提交所有缓存文件                ：git commit -m *
-提交对应缓存文件                ：git commit -m 文件名
-在vim编辑页面，退出编辑         ：按住esc 再按大写Z
-将已正式提交的文件提交到远程    ：git push origin master
-删除文件                        ：git rm
+将目录变成git可控制的文件目录
+		git init
+删除远程仓库地址
+		git remote rm origin 
+添加远程仓库地址
+		git remote add origin git@git服务器域名或IP:用户名/仓库名.git
+从远程克隆库
+		git clone https://github.com/cainiaosun/mystudy.git
+将所有文件提交到缓存
+		git add -A 添加所有文件  -u 处理已添加修改的文件    * 新文件和修改文件  .删除文件和修改文件
+检查目录下文件状态
+		git status
+删除不在缓存的文件
+		git clean -df 删除当前目录的未在缓存区的文件
+提交所有缓存文件
+		git commit -m -a
+提交对应缓存文件
+		git commit -m 文件名
+在vim编辑页面，退出编辑
+		按住esc 再按大写Z
+将已正式提交的文件提交到远程
+		git push -u origin master
+删除文件        
+		git rm
 
 
 问题解决：
