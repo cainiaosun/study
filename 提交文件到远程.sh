@@ -1,6 +1,7 @@
 echo 提交文件
 rm -f .git/index.lock
 ping -n 5 127.1>H:/可删除临时文件
+git pull
 git add -A
 git commit -m -a
 git push -u origin master
