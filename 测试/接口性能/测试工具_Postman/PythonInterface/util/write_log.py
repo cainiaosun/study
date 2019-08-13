@@ -9,7 +9,7 @@ import traceback
 import multiprocessing
 sys.path.append("../")
 from base.get_config import MyConfig as myconfig
-
+#print(logging.__file__)
 # import setting
  
 #rq = time.strftime('%Y-%m-%d-%H-%M-%S',time.localtime(time.time()))
@@ -44,7 +44,7 @@ class Log(object):
 		# self.fh.setLevel(logging.DEBUG)
 		self.fh.setFormatter(self.formatter)
 		self.logger.addHandler(self.fh)
-		self.pid=multiprocessing.current_process().pid
+		self.pid=str(multiprocessing.current_process().pid).ljust(8," ")
 		###############
 		# self.fh.setLevel(logging.DEBUG)
 		# self.formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(threadName)s - %(name)s - %(message)s')
@@ -59,7 +59,7 @@ class Log(object):
 			  ##################
 				# self.logger.addHandler(self.fh)
 				# self.logger.addHandler(fh)
-				self.logger.removeHandler(fh)
+				self.logger.removeHandler(self.fh)
  
 ##############################################################################################################
  
@@ -82,29 +82,29 @@ class Log(object):
 	#	 self.logger.notset(msg)
  
 	def debug(self, msg):
-		self.msg="pid:"+str(self.pid)+" - "+str(msg)
+		self.msg="pid:"+self.pid+" : "+str(msg)
 		self.logger.debug(self.msg)
 		self.logger.handlers.clear()
- 
+
 	def info(self, msg):
-		self.msg="pid:"+str(self.pid)+" - "+str(msg)
+		self.msg="pid:"+self.pid+" : "+str(msg)
 		self.logger.info(self.msg)
 		self.logger.handlers.clear()
  
 	def warning(self, msg):
-		self.msg="pid:"+str(self.pid)+" - "+str(msg)
+		self.msg="pid:"+self.pid+" : "+str(msg)
 		self.logger.warning(self.msg)
 		self.logger.handlers.clear()
  
  
 	def error(self, msg):
-		self.msg="pid:"+str(self.pid)+" - "+str(msg)
+		self.msg="pid:"+self.pid+" : "+str(msg)
 		self.logger.error(self.msg)
 		self.logger.handlers.clear()
  
  
 	def critical(self,msg):
-		self.msg="pid:"+str(self.pid)+" - "+str(msg)
+		self.msg="pid:"+self.pid+" : "+str(msg)
 		self.logger.critical(self.msg)
 		self.logger.handlers.clear()
  

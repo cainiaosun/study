@@ -2,12 +2,12 @@ Environment:
   case_path: ../temp/runningdata/data_debug/runningcase.xls
   key1: aaa
   key2: sss
-  key3: "F:\\GIT\u6587\u4EF6\\Study\\\u6D4B\u8BD5\\UI\u81EA\u52A8\u5316\\Selenium\\\
+  key3: "F:\\GIT\u6587\u4EF6\\study\\\u6D4B\u8BD5\\UI\u81EA\u52A8\u5316\\Selenium\\\
     SeleniumPython"
   key4: rrrrr
-  key5: "F:\\GIT\u6587\u4EF6\\Study\\\u6D4B\u8BD5\\UI\u81EA\u52A8\u5316\\Selenium\\\
+  key5: "F:\\GIT\u6587\u4EF6\\study\\\u6D4B\u8BD5\\UI\u81EA\u52A8\u5316\\Selenium\\\
     SeleniumPython"
-  row: 4
+  row: 2
   running_path: ../temp/runningdata/data_debug
   sheet_id: 0
   testpath: .//

@@ -9,9 +9,9 @@ def login(request):
     print("我们重新开始吧！")
     print("reponse type is:",request.method)
     result={}
-    if request.method == "GET":
-        username = request.GET.get("username")
-        password = request.GET.get("password")
+    if request.method == "POST":
+        username = request.POST.get("username")
+        password = request.POST.get("password")
         result["username"]=username
         result["password"] = password
         result=json.dumps(result)

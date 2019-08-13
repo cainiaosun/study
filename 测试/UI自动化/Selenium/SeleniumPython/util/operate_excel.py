@@ -19,6 +19,7 @@ class OperaExcel:
 		self.i=i
 		self.excel = self.get_excel()
 		self.data = self.get_sheet(i)
+
 			
 	def get_excel(self):
 		'''

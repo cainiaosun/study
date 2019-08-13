@@ -1,0 +1,27 @@
+2019-07-17 07:51:42,895 - INFO - MainThread - 192.168.99.1 - pid:19128 - 添加案例！
+2019-07-17 07:51:42,928 - INFO - MainThread - 192.168.99.1 - pid:19128 - Excute Case:test_01
+2019-07-17 07:51:42,978 - INFO - MainThread - 192.168.99.1 - pid:19128 - Case Name:test_01
+2019-07-17 07:51:43,046 - INFO - MainThread - 192.168.99.1 - pid:19128 - Excute Case:test_02
+2019-07-17 07:51:43,094 - INFO - MainThread - 192.168.99.1 - pid:19128 - Case Name:test_01
+2019-07-17 07:51:43,144 - INFO - MainThread - 192.168.99.1 - pid:19128 - Excute Case:test_03
+2019-07-17 07:51:43,190 - INFO - MainThread - 192.168.99.1 - pid:19128 - Case Name:test_02
+2019-07-17 07:51:43,241 - INFO - MainThread - 192.168.99.1 - pid:19128 - Excute Case:test_04
+2019-07-17 07:51:43,287 - INFO - MainThread - 192.168.99.1 - pid:19128 - Case Name:test_03
+2019-07-17 08:23:54,396 - INFO - MainThread - 192.168.99.1 - pid:15248 - 添加案例！
+2019-07-17 08:23:54,418 - INFO - MainThread - 192.168.99.1 - pid:15248 - Excute Case:test_01
+2019-07-17 08:23:54,473 - INFO - MainThread - 192.168.99.1 - pid:15248 - Case Name:test_01
+2019-07-17 08:23:54,531 - INFO - MainThread - 192.168.99.1 - pid:15248 - Excute Case:test_02
+2019-07-17 08:23:54,584 - INFO - MainThread - 192.168.99.1 - pid:15248 - Case Name:test_01
+2019-07-17 08:23:54,639 - INFO - MainThread - 192.168.99.1 - pid:15248 - Excute Case:test_03
+2019-07-17 08:23:54,691 - INFO - MainThread - 192.168.99.1 - pid:15248 - Case Name:test_02
+2019-07-17 08:23:54,758 - INFO - MainThread - 192.168.99.1 - pid:15248 - Excute Case:test_04
+2019-07-17 08:23:54,808 - INFO - MainThread - 192.168.99.1 - pid:15248 - Case Name:test_03
+2019-07-17 08:56:31,105 - INFO - MainThread - 192.168.99.1 - pid:18592 - 添加案例！
+2019-07-17 08:56:31,124 - INFO - MainThread - 192.168.99.1 - pid:18592 - Excute Case:test_01
+2019-07-17 08:56:31,170 - INFO - MainThread - 192.168.99.1 - pid:18592 - Case Name:test_01
+2019-07-17 08:56:32,231 - INFO - MainThread - 192.168.99.1 - pid:18592 - Excute Case:test_02
+2019-07-17 08:56:32,276 - INFO - MainThread - 192.168.99.1 - pid:18592 - Case Name:test_01
+2019-07-17 08:56:33,328 - INFO - MainThread - 192.168.99.1 - pid:18592 - Excute Case:test_03
+2019-07-17 08:56:33,373 - INFO - MainThread - 192.168.99.1 - pid:18592 - Case Name:test_02
+2019-07-17 08:56:34,428 - INFO - MainThread - 192.168.99.1 - pid:18592 - Excute Case:test_04
+2019-07-17 08:56:34,474 - INFO - MainThread - 192.168.99.1 - pid:18592 - Case Name:test_03

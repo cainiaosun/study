@@ -189,8 +189,8 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>报告标题</h1>
-<p class='attribute'><strong>Start Time:</strong> 2019-06-01 10:59:06</p>
-<p class='attribute'><strong>Duration:</strong> 0:00:00.359417</p>
+<p class='attribute'><strong>Start Time:</strong> 2019-07-17 08:56:31</p>
+<p class='attribute'><strong>Duration:</strong> 0:00:04.410918</p>
 <p class='attribute'><strong>Status:</strong> Error 4</p>
 
 <p class='description'>报告描述</p>
@@ -246,33 +246,135 @@ function showOutput(id, name) {
         <pre>
         
 ft1.1: Traceback (most recent call last):
-  File "F:/GIT文件/mystudy/学习资料/编程与测试/测试工具_Postman/PythonInterface/temp/runningdata/data_running\autocase.py", line 22, in test_00000_test_01
-    result.append(self.crete_step())
-  File "..\base\unittest_base.py", line 53, in crete_step
-    return RunMethod().request(request_method,url,data)
-  File "..\base\method.py", line 53, in request
-    res=self.get(url,params,headers)
-  File "..\base\method.py", line 11, in get
-    res = requests.get(url=url,params=data,headers=headers,verity=False)
-  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\requests-2.21.0-py3.6.egg\requests\api.py", line 75, in get
-    return request('get', url, params=params, **kwargs)
-  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\requests-2.21.0-py3.6.egg\requests\api.py", line 60, in request
-    return session.request(method=method, url=url, **kwargs)
-TypeError: request() got an unexpected keyword argument 'verity'
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\util\connection.py", line 80, in create_connection
+    raise err
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\util\connection.py", line 70, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
 Traceback (most recent call last):
-  File "F:/GIT文件/mystudy/学习资料/编程与测试/测试工具_Postman/PythonInterface/temp/runningdata/data_running\autocase.py", line 22, in test_00000_test_01
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\connectionpool.py", line 354, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\InstallSoftWare\Python3.6.4\lib\http\client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\InstallSoftWare\Python3.6.4\lib\http\client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\InstallSoftWare\Python3.6.4\lib\http\client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\InstallSoftWare\Python3.6.4\lib\http\client.py", line 1026, in _send_output
+    self.send(msg)
+  File "D:\InstallSoftWare\Python3.6.4\lib\http\client.py", line 964, in send
+    self.connect()
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\connection.py", line 181, in connect
+    conn = self._new_conn()
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\connection.py", line 168, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: &lt;urllib3.connection.HTTPConnection object at 0x05CA5970&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\requests-2.21.0-py3.6.egg\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\util\retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: /login/?username=sunhongbin&amp;password=shb427190 (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x05CA5970&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:/GIT文件/study/测试/接口性能/测试工具_Postman/PythonInterface/temp/runningdata/data_running\autocase.py", line 22, in test_00000_test_01
     result.append(self.crete_step())
   File "..\base\unittest_base.py", line 53, in crete_step
     return RunMethod().request(request_method,url,data)
   File "..\base\method.py", line 53, in request
     res=self.get(url,params,headers)
   File "..\base\method.py", line 11, in get
-    res = requests.get(url=url,params=data,headers=headers,verity=False)
+    res = requests.get(url=url,params=data,headers=headers)
   File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\requests-2.21.0-py3.6.egg\requests\api.py", line 75, in get
     return request('get', url, params=params, **kwargs)
   File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\requests-2.21.0-py3.6.egg\requests\api.py", line 60, in request
     return session.request(method=method, url=url, **kwargs)
-TypeError: request() got an unexpected keyword argument 'verity'
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\requests-2.21.0-py3.6.egg\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\requests-2.21.0-py3.6.egg\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\requests-2.21.0-py3.6.egg\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: /login/?username=sunhongbin&amp;password=shb427190 (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x05CA5970&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
+Traceback (most recent call last):
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\util\connection.py", line 80, in create_connection
+    raise err
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\util\connection.py", line 70, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\connectionpool.py", line 354, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\InstallSoftWare\Python3.6.4\lib\http\client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\InstallSoftWare\Python3.6.4\lib\http\client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\InstallSoftWare\Python3.6.4\lib\http\client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\InstallSoftWare\Python3.6.4\lib\http\client.py", line 1026, in _send_output
+    self.send(msg)
+  File "D:\InstallSoftWare\Python3.6.4\lib\http\client.py", line 964, in send
+    self.connect()
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\connection.py", line 181, in connect
+    conn = self._new_conn()
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\connection.py", line 168, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: &lt;urllib3.connection.HTTPConnection object at 0x05CA5970&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\requests-2.21.0-py3.6.egg\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\util\retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: /login/?username=sunhongbin&amp;password=shb427190 (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x05CA5970&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:/GIT文件/study/测试/接口性能/测试工具_Postman/PythonInterface/temp/runningdata/data_running\autocase.py", line 22, in test_00000_test_01
+    result.append(self.crete_step())
+  File "..\base\unittest_base.py", line 53, in crete_step
+    return RunMethod().request(request_method,url,data)
+  File "..\base\method.py", line 53, in request
+    res=self.get(url,params,headers)
+  File "..\base\method.py", line 11, in get
+    res = requests.get(url=url,params=data,headers=headers)
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\requests-2.21.0-py3.6.egg\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\requests-2.21.0-py3.6.egg\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\requests-2.21.0-py3.6.egg\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\requests-2.21.0-py3.6.egg\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\requests-2.21.0-py3.6.egg\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: /login/?username=sunhongbin&amp;password=shb427190 (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x05CA5970&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
 
 
         </pre>
@@ -298,33 +400,135 @@ TypeError: request() got an unexpected keyword argument 'verity'
         <pre>
         
 ft1.2: Traceback (most recent call last):
-  File "F:/GIT文件/mystudy/学习资料/编程与测试/测试工具_Postman/PythonInterface/temp/runningdata/data_running\autocase.py", line 39, in test_00001_test_02
-    result.append(self.crete_step())
-  File "..\base\unittest_base.py", line 53, in crete_step
-    return RunMethod().request(request_method,url,data)
-  File "..\base\method.py", line 53, in request
-    res=self.get(url,params,headers)
-  File "..\base\method.py", line 11, in get
-    res = requests.get(url=url,params=data,headers=headers,verity=False)
-  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\requests-2.21.0-py3.6.egg\requests\api.py", line 75, in get
-    return request('get', url, params=params, **kwargs)
-  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\requests-2.21.0-py3.6.egg\requests\api.py", line 60, in request
-    return session.request(method=method, url=url, **kwargs)
-TypeError: request() got an unexpected keyword argument 'verity'
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\util\connection.py", line 80, in create_connection
+    raise err
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\util\connection.py", line 70, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
 Traceback (most recent call last):
-  File "F:/GIT文件/mystudy/学习资料/编程与测试/测试工具_Postman/PythonInterface/temp/runningdata/data_running\autocase.py", line 39, in test_00001_test_02
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\connectionpool.py", line 354, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\InstallSoftWare\Python3.6.4\lib\http\client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\InstallSoftWare\Python3.6.4\lib\http\client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\InstallSoftWare\Python3.6.4\lib\http\client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\InstallSoftWare\Python3.6.4\lib\http\client.py", line 1026, in _send_output
+    self.send(msg)
+  File "D:\InstallSoftWare\Python3.6.4\lib\http\client.py", line 964, in send
+    self.connect()
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\connection.py", line 181, in connect
+    conn = self._new_conn()
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\connection.py", line 168, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: &lt;urllib3.connection.HTTPConnection object at 0x05CF3570&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\requests-2.21.0-py3.6.egg\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\util\retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: /login/?username=sunhongbin&amp;password=shb427190 (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x05CF3570&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:/GIT文件/study/测试/接口性能/测试工具_Postman/PythonInterface/temp/runningdata/data_running\autocase.py", line 39, in test_00001_test_02
     result.append(self.crete_step())
   File "..\base\unittest_base.py", line 53, in crete_step
     return RunMethod().request(request_method,url,data)
   File "..\base\method.py", line 53, in request
     res=self.get(url,params,headers)
   File "..\base\method.py", line 11, in get
-    res = requests.get(url=url,params=data,headers=headers,verity=False)
+    res = requests.get(url=url,params=data,headers=headers)
   File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\requests-2.21.0-py3.6.egg\requests\api.py", line 75, in get
     return request('get', url, params=params, **kwargs)
   File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\requests-2.21.0-py3.6.egg\requests\api.py", line 60, in request
     return session.request(method=method, url=url, **kwargs)
-TypeError: request() got an unexpected keyword argument 'verity'
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\requests-2.21.0-py3.6.egg\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\requests-2.21.0-py3.6.egg\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\requests-2.21.0-py3.6.egg\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: /login/?username=sunhongbin&amp;password=shb427190 (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x05CF3570&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
+Traceback (most recent call last):
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\util\connection.py", line 80, in create_connection
+    raise err
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\util\connection.py", line 70, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\connectionpool.py", line 354, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\InstallSoftWare\Python3.6.4\lib\http\client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\InstallSoftWare\Python3.6.4\lib\http\client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\InstallSoftWare\Python3.6.4\lib\http\client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\InstallSoftWare\Python3.6.4\lib\http\client.py", line 1026, in _send_output
+    self.send(msg)
+  File "D:\InstallSoftWare\Python3.6.4\lib\http\client.py", line 964, in send
+    self.connect()
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\connection.py", line 181, in connect
+    conn = self._new_conn()
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\connection.py", line 168, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: &lt;urllib3.connection.HTTPConnection object at 0x05CF3570&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\requests-2.21.0-py3.6.egg\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\util\retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: /login/?username=sunhongbin&amp;password=shb427190 (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x05CF3570&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:/GIT文件/study/测试/接口性能/测试工具_Postman/PythonInterface/temp/runningdata/data_running\autocase.py", line 39, in test_00001_test_02
+    result.append(self.crete_step())
+  File "..\base\unittest_base.py", line 53, in crete_step
+    return RunMethod().request(request_method,url,data)
+  File "..\base\method.py", line 53, in request
+    res=self.get(url,params,headers)
+  File "..\base\method.py", line 11, in get
+    res = requests.get(url=url,params=data,headers=headers)
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\requests-2.21.0-py3.6.egg\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\requests-2.21.0-py3.6.egg\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\requests-2.21.0-py3.6.egg\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\requests-2.21.0-py3.6.egg\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\requests-2.21.0-py3.6.egg\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: /login/?username=sunhongbin&amp;password=shb427190 (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x05CF3570&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
 
 
         </pre>
@@ -350,33 +554,135 @@ TypeError: request() got an unexpected keyword argument 'verity'
         <pre>
         
 ft1.3: Traceback (most recent call last):
-  File "F:/GIT文件/mystudy/学习资料/编程与测试/测试工具_Postman/PythonInterface/temp/runningdata/data_running\autocase.py", line 56, in test_00002_test_03
-    result.append(self.crete_step())
-  File "..\base\unittest_base.py", line 53, in crete_step
-    return RunMethod().request(request_method,url,data)
-  File "..\base\method.py", line 53, in request
-    res=self.get(url,params,headers)
-  File "..\base\method.py", line 11, in get
-    res = requests.get(url=url,params=data,headers=headers,verity=False)
-  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\requests-2.21.0-py3.6.egg\requests\api.py", line 75, in get
-    return request('get', url, params=params, **kwargs)
-  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\requests-2.21.0-py3.6.egg\requests\api.py", line 60, in request
-    return session.request(method=method, url=url, **kwargs)
-TypeError: request() got an unexpected keyword argument 'verity'
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\util\connection.py", line 80, in create_connection
+    raise err
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\util\connection.py", line 70, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
 Traceback (most recent call last):
-  File "F:/GIT文件/mystudy/学习资料/编程与测试/测试工具_Postman/PythonInterface/temp/runningdata/data_running\autocase.py", line 56, in test_00002_test_03
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\connectionpool.py", line 354, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\InstallSoftWare\Python3.6.4\lib\http\client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\InstallSoftWare\Python3.6.4\lib\http\client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\InstallSoftWare\Python3.6.4\lib\http\client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\InstallSoftWare\Python3.6.4\lib\http\client.py", line 1026, in _send_output
+    self.send(msg)
+  File "D:\InstallSoftWare\Python3.6.4\lib\http\client.py", line 964, in send
+    self.connect()
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\connection.py", line 181, in connect
+    conn = self._new_conn()
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\connection.py", line 168, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: &lt;urllib3.connection.HTTPConnection object at 0x05D41C30&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\requests-2.21.0-py3.6.egg\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\util\retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: /login/?username=sunhongbin&amp;password=shb427190 (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x05D41C30&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:/GIT文件/study/测试/接口性能/测试工具_Postman/PythonInterface/temp/runningdata/data_running\autocase.py", line 56, in test_00002_test_03
     result.append(self.crete_step())
   File "..\base\unittest_base.py", line 53, in crete_step
     return RunMethod().request(request_method,url,data)
   File "..\base\method.py", line 53, in request
     res=self.get(url,params,headers)
   File "..\base\method.py", line 11, in get
-    res = requests.get(url=url,params=data,headers=headers,verity=False)
+    res = requests.get(url=url,params=data,headers=headers)
   File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\requests-2.21.0-py3.6.egg\requests\api.py", line 75, in get
     return request('get', url, params=params, **kwargs)
   File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\requests-2.21.0-py3.6.egg\requests\api.py", line 60, in request
     return session.request(method=method, url=url, **kwargs)
-TypeError: request() got an unexpected keyword argument 'verity'
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\requests-2.21.0-py3.6.egg\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\requests-2.21.0-py3.6.egg\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\requests-2.21.0-py3.6.egg\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: /login/?username=sunhongbin&amp;password=shb427190 (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x05D41C30&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
+Traceback (most recent call last):
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\util\connection.py", line 80, in create_connection
+    raise err
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\util\connection.py", line 70, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\connectionpool.py", line 354, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\InstallSoftWare\Python3.6.4\lib\http\client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\InstallSoftWare\Python3.6.4\lib\http\client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\InstallSoftWare\Python3.6.4\lib\http\client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\InstallSoftWare\Python3.6.4\lib\http\client.py", line 1026, in _send_output
+    self.send(msg)
+  File "D:\InstallSoftWare\Python3.6.4\lib\http\client.py", line 964, in send
+    self.connect()
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\connection.py", line 181, in connect
+    conn = self._new_conn()
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\connection.py", line 168, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: &lt;urllib3.connection.HTTPConnection object at 0x05D41C30&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\requests-2.21.0-py3.6.egg\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\util\retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: /login/?username=sunhongbin&amp;password=shb427190 (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x05D41C30&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:/GIT文件/study/测试/接口性能/测试工具_Postman/PythonInterface/temp/runningdata/data_running\autocase.py", line 56, in test_00002_test_03
+    result.append(self.crete_step())
+  File "..\base\unittest_base.py", line 53, in crete_step
+    return RunMethod().request(request_method,url,data)
+  File "..\base\method.py", line 53, in request
+    res=self.get(url,params,headers)
+  File "..\base\method.py", line 11, in get
+    res = requests.get(url=url,params=data,headers=headers)
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\requests-2.21.0-py3.6.egg\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\requests-2.21.0-py3.6.egg\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\requests-2.21.0-py3.6.egg\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\requests-2.21.0-py3.6.egg\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\requests-2.21.0-py3.6.egg\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: /login/?username=sunhongbin&amp;password=shb427190 (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x05D41C30&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
 
 
         </pre>
@@ -402,33 +708,135 @@ TypeError: request() got an unexpected keyword argument 'verity'
         <pre>
         
 ft1.4: Traceback (most recent call last):
-  File "F:/GIT文件/mystudy/学习资料/编程与测试/测试工具_Postman/PythonInterface/temp/runningdata/data_running\autocase.py", line 73, in test_00003_test_04
-    result.append(self.crete_step())
-  File "..\base\unittest_base.py", line 53, in crete_step
-    return RunMethod().request(request_method,url,data)
-  File "..\base\method.py", line 53, in request
-    res=self.get(url,params,headers)
-  File "..\base\method.py", line 11, in get
-    res = requests.get(url=url,params=data,headers=headers,verity=False)
-  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\requests-2.21.0-py3.6.egg\requests\api.py", line 75, in get
-    return request('get', url, params=params, **kwargs)
-  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\requests-2.21.0-py3.6.egg\requests\api.py", line 60, in request
-    return session.request(method=method, url=url, **kwargs)
-TypeError: request() got an unexpected keyword argument 'verity'
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\util\connection.py", line 80, in create_connection
+    raise err
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\util\connection.py", line 70, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
 Traceback (most recent call last):
-  File "F:/GIT文件/mystudy/学习资料/编程与测试/测试工具_Postman/PythonInterface/temp/runningdata/data_running\autocase.py", line 73, in test_00003_test_04
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\connectionpool.py", line 354, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\InstallSoftWare\Python3.6.4\lib\http\client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\InstallSoftWare\Python3.6.4\lib\http\client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\InstallSoftWare\Python3.6.4\lib\http\client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\InstallSoftWare\Python3.6.4\lib\http\client.py", line 1026, in _send_output
+    self.send(msg)
+  File "D:\InstallSoftWare\Python3.6.4\lib\http\client.py", line 964, in send
+    self.connect()
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\connection.py", line 181, in connect
+    conn = self._new_conn()
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\connection.py", line 168, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: &lt;urllib3.connection.HTTPConnection object at 0x05C45EF0&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\requests-2.21.0-py3.6.egg\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\util\retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: /login/?username=sunhongbin&amp;password=shb427190 (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x05C45EF0&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:/GIT文件/study/测试/接口性能/测试工具_Postman/PythonInterface/temp/runningdata/data_running\autocase.py", line 73, in test_00003_test_04
     result.append(self.crete_step())
   File "..\base\unittest_base.py", line 53, in crete_step
     return RunMethod().request(request_method,url,data)
   File "..\base\method.py", line 53, in request
     res=self.get(url,params,headers)
   File "..\base\method.py", line 11, in get
-    res = requests.get(url=url,params=data,headers=headers,verity=False)
+    res = requests.get(url=url,params=data,headers=headers)
   File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\requests-2.21.0-py3.6.egg\requests\api.py", line 75, in get
     return request('get', url, params=params, **kwargs)
   File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\requests-2.21.0-py3.6.egg\requests\api.py", line 60, in request
     return session.request(method=method, url=url, **kwargs)
-TypeError: request() got an unexpected keyword argument 'verity'
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\requests-2.21.0-py3.6.egg\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\requests-2.21.0-py3.6.egg\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\requests-2.21.0-py3.6.egg\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: /login/?username=sunhongbin&amp;password=shb427190 (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x05C45EF0&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
+Traceback (most recent call last):
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\util\connection.py", line 80, in create_connection
+    raise err
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\util\connection.py", line 70, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\connectionpool.py", line 354, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\InstallSoftWare\Python3.6.4\lib\http\client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\InstallSoftWare\Python3.6.4\lib\http\client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\InstallSoftWare\Python3.6.4\lib\http\client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\InstallSoftWare\Python3.6.4\lib\http\client.py", line 1026, in _send_output
+    self.send(msg)
+  File "D:\InstallSoftWare\Python3.6.4\lib\http\client.py", line 964, in send
+    self.connect()
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\connection.py", line 181, in connect
+    conn = self._new_conn()
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\connection.py", line 168, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: &lt;urllib3.connection.HTTPConnection object at 0x05C45EF0&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\requests-2.21.0-py3.6.egg\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\urllib3\util\retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: /login/?username=sunhongbin&amp;password=shb427190 (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x05C45EF0&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:/GIT文件/study/测试/接口性能/测试工具_Postman/PythonInterface/temp/runningdata/data_running\autocase.py", line 73, in test_00003_test_04
+    result.append(self.crete_step())
+  File "..\base\unittest_base.py", line 53, in crete_step
+    return RunMethod().request(request_method,url,data)
+  File "..\base\method.py", line 53, in request
+    res=self.get(url,params,headers)
+  File "..\base\method.py", line 11, in get
+    res = requests.get(url=url,params=data,headers=headers)
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\requests-2.21.0-py3.6.egg\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\requests-2.21.0-py3.6.egg\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\requests-2.21.0-py3.6.egg\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\requests-2.21.0-py3.6.egg\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\InstallSoftWare\Python3.6.4\lib\site-packages\requests-2.21.0-py3.6.egg\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: /login/?username=sunhongbin&amp;password=shb427190 (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x05C45EF0&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
 
 
         </pre>

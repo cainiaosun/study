@@ -23,12 +23,16 @@ from base.get_config import MyConfig as myconfig
 
 class Environment:
 	"""
-	
+	Environment：环境变量，运行中的全局变量的存储类
+	数据存储与读取路径是从config配置文件中读取获得，若是在多线程中使用可以结合pid生成对应的environment。yaml文件
+	参数：
+		--para：环境变量名称
+		--path：environment.yaml存储路径，默认读取的路径，不用输入
 	"""
-	pid=multiprocessing.current_process().pid
+	#pid=multiprocessing.current_process().pid
 	path=myconfig("project","project_path").value+myconfig("project","data_path").value
 	if os.path.exists(path)==False:
-		path="../temp/testsuite_tempdata/testsuite_debug"
+		raise Exception("获得yaml文件路径："+path+",工程目录下，子目录config中的config.ini配置文件,配置的运行动态数据文件environment.yaml路径错误。")
 	def __init__(self,para=None,path=path):
 		self.para=para#环境变量名称
 		self.path=path+"/environment.yaml"#环境变量配置文件,默认值path+"/environment.yaml"
@@ -181,6 +185,7 @@ if __name__ == '__main__':
 	# Environment().add("key4","rrrrr")
 	# print(Environment("testpath").get_value())
 	print(Environment().read_data().get("Environment").get("testpath"))
+	print(Environment("case_path").path)
 	print(Environment("case_path").value)
 	# with open("../temp/testsuite_tempdata/testsuite_debug/environment.yaml","rb") as fp:
 	# 	line=fp.read()

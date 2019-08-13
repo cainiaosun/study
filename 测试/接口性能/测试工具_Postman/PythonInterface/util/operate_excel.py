@@ -35,10 +35,13 @@ class OperaExcel:
 		'''
 		if i==None:
 			i=self.i
-		if isinstance(i,int):
-			tables = self.excel.sheets()[i]
-		elif isinstance(i,str):
-			tables = self.excel.get_sheet_by_name(i)
+		try:
+			if isinstance(i,int):
+				tables = self.excel.sheets()[i]
+			elif isinstance(i,str):
+				tables = self.excel.get_sheet_by_name(i)
+		except:
+			raise Exception("sheet页："+str(i)+"，sheet页不存在！")
 		return tables
 
 	def get_rows(self):
@@ -62,25 +65,52 @@ class OperaExcel:
 			--row：所在行
 			--column：所在列
 		'''
+		if isinstance(row,int)==False:
+			row=self.get_row(row)
 		if isinstance(column,int)==False:
 			column=self.get_column(column)
-		data = self.data.cell(row,column).value
+		rows=self.get_rows()
+		cols=self.get_cols()
+		if row==None or row>rows or column==None or column>cols:
+			raise Exception("对象单元格："+str(row)+","+str(column)+",不在sheet页单元格区间0-"+str(rows)+",0-"+str(cols)+"内.")
+		else:
+			data = self.data.cell(row,column).value
 		return data
 
-	def get_column(self,column_name):
+	def get_column(self,value,row=0):
+		'''
+		获取某一行中，一个值首次出现位置的列数
+		参数返回：
+			:param column_name: 需要查找的内容
+			:param row: 查找的行数，整型,默认row=0
+			:return: 返回列数column，若没有查询到返回None
+		'''
 		read_value = self.excel
 		sheet=read_value.sheets()[self.i]
-		for i in range(sheet.ncols):
-			if sheet.cell(0,i).value==column_name:
+		ncols=sheet.ncols
+		for i in range(ncols+1):
+			if i==ncols:
+				column = None
+			elif sheet.cell(row,i).value==value:
 				column=i
 				break
 		return column
 
-	def get_row(self,row_name):
+	def get_row(self,value,clomn=0):
+		'''
+		获取某一列中，一个值首次出现位置的行数
+		参数返回：
+			:param row_name: 需要查找的内容
+			:param clomn: 查找的列数，整型，默认clomn=0
+		:return: 返回行数row，若没有查询到返回None
+		'''
 		read_value = self.excel
 		sheet=read_value.sheets()[self.i]
-		for i in range(sheet.nrows):
-			if sheet.cell(i,0).value==row_name:
+		nrows=sheet.nrows
+		for i in range(nrows+1):
+			if i==nrows:
+				row =None
+			elif sheet.cell(i,clomn).value==value:
 				row=i
 				break
 		return row
@@ -89,26 +119,22 @@ class OperaExcel:
 		'''
 		向sheet页单元格写入
 		参数：
-			--row_name：行名，即一行的第一个单元格的值
-				根据案例模板是Case_ID列的值，通过该值获取对应Case_ID所在的行数
-			--column_name：列名，即一列的第一个单元格的值
-				通过该值获取对应的列数,结合row_name获得的行数，修改对应单元格的值
-				根据案例模板多为：实际结果、是否执行、是否通过
+			--row：行名或行序号
+			--column_name：列名，或列序号
 		Etc：
 			修改案例 "test_04" 的 执行状态 为 "pass"
 			OperaExcel().write_value("test_04","执行状态","通过")
 		'''
 		read_value = self.get_excel()
 		sheet=read_value.sheets()[self.i]
-		# for i in range(sheet.nrows):
-		# 	if sheet.cell(i,0).value==row_name:
-		# 		row=i
-		# 		break
+		row_name=row
+		col_name=column
 		if isinstance(row,int)==False:
 			row=self.get_row(row)
 		if isinstance(column,int)==False:
 			column=self.get_column(column)
-		# print("行列值(1开始数)：",row+1,column+1)
+		if row==None or column==None:
+			raise Exception("单元格("+str(row_name)+","+str(col_name)+")不存在!")
 		write_data = copy(read_value)
 		write_save = write_data.get_sheet(self.i)
 		write_save.write(row,column,value)
@@ -117,24 +143,13 @@ class OperaExcel:
 
 	def get_value(self,row,column):
 		'''
-		向sheet页单元格写入
+		获取sheet页一个单元格的值
 		参数：
-			--row_name：行名，即一行的第一个单元格的值
-				根据案例模板是Case_ID列的值，通过该值获取对应Case_ID所在的行数
-			--column_name：列名，即一列的第一个单元格的值
-				通过该值获取对应的列数,结合row_name获得的行数，修改对应单元格的值
-				根据案例模板多为：实际结果、是否执行、是否通过
-		Etc：
-			修改案例 "test_04" 的 执行状态 为 "pass"
-			OperaExcel().write_value("test_04","执行状态","通过")
+			--row：行名或行序号
+			--column_name：列名，或列序号
 		'''
-		read_value = self.get_excel()
-		sheet=read_value.sheets()[0]
-		if isinstance(row,int)==False:
-			row=self.get_row(row)
-		if isinstance(column,int)==False:
-			column=self.get_column(column)
-		return sheet.cell(row,column).value
+		value=self.get_cell(row,column)
+		return value
 
 	def merge_cell(self,sheet):
 		sheet = self.data
@@ -182,12 +197,13 @@ class OperaExcel:
 
 
 if __name__ == '__main__':
-	# read_value = OperaExcel().get_excel()
-	# sheet = read_value.sheets()[0]
+	print("获得的excel：",OperaExcel().get_excel())
+	print("获得的sheet：",OperaExcel().get_sheet(1))
 	# help(sheet)
 	opera = OperaExcel()
 	print("行数：",opera.get_rows())
 	print("列数：",opera.get_cols())
+	print("获取2行3列的值：",opera.get_cell(2,3))
 	print("\"test_01\"所在行：",opera.get_row("test_01"))
 	print("\"实际结果\"所在列：",opera.get_column("实际结果"))
 	t=time.time()

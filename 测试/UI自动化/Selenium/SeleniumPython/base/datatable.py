@@ -91,6 +91,9 @@ class DataTable(OperaExcel):
 
 
 
+
+
+
 if __name__ == "__main__":
 	print("加载数据表，写运行配置！")
 	DataTable.load("../case/testcase.xls")
