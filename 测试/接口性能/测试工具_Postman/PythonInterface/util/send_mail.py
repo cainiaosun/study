@@ -27,6 +27,7 @@ class SendEmail(object):
 			server.close()
 			print("发送邮件成功！")
 		except:
+			print("发送邮件失败！")
 			Log().warning("发送邮件失败！")
 
 

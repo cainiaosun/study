@@ -6,7 +6,7 @@ path=inputbox("目标目录：","添加gitignore文件","请输入正确的目标目录路径，以免错
 Function FolderTree(path)
 	set Fso=CreateObject("Scripting.FileSystemObject")	
 	If Fso.folderExists((path))=False Then
-		msgbox("目标目录不存在，请检查输入是否正确！")
+		msgbox("提示：目标目录不存在，请检查输入是否正确！")
 		Exit Function
 	End If
 	set Folder=fso.GetFolder(Path)

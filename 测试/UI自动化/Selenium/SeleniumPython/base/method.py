@@ -383,3 +383,5 @@ class Switch_to(object):
 
 
 
+if __name__=='__main__':
+    creat_driver()

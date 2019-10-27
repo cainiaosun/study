@@ -1,4 +1,4 @@
-path=inputbox("目标目录：","删除gitignore文件","请输入正确的目标目录路径，以免错误添加文件！")
+path=inputbox("目标目录：","删除gitignore文件","请输入正确的目标目录路径，以免错误删除文件！")
 
 Function FolderTree(path)
 	set Fso=CreateObject("Scripting.FileSystemObject")	
@@ -19,7 +19,7 @@ Function FolderTree(path)
 End Function
 
 If path<>"" Then
-	If msgbox(path,1,"确认目标目录是否正确")=1 Then
+	If msgbox(path,1,"再次确认目标目录是否正确!")=1 Then
 		If FolderTree(path)=True Then
 			msgbox(path&"：子目下删除.gitignore文件成功!")
 		End If	

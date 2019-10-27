@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: robotframework-archivelibrary
+Version: 0.4.0
+Summary: Robot Framework keyword library for handling ZIP files
+Home-page: http://github.com/bulkan/robotframework-archivelibrary
+Author: Bulkan Savun Evcimen
+Author-email: bulkan@gmail.com
+License: Public Domain
+Description: Robot Framework keyword library for handling ZIP files.
+Keywords: robotframework testing test automation zip files compresssed
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: Public Domain
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Testing
