@@ -1,4 +1,4 @@
-from base.web_ui.webdriver import *
+from base.web_ui.webdriver_local import *
 
 #Browser().select_element()
 #Browser().select_case()

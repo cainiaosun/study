@@ -1,9 +1,11 @@
-import os,sys
+import os
+import sys
+import re
 import configparser
 
 current_file=os.path.abspath(__file__)
 current_path=os.path.dirname(current_file)
-config_file=os.path.abspath(current_path+"/../config/config.ini")
+config_file=os.path.abspath(current_path+"/../../config/web_ui/config.ini")
 
 class MyConfig:
 	def __init__(self,section=None,option=None):
@@ -12,7 +14,7 @@ class MyConfig:
 		self.section=section
 		self.option=option
 		if section!=None and option!=None:
-			self.value=self.read_config()
+			self.value=self.get_value()
 
 	def read_ini(self,file=None):
 		file=self.config_file
@@ -25,6 +27,17 @@ class MyConfig:
 			option=self.option
 		self.read_ini()
 		return self.config.get(section,option)
+	
+	def get_value(self):
+		value = self.read_config()
+		pattern = "(\$\{)+.*(\})+"
+		result_search = re.search(pattern,value)
+		if result_search:
+			result_array = result_search.group(0)[2:-1].split('.')
+			new_value = self.read_config(result_array[0],result_array[1])
+			value =re.sub(pattern,new_value,value)
+		return value
+
 
 	#外部尽量不要调用
 	def write(self):
@@ -55,7 +68,7 @@ class MyConfig:
 
 if __name__=="__main__":
 	#config().read_ini()
-	
+	'''
 	config=configparser.ConfigParser()
 	config.read(config_file,encoding="utf-8")
 	print(config["project"]["project_path"])
@@ -79,5 +92,17 @@ if __name__=="__main__":
 	print("报告路径："+report_path)
 	print("日志路径："+log_path)
 	print("运行数据路径："+data_path)
-
+	'''
+	import time
+	t = time.time()
+	print(MyConfig('project','project_path').get_value())
+	print(MyConfig('driver','chromdriver').get_value())
+	print(MyConfig('project','new2').get_value())
+	#MyConfig('project','new').get_value()
+	print(time.time()-t)
+	#t = time.time()
+	#print(time.time()-t)
+	#print(result)
+	#print(new_value)
+	#print(ends)
 

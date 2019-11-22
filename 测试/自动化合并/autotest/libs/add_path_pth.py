@@ -4,8 +4,8 @@ import os
 #需要维护的所有自定义路径
 #print('args is:',sys.argv[0])
 paths=[
-    "F:/GIT文件/study/测试/自动化合并/autotest",
-    "F:/GIT文件/study/测试/自动化合并/autotest/po",
+    "F:\\PrivateSpace\\GIT\\学习\\study\\测试\自动化合并\\autotest",
+    "F:\\PrivateSpace\\GIT\\学习\\study\\测试\自动化合并\\autotest\\po",
 ]
 # print('file is :',os.path.dirname(__file__))
 # print('getcwd is :',os.getcwd())
@@ -26,7 +26,7 @@ def add_path_pth(paths):
             if pardir==filedir:
                 for dirname in subdir:
                     if os.path.basename(dirname).find('__')==-1:
-                        paths.append(pardir+'/'+dirname)
+                        paths.append(pardir+'\\'+dirname)
     #print('paths is',paths)
 
     #将paths内的所有路径追加到'site-packages'包下的pth文件中，python会从pth文件下路径读取扩展包
@@ -60,7 +60,7 @@ def delete_file_pth(filepth):
         #遍历环境变量,读取到'site-packages'变量后，删除目录下的autotest.pth文件
         if path.endswith('site-packages') and path.find('AppData')==-1:
             print("site-packages路径：",path)
-            mypath=path+'\\'+filepth
+            mypath=path+'/'+filepth
             print('mypath is',mypath)
             #判断有无文件，如果有，那么删除掉
             if os.path.exists(mypath):
